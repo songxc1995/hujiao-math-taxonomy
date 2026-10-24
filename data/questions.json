@@ -6381,5 +6381,2434 @@
     "prompt": "同样一块长 10 米、宽 6 米的长方形菜地，不靠墙围一圈需要篱笆多少米？一面长边靠墙呢？",
     "topicId": "hjm_g3a_u8_l2",
     "type": "choice"
+  },
+  {
+    "id": "hjm_g1a_u1_l1_q6",
+    "topicId": "hjm_g1a_u1_l1",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "说一说：小树上有 7 只小鸟，飞走 3 只，又飞来 2 只，现在有几只小鸟？",
+    "answer": "6",
+    "explanation": "7 只飞走 3 只剩 4 只，又飞来 2 只就是 6 只。",
+    "verify": "7-3+2"
+  },
+  {
+    "id": "hjm_g1a_u1_l1_q7",
+    "topicId": "hjm_g1a_u1_l1",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "说一说：小明有 5 元，买气球花了 2 元，妈妈又给他 4 元，他现在有几元？再买 3 元的冰淇淋，还剩几元？（填最后的钱数）",
+    "answer": "4",
+    "explanation": "5-2=3，3+4=7，7-3=4，最后还剩 4 元。",
+    "verify": "5-2+4-3"
+  },
+  {
+    "id": "hjm_g1a_u1_l2_q6",
+    "topicId": "hjm_g1a_u1_l2",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "玩一玩：踢毽子，小红第一次踢了 3 下，第二次踢了 4 下，第三次踢了 2 下，一共踢了几下？",
+    "answer": "9",
+    "explanation": "3+4=7，7+2=9，一共踢了 9 下。",
+    "verify": "3+4+2"
+  },
+  {
+    "id": "hjm_g1a_u1_l2_q7",
+    "topicId": "hjm_g1a_u1_l2",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "玩一玩：丢手绢游戏，原来有 10 个小朋友，走了 3 个，又来了 5 个，再走 2 个，现在有几个小朋友？",
+    "answer": "10",
+    "explanation": "10-3=7，7+5=12，12-2=10，现在有 10 个小朋友。",
+    "verify": "10-3+5-2"
+  },
+  {
+    "id": "hjm_g1a_u1_l3_q6",
+    "topicId": "hjm_g1a_u1_l3",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "认一认：把 8、3、6、1 按从大到小排，排在第 2 个的是几？",
+    "answer": "6",
+    "explanation": "从大到小是 8、6、3、1，第 2 个是 6。"
+  },
+  {
+    "id": "hjm_g1a_u1_l3_q7",
+    "topicId": "hjm_g1a_u1_l3",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "认一认：小丽从 5 开始往前数（倒着数），数到第 4 个数是几？",
+    "answer": "2",
+    "explanation": "倒着数是 5、4、3、2，第 4 个是 2。"
+  },
+  {
+    "id": "hjm_g1a_u2_l1_q6",
+    "topicId": "hjm_g1a_u2_l1",
+    "difficulty": "medium",
+    "type": "choice",
+    "prompt": "认识立体图形：搭积木时，下面哪个立体图形最容易滚动？",
+    "options": [
+      "正方体",
+      "球",
+      "长方体"
+    ],
+    "answer": "球",
+    "explanation": "球是圆圆的，没有平平的面，一推就滚动；正方体和长方体有平平的面，立得稳。"
+  },
+  {
+    "id": "hjm_g1a_u2_l1_q7",
+    "topicId": "hjm_g1a_u2_l1",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "认识立体图形：一个长方体有 6 个面，两个长方体拼在一起（拼掉 2 个面），现在外面一共能看到几个面？",
+    "answer": "10",
+    "explanation": "两个长方体一共 12 个面，拼在一起藏起了 2 个面，外面能看到 12-2=10 个面。",
+    "verify": "6+6-2"
+  },
+  {
+    "id": "hjm_g1a_u2_l2_q6",
+    "topicId": "hjm_g1a_u2_l2",
+    "difficulty": "medium",
+    "type": "choice",
+    "prompt": "认识平面图形：用 4 根一样长的小棒可以围成什么图形？",
+    "options": [
+      "长方形",
+      "正方形",
+      "三角形"
+    ],
+    "answer": "正方形",
+    "explanation": "4 根一样长的小棒围成的四边形，四条边一样长，就是正方形；三角形只要 3 根小棒。"
+  },
+  {
+    "id": "hjm_g1a_u2_l2_q7",
+    "topicId": "hjm_g1a_u2_l2",
+    "difficulty": "hard",
+    "type": "choice",
+    "prompt": "认识平面图形：一个正方形剪去一个角，还剩几个角？",
+    "options": [
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "5",
+    "explanation": "剪去一个角的地方会多出两个角，原来 4 个角减 1 个加 2 个，还剩 5 个角。"
+  },
+  {
+    "id": "hjm_g1a_u3_l1_q6",
+    "topicId": "hjm_g1a_u3_l1",
+    "difficulty": "medium",
+    "type": "choice",
+    "prompt": "下面哪个数在 2 和 5 之间？",
+    "options": [
+      "1",
+      "3",
+      "6"
+    ],
+    "answer": "3",
+    "explanation": "比 2 大、比 5 小的数是 3 和 4，选项里只有 3。"
+  },
+  {
+    "id": "hjm_g1a_u3_l1_q7",
+    "topicId": "hjm_g1a_u3_l1",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "把 4、1、5、2、3 按从大到小排，排在第 2 个的是几？",
+    "answer": "4",
+    "explanation": "从大到小是 5、4、3、2、1，第 2 个是 4。"
+  },
+  {
+    "id": "hjm_g1a_u3_l2_q6",
+    "topicId": "hjm_g1a_u3_l2",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "5 - 5 + 2 = ？",
+    "answer": "2",
+    "explanation": "5-5=0，0+2=2。",
+    "verify": "5-5+2"
+  },
+  {
+    "id": "hjm_g1a_u3_l2_q7",
+    "topicId": "hjm_g1a_u3_l2",
+    "difficulty": "hard",
+    "type": "choice",
+    "prompt": "下面哪个算式的结果不是 0？",
+    "options": [
+      "4-4",
+      "0+0",
+      "5-0"
+    ],
+    "answer": "5-0",
+    "explanation": "4-4=0，0+0=0，5-0=5，只有 5-0 的结果不是 0。"
+  },
+  {
+    "id": "hjm_g1a_u3_l3_q6",
+    "topicId": "hjm_g1a_u3_l3",
+    "difficulty": "medium",
+    "type": "choice",
+    "prompt": "下面哪组数合起来是 8？",
+    "options": [
+      "3和4",
+      "5和3",
+      "2和5"
+    ],
+    "answer": "5和3",
+    "explanation": "3+4=7，5+3=8，2+5=7，只有 5 和 3 合起来是 8。"
+  },
+  {
+    "id": "hjm_g1a_u3_l3_q7",
+    "topicId": "hjm_g1a_u3_l3",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "小明原来有 10 颗糖，吃了 3 颗，又买来 2 颗，现在有几颗？再送给弟弟 4 颗，还剩几颗？（填最后的颗数）",
+    "answer": "5",
+    "explanation": "10-3=7，7+2=9，9-4=5，最后还剩 5 颗。",
+    "verify": "10-3+2-4"
+  },
+  {
+    "id": "hjm_g1a_u3_l4_q6",
+    "topicId": "hjm_g1a_u3_l4",
+    "difficulty": "medium",
+    "type": "choice",
+    "prompt": "下面哪个数比 7 大、比 10 小？",
+    "options": [
+      "6",
+      "8",
+      "10"
+    ],
+    "answer": "8",
+    "explanation": "比 7 大、比 10 小的数是 8 和 9，选项里只有 8。"
+  },
+  {
+    "id": "hjm_g1a_u3_l4_q7",
+    "topicId": "hjm_g1a_u3_l4",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "把 6、9、7、8 按从小到大排，排在第 3 个的是几？",
+    "answer": "8",
+    "explanation": "从小到大是 6、7、8、9，第 3 个是 8。"
+  },
+  {
+    "id": "hjm_g1a_u3_l5_q6",
+    "topicId": "hjm_g1a_u3_l5",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "盘子里有 10 个包子，吃了 3 个，又蒸了 2 个，现在有几个？",
+    "answer": "9",
+    "explanation": "10-3=7，7+2=9，现在有 9 个。",
+    "verify": "10-3+2"
+  },
+  {
+    "id": "hjm_g1a_u3_l5_q7",
+    "topicId": "hjm_g1a_u3_l5",
+    "difficulty": "hard",
+    "type": "choice",
+    "prompt": "□ + □ = 10，两个□里的数不一样，可以是哪两个？",
+    "options": [
+      "5和5",
+      "4和6",
+      "3和3"
+    ],
+    "answer": "4和6",
+    "explanation": "5+5=10 但两个数一样，3+3=6 不是 10，只有 4+6=10 且两个数不一样。"
+  },
+  {
+    "id": "hjm_g1a_u3_l6_q6",
+    "topicId": "hjm_g1a_u3_l6",
+    "difficulty": "medium",
+    "type": "choice",
+    "prompt": "下面哪两个数合起来是 10？",
+    "options": [
+      "3和6",
+      "8和2",
+      "5和4"
+    ],
+    "answer": "8和2",
+    "explanation": "3+6=9，8+2=10，5+4=9，只有 8 和 2 合起来是 10。"
+  },
+  {
+    "id": "hjm_g1a_u3_l6_q7",
+    "topicId": "hjm_g1a_u3_l6",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "小明原来有 10 颗糖，吃了一些后还剩 4 颗，再吃 1 颗，还剩几颗？",
+    "answer": "3",
+    "explanation": "吃了一些后还剩 4 颗，再吃 1 颗，4-1=3，还剩 3 颗。",
+    "verify": "4-1"
+  },
+  {
+    "id": "hjm_g1a_u3_l7_q6",
+    "topicId": "hjm_g1a_u3_l7",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "小强有 9 颗糖，小刚有 4 颗糖，小强比小刚多几颗？",
+    "answer": "5",
+    "explanation": "9-4=5，小强比小刚多 5 颗。",
+    "verify": "9-4"
+  },
+  {
+    "id": "hjm_g1a_u3_l7_q7",
+    "topicId": "hjm_g1a_u3_l7",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "有两堆苹果，第一堆 6 个，第二堆比第一堆少 2 个，两堆一共有几个？",
+    "answer": "10",
+    "explanation": "第二堆是 6-2=4 个，两堆一共 6+4=10 个。",
+    "verify": "6+6-2"
+  },
+  {
+    "id": "hjm_g1a_u3_l8_q6",
+    "topicId": "hjm_g1a_u3_l8",
+    "difficulty": "medium",
+    "type": "text",
+    "prompt": "“9 比 5 大，5 比 9 小”这句话对吗？（填对或错）",
+    "answer": "对",
+    "explanation": "9 比 5 大是对的，反过来说 5 比 9 小也是对的。"
+  },
+  {
+    "id": "hjm_g1a_u3_l8_q7",
+    "topicId": "hjm_g1a_u3_l8",
+    "difficulty": "hard",
+    "type": "choice",
+    "prompt": "□ > 6，□里可以填几？",
+    "options": [
+      "5",
+      "6",
+      "9"
+    ],
+    "answer": "9",
+    "explanation": "□ 要比 6 大，5 比 6 小，6 和 6 一样大，只有 9 比 6 大。"
+  },
+  {
+    "id": "hjm_g1a_u3_l9_q6",
+    "topicId": "hjm_g1a_u3_l9",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "小明排第 2，小红排第 5，小明和小红之间有几人？",
+    "answer": "2",
+    "explanation": "从第 2 到第 5，中间隔着第 3、第 4，5-2-1=2，有 2 人。",
+    "verify": "5-2-1"
+  },
+  {
+    "id": "hjm_g1a_u3_l9_q7",
+    "topicId": "hjm_g1a_u3_l9",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "一排 10 个小朋友，从左数小刚排第 3，从右数小红排第 2，他们之间有几人？",
+    "answer": "5",
+    "explanation": "小红从左数是 10-2+1=9，第 3 和第 9 之间有 9-3-1=5 人。",
+    "verify": "10-2+1-3-1"
+  },
+  {
+    "id": "hjm_g1a_u4_l1_q6",
+    "topicId": "hjm_g1a_u4_l1",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "小明上午做了 3 道题，下午做了 4 道题，晚上又做了 2 道题，一共做了几道题？",
+    "answer": "9",
+    "explanation": "3+4=7，7+2=9，一共做了 9 道题。",
+    "verify": "3+4+2"
+  },
+  {
+    "id": "hjm_g1a_u4_l1_q7",
+    "topicId": "hjm_g1a_u4_l1",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "小红有 3 颗糖，小明比小红多 2 颗，两人一共几颗？",
+    "answer": "8",
+    "explanation": "小明有 3+2=5 颗，两人一共 3+5=8 颗。",
+    "verify": "3+3+2"
+  },
+  {
+    "id": "hjm_g1a_u4_l2_q6",
+    "topicId": "hjm_g1a_u4_l2",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "讲一讲：小朋友们玩球，原来有 5 个球，买来 3 个，破了 1 个，又买来 2 个，现在有几个球？",
+    "answer": "9",
+    "explanation": "5+3=8，8-1=7，7+2=9，现在有 9 个球。",
+    "verify": "5+3-1+2"
+  },
+  {
+    "id": "hjm_g1a_u4_l2_q7",
+    "topicId": "hjm_g1a_u4_l2",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "讲一讲：妈妈买了 10 个鸡蛋，吃了 3 个，妈妈又买来 5 个，爸爸吃了 2 个，现在有几个鸡蛋？",
+    "answer": "10",
+    "explanation": "10-3=7，7+5=12，12-2=10，现在有 10 个鸡蛋。",
+    "verify": "10-3+5-2"
+  },
+  {
+    "id": "hjm_g1a_u4_l3_q6",
+    "topicId": "hjm_g1a_u4_l3",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "小朋友有 9 元，买橡皮花了 4 元，还剩几元？再买 2 元的铅笔，还剩几元？（填最后的钱数）",
+    "answer": "3",
+    "explanation": "9-4=5，5-2=3，最后还剩 3 元。",
+    "verify": "9-4-2"
+  },
+  {
+    "id": "hjm_g1a_u4_l3_q7",
+    "topicId": "hjm_g1a_u4_l3",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "小明有一些糖，吃了 5 颗后还剩 6 颗，他原来有几颗？再吃 2 颗，还剩几颗？（填最后的颗数）",
+    "answer": "9",
+    "explanation": "原来有 5+6=11 颗，再吃 2 颗，11-2=9，还剩 9 颗。",
+    "verify": "5+6-2"
+  },
+  {
+    "id": "hjm_g1a_u4_l4_q6",
+    "topicId": "hjm_g1a_u4_l4",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "讲一讲：果园里有 7 只小鸟，飞走 2 只，又飞来 4 只，再飞走 1 只，现在有几只？",
+    "answer": "8",
+    "explanation": "7-2=5，5+4=9，9-1=8，现在有 8 只。",
+    "verify": "7-2+4-1"
+  },
+  {
+    "id": "hjm_g1a_u4_l4_q7",
+    "topicId": "hjm_g1a_u4_l4",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "讲一讲：小华有 10 元，买书花了 3 元，买本子花了 2 元，妈妈又给他 5 元，现在有几元？",
+    "answer": "10",
+    "explanation": "10-3=7，7-2=5，5+5=10，现在有 10 元。",
+    "verify": "10-3-2+5"
+  },
+  {
+    "id": "hjm_g1a_u4_l5_q6",
+    "topicId": "hjm_g1a_u4_l5",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "小明有 7 颗糖，给弟弟 2 颗，又买来 4 颗，现在有几颗？",
+    "answer": "9",
+    "explanation": "7-2=5，5+4=9，现在有 9 颗。",
+    "verify": "7-2+4"
+  },
+  {
+    "id": "hjm_g1a_u4_l5_q7",
+    "topicId": "hjm_g1a_u4_l5",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "小红原来有 6 元，妈妈给她一些钱后，她花了 4 元，还剩 5 元，妈妈给了她几元？",
+    "answer": "3",
+    "explanation": "花了 4 元还剩 5 元，说明给钱后一共是 4+5=9 元，妈妈给了 9-6=3 元。"
+  },
+  {
+    "id": "hjm_g1a_u4_l6_q6",
+    "topicId": "hjm_g1a_u4_l6",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "10 的游戏：3 + □ + 4 = 10，□里填几？",
+    "answer": "3",
+    "explanation": "3+4=7，10-7=3，□里填 3。",
+    "verify": "10-3-4"
+  },
+  {
+    "id": "hjm_g1a_u4_l6_q7",
+    "topicId": "hjm_g1a_u4_l6",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "10 的游戏：小明带了 10 元，买橡皮花 3 元，买铅笔花 4 元，还剩几元？",
+    "answer": "3",
+    "explanation": "10-3=7，7-4=3，还剩 3 元。",
+    "verify": "10-3-4"
+  },
+  {
+    "id": "hjm_g1a_u4_l7_q6",
+    "topicId": "hjm_g1a_u4_l7",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "停车场有 8 辆车，开走 2 辆，又开走 3 辆，还剩几辆？",
+    "answer": "3",
+    "explanation": "8-2=6，6-3=3，还剩 3 辆。",
+    "verify": "8-2-3"
+  },
+  {
+    "id": "hjm_g1a_u4_l7_q7",
+    "topicId": "hjm_g1a_u4_l7",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "小明有 10 元，买书花了 4 元，买笔花了 3 元，又买橡皮花了 2 元，还剩几元？",
+    "answer": "1",
+    "explanation": "10-4=6，6-3=3，3-2=1，还剩 1 元。",
+    "verify": "10-4-3-2"
+  },
+  {
+    "id": "hjm_g1a_u4_l8_q6",
+    "topicId": "hjm_g1a_u4_l8",
+    "difficulty": "medium",
+    "type": "choice",
+    "prompt": "下面哪个算式的结果是 9？",
+    "options": [
+      "6+2-1",
+      "8-2+3",
+      "4+4-2"
+    ],
+    "answer": "8-2+3",
+    "explanation": "6+2-1=7，8-2+3=9，4+4-2=6，只有 8-2+3 的结果是 9。"
+  },
+  {
+    "id": "hjm_g1a_u4_l8_q7",
+    "topicId": "hjm_g1a_u4_l8",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "小朋友跳绳，第一组跳了 7 下，第二组比第一组多跳 2 下，第三组比第二组少跳 3 下，第三组跳了几下？",
+    "answer": "6",
+    "explanation": "第二组跳 7+2=9 下，第三组跳 9-3=6 下。",
+    "verify": "7+2-3"
+  },
+  {
+    "id": "hjm_g1a_u5_l1_q6",
+    "topicId": "hjm_g1a_u5_l1",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "一个数是 2 个十，它比 15 大几？",
+    "answer": "5",
+    "explanation": "2 个十是 20，20-15=5，大 5。",
+    "verify": "20-15"
+  },
+  {
+    "id": "hjm_g1a_u5_l1_q7",
+    "topicId": "hjm_g1a_u5_l1",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "一个数十位上是 1、个位上是 9，这个数减去 10 是几？再减去 3 是几？（填最后的结果）",
+    "answer": "6",
+    "explanation": "这个数是 19，19-10=9，9-3=6，最后是 6。",
+    "verify": "19-10-3"
+  },
+  {
+    "id": "hjm_g1a_u5_l2_q6",
+    "topicId": "hjm_g1a_u5_l2",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "17 比 14 大几？",
+    "answer": "3",
+    "explanation": "17-14=3，大 3。",
+    "verify": "17-14"
+  },
+  {
+    "id": "hjm_g1a_u5_l2_q7",
+    "topicId": "hjm_g1a_u5_l2",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "一个数是十和 5，这个数比 12 大几？再减去 2 是几？（填最后的结果）",
+    "answer": "1",
+    "explanation": "这个数是 15，15-12=3，3-2=1，最后是 1。",
+    "verify": "15-12-2"
+  },
+  {
+    "id": "hjm_g1a_u5_l3_q6",
+    "topicId": "hjm_g1a_u5_l3",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "13、□、17、19，□里填几？",
+    "answer": "15",
+    "explanation": "每次加 2：13、15、17、19，□里填 15。"
+  },
+  {
+    "id": "hjm_g1a_u5_l3_q7",
+    "topicId": "hjm_g1a_u5_l3",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "把 12、20、16、18 按从大到小排，排在第 2 个的是几？",
+    "answer": "18",
+    "explanation": "从大到小是 20、18、16、12，第 2 个是 18。"
+  },
+  {
+    "id": "hjm_g1a_u6_l1_q6",
+    "topicId": "hjm_g1a_u6_l1",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "小朋友有 16 元，买书花了 4 元，还剩几元？再买 2 元的橡皮，还剩几元？（填最后的钱数）",
+    "answer": "10",
+    "explanation": "16-4=12，12-2=10，最后还剩 10 元。",
+    "verify": "16-4-2"
+  },
+  {
+    "id": "hjm_g1a_u6_l1_q7",
+    "topicId": "hjm_g1a_u6_l1",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "□ + 5 = 19，□是几？□ 再减去 3 是几？（填最后的结果）",
+    "answer": "11",
+    "explanation": "□ 是 19-5=14，14-3=11，最后是 11。",
+    "verify": "19-5-3"
+  },
+  {
+    "id": "hjm_g1a_u6_l2_q6",
+    "topicId": "hjm_g1a_u6_l2",
+    "difficulty": "medium",
+    "type": "choice",
+    "prompt": "下面哪个算式的结果是 14？",
+    "options": [
+      "9+4",
+      "8+6",
+      "7+5"
+    ],
+    "answer": "8+6",
+    "explanation": "9+4=13，8+6=14，7+5=12，只有 8+6 的结果是 14。"
+  },
+  {
+    "id": "hjm_g1a_u6_l2_q7",
+    "topicId": "hjm_g1a_u6_l2",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "小明有 8 颗糖，妈妈又给他 7 颗，他一共有几颗？再分给弟弟 4 颗，还剩几颗？（填最后的颗数）",
+    "answer": "11",
+    "explanation": "8+7=15，15-4=11，还剩 11 颗。",
+    "verify": "8+7-4"
+  },
+  {
+    "id": "hjm_g1a_u6_l3_q6",
+    "topicId": "hjm_g1a_u6_l3",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "加法表中，9 + 6 = 15，那么 9 + 7 比 15 大几？",
+    "answer": "1",
+    "explanation": "9+7=16，16-15=1，大 1。",
+    "verify": "9+7-15"
+  },
+  {
+    "id": "hjm_g1a_u6_l3_q7",
+    "topicId": "hjm_g1a_u6_l3",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "加法表中，5 + 6 = 11，6 + 6 = 12，7 + 6 = ？",
+    "answer": "13",
+    "explanation": "第一个加数每次加 1，和也加 1，7+6=13。",
+    "verify": "7+6"
+  },
+  {
+    "answer": "14",
+    "difficulty": "medium",
+    "explanation": "先算16-9=7，再算7+7=14，现在有14颗葡萄。",
+    "id": "hjm_g1b_u1_l1_q6",
+    "prompt": "小华有16颗葡萄，吃了9颗，又买了7颗，现在有几颗葡萄？",
+    "topicId": "hjm_g1b_u1_l1",
+    "type": "numeric",
+    "verify": "16-9+7"
+  },
+  {
+    "answer": "24",
+    "difficulty": "hard",
+    "explanation": "先算小明有15-6=9支，再算两人一共9+15=24支。",
+    "id": "hjm_g1b_u1_l1_q7",
+    "prompt": "小红有15支笔，小明比小红少6支，两人一共几支笔？",
+    "topicId": "hjm_g1b_u1_l1",
+    "type": "numeric",
+    "verify": "15-6+15"
+  },
+  {
+    "answer": "9",
+    "difficulty": "medium",
+    "explanation": "被减数每次多1，减数不变，得数也每次多1：7、8后面是9。",
+    "id": "hjm_g1b_u1_l2_q6",
+    "prompt": "11-4=7，12-4=8，13-4=？",
+    "topicId": "hjm_g1b_u1_l2",
+    "type": "numeric",
+    "verify": "13-4"
+  },
+  {
+    "answer": "17-9",
+    "difficulty": "hard",
+    "explanation": "被减数和减数同时加1，得数不变：14-6=8，15-7=8，16-8=8，所以17-9=8；17-8=9，18-9=9。",
+    "id": "hjm_g1b_u1_l2_q7",
+    "options": [
+      "17-9",
+      "17-8",
+      "18-9"
+    ],
+    "prompt": "14-6=8，15-7=8，16-8=8，下面哪道算式的得数也是8？",
+    "topicId": "hjm_g1b_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "13",
+    "difficulty": "medium",
+    "explanation": "先算16-8=8，再算8+5=13，现在有13个桃子。",
+    "id": "hjm_g1b_u1_l3_q6",
+    "prompt": "桃树上有16个桃子，摘了8个，又长出5个，现在有几个桃子？",
+    "topicId": "hjm_g1b_u1_l3",
+    "type": "numeric",
+    "verify": "16-8+5"
+  },
+  {
+    "answer": "12",
+    "difficulty": "hard",
+    "explanation": "先算小强有11+4=15辆，再算小丽有15-3=12辆。",
+    "id": "hjm_g1b_u1_l3_q7",
+    "prompt": "小军有11辆小汽车，小强比小军多4辆，小丽比小强少3辆，小丽有几辆小汽车？",
+    "topicId": "hjm_g1b_u1_l3",
+    "type": "numeric",
+    "verify": "11+4-3"
+  },
+  {
+    "answer": "6+9=15",
+    "difficulty": "medium",
+    "explanation": "两个小数相加等于大数：6+9=15；9+15=24不是6，6+15=21不是9。",
+    "id": "hjm_g1b_u1_l4_q6",
+    "options": [
+      "6+9=15",
+      "9+15=6",
+      "6+15=9"
+    ],
+    "prompt": "用6、9、15组一道加法算式，正确的是哪道？",
+    "topicId": "hjm_g1b_u1_l4",
+    "type": "choice"
+  },
+  {
+    "answer": "10-6=16",
+    "difficulty": "hard",
+    "explanation": "6+10=16和16-6=10都对；10-6=4不是16，所以10-6=16不能组成。",
+    "id": "hjm_g1b_u1_l4_q7",
+    "options": [
+      "6+10=16",
+      "16-6=10",
+      "10-6=16"
+    ],
+    "prompt": "下面哪道算式不能用6、10、16组成？",
+    "topicId": "hjm_g1b_u1_l4",
+    "type": "choice"
+  },
+  {
+    "answer": "80",
+    "difficulty": "medium",
+    "explanation": "95减5是90，再减5是85，再减5是80。",
+    "id": "hjm_g1b_u2_l1_q6",
+    "prompt": "从95开始，每次少5，数3次后是几？",
+    "topicId": "hjm_g1b_u2_l1",
+    "type": "numeric",
+    "verify": "95-5-5-5"
+  },
+  {
+    "answer": "22",
+    "difficulty": "hard",
+    "explanation": "两边都数了小红一次，要减去重复的1次：18+5-1=22人。",
+    "id": "hjm_g1b_u2_l1_q7",
+    "prompt": "小朋友们排队报数，从左往右数小红是第18个，从右往左数她是第5个，这队一共几人？",
+    "topicId": "hjm_g1b_u2_l1",
+    "type": "numeric",
+    "verify": "18+5-1"
+  },
+  {
+    "answer": "三十六",
+    "difficulty": "medium",
+    "explanation": "十位是3读三十，个位是6读六，合起来读三十六；六十三是把十位个位弄反了。",
+    "id": "hjm_g1b_u2_l2_q6",
+    "options": [
+      "三十六",
+      "六十三",
+      "三十"
+    ],
+    "prompt": "一个数，个位是6，十位是3，这个数读作什么？",
+    "topicId": "hjm_g1b_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "七十五",
+    "difficulty": "hard",
+    "explanation": "个位是5，十位比个位大2是7，这个数是75，读作七十五。",
+    "id": "hjm_g1b_u2_l2_q7",
+    "prompt": "一个两位数，十位上的数比个位上的数大2，个位是5，这个数读作什么？",
+    "topicId": "hjm_g1b_u2_l2",
+    "type": "text"
+  },
+  {
+    "answer": "8个十、2个一",
+    "difficulty": "medium",
+    "explanation": "十位上的8表示8个十，个位上的2表示2个一。",
+    "id": "hjm_g1b_u2_l3_q6",
+    "prompt": "82里面有几个十几个一？",
+    "topicId": "hjm_g1b_u2_l3",
+    "type": "text"
+  },
+  {
+    "answer": "50",
+    "difficulty": "hard",
+    "explanation": "7个十是70，70少20是50。",
+    "id": "hjm_g1b_u2_l3_q7",
+    "prompt": "一个数是7个十，另一个数比它少20，这个数是几？",
+    "topicId": "hjm_g1b_u2_l3",
+    "type": "numeric",
+    "verify": "70-20"
+  },
+  {
+    "answer": "44",
+    "difficulty": "medium",
+    "explanation": "从小到大排是40、44、48、84，第2个是44。",
+    "id": "hjm_g1b_u2_l4_q6",
+    "prompt": "把48、84、44、40按从小到大排，排在第2个的是几？",
+    "topicId": "hjm_g1b_u2_l4",
+    "type": "numeric"
+  },
+  {
+    "answer": "70",
+    "difficulty": "hard",
+    "explanation": "先算点B是65+8=73，再算点C是73-3=70。",
+    "id": "hjm_g1b_u2_l4_q7",
+    "prompt": "数轴上，点A是65，点B比点A大8，点C比点B小3，点C是几？",
+    "topicId": "hjm_g1b_u2_l4",
+    "type": "numeric",
+    "verify": "65+8-3"
+  },
+  {
+    "answer": "10",
+    "difficulty": "medium",
+    "explanation": "100-90=10，90再添上10就是100。",
+    "id": "hjm_g1b_u2_l5_q6",
+    "prompt": "90再添上几是100？",
+    "topicId": "hjm_g1b_u2_l5",
+    "type": "numeric",
+    "verify": "100-90"
+  },
+  {
+    "answer": "30",
+    "difficulty": "hard",
+    "explanation": "先算100-45=55，再算55-25=30，还剩30元。",
+    "id": "hjm_g1b_u2_l5_q7",
+    "prompt": "小红有100元，买书用了45元，又买了本子用了25元，还剩几元？",
+    "topicId": "hjm_g1b_u2_l5",
+    "type": "numeric",
+    "verify": "100-45-25"
+  },
+  {
+    "answer": "36",
+    "difficulty": "medium",
+    "explanation": "求多几根用减法：73-37=36根。",
+    "id": "hjm_g1b_u2_l6_q6",
+    "prompt": "小明有73根小棒，小红有37根，小明比小红多几根？",
+    "topicId": "hjm_g1b_u2_l6",
+    "type": "numeric",
+    "verify": "73-37"
+  },
+  {
+    "answer": "30",
+    "difficulty": "hard",
+    "explanation": "0不能做十位，十位最小是3，个位是0，组成30。",
+    "id": "hjm_g1b_u2_l6_q7",
+    "prompt": "用3、7、0组成一个最小的两位数是几？",
+    "topicId": "hjm_g1b_u2_l6",
+    "type": "numeric"
+  },
+  {
+    "answer": "56",
+    "difficulty": "medium",
+    "explanation": "与50相邻且比50大的是51，51再大5是56。",
+    "id": "hjm_g1b_u2_l7_q6",
+    "prompt": "与50相邻的数中，比50大的那个再大5是几？",
+    "topicId": "hjm_g1b_u2_l7",
+    "type": "numeric",
+    "verify": "50+1+5"
+  },
+  {
+    "answer": "9",
+    "difficulty": "hard",
+    "explanation": "前面是88、后面是90的数是89，89比80大9。",
+    "id": "hjm_g1b_u2_l7_q7",
+    "prompt": "小明想的数，它前面的数是88，后面的数是90，小明想的数比80大几？",
+    "topicId": "hjm_g1b_u2_l7",
+    "type": "numeric",
+    "verify": "89-80"
+  },
+  {
+    "answer": "7",
+    "difficulty": "medium",
+    "explanation": "到校是8时，往前推1小时，8-1=7时出发。",
+    "id": "hjm_g1b_u3_l1_q6",
+    "prompt": "小华8时到校，路上要走1小时，他最迟几时从家出发？",
+    "topicId": "hjm_g1b_u3_l1",
+    "type": "numeric",
+    "verify": "8-1"
+  },
+  {
+    "answer": "7",
+    "difficulty": "hard",
+    "explanation": "表慢了，实际时间比表上显示的快2小时：5+2=7时。",
+    "id": "hjm_g1b_u3_l1_q7",
+    "prompt": "小明的表慢了2小时，表上显示5时，实际是几时？",
+    "topicId": "hjm_g1b_u3_l1",
+    "type": "numeric",
+    "verify": "5+2"
+  },
+  {
+    "answer": "4时半",
+    "difficulty": "medium",
+    "explanation": "3时半过1小时，时针走1格，是4时半。",
+    "id": "hjm_g1b_u3_l2_q6",
+    "prompt": "3时半再过1小时是几时半？",
+    "topicId": "hjm_g1b_u3_l2",
+    "type": "text"
+  },
+  {
+    "answer": "8时半",
+    "difficulty": "hard",
+    "explanation": "7时半过半小时是8时，再过半小时是8时半。",
+    "id": "hjm_g1b_u3_l2_q7",
+    "prompt": "电视节目7时半开始，演了半小时，又重播半小时，全部结束是几时？",
+    "topicId": "hjm_g1b_u3_l2",
+    "type": "text"
+  },
+  {
+    "answer": "比70大",
+    "difficulty": "medium",
+    "explanation": "35+42=77，77比70大。",
+    "id": "hjm_g1b_u4_l1_q6",
+    "options": [
+      "比70大",
+      "比70小",
+      "等于70"
+    ],
+    "prompt": "35+42的得数比70大还是小？",
+    "topicId": "hjm_g1b_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "93",
+    "difficulty": "hard",
+    "explanation": "先算小明有34+25=59颗，再算两人一共59+34=93颗。",
+    "id": "hjm_g1b_u4_l1_q7",
+    "prompt": "小红有34颗星星，小明比小红多25颗，两人一共几颗星星？",
+    "topicId": "hjm_g1b_u4_l1",
+    "type": "numeric",
+    "verify": "34+25+34"
+  },
+  {
+    "answer": "48+17",
+    "difficulty": "medium",
+    "explanation": "48+17个位8+7=15满十，要向十位进1；另外两道个位相加不满十，不用进位。",
+    "id": "hjm_g1b_u4_l2_q6",
+    "options": [
+      "34+25",
+      "48+17",
+      "52+30"
+    ],
+    "prompt": "下面哪道算式需要进位？",
+    "topicId": "hjm_g1b_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "62",
+    "difficulty": "hard",
+    "explanation": "37+25可以拆成先加20得57，再加5得62。",
+    "id": "hjm_g1b_u4_l2_q7",
+    "prompt": "小明算37+25时，先算37+20=57，再算57+5=？",
+    "topicId": "hjm_g1b_u4_l2",
+    "type": "numeric",
+    "verify": "57+5"
+  },
+  {
+    "answer": "13",
+    "difficulty": "medium",
+    "explanation": "16+11=27，40-27=13，所以□是13。",
+    "id": "hjm_g1b_u4_l3_q6",
+    "prompt": "16+□+11=40，□是几？",
+    "topicId": "hjm_g1b_u4_l3",
+    "type": "numeric",
+    "verify": "40-16-11"
+  },
+  {
+    "answer": "56",
+    "difficulty": "hard",
+    "explanation": "先算19+11=30凑成整十，再算30+26=56。",
+    "id": "hjm_g1b_u4_l3_q7",
+    "prompt": "19+26+11=？",
+    "topicId": "hjm_g1b_u4_l3",
+    "type": "numeric",
+    "verify": "19+11+26"
+  },
+  {
+    "answer": "小明",
+    "difficulty": "medium",
+    "explanation": "小明的跳绳和桌子一样长，小红的比桌子短，所以小明的跳绳长。",
+    "id": "hjm_g1b_u5_l1_q6",
+    "prompt": "小明的跳绳和桌子一样长，小红的跳绳比桌子短，谁的跳绳长？",
+    "topicId": "hjm_g1b_u5_l1",
+    "type": "text"
+  },
+  {
+    "answer": "最长是铅笔，最短是回形针",
+    "difficulty": "hard",
+    "explanation": "按从长到短排是铅笔、蜡笔、橡皮、回形针，最长是铅笔，最短是回形针。",
+    "id": "hjm_g1b_u5_l1_q7",
+    "prompt": "铅笔比蜡笔长，蜡笔比橡皮长，橡皮比回形针长，最长和最短分别是什么？",
+    "topicId": "hjm_g1b_u5_l1",
+    "type": "text"
+  },
+  {
+    "answer": "2",
+    "difficulty": "medium",
+    "explanation": "估计10厘米，实际8厘米，多了10-8=2厘米。",
+    "id": "hjm_g1b_u5_l2_q6",
+    "prompt": "小明估计铅笔长10厘米，实际量是8厘米，估计比实际长几厘米？",
+    "topicId": "hjm_g1b_u5_l2",
+    "type": "numeric",
+    "verify": "10-8"
+  },
+  {
+    "answer": "20",
+    "difficulty": "hard",
+    "explanation": "先算第二段长12-4=8厘米，再算一共12+8=20厘米。",
+    "id": "hjm_g1b_u5_l2_q7",
+    "prompt": "一根绳子分两段，第一段长12厘米，第二段比第一段短4厘米，这根绳子一共长几厘米？",
+    "topicId": "hjm_g1b_u5_l2",
+    "type": "numeric",
+    "verify": "12+12-4"
+  },
+  {
+    "answer": "8",
+    "difficulty": "medium",
+    "explanation": "原来5厘米，延长3厘米，5+3=8厘米。",
+    "id": "hjm_g1b_u5_l3_q6",
+    "prompt": "一条线段长5厘米，把它延长3厘米，现在长几厘米？",
+    "topicId": "hjm_g1b_u5_l3",
+    "type": "numeric",
+    "verify": "5+3"
+  },
+  {
+    "answer": "6",
+    "difficulty": "hard",
+    "explanation": "从第一个点连3条，第二个点再连2条新线，第三个点再连1条，3+2+1=6条。",
+    "id": "hjm_g1b_u5_l3_q7",
+    "prompt": "四个点（不在同一条直线上），每两个点连一条线段，一共能连几条线段？",
+    "topicId": "hjm_g1b_u5_l3",
+    "type": "numeric"
+  },
+  {
+    "answer": "55",
+    "difficulty": "medium",
+    "explanation": "4拃大约4×10=40厘米，再加15厘米，一共55厘米。",
+    "id": "hjm_g1b_u6_l1_q6",
+    "prompt": "小红量窗户：先用拃量了4拃，每拃约10厘米，又用直尺量剩下部分是15厘米，窗户大约长几厘米？",
+    "topicId": "hjm_g1b_u6_l1",
+    "type": "numeric",
+    "verify": "4*10+15"
+  },
+  {
+    "answer": "30",
+    "difficulty": "hard",
+    "explanation": "小明走50×3=150厘米，小红走40×3=120厘米，多150-120=30厘米。",
+    "id": "hjm_g1b_u6_l1_q7",
+    "prompt": "小明一步约50厘米，小红一步约40厘米，两人同时从同一起点走3步，小明比小红多走几厘米？",
+    "topicId": "hjm_g1b_u6_l1",
+    "type": "numeric",
+    "verify": "50*3-40*3"
+  },
+  {
+    "answer": "200",
+    "difficulty": "medium",
+    "explanation": "一庹约100厘米，量2次大约100×2=200厘米。",
+    "id": "hjm_g1b_u6_l2_q6",
+    "prompt": "小红一庹约100厘米，她张开双臂量了2次，量出的长度大约几厘米？",
+    "topicId": "hjm_g1b_u6_l2",
+    "type": "numeric",
+    "verify": "100*2"
+  },
+  {
+    "answer": "一样长",
+    "difficulty": "hard",
+    "explanation": "小明量出5×8=40厘米，小红量出4×10=40厘米，一样长。",
+    "id": "hjm_g1b_u6_l2_q7",
+    "options": [
+      "小明",
+      "小红",
+      "一样长"
+    ],
+    "prompt": "小明一拃8厘米量了5拃，小红一拃10厘米量了4拃，谁量出的绳子长？",
+    "topicId": "hjm_g1b_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "红",
+    "difficulty": "medium",
+    "explanation": "每3面一组，第10面是第4组的第1面，是红色。",
+    "id": "hjm_g1b_u6_l3_q6",
+    "options": [
+      "红",
+      "黄",
+      "蓝"
+    ],
+    "prompt": "彩旗按红、红、黄的顺序循环排列，第10面是什么颜色？",
+    "topicId": "hjm_g1b_u6_l3",
+    "type": "choice"
+  },
+  {
+    "answer": "4",
+    "difficulty": "hard",
+    "explanation": "从第1面到第5面有4个间隔，16÷4=4米。",
+    "id": "hjm_g1b_u6_l3_q7",
+    "prompt": "从第1面到第5面一共长16米，相邻两面相隔几米？",
+    "topicId": "hjm_g1b_u6_l3",
+    "type": "numeric",
+    "verify": "16/4"
+  },
+  {
+    "answer": "○",
+    "difficulty": "medium",
+    "explanation": "图形按○、△重复出现，下一个是○。",
+    "id": "hjm_g1b_u7_l1_q6",
+    "prompt": "○、△、○、△、○、△，后面一个图形是什么？",
+    "topicId": "hjm_g1b_u7_l1",
+    "type": "text"
+  },
+  {
+    "answer": "5",
+    "difficulty": "hard",
+    "explanation": "每次少的数是1、2、3、4，再少5就是5。",
+    "id": "hjm_g1b_u7_l1_q7",
+    "prompt": "20、19、17、14、10，后面一个数是几？",
+    "topicId": "hjm_g1b_u7_l1",
+    "type": "numeric"
+  },
+  {
+    "answer": "20",
+    "difficulty": "medium",
+    "explanation": "第二层是1+2=3、2+3=5、3+4=7，第三层是3+5=8、5+7=12，顶层是8+12=20。",
+    "id": "hjm_g1b_u7_l2_q6",
+    "prompt": "数墙底层是1、2、3、4，顶层是几？",
+    "topicId": "hjm_g1b_u7_l2",
+    "type": "numeric"
+  },
+  {
+    "answer": "一样大",
+    "difficulty": "hard",
+    "explanation": "A顶层是(3+5)+(5+7)=8+12=20，B顶层是(4+5)+(5+6)=9+11=20，一样大。",
+    "id": "hjm_g1b_u7_l2_q7",
+    "prompt": "数墙A底层是3、5、7，数墙B底层是4、5、6，哪座数墙的顶层大？",
+    "topicId": "hjm_g1b_u7_l2",
+    "type": "text"
+  },
+  {
+    "id": "hjm_g2a_u1_l1_q6",
+    "topicId": "hjm_g2a_u1_l1",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "图书馆有 96 本连环画，借出 53 本，又还回 18 本，现在有多少本？",
+    "answer": "61",
+    "verify": "96-53+18",
+    "explanation": "96－53＝43，再加上还回的 18 本，43＋18＝61 本。"
+  },
+  {
+    "id": "hjm_g2a_u1_l1_q7",
+    "topicId": "hjm_g2a_u1_l1",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "果园摘了 93 箱桃子，上午运走 35 箱，下午运走 28 箱，剩下的比运走的少几箱？",
+    "answer": "33",
+    "verify": "(35+28)-(93-35-28)",
+    "explanation": "运走了 35＋28＝63 箱，还剩 93－63＝30 箱，63－30＝33 箱。"
+  },
+  {
+    "id": "hjm_g2a_u1_l2_q6",
+    "topicId": "hjm_g2a_u1_l2",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "一根彩带长 84 厘米，第一次剪下 47 厘米，第二次剪下 19 厘米，还剩几厘米？",
+    "answer": "18",
+    "verify": "84-47-19",
+    "explanation": "84－47＝37，再剪 19 厘米，37－19＝18 厘米。"
+  },
+  {
+    "id": "hjm_g2a_u1_l2_q7",
+    "topicId": "hjm_g2a_u1_l2",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "学校有 100 个气球，分给一年级 36 个，分给二年级 48 个，剩下的比一年级分到的少几个？",
+    "answer": "20",
+    "verify": "36-(100-36-48)",
+    "explanation": "剩下 100－36－48＝16 个，一年级分到 36 个，36－16＝20 个。"
+  },
+  {
+    "id": "hjm_g2a_u1_l3_q6",
+    "topicId": "hjm_g2a_u1_l3",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "菜园上午收了 56 棵白菜，下午收了 29 棵，晚上送出 43 棵，还剩几棵？",
+    "answer": "42",
+    "verify": "56+29-43",
+    "explanation": "56＋29＝85，85－43＝42 棵。"
+  },
+  {
+    "id": "hjm_g2a_u1_l3_q7",
+    "topicId": "hjm_g2a_u1_l3",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "小红有 47 张贴纸，小明比小红多 18 张，小刚比小明少 25 张，小刚有几张？",
+    "answer": "40",
+    "verify": "47+18-25",
+    "explanation": "小明有 47＋18＝65 张，小刚有 65－25＝40 张。"
+  },
+  {
+    "id": "hjm_g2a_u1_l4_q6",
+    "topicId": "hjm_g2a_u1_l4",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "游乐场上午来了 73 人，中午走了 45 人，下午又来了 28 人，现在有几人？",
+    "answer": "56",
+    "verify": "73-45+28",
+    "explanation": "73－45＝28，下午又来 28 人，28＋28＝56 人。"
+  },
+  {
+    "id": "hjm_g2a_u1_l4_q7",
+    "topicId": "hjm_g2a_u1_l4",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "小华有 85 元，买一副球拍花了 47 元，妈妈又给他 30 元，他想买一个 74 元的玩具，还差几元？",
+    "answer": "6",
+    "verify": "74-(85-47+30)",
+    "explanation": "现在有 85－47＋30＝68 元，74－68＝6 元，还差 6 元。"
+  },
+  {
+    "id": "hjm_g2a_u2_l1_q6",
+    "topicId": "hjm_g2a_u2_l1",
+    "difficulty": "medium",
+    "type": "choice",
+    "prompt": "下面哪一组钱合起来是 8 元 5 角？",
+    "options": [
+      "8元＋5角",
+      "7元＋5角＋5角",
+      "8元＋5分"
+    ],
+    "answer": "8元＋5角",
+    "explanation": "8元＋5角就是 8 元 5 角；7元＋5角＋5角＝8元；8元＋5分是 8 元 0 角 5 分，都不是 8 元 5 角。"
+  },
+  {
+    "id": "hjm_g2a_u2_l1_q7",
+    "topicId": "hjm_g2a_u2_l1",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "小明有 1 张 20 元、2 张 5 元，他买了一个 17 元 5 角的文具盒，又买了一支 4 元的铅笔，够吗？还剩几元几角？",
+    "answer": "够，还剩 8 元 5 角。",
+    "explanation": "20＋5＋5＝30 元；17 元 5 角＋4 元＝21 元 5 角；30－21 元 5 角＝8 元 5 角。"
+  },
+  {
+    "id": "hjm_g2a_u2_l2_q6",
+    "topicId": "hjm_g2a_u2_l2",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "一个笔记本 9 元，一支笔 4 元，小华买了 3 个笔记本和 2 支笔，付 50 元，找回几元？",
+    "answer": "15",
+    "verify": "50-(9*3+4*2)",
+    "explanation": "3 个笔记本 9×3＝27 元，2 支笔 4×2＝8 元，一共 35 元，50－35＝15 元。"
+  },
+  {
+    "id": "hjm_g2a_u2_l2_q7",
+    "topicId": "hjm_g2a_u2_l2",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "小丽带 80 元，买了一双 45 元的鞋和一顶 19 元的帽子，剩下的钱想买 4 元一支的笔，最多能买几支？",
+    "answer": "4",
+    "verify": "(80-45-19)/4",
+    "explanation": "剩下的钱是 80－45－19＝16 元，16÷4＝4，最多能买 4 支。"
+  },
+  {
+    "id": "hjm_g2a_u3_l1_q6",
+    "topicId": "hjm_g2a_u3_l1",
+    "difficulty": "medium",
+    "type": "choice",
+    "prompt": "下面哪个加法算式可以改写成 3×6？",
+    "options": [
+      "3＋3＋3＋3＋3＋3",
+      "6＋6＋6",
+      "3＋6"
+    ],
+    "answer": "6＋6＋6",
+    "explanation": "3×6 表示 3 个 6 相加，就是 6＋6＋6；3＋3＋3＋3＋3＋3 是 6 个 3，是 6×3。"
+  },
+  {
+    "id": "hjm_g2a_u3_l1_q7",
+    "topicId": "hjm_g2a_u3_l1",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "一盘有 5 个苹果，摆了 4 盘，又拿来 3 个散装苹果，一共有几个？如果再摆 2 盘同样的苹果，一共有几个？",
+    "answer": "先是 23 个，再摆 2 盘后是 33 个。",
+    "explanation": "4×5＋3＝23；再摆 2 盘多 2×5＝10 个，23＋10＝33。"
+  },
+  {
+    "id": "hjm_g2a_u3_l2_q6",
+    "topicId": "hjm_g2a_u3_l2",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "一盒鸡蛋有 5 个，买了 7 盒，吃掉了 9 个，还剩几个？",
+    "answer": "26",
+    "verify": "5*7-9",
+    "explanation": "7 盒一共 5×7＝35 个，吃掉 9 个，35－9＝26 个。"
+  },
+  {
+    "id": "hjm_g2a_u3_l2_q7",
+    "topicId": "hjm_g2a_u3_l2",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "小明从 5 开始数 5 的倍数：5，10，15，…他数到第 8 个数时是多少？比第 5 个数多几？",
+    "answer": "第 8 个数是 40；比第 5 个数多 15。",
+    "explanation": "第 8 个数是 5×8＝40，第 5 个数是 5×5＝25，40－25＝15。"
+  },
+  {
+    "id": "hjm_g2a_u3_l3_q6",
+    "topicId": "hjm_g2a_u3_l3",
+    "difficulty": "medium",
+    "type": "text",
+    "prompt": "一只青蛙有 4 条腿，7 只青蛙有几条腿？一只螃蟹有 8 条腿，3 只螃蟹有几条腿？",
+    "answer": "28 条；24 条。",
+    "explanation": "4×7＝28；8×3＝24。"
+  },
+  {
+    "id": "hjm_g2a_u3_l3_q7",
+    "topicId": "hjm_g2a_u3_l3",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "停车场有 8 辆汽车和 4 辆摩托车（每辆 2 个轮子），一共有几个轮子？",
+    "answer": "40",
+    "verify": "8*4+4*2",
+    "explanation": "汽车轮子 8×4＝32 个，摩托车轮子 4×2＝8 个，一共 32＋8＝40 个。"
+  },
+  {
+    "id": "hjm_g2a_u3_l4_q6",
+    "topicId": "hjm_g2a_u3_l4",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "一袋糖 7 元，小红买了 6 袋，又买了一块 5 元的巧克力，一共花了几元？",
+    "answer": "47",
+    "verify": "7*6+5",
+    "explanation": "6 袋糖 7×6＝42 元，再加 5 元巧克力，一共 42＋5＝47 元。"
+  },
+  {
+    "id": "hjm_g2a_u3_l4_q7",
+    "topicId": "hjm_g2a_u3_l4",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "小明有 4 盒水彩笔，每盒 7 支，送给同学 11 支后，又买了 5 支，现在他有几支？如果他想凑成 30 支，还差几支？",
+    "answer": "现在有 22 支，还差 8 支。",
+    "explanation": "4×7＝28，送掉 11 支剩 17 支，又买 5 支是 22 支；30－22＝8，还差 8 支。"
+  },
+  {
+    "id": "hjm_g2a_u3_l5_q6",
+    "topicId": "hjm_g2a_u3_l5",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "每盒有 7 支笔，买了 5 盒，用了 9 支，还剩几支？",
+    "answer": "26",
+    "verify": "7*5-9",
+    "explanation": "5 盒一共 7×5＝35 支，用了 9 支，35－9＝26 支。"
+  },
+  {
+    "id": "hjm_g2a_u3_l5_q7",
+    "topicId": "hjm_g2a_u3_l5",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "小华 7 天读完一本书，每天读 8 页，这本书有几页？如果每天读 7 页，几天读完？",
+    "answer": "56 页；8 天。",
+    "explanation": "7×8＝56 页；56÷7＝8 天。"
+  },
+  {
+    "id": "hjm_g2a_u3_l6_q6",
+    "topicId": "hjm_g2a_u3_l6",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "一盒有 9 个鸡蛋，买了 4 盒，吃了 8 个，还剩几个？",
+    "answer": "28",
+    "verify": "9*4-8",
+    "explanation": "4 盒一共 9×4＝36 个，吃了 8 个，36－8＝28 个。"
+  },
+  {
+    "id": "hjm_g2a_u3_l6_q7",
+    "topicId": "hjm_g2a_u3_l6",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "停车场有 6 辆三轮车和 9 辆自行车，一共有几个轮子？",
+    "answer": "36",
+    "verify": "6*3+9*2",
+    "explanation": "三轮车轮子 6×3＝18 个，自行车轮子 9×2＝18 个，一共 18＋18＝36 个。"
+  },
+  {
+    "id": "hjm_g2a_u3_l7_q6",
+    "topicId": "hjm_g2a_u3_l7",
+    "difficulty": "medium",
+    "type": "choice",
+    "prompt": "下面哪句口诀的得数是 54？",
+    "options": [
+      "六九五十四",
+      "七八五十六",
+      "五九四十五"
+    ],
+    "answer": "六九五十四",
+    "explanation": "6×9＝54，是六九五十四；7×8＝56，5×9＝45，都不是 54。"
+  },
+  {
+    "id": "hjm_g2a_u3_l7_q7",
+    "topicId": "hjm_g2a_u3_l7",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "口诀表里，得数是 72 的口诀有几句？是哪几句？",
+    "answer": "1 句，是八九七十二。",
+    "explanation": "1～9 的乘法口诀里，只有 8×9＝72，所以只有 1 句。"
+  },
+  {
+    "id": "hjm_g2a_u3_l8_q6",
+    "topicId": "hjm_g2a_u3_l8",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "小红做了 7 朵红花和 5 朵黄花，每朵花用 3 张彩纸，一共用了多少张彩纸？",
+    "answer": "36",
+    "verify": "(7+5)*3",
+    "explanation": "一共做了 7＋5＝12 朵花，每朵用 3 张，12×3＝36 张。"
+  },
+  {
+    "id": "hjm_g2a_u3_l8_q7",
+    "topicId": "hjm_g2a_u3_l8",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "小华有 6 盒蜡笔，每盒 8 支，送给同学 15 支后，又买了 4 盒同样的蜡笔，现在他有几支？",
+    "answer": "65",
+    "verify": "6*8-15+4*8",
+    "explanation": "原来 6×8＝48 支，送掉 15 支剩 33 支，又买 4×8＝32 支，33＋32＝65 支。"
+  },
+  {
+    "id": "hjm_g2a_u4_l1_q6",
+    "topicId": "hjm_g2a_u4_l1",
+    "difficulty": "medium",
+    "type": "text",
+    "prompt": "小明面向西站立，向右转之后，他面向哪个方向？再向右转一次呢？",
+    "answer": "先面向北，再向右转后，面向东。",
+    "explanation": "面向西，向右转是北；面向北，再向右转是东。"
+  },
+  {
+    "id": "hjm_g2a_u4_l1_q7",
+    "topicId": "hjm_g2a_u4_l1",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "小红面向东站立，先向后转，再向左转，最后她面向哪个方向？说说你是怎么想的。",
+    "answer": "南。面向东，向后转是西；面向西，向左转是南。",
+    "explanation": "向后转是转 180 度，东的反面是西；面向西，向左转是南。"
+  },
+  {
+    "id": "hjm_g2a_u4_l2_q6",
+    "topicId": "hjm_g2a_u4_l2",
+    "difficulty": "medium",
+    "type": "text",
+    "prompt": "教学楼在操场的北面，图书馆在教学楼的东面。图书馆在操场的什么方向？",
+    "answer": "东北方向。",
+    "explanation": "先向北到教学楼，再向东到图书馆，合起来是东北方向。"
+  },
+  {
+    "id": "hjm_g2a_u4_l2_q7",
+    "topicId": "hjm_g2a_u4_l2",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "小明从教室出发，先向南走 25 步到操场，再向西走 20 步到食堂，最后向北走 25 步到图书馆。图书馆在教室的什么方向？在食堂的什么方向？",
+    "answer": "图书馆在教室的西面；在食堂的北面。",
+    "explanation": "南 25 步再北 25 步回到同一排，向西 20 步，所以图书馆在教室的西面；从食堂向北走 25 步到图书馆，所以图书馆在食堂的北面。"
+  },
+  {
+    "id": "hjm_g2a_u4_l3_q6",
+    "topicId": "hjm_g2a_u4_l3",
+    "difficulty": "medium",
+    "type": "text",
+    "prompt": "小红的房间：门在东面，床在门的北面，书桌在床的西面。书桌在门的什么方向？",
+    "answer": "西北方向。",
+    "explanation": "门在东面，床在门的北面；书桌在床的西面，合起来书桌在门的西北方向。"
+  },
+  {
+    "id": "hjm_g2a_u4_l3_q7",
+    "topicId": "hjm_g2a_u4_l3",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "小明的房间：窗户在南面，书桌在窗户的东面，床在书桌的北面。床在窗户的什么方向？床在书桌的什么方向？",
+    "answer": "床在窗户的东北方向；床在书桌的北面。",
+    "explanation": "书桌在窗户的东面，床在书桌的北面，合起来床在窗户的东北方向；床本来就在书桌的北面。"
+  },
+  {
+    "id": "hjm_g2a_u5_l1_q6",
+    "topicId": "hjm_g2a_u5_l1",
+    "difficulty": "medium",
+    "type": "text",
+    "prompt": "把红圆形、蓝圆形、红方形、蓝三角形分成两组，按颜色分，蓝色一组有几个？按形状分，圆形一组有几个？",
+    "answer": "蓝色一组 2 个；圆形一组 2 个。",
+    "explanation": "蓝色的是蓝圆形和蓝三角形，共 2 个；圆形的是红圆形和蓝圆形，共 2 个。"
+  },
+  {
+    "id": "hjm_g2a_u5_l1_q7",
+    "topicId": "hjm_g2a_u5_l1",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "小明说：'把 10 个图形按颜色分成两组，一组 6 个，另一组 5 个。'他说得对吗？为什么？如果一组是 6 个，另一组应该是几个？",
+    "answer": "不对，因为 6＋5＝11，不是 10；另一组应该是 4 个。",
+    "explanation": "两组加起来必须等于总数 10，6＋5＝11，多了 1 个，所以不对；10－6＝4，另一组应该是 4 个。"
+  },
+  {
+    "id": "hjm_g2a_u5_l2_q6",
+    "topicId": "hjm_g2a_u5_l2",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "一箱玩具先按种类分成汽车和积木两堆，汽车堆有 25 个，积木堆有 17 个，汽车堆再按颜色分成红色 14 个，红色以外的汽车有几个？",
+    "answer": "11",
+    "verify": "25-14",
+    "explanation": "汽车一共 25 个，红色 14 个，25－14＝11 个不是红色的。"
+  },
+  {
+    "id": "hjm_g2a_u5_l2_q7",
+    "topicId": "hjm_g2a_u5_l2",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "有 36 本书，先按种类分成故事书和科技书，故事书有 21 本；再把科技书按厚薄分成厚的 9 本、薄的几本？科技书有几本？一共分了几层？",
+    "answer": "薄的 6 本；科技书 15 本；一共分了 2 层。",
+    "explanation": "36－21＝15，科技书 15 本；15－9＝6，薄的 6 本；先按种类分，再按厚薄分，一共 2 层。"
+  },
+  {
+    "id": "hjm_g2a_u6_l1_q6",
+    "topicId": "hjm_g2a_u6_l1",
+    "difficulty": "medium",
+    "type": "text",
+    "prompt": "找规律填数：20，18，16，14，（ ），（ ）。第一个括号里应填几？第二个呢？",
+    "answer": "12；10。",
+    "explanation": "每次少 2，14－2＝12，12－2＝10。"
+  },
+  {
+    "id": "hjm_g2a_u6_l1_q7",
+    "topicId": "hjm_g2a_u6_l1",
+    "difficulty": "hard",
+    "type": "choice",
+    "prompt": "按规律排列：□△△□△△□△△……第 20 个图形是什么？",
+    "options": [
+      "□",
+      "△",
+      "○"
+    ],
+    "answer": "△",
+    "explanation": "3 个图形一组，20÷3＝6 余 2，第 20 个是第 7 组的第 2 个，是△。"
+  },
+  {
+    "id": "hjm_g2a_u6_l2_q6",
+    "topicId": "hjm_g2a_u6_l2",
+    "difficulty": "medium",
+    "type": "text",
+    "prompt": "一个三阶幻方中，已知一列是 6、1、8，幻和是多少？另一列已有 7 和 2，第三个数是几？",
+    "answer": "幻和是 15；第三个数是 6。",
+    "explanation": "6＋1＋8＝15；15－7－2＝6。"
+  },
+  {
+    "id": "hjm_g2a_u6_l2_q7",
+    "topicId": "hjm_g2a_u6_l2",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "一个三阶幻方，幻和是 15，一行是 6、7、2，另一行是 1、5、9，第三行的三个数是几？",
+    "answer": "3、4、8。",
+    "explanation": "1～9 用掉了 6、7、2、1、5、9，剩下 3、4、8，而且 3＋4＋8＝15。"
+  },
+  {
+    "id": "hjm_g2b_u1_l1_q6",
+    "topicId": "hjm_g2b_u1_l1",
+    "difficulty": "medium",
+    "type": "text",
+    "prompt": "30 颗糖，每人分 6 颗，可以分给几个小朋友？如果平均分给 6 个小朋友，每人分得几颗？",
+    "answer": "5 个小朋友；每人 5 颗。",
+    "explanation": "30÷6＝5，可以分给 5 个小朋友；30÷6＝5，平均分给 6 个小朋友，每人也是 5 颗。"
+  },
+  {
+    "id": "hjm_g2b_u1_l1_q7",
+    "topicId": "hjm_g2b_u1_l1",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "一根 48 厘米的绳子，剪成 6 厘米长的小段，能剪几段？如果剪成 8 厘米长的小段，能剪几段？哪种剪法段数多？多几段？",
+    "answer": "6 厘米的剪法能剪 8 段；8 厘米的剪法能剪 6 段；6 厘米的剪法多，多 2 段。",
+    "explanation": "48÷6＝8，48÷8＝6，8－6＝2。"
+  },
+  {
+    "id": "hjm_g2b_u1_l2_q6",
+    "topicId": "hjm_g2b_u1_l2",
+    "difficulty": "medium",
+    "type": "choice",
+    "prompt": "算 81÷9 时，应该想哪句口诀？",
+    "options": [
+      "九九八十一",
+      "八九七十二",
+      "七九六十三"
+    ],
+    "answer": "九九八十一",
+    "explanation": "81÷9 想 9 的口诀里得数是 81 的那句，就是九九八十一；八九七十二是 72，七九六十三是 63。"
+  },
+  {
+    "id": "hjm_g2b_u1_l2_q7",
+    "topicId": "hjm_g2b_u1_l2",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "妈妈买了 8 袋糖，每袋 9 颗，分给小红 36 颗后，剩下的平均分给 4 个小朋友，每人分得几颗？",
+    "answer": "9",
+    "verify": "(8*9-36)/4",
+    "explanation": "一共 8×9＝72 颗，分掉 36 颗剩 36 颗，36÷4＝9 颗。"
+  },
+  {
+    "id": "hjm_g2b_u1_l3_q6",
+    "topicId": "hjm_g2b_u1_l3",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "小红有 4 盒铅笔，每盒 8 支，送给同学 14 支，还剩多少支？",
+    "answer": "18",
+    "verify": "4*8-14",
+    "explanation": "4 盒一共 4×8＝32 支，送掉 14 支，32－14＝18 支。"
+  },
+  {
+    "id": "hjm_g2b_u1_l3_q7",
+    "topicId": "hjm_g2b_u1_l3",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "妈妈买了 6 袋苹果，每袋 7 个，吃掉了 15 个，剩下的平均装在 3 个盘子里，每个盘子几个？",
+    "answer": "9",
+    "verify": "(6*7-15)/3",
+    "explanation": "一共 6×7＝42 个，吃掉 15 个剩 27 个，27÷3＝9 个。"
+  },
+  {
+    "id": "hjm_g2b_u1_l4_q6",
+    "topicId": "hjm_g2b_u1_l4",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "小华做了 5 排小红旗，每排 7 面，又做了 8 面小黄旗，一共做了多少面旗？",
+    "answer": "43",
+    "verify": "5*7+8",
+    "explanation": "小红旗 5×7＝35 面，再加 8 面小黄旗，一共 35＋8＝43 面。"
+  },
+  {
+    "id": "hjm_g2b_u1_l4_q7",
+    "topicId": "hjm_g2b_u1_l4",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "小红计算 100－6×7，她应该先算什么？得数是多少？如果她先算 100－6 再乘 7，得数会是多少？为什么不对？",
+    "answer": "先算 6×7＝42，得数是 58；先算 100－6＝94 再乘 7 得 658，不对，因为有减法和乘法时要先算乘法。",
+    "explanation": "6×7＝42，100－42＝58；先算 100－6＝94，94×7＝658，顺序错了，得数就不对。"
+  },
+  {
+    "id": "hjm_g2b_u1_l5_q6",
+    "topicId": "hjm_g2b_u1_l5",
+    "difficulty": "medium",
+    "type": "text",
+    "prompt": "26 除以 4，商是几？余数是几？",
+    "answer": "商 6，余数 2。",
+    "explanation": "4×6＝24，26－24＝2，所以商 6，余数 2。"
+  },
+  {
+    "id": "hjm_g2b_u1_l5_q7",
+    "topicId": "hjm_g2b_u1_l5",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "有 47 个梨，每 6 个装一袋，至少需要几个袋子才能全部装完？为什么不是 7 个？",
+    "answer": "需要 8 个袋子，因为 47÷6＝7 余 5，装满 7 袋后还剩 5 个，也需要 1 个袋子。",
+    "explanation": "47÷6＝7 余 5，7 袋装满后还剩 5 个梨，这 5 个也需要 1 个袋子，所以一共要 8 个。"
+  },
+  {
+    "id": "hjm_g2b_u1_l6_q6",
+    "topicId": "hjm_g2b_u1_l6",
+    "difficulty": "medium",
+    "type": "text",
+    "prompt": "计算：52÷7＝？（填商和余数）",
+    "answer": "商 7，余数 3。",
+    "explanation": "7×7＝49，52－49＝3，所以商 7，余数 3。"
+  },
+  {
+    "id": "hjm_g2b_u1_l6_q7",
+    "topicId": "hjm_g2b_u1_l6",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "小明有 60 元，一支钢笔 8 元，最多能买几支钢笔？还剩几元？如果他想买 8 支钢笔，还差几元？",
+    "answer": "最多买 7 支，还剩 4 元；买 8 支还差 4 元。",
+    "explanation": "60÷8＝7 余 4，最多买 7 支，还剩 4 元；8 支要 8×8＝64 元，64－60＝4 元，还差 4 元。"
+  },
+  {
+    "id": "hjm_g2b_u2_l1_q6",
+    "topicId": "hjm_g2b_u2_l1",
+    "difficulty": "medium",
+    "type": "text",
+    "prompt": "用 4、0、9 这三张数字卡片组成最大的三位数和最小的三位数，分别是几？它们的差是多少？",
+    "answer": "最大 940，最小 409，差是 531。",
+    "explanation": "最大是 940，最小是 409，940－409＝531。"
+  },
+  {
+    "id": "hjm_g2b_u2_l1_q7",
+    "topicId": "hjm_g2b_u2_l1",
+    "difficulty": "hard",
+    "type": "numeric",
+    "prompt": "一个三位数，十位是 5，百位比十位多 1，个位是百位减 4，这个数是多少？",
+    "answer": "652",
+    "verify": "6*100+5*10+2",
+    "explanation": "百位是 5＋1＝6，个位是 6－4＝2，这个数是 652。"
+  },
+  {
+    "id": "hjm_g2b_u2_l2_q6",
+    "topicId": "hjm_g2b_u2_l2",
+    "difficulty": "medium",
+    "type": "text",
+    "prompt": "小明在数位表上拨出了 5200，他把千位上的一颗珠子移到了个位上，新的数是多少？比原来少了几？",
+    "answer": "新的数是 4201；比原来少了 999。",
+    "explanation": "千位少 1 颗珠子是 4000，个位多 1 颗是 1，新的数是 4201；5200－4201＝999。"
+  },
+  {
+    "id": "hjm_g2b_u2_l2_q7",
+    "topicId": "hjm_g2b_u2_l2",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "数位表上共有 5 颗珠子，拨出的四位数最大是多少？最小是多少？",
+    "answer": "最大 5000；最小 1004。",
+    "explanation": "最大把 5 颗都放在千位，是 5000；最小千位放 1 颗，剩下的 4 颗放在个位，是 1004。"
+  },
+  {
+    "id": "hjm_g2b_u2_l3_q6",
+    "topicId": "hjm_g2b_u2_l3",
+    "difficulty": "medium",
+    "type": "text",
+    "prompt": "与 599 相邻的两个数中，较小的那个是多少？与 1000 相邻的两个数中，较大的那个是多少？",
+    "answer": "598；1001。",
+    "explanation": "599 前面的数是 598；1000 后面的数是 1001。"
+  },
+  {
+    "id": "hjm_g2b_u2_l3_q7",
+    "topicId": "hjm_g2b_u2_l3",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "小明想了一个数，它是整百数，比 500 大，比 900 小，而且百位是单数，这个数可能是几？有几个这样的数？",
+    "answer": "700；1 个。",
+    "explanation": "500 到 900 之间的整百数是 600、700、800，百位是单数的只有 700，所以只有 1 个。"
+  },
+  {
+    "id": "hjm_g2b_u2_l4_q6",
+    "topicId": "hjm_g2b_u2_l4",
+    "difficulty": "medium",
+    "type": "text",
+    "prompt": "一个数由 4 个千、5 个百、0 个十和 9 个一组成，这个数是多少？它读作什么？",
+    "answer": "4509；读作四千五百零九。",
+    "explanation": "4 个千是 4000，5 个百是 500，9 个一是 9，合起来是 4509，读作四千五百零九。"
+  },
+  {
+    "id": "hjm_g2b_u2_l4_q7",
+    "topicId": "hjm_g2b_u2_l4",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "用 5、0、0、2 四张卡片组成一个四位数，读出两个零的有几个？为什么？",
+    "answer": "0 个，因为两个 0 要么连在一起只读一个'零'，要么在个位不读，所以一个也组不出来。",
+    "explanation": "能组成的数是 5002、5020、2005、2050、2500、5200，两个 0 相邻时只读一个'零'，在个位时不读，没有一个能读出两个'零'。"
+  },
+  {
+    "id": "hjm_g2b_u3_l1_q6",
+    "topicId": "hjm_g2b_u3_l1",
+    "difficulty": "medium",
+    "type": "text",
+    "prompt": "钟面上的时针走 1 大格是多少小时？分针走 1 圈是多少分钟？",
+    "answer": "1 小时；60 分钟。",
+    "explanation": "时针走 1 大格是 1 小时；分针走 1 圈是 60 分钟。"
+  },
+  {
+    "id": "hjm_g2b_u3_l1_q7",
+    "topicId": "hjm_g2b_u3_l1",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "小明做钟面时，把数字按 1、2、3……的顺序逆时针排列。这个钟面错在哪？正确的钟面应该是什么样的？",
+    "answer": "错了，数字应该按顺时针方向排列，12 在最上面，3 在最右边，6 在最下面，9 在最左边。",
+    "explanation": "钟面上的数字是按顺时针方向从 1 排到 12 的，逆时针排就反了。"
+  },
+  {
+    "id": "hjm_g2b_u3_l2_q6",
+    "topicId": "hjm_g2b_u3_l2",
+    "difficulty": "medium",
+    "type": "choice",
+    "prompt": "下面哪个钟面表示 6 时 35 分？",
+    "options": [
+      "时针在 6 和 7 之间，分针指向 7",
+      "时针指向 6，分针指向 7",
+      "时针在 5 和 6 之间，分针指向 7"
+    ],
+    "answer": "时针在 6 和 7 之间，分针指向 7",
+    "explanation": "6 时 35 分，分针走 35 分指向 7，时针在 6 和 7 之间。"
+  },
+  {
+    "id": "hjm_g2b_u3_l2_q7",
+    "topicId": "hjm_g2b_u3_l2",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "分针指向 3，时针刚过 9，这时是几时几分？过 15 分钟后是几时几分？",
+    "answer": "9 时 15 分；9 时 30 分。",
+    "explanation": "分针指向 3 是 15 分，时针刚过 9，是 9 时 15 分；再过 15 分钟是 9 时 30 分。"
+  },
+  {
+    "id": "hjm_g2b_u3_l3_q6",
+    "topicId": "hjm_g2b_u3_l3",
+    "difficulty": "medium",
+    "type": "text",
+    "prompt": "小华 1 分钟踢毽子 45 下，3 分钟能踢几下？小明 1 分钟拍球 60 下，2 分钟能拍几下？",
+    "answer": "135 下；120 下。",
+    "explanation": "45×3＝135；60×2＝120。"
+  },
+  {
+    "id": "hjm_g2b_u3_l3_q7",
+    "topicId": "hjm_g2b_u3_l3",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "一场电影 90 分钟，中间休息 10 分钟，从 2 时开始放映，什么时候结束？",
+    "answer": "3 时 40 分。",
+    "explanation": "90＋10＝100 分钟，就是 1 小时 40 分钟，2 时＋1 小时 40 分＝3 时 40 分。"
+  },
+  {
+    "id": "hjm_g2b_u3_l4_q6",
+    "topicId": "hjm_g2b_u3_l4",
+    "difficulty": "medium",
+    "type": "text",
+    "prompt": "小红 8 时开始做作业，做了 35 分钟，她什么时候做完？做完后休息 10 分钟，再练琴 20 分钟，什么时候结束？",
+    "answer": "8 时 35 分做完；9 时 05 分结束。",
+    "explanation": "8 时＋35 分＝8 时 35 分；8 时 35 分＋10 分＝8 时 45 分，再加 20 分是 9 时 05 分。"
+  },
+  {
+    "id": "hjm_g2b_u3_l4_q7",
+    "topicId": "hjm_g2b_u3_l4",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "小明 6 时 30 分要到校，从家到学校要走 20 分钟，出门前穿衣服 10 分钟、吃早饭 15 分钟，他最迟什么时候起床？如果他 5 时 40 分起床，到校后还剩几分钟？",
+    "answer": "最迟 5 时 45 分起床；5 时 40 分起床，到校后还剩 5 分钟。",
+    "explanation": "准备要 10＋15＝25 分钟，加上走路 20 分钟一共 45 分钟，6 时 30 分往前推 45 分是 5 时 45 分；5 时 40 分起床，6 时 05 分出门，6 时 25 分到校，还剩 5 分钟。"
+  },
+  {
+    "id": "hjm_g2b_u4_l1_q6",
+    "topicId": "hjm_g2b_u4_l1",
+    "difficulty": "medium",
+    "type": "text",
+    "prompt": "口算：360＋280＝？小明想：36＋28＝64，所以 360＋280＝640。他算对了吗？为什么？",
+    "answer": "对，因为 36 个十加 28 个十等于 64 个十，就是 640。",
+    "explanation": "360 是 36 个十，280 是 28 个十，36＋28＝64，64 个十就是 640。"
+  },
+  {
+    "id": "hjm_g2b_u4_l1_q7",
+    "topicId": "hjm_g2b_u4_l1",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "小红口算 700－260，她想：7－2＝5，所以得数是 500。她错在哪？正确的得数是几？",
+    "answer": "错了，十位上的 0 不够减 6，要向百位借 1，正确是 440。",
+    "explanation": "700－260，十位 0－6 不够减，向百位借 1 当 10，10－6＝4，百位 6－2＝4，得数是 440。"
+  },
+  {
+    "id": "hjm_g2b_u4_l2_q6",
+    "topicId": "hjm_g2b_u4_l2",
+    "difficulty": "medium",
+    "type": "text",
+    "prompt": "竖式计算：456＋378＝？并说说百位上是怎么算的。",
+    "answer": "834；百位 4＋3 再加十位进来的 1，等于 8。",
+    "explanation": "个位 6＋8＝14，写 4 进 1；十位 5＋7＋1＝13，写 3 进 1；百位 4＋3＋1＝8，得数 834。"
+  },
+  {
+    "id": "hjm_g2b_u4_l2_q7",
+    "topicId": "hjm_g2b_u4_l2",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "小华算 587＋346，他先算 587＋300＝887，再算 887＋46＝933，对吗？小明算 587＋346，他想：600＋346＝946，再减 13 得 933，对吗？哪种方法更简便？为什么？",
+    "answer": "都对；第二种更简便，因为 600 是整百数。",
+    "explanation": "587＋300＋46＝933；600 比 587 多 13，600＋346＝946，946－13＝933；凑成整百数口算更快。"
+  },
+  {
+    "id": "hjm_g2b_u4_l3_q6",
+    "topicId": "hjm_g2b_u4_l3",
+    "difficulty": "medium",
+    "type": "text",
+    "prompt": "竖式计算：802－457＝？并说说十位上是怎么算的。",
+    "answer": "345；十位先向百位借 1，再借给个位 1，剩下 9，9－5＝4。",
+    "explanation": "个位 2－7 不够减，向十位借，十位 0 向百位借 1 得 10，借给个位 1 剩 9，9－5＝4，百位 7－4＝3，得数 345。"
+  },
+  {
+    "id": "hjm_g2b_u4_l3_q7",
+    "topicId": "hjm_g2b_u4_l3",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "小红算 500－237＝273，她错在哪？正确的得数是几？",
+    "answer": "错了，她十位按 10－3＝7 算，忘了十位借给个位 1 后只剩 9，9－3＝6，正确是 263。",
+    "explanation": "个位 0－7 不够减，十位借给个位 1 后只剩 9，9－3＝6，百位 4－2＝2，得数是 263。"
+  },
+  {
+    "id": "hjm_g2b_u5_l1_q6",
+    "topicId": "hjm_g2b_u5_l1",
+    "difficulty": "medium",
+    "type": "text",
+    "prompt": "一串彩灯按蓝、红、红、蓝、红、红……的规律循环，第 30 盏灯是什么颜色？",
+    "answer": "红。",
+    "explanation": "3 盏灯一组，30÷3＝10，正好 10 组，第 30 盏是每组的第 3 盏，是红色。"
+  },
+  {
+    "id": "hjm_g2b_u5_l1_q7",
+    "topicId": "hjm_g2b_u5_l1",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "今天是星期一，再过 40 天是星期几？再过 100 天呢？",
+    "answer": "再过 40 天是星期六；再过 100 天是星期三。",
+    "explanation": "40÷7＝5 余 5，星期一往后数 5 天是星期六；100÷7＝14 余 2，星期一往后数 2 天是星期三。"
+  },
+  {
+    "id": "hjm_g2b_u5_l2_q6",
+    "topicId": "hjm_g2b_u5_l2",
+    "difficulty": "medium",
+    "type": "numeric",
+    "prompt": "小红有 5 件上衣和 4 条裤子，一共有多少种不同的穿法？",
+    "answer": "20",
+    "verify": "5*4",
+    "explanation": "每件上衣可以配 4 条裤子，5 件上衣一共 5×4＝20 种穿法。"
+  },
+  {
+    "id": "hjm_g2b_u5_l2_q7",
+    "topicId": "hjm_g2b_u5_l2",
+    "difficulty": "hard",
+    "type": "text",
+    "prompt": "小明有 3 件上衣和 5 条裤子，但其中 1 件上衣只能配 3 条裤子，其他上衣可以配所有裤子，一共有几种搭配？",
+    "answer": "13 种。",
+    "explanation": "只能配 3 条的那件上衣有 3 种搭配，另外 2 件上衣各有 5 种搭配，3＋2×5＝13 种。"
+  },
+  {
+    "answer": "118",
+    "difficulty": "medium",
+    "explanation": "先算大米：4×25＝100 千克；再加上 18 千克面粉，一共 100＋18＝118 千克。",
+    "id": "hjm_g3a_u1_l1_q6",
+    "prompt": "食堂买了 4 袋大米，每袋 25 千克，又买了 18 千克面粉。大米和面粉一共多少千克？",
+    "topicId": "hjm_g3a_u1_l1",
+    "type": "numeric",
+    "verify": "4*25+18"
+  },
+  {
+    "answer": "17",
+    "difficulty": "hard",
+    "explanation": "小胖一共有 7×10＋3×5＝85 元；买玩具花去 68 元，还剩 85－68＝17 元。",
+    "id": "hjm_g3a_u1_l1_q7",
+    "prompt": "小胖有 7 张 10 元和 3 张 5 元，他买了一个 68 元的玩具，还剩多少元？",
+    "topicId": "hjm_g3a_u1_l1",
+    "type": "numeric",
+    "verify": "7*10+3*5-68"
+  },
+  {
+    "answer": "70",
+    "difficulty": "medium",
+    "explanation": "书架上原来有 6×35＝210 本；借出 140 本，还剩 210－140＝70 本。",
+    "id": "hjm_g3a_u1_l2_q6",
+    "prompt": "图书馆有 6 排书架，每排 35 本书，借出 140 本后，还剩多少本书？",
+    "topicId": "hjm_g3a_u1_l2",
+    "type": "numeric",
+    "verify": "6*35-140"
+  },
+  {
+    "answer": "11",
+    "difficulty": "hard",
+    "explanation": "摘了 5×28＝140 千克；卖出后剩 140－96＝44 千克；平均装进 4 个箱子，每箱 44÷4＝11 千克。",
+    "id": "hjm_g3a_u1_l2_q7",
+    "prompt": "农场摘了 5 筐桃子，每筐 28 千克，卖出 96 千克后，剩下的平均装进 4 个箱子，每箱装多少千克？",
+    "topicId": "hjm_g3a_u1_l2",
+    "type": "numeric",
+    "verify": "(5*28-96)/4"
+  },
+  {
+    "answer": "630",
+    "difficulty": "medium",
+    "explanation": "7 排，每排 90 件，一共 7×90＝630 件。",
+    "id": "hjm_g3a_u2_l1_q6",
+    "prompt": "展厅有 7 排展柜，每排 90 件展品，一共有多少件展品？",
+    "topicId": "hjm_g3a_u2_l1",
+    "type": "numeric",
+    "verify": "7*90"
+  },
+  {
+    "answer": "8×50",
+    "difficulty": "hard",
+    "explanation": "分别算出：6×70＝420，5×90＝450，8×50＝400，7×60＝420。最小是 400，即 8×50。",
+    "id": "hjm_g3a_u2_l1_q7",
+    "options": [
+      "6×70",
+      "5×90",
+      "8×50",
+      "7×60"
+    ],
+    "prompt": "不计算，下面哪个算式的结果最小？",
+    "topicId": "hjm_g3a_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "30",
+    "difficulty": "medium",
+    "explanation": "一共 8×24＝192 瓶；分出后剩 192－12＝180 瓶是分掉的；平均每班 180÷6＝30 瓶。",
+    "id": "hjm_g3a_u2_l2_q6",
+    "prompt": "学校订了 8 箱矿泉水，每箱 24 瓶，分给 6 个班后还剩 12 瓶，平均每班分到多少瓶？",
+    "topicId": "hjm_g3a_u2_l2",
+    "type": "numeric",
+    "verify": "(8*24-12)/6"
+  },
+  {
+    "answer": "51",
+    "difficulty": "hard",
+    "explanation": "每本 85÷5＝17 元；再买 3 本要花 17×3＝51 元。",
+    "id": "hjm_g3a_u2_l2_q7",
+    "prompt": "小丁买了 5 本同样的笔记本，一共花了 85 元。他又买了 3 本同样的笔记本，还要花多少元？",
+    "topicId": "hjm_g3a_u2_l2",
+    "type": "numeric",
+    "verify": "(85/5)*3"
+  },
+  {
+    "answer": "864",
+    "difficulty": "medium",
+    "explanation": "每个厅 216 个座位，4 个厅一共 4×216＝864 个座位。",
+    "id": "hjm_g3a_u2_l3_q6",
+    "prompt": "影院有 4 个放映厅，每个厅 216 个座位，4 个厅一共有多少个座位？",
+    "topicId": "hjm_g3a_u2_l3",
+    "type": "numeric",
+    "verify": "4*216"
+  },
+  {
+    "answer": "100",
+    "difficulty": "hard",
+    "explanation": "原来有 6×145＝870 箱；运走后剩 870－370＝500 箱；平均分给 5 家商店，每家 500÷5＝100 箱。",
+    "id": "hjm_g3a_u2_l3_q7",
+    "prompt": "仓库有 6 堆货物，每堆 145 箱，运走 370 箱后，剩下的平均分给 5 家商店，每家分到多少箱？",
+    "topicId": "hjm_g3a_u2_l3",
+    "type": "numeric",
+    "verify": "(6*145-370)/5"
+  },
+  {
+    "answer": "420；大 21",
+    "difficulty": "medium",
+    "explanation": "把 63 看成 60，60×7＝420；准确值 63×7＝441，441－420＝21，所以准确值比估算值大 21。",
+    "id": "hjm_g3a_u2_l4_q6",
+    "options": [
+      "420；大 21",
+      "420；小 21",
+      "490；大 21",
+      "420；大 7"
+    ],
+    "prompt": "估算 63×7 时，把 63 看成 60，估算结果是多少？准确值比估算值大还是小？大多少？",
+    "topicId": "hjm_g3a_u2_l4",
+    "type": "choice"
+  },
+  {
+    "answer": "够，因为把 68 看成 70，70×4＝280，280＜300",
+    "difficulty": "hard",
+    "explanation": "把 68 看成 70，70×4＝280，280 比 300 小，所以钱够；而且准确值 68×4＝272，也比 300 小。",
+    "id": "hjm_g3a_u2_l4_q7",
+    "options": [
+      "够，因为把 68 看成 70，70×4＝280，280＜300",
+      "不够，因为把 68 看成 70，70×4＝280，280＞300",
+      "够，因为把 68 看成 60，60×4＝240，240＜300",
+      "不够，因为 68×4＝272，272＜300"
+    ],
+    "prompt": "小胖带 300 元买 4 个 68 元的足球，估算一下，钱够吗？",
+    "topicId": "hjm_g3a_u2_l4",
+    "type": "choice"
+  },
+  {
+    "answer": "不对，角的大小只和两边张开程度有关，和边长无关",
+    "difficulty": "medium",
+    "explanation": "角的大小看的是两条边张开的程度，边画得再长，只要张开程度不变，角就不变。",
+    "id": "hjm_g3a_u3_l1_q6",
+    "options": [
+      "不对，角的大小只和两边张开程度有关，和边长无关",
+      "对，边越长角越大",
+      "不对，角的大小和边的粗细有关",
+      "对，边越短角越小"
+    ],
+    "prompt": "一个角的两条边越长，角就越大。这句话对吗？为什么？",
+    "topicId": "hjm_g3a_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "直角；钝角",
+    "difficulty": "hard",
+    "explanation": "3 时整，时针指向 3，分针指向 12，夹角是 90 度，是直角；5 时整夹角是 150 度，超过 90 度，是钝角。",
+    "id": "hjm_g3a_u3_l1_q7",
+    "options": [
+      "直角；钝角",
+      "直角；锐角",
+      "钝角；直角",
+      "锐角；钝角"
+    ],
+    "prompt": "钟面上 3 时整，时针和分针组成什么角？5 时整呢？",
+    "topicId": "hjm_g3a_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "15",
+    "difficulty": "medium",
+    "explanation": "每个三角形 3 条边，5 个三角形一共 3×5＝15 条边。",
+    "id": "hjm_g3a_u3_l2_q6",
+    "prompt": "一个三角形有 3 条边，5 个三角形一共有多少条边？",
+    "topicId": "hjm_g3a_u3_l2",
+    "type": "numeric",
+    "verify": "3*5"
+  },
+  {
+    "answer": "正方形；2 根",
+    "difficulty": "hard",
+    "explanation": "4 根同样长的小棒围成四条边都相等的图形，是正方形；6 根小棒摆三角形，三条边平均分，每边 6÷3＝2 根。",
+    "id": "hjm_g3a_u3_l2_q7",
+    "options": [
+      "正方形；2 根",
+      "三角形；2 根",
+      "长方形；3 根",
+      "正方形；3 根"
+    ],
+    "prompt": "用 4 根同样长的小棒能摆成什么图形？如果用 6 根同样长的小棒摆一个三角形，每条边用几根？",
+    "topicId": "hjm_g3a_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "60",
+    "difficulty": "medium",
+    "explanation": "每 8 颗一串，480÷8＝60 串。",
+    "id": "hjm_g3a_u4_l1_q6",
+    "prompt": "480 颗珠子，每 8 颗穿一串，可以穿几串？",
+    "topicId": "hjm_g3a_u4_l1",
+    "type": "numeric",
+    "verify": "480/8"
+  },
+  {
+    "answer": "一样大",
+    "difficulty": "hard",
+    "explanation": "360÷6＝60，420÷7＝60，两个商相等，所以一样大。",
+    "id": "hjm_g3a_u4_l1_q7",
+    "options": [
+      "一样大",
+      "360÷6 大",
+      "420÷7 大",
+      "无法比较"
+    ],
+    "prompt": "不计算，判断 360÷6 和 420÷7 哪个商大？",
+    "topicId": "hjm_g3a_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "8",
+    "difficulty": "medium",
+    "explanation": "第一次用去后剩 84－20＝64 米；平均剪成 8 段，每段 64÷8＝8 米。",
+    "id": "hjm_g3a_u4_l2_q6",
+    "prompt": "84 米长的绳子，第一次用去 20 米，剩下的平均剪成 8 段，每段长多少米？",
+    "topicId": "hjm_g3a_u4_l2",
+    "type": "numeric",
+    "verify": "(84-20)/8"
+  },
+  {
+    "answer": "42",
+    "difficulty": "hard",
+    "explanation": "9 袋一共装了 6×9＝54 个；还剩 96－54＝42 个。",
+    "id": "hjm_g3a_u4_l2_q7",
+    "prompt": "96 个苹果，每 6 个装一袋，装了 9 袋后，还剩多少个苹果？",
+    "topicId": "hjm_g3a_u4_l2",
+    "type": "numeric",
+    "verify": "96-6*9"
+  },
+  {
+    "answer": "6",
+    "difficulty": "medium",
+    "explanation": "求 48 是 8 的几倍，用除法：48÷8＝6，所以是 6 倍。",
+    "id": "hjm_g3a_u4_l3_q6",
+    "prompt": "停车场小汽车 48 辆，摩托车 8 辆，小汽车的辆数是摩托车的几倍？",
+    "topicId": "hjm_g3a_u4_l3",
+    "type": "numeric",
+    "verify": "48/8"
+  },
+  {
+    "answer": "67",
+    "difficulty": "hard",
+    "explanation": "小红的 3 倍是 24×3＝72 颗；少 5 颗就是 72－5＝67 颗。",
+    "id": "hjm_g3a_u4_l3_q7",
+    "prompt": "小红有 24 颗糖，小明的糖数是小红的 3 倍少 5 颗，小明有多少颗糖？",
+    "topicId": "hjm_g3a_u4_l3",
+    "type": "numeric",
+    "verify": "24*3-5"
+  },
+  {
+    "answer": "312",
+    "difficulty": "medium",
+    "explanation": "平均装进 3 个仓库，936÷3＝312 千克。",
+    "id": "hjm_g3a_u4_l4_q6",
+    "prompt": "936 千克大米平均装进 3 个仓库，每个仓库装多少千克？",
+    "topicId": "hjm_g3a_u4_l4",
+    "type": "numeric",
+    "verify": "936/3"
+  },
+  {
+    "answer": "420",
+    "difficulty": "hard",
+    "explanation": "已经装了 3×105＝315 千克；还剩 735－315＝420 千克。",
+    "id": "hjm_g3a_u4_l4_q7",
+    "prompt": "果园摘了 735 千克苹果，已经装了 3 箱，每箱 105 千克，还剩多少千克？",
+    "topicId": "hjm_g3a_u4_l4",
+    "type": "numeric",
+    "verify": "735-3*105"
+  },
+  {
+    "answer": "12 盒；6 支",
+    "difficulty": "medium",
+    "explanation": "90÷7＝12 余 6，能装满 12 盒，还剩 6 支；剩下的 6 支不够装满一盒。",
+    "id": "hjm_g3a_u4_l5_q6",
+    "options": [
+      "12 盒；6 支",
+      "12 盒；5 支",
+      "13 盒；6 支",
+      "13 盒；1 支"
+    ],
+    "prompt": "90 支铅笔，每 7 支装一盒，能装满几盒？还剩几支？",
+    "topicId": "hjm_g3a_u4_l5",
+    "type": "choice"
+  },
+  {
+    "answer": "8 条；72 元",
+    "difficulty": "hard",
+    "explanation": "63÷8＝7 余 7，7 条船坐不下所有人，所以至少要 8 条船；租金 8×9＝72 元。",
+    "id": "hjm_g3a_u4_l5_q7",
+    "options": [
+      "8 条；72 元",
+      "7 条；63 元",
+      "8 条；63 元",
+      "7 条；72 元"
+    ],
+    "prompt": "63 名学生去划船，每条船最多坐 8 人，至少需要几条船？如果每条船租金 9 元，一共需要多少元？",
+    "topicId": "hjm_g3a_u4_l5",
+    "type": "choice"
+  },
+  {
+    "answer": "46",
+    "difficulty": "medium",
+    "explanation": "6 盒牛奶要花 6×9＝54 元；找回 100－54＝46 元。",
+    "id": "hjm_g3a_u4_l6_q6",
+    "prompt": "小胖带 100 元买 6 盒 9 元的牛奶，应找回多少元？",
+    "topicId": "hjm_g3a_u4_l6",
+    "type": "numeric",
+    "verify": "100-6*9"
+  },
+  {
+    "answer": "96 元；16 支",
+    "difficulty": "hard",
+    "explanation": "买 12 支，每买 3 支送 1 支，12÷3＝4，送 4 支，实际得到 12＋4＝16 支；花的钱只算买的 12 支，12×8＝96 元。",
+    "id": "hjm_g3a_u4_l6_q7",
+    "options": [
+      "96 元；16 支",
+      "96 元；12 支",
+      "128 元；16 支",
+      "72 元；12 支"
+    ],
+    "prompt": "文具店促销：买 3 支钢笔送 1 支。小丁买了 12 支钢笔，每支 8 元，他一共花了多少钱？实际得到了多少支？",
+    "topicId": "hjm_g3a_u4_l6",
+    "type": "choice"
+  },
+  {
+    "answer": "45",
+    "difficulty": "medium",
+    "explanation": "把时刻换算成分钟：16:25 是 16×60＋25＝985 分，15:40 是 15×60＋40＝940 分，相差 985－940＝45 分钟。",
+    "id": "hjm_g3a_u5_l1_q6",
+    "prompt": "课外活动从 15:40 开始，到 16:25 结束，活动了多长时间？（填分钟数）",
+    "topicId": "hjm_g3a_u5_l1",
+    "type": "numeric",
+    "verify": "(16*60+25)-(15*60+40)"
+  },
+  {
+    "answer": "8:25；不会迟到",
+    "difficulty": "hard",
+    "explanation": "7:50 再过 35 分钟是 8:25；8:25 比 8:30 早，所以不会迟到。",
+    "id": "hjm_g3a_u5_l1_q7",
+    "options": [
+      "8:25；不会迟到",
+      "8:25；会迟到",
+      "8:15；不会迟到",
+      "8:35；会迟到"
+    ],
+    "prompt": "小亚早上 7:50 出门，路上要走 35 分钟，她到校时是几点？如果学校 8:30 上课，她会迟到吗？",
+    "topicId": "hjm_g3a_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "星期二",
+    "difficulty": "medium",
+    "explanation": "15－1＝14 天，正好是 2 周，所以 9 月 15 日和 9 月 1 日是同一个星期几，都是星期二。",
+    "id": "hjm_g3a_u5_l2_q6",
+    "options": [
+      "星期二",
+      "星期三",
+      "星期一",
+      "星期四"
+    ],
+    "prompt": "2026 年 9 月 1 日是星期二，9 月 15 日是星期几？",
+    "topicId": "hjm_g3a_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "星期一或星期日",
+    "difficulty": "hard",
+    "explanation": "7 月有 31 天。1 号是星期一时，星期一是 1、8、15、22、29 号，共 5 个；1 号是星期日时，星期一是 2、9、16、23、30 号，也共 5 个。",
+    "id": "hjm_g3a_u5_l2_q7",
+    "options": [
+      "星期一或星期日",
+      "星期一",
+      "星期日",
+      "星期二"
+    ],
+    "prompt": "某年 7 月有 5 个星期一，这个月的 1 号可能是星期几？",
+    "topicId": "hjm_g3a_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "250",
+    "difficulty": "medium",
+    "explanation": "2 米＝200 厘米；另一根比它长 50 厘米，就是 200＋50＝250 厘米。",
+    "id": "hjm_g3a_u6_l1_q6",
+    "prompt": "一根跳绳长 2 米，另一根比它长 50 厘米，另一根长多少厘米？",
+    "topicId": "hjm_g3a_u6_l1",
+    "type": "numeric",
+    "verify": "2*100+50"
+  },
+  {
+    "answer": "1 米 30 厘米＝130 厘米＞1 米 3 厘米",
+    "difficulty": "hard",
+    "explanation": "1 米 30 厘米＝130 厘米，1 米 3 厘米＝103 厘米；所以 1 米 30 厘米和 130 厘米一样长，都比 1 米 3 厘米长。",
+    "id": "hjm_g3a_u6_l1_q7",
+    "options": [
+      "1 米 30 厘米＝130 厘米＞1 米 3 厘米",
+      "130 厘米＞1 米 30 厘米＞1 米 3 厘米",
+      "1 米 3 厘米＞130 厘米＞1 米 30 厘米",
+      "1 米 30 厘米＞1 米 3 厘米＞130 厘米"
+    ],
+    "prompt": "把 1 米 30 厘米、130 厘米、1 米 3 厘米按从长到短排列，哪一种排法正确？",
+    "topicId": "hjm_g3a_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "6",
+    "difficulty": "medium",
+    "explanation": "长方形周长＝（长＋宽）×2，所以长＋宽＝40÷2＝20 厘米；宽＝20－14＝6 厘米。",
+    "id": "hjm_g3a_u6_l2_q6",
+    "prompt": "一个长方形周长 40 厘米，长 14 厘米，宽是多少厘米？",
+    "topicId": "hjm_g3a_u6_l2",
+    "type": "numeric",
+    "verify": "40/2-14"
+  },
+  {
+    "answer": "24",
+    "difficulty": "hard",
+    "explanation": "4 个小正方形排成 2 行 2 列，拼成的大正方形边长是 3×2＝6 厘米，周长是 6×4＝24 厘米。",
+    "id": "hjm_g3a_u6_l2_q7",
+    "prompt": "用 4 个边长 3 厘米的正方形拼成一个大正方形，大正方形的周长是多少厘米？",
+    "topicId": "hjm_g3a_u6_l2",
+    "type": "numeric",
+    "verify": "(3*2)*4"
+  },
+  {
+    "answer": "1500",
+    "difficulty": "medium",
+    "explanation": "3 千米＝3000 米；已经走了 1500 米，还剩 3000－1500＝1500 米。",
+    "id": "hjm_g3a_u7_l1_q6",
+    "prompt": "从学校到公园 3 千米，小丁已经走了 1500 米，还剩多少米没走？",
+    "topicId": "hjm_g3a_u7_l1",
+    "type": "numeric",
+    "verify": "3*1000-1500"
+  },
+  {
+    "answer": "120 千米；120000 米",
+    "difficulty": "hard",
+    "explanation": "60×2＝120 千米；1 千米＝1000 米，120 千米＝120×1000＝120000 米。",
+    "id": "hjm_g3a_u7_l1_q7",
+    "options": [
+      "120 千米；120000 米",
+      "120 千米；12000 米",
+      "120 千米；1200 米",
+      "60 千米；60000 米"
+    ],
+    "prompt": "一辆汽车每小时行 60 千米，2 小时行多少千米？合多少米？",
+    "topicId": "hjm_g3a_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "3",
+    "difficulty": "medium",
+    "explanation": "42 千米，每小时跑 14 千米，42÷14＝3，大约 3 小时跑完。",
+    "id": "hjm_g3a_u7_l2_q6",
+    "prompt": "传说中士兵从马拉松跑到雅典报信，路程约 42 千米。如果他每小时跑 14 千米，大约几小时跑完？",
+    "topicId": "hjm_g3a_u7_l2",
+    "type": "numeric",
+    "verify": "42/14"
+  },
+  {
+    "answer": "33",
+    "difficulty": "hard",
+    "explanation": "2024－1896＝128 年；128÷4＝32 个间隔；加上第一届，到 2024 年是第 33 届。",
+    "id": "hjm_g3a_u7_l2_q7",
+    "prompt": "1896 年第一届现代奥运会举行马拉松比赛，奥运会每 4 年一届，到 2024 年是第几届？",
+    "topicId": "hjm_g3a_u7_l2",
+    "type": "numeric",
+    "verify": "(2024-1896)/4+1"
+  },
+  {
+    "answer": "13 千米；8 千米",
+    "difficulty": "medium",
+    "explanation": "一共跑了 4＋9＝13 千米；全程 21 千米，还剩 21－13＝8 千米。",
+    "id": "hjm_g3a_u7_l3_q6",
+    "options": [
+      "13 千米；8 千米",
+      "13 千米；9 千米",
+      "12 千米；8 千米",
+      "14 千米；8 千米"
+    ],
+    "prompt": "半程马拉松全程 21 千米，小丁跑了 4 千米后休息，又跑了 9 千米，他一共跑了多少千米？还剩多少千米？",
+    "topicId": "hjm_g3a_u7_l3",
+    "type": "choice"
+  },
+  {
+    "answer": "9、7、5",
+    "difficulty": "hard",
+    "explanation": "9＋7＋5＝21，三个数都是单数且各不相同；其他方案要么有双数，要么有重复的数。",
+    "id": "hjm_g3a_u7_l3_q7",
+    "options": [
+      "9、7、5",
+      "8、7、6",
+      "9、8、4",
+      "7、7、7"
+    ],
+    "prompt": "设计一条半程马拉松路线：把 21 千米分成 3 段，每段都是单数千米，且三段各不相同。下面哪种方案符合要求？",
+    "topicId": "hjm_g3a_u7_l3",
+    "type": "choice"
+  },
+  {
+    "answer": "4 倍",
+    "difficulty": "medium",
+    "explanation": "把最小的三角形看成 1 份，大三角形能拼出 4 个小三角形，所以大三角形的面积是小三角形的 4 倍。",
+    "id": "hjm_g3a_u8_l1_q6",
+    "options": [
+      "4 倍",
+      "2 倍",
+      "8 倍",
+      "1 倍"
+    ],
+    "prompt": "七巧板中最大的三角形和最小的三角形比，最大的面积是最小的几倍？",
+    "topicId": "hjm_g3a_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "一样大",
+    "difficulty": "hard",
+    "explanation": "正方形、平行四边形、中三角形都能由 2 个小三角形拼成，所以三块板的面积一样大。",
+    "id": "hjm_g3a_u8_l1_q7",
+    "options": [
+      "一样大",
+      "正方形最大",
+      "平行四边形最大",
+      "中三角形最大"
+    ],
+    "prompt": "七巧板中，正方形、平行四边形和中三角形的面积有什么关系？",
+    "topicId": "hjm_g3a_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "220",
+    "difficulty": "medium",
+    "explanation": "一面长边靠墙，篱笆围另外三边：12×2＋20＝44 米；每米 5 元，一共 44×5＝220 元。",
+    "id": "hjm_g3a_u8_l2_q6",
+    "prompt": "一块长方形菜地长 20 米，宽 12 米，一面长边靠墙，篱笆每米 5 元，围这块菜地一共要花多少元？",
+    "topicId": "hjm_g3a_u8_l2",
+    "type": "numeric",
+    "verify": "(12*2+20)*5"
+  },
+  {
+    "answer": "16",
+    "difficulty": "hard",
+    "explanation": "一面靠墙，篱笆围另外三边；正方形三条边都相等，48÷3＝16 米。",
+    "id": "hjm_g3a_u8_l2_q7",
+    "prompt": "用 48 米长的篱笆，一面靠墙围一个正方形菜地，菜地的边长是多少米？",
+    "topicId": "hjm_g3a_u8_l2",
+    "type": "numeric",
+    "verify": "48/3"
   }
 ]
