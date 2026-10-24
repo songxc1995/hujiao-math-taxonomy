@@ -3342,5 +3342,379 @@
   "term": "下",
   "unit": "问题解决",
   "unit_no": 5
+ },
+ {
+  "id": "hje_g1a_u0_l1",
+  "subject": "english",
+  "name": "准备课",
+  "grade": 1,
+  "term": "上",
+  "unit": "Starter",
+  "unit_no": 0,
+  "page": 2,
+  "kind": "活动",
+  "description": "英语课的准备课：认识新课本，跟着老师开口打招呼、听懂简单的课堂用语。",
+  "mastery": [
+   "能跟着老师说简单的打招呼用语",
+   "能听懂“请跟我读”“请坐下”这类简单指令",
+   "敢在课堂上开口说英语"
+  ]
+ },
+ {
+  "id": "hje_g1a_u1_l1",
+  "subject": "english",
+  "name": "分时段问候词",
+  "grade": 1,
+  "term": "上",
+  "unit": "Unit 1 Greetings",
+  "unit_no": 1,
+  "page": 5,
+  "kind": "概念",
+  "description": "早上、下午、晚上见面时不同的问候词：morning、afternoon、evening。",
+  "mastery": [
+   "能认读 morning、afternoon、evening",
+   "能分清三个词对应的时间段",
+   "见面时能按时间段选对问候词"
+  ]
+ },
+ {
+  "id": "hje_g1a_u1_l2",
+  "subject": "english",
+  "name": "问候与告别",
+  "grade": 1,
+  "term": "上",
+  "unit": "Unit 1 Greetings",
+  "unit_no": 1,
+  "page": 8,
+  "kind": "技能",
+  "description": "见面打招呼、告别的基本交际：Good morning!、Goodbye! 等。",
+  "mastery": [
+   "见面时能说 Good morning / Good afternoon / Good evening",
+   "告别时能说 Goodbye",
+   "能听懂别人的问候并回应"
+  ]
+ },
+ {
+  "id": "hje_g1a_u2_l1",
+  "subject": "english",
+  "name": "朋友与欢迎词",
+  "grade": 1,
+  "term": "上",
+  "unit": "Unit 2 New friends",
+  "unit_no": 2,
+  "page": 11,
+  "kind": "概念",
+  "description": "交朋友的词：hello、hi、friend、welcome、name。",
+  "mastery": [
+   "能认读 hello、hi、friend、welcome、name",
+   "知道 welcome 是“欢迎”的意思",
+   "能用 hello / hi 跟新朋友打招呼"
+  ]
+ },
+ {
+  "id": "hje_g1a_u2_l2",
+  "subject": "english",
+  "name": "自我介绍与问名字",
+  "grade": 1,
+  "term": "上",
+  "unit": "Unit 2 New friends",
+  "unit_no": 2,
+  "page": 14,
+  "kind": "技能",
+  "description": "介绍自己、问别人名字：I'm…、What's your name?",
+  "mastery": [
+   "能用 I'm… 说出自己的名字",
+   "能用 What's your name? 问别人的名字",
+   "别人问名字时能回答 I'm…"
+  ]
+ },
+ {
+  "id": "hje_g1a_u3_l1",
+  "subject": "english",
+  "name": "文具词汇",
+  "grade": 1,
+  "term": "上",
+  "unit": "Unit 3 My schoolbag",
+  "unit_no": 3,
+  "page": 17,
+  "kind": "概念",
+  "description": "书包里的文具词：schoolbag、book、pencil、ruler、eraser、pencil case。",
+  "mastery": [
+   "能认读 schoolbag、book、pencil、ruler、eraser、pencil case",
+   "能指着实物说出对应的文具词",
+   "能分清 pencil（铅笔）和 pencil case（铅笔盒）"
+  ]
+ },
+ {
+  "id": "hje_g1a_u3_l2",
+  "subject": "english",
+  "name": "谈论书包里有什么",
+  "grade": 1,
+  "term": "上",
+  "unit": "Unit 3 My schoolbag",
+  "unit_no": 3,
+  "page": 20,
+  "kind": "技能",
+  "description": "说说书包里有什么：用 I have…、What's in your schoolbag? 谈论物品。",
+  "mastery": [
+   "能用 I have a pencil. 说自己有什么文具",
+   "能听懂别人说书包里有什么",
+   "能问别人书包里有什么"
+  ]
+ },
+ {
+  "id": "hje_g1a_u4_l1",
+  "subject": "english",
+  "name": "教室物品词汇",
+  "grade": 1,
+  "term": "上",
+  "unit": "Unit 4 My classroom",
+  "unit_no": 4,
+  "page": 23,
+  "kind": "概念",
+  "description": "教室里的物品词：classroom、desk、door、chair、blackboard、floor。",
+  "mastery": [
+   "能认读 classroom、desk、door、chair、blackboard、floor",
+   "能指着教室里的物品说出对应的词",
+   "能分清 desk（课桌）和 chair（椅子）"
+  ]
+ },
+ {
+  "id": "hje_g1a_u4_l2",
+  "subject": "english",
+  "name": "值日与打扫教室",
+  "grade": 1,
+  "term": "上",
+  "unit": "Unit 4 My classroom",
+  "unit_no": 4,
+  "page": 26,
+  "kind": "技能",
+  "description": "值日和打扫：clean、on duty，以及 Who's on duty? 的问答。",
+  "mastery": [
+   "知道 clean 是“打扫”，on duty 是“值日”",
+   "能用 Who's on duty? 问今天谁值日",
+   "能听懂简单的打扫指令"
+  ]
+ },
+ {
+  "id": "hje_g1a_u5_l1",
+  "subject": "english",
+  "name": "五官词汇",
+  "grade": 1,
+  "term": "上",
+  "unit": "Unit 5 Lovely faces",
+  "unit_no": 5,
+  "page": 29,
+  "kind": "概念",
+  "description": "脸和五官词：face、eye、ear、nose、mouth。",
+  "mastery": [
+   "能认读 face、eye、ear、nose、mouth",
+   "能指着自己的五官说出对应的词",
+   "能分清 eye（眼睛）和 ear（耳朵）"
+  ]
+ },
+ {
+  "id": "hje_g1a_u5_l2",
+  "subject": "english",
+  "name": "介绍五官",
+  "grade": 1,
+  "term": "上",
+  "unit": "Unit 5 Lovely faces",
+  "unit_no": 5,
+  "page": 32,
+  "kind": "技能",
+  "description": "说说五官：This is my nose.、I have two eyes. 等。",
+  "mastery": [
+   "能用 This is my… 介绍自己的五官",
+   "能说 I have two eyes. / I have one nose.",
+   "能听懂别人介绍五官的句子"
+  ]
+ },
+ {
+  "id": "hje_g1a_u6_l1",
+  "subject": "english",
+  "name": "家庭成员词汇",
+  "grade": 1,
+  "term": "上",
+  "unit": "Unit 6 My family",
+  "unit_no": 6,
+  "page": 35,
+  "kind": "概念",
+  "description": "家庭成员词：family、mum、dad、brother、sister、me。",
+  "mastery": [
+   "能认读 family、mum、dad、brother、sister、me",
+   "能指着全家福说出每个成员的称呼",
+   "能分清 mum（妈妈）和 dad（爸爸）"
+  ]
+ },
+ {
+  "id": "hje_g1a_u6_l2",
+  "subject": "english",
+  "name": "介绍家人",
+  "grade": 1,
+  "term": "上",
+  "unit": "Unit 6 My family",
+  "unit_no": 6,
+  "page": 38,
+  "kind": "技能",
+  "description": "介绍家人、问是谁：This is my mum.、Who is he? 等。",
+  "mastery": [
+   "能用 This is my mum / dad. 介绍家人",
+   "能用 Who is he / she? 问照片上是谁",
+   "能听懂别人的家人介绍"
+  ]
+ },
+ {
+  "id": "hje_g1a_u6_l3",
+  "subject": "english",
+  "name": "情感词",
+  "grade": 1,
+  "term": "上",
+  "unit": "Unit 6 My family",
+  "unit_no": 6,
+  "page": 35,
+  "kind": "概念",
+  "description": "表达感情的词：love、warm、happy，以及 I love my family. 这样的句子。",
+  "mastery": [
+   "能认读 love、warm、happy",
+   "知道 love 是“爱”，happy 是“高兴”",
+   "能说 I love my family. 表达对家人的爱"
+  ]
+ },
+ {
+  "id": "hje_g1a_u7_l1",
+  "subject": "english",
+  "name": "动物词汇",
+  "grade": 1,
+  "term": "上",
+  "unit": "Unit 7 Animals in our lives",
+  "unit_no": 7,
+  "page": 41,
+  "kind": "概念",
+  "description": "身边动物的词：animal、horse、dog、hen、bee、cat。",
+  "mastery": [
+   "能认读 animal、horse、dog、hen、bee、cat",
+   "能看着图片说出动物的英语词",
+   "能分清 hen（母鸡）和 bee（蜜蜂）"
+  ]
+ },
+ {
+  "id": "hje_g1a_u7_l2",
+  "subject": "english",
+  "name": "介绍动物",
+  "grade": 1,
+  "term": "上",
+  "unit": "Unit 7 Animals in our lives",
+  "unit_no": 7,
+  "page": 44,
+  "kind": "技能",
+  "description": "介绍动物、说动物能帮什么忙：This is a dog.、Horses help us. 等。",
+  "mastery": [
+   "能用 This is a… 介绍一种动物",
+   "能说出动物对人的帮助",
+   "能听懂别人介绍动物的句子"
+  ]
+ },
+ {
+  "id": "hje_g1a_u8_l1",
+  "subject": "english",
+  "name": "故事动作短语",
+  "grade": 1,
+  "term": "上",
+  "unit": "Unit 8 Have a go!",
+  "unit_no": 8,
+  "page": 47,
+  "kind": "概念",
+  "description": "故事里的动作短语：fly away、come back、flap wings，以及 bird、hill。",
+  "mastery": [
+   "能认读 bird、hill、fly away、come back、flap wings",
+   "知道 fly away 是“飞走”，come back 是“回来”",
+   "能跟着故事表演出 flap wings（扇动翅膀）"
+  ]
+ },
+ {
+  "id": "hje_g1a_u8_l2",
+  "subject": "english",
+  "name": "故事表演",
+  "grade": 1,
+  "term": "上",
+  "unit": "Unit 8 Have a go!",
+  "unit_no": 8,
+  "page": 50,
+  "kind": "活动",
+  "description": "把故事演出来：跟着 Two little blackbirds 唱一唱、演一演，敢开口说英语。",
+  "mastery": [
+   "能跟着唱 Two little blackbirds",
+   "能边说边表演故事里的动作",
+   "敢在大家面前开口说英语"
+  ]
+ },
+ {
+  "id": "hje_g1a_u9_l1",
+  "subject": "english",
+  "name": "生活技能动作",
+  "grade": 1,
+  "term": "上",
+  "unit": "Unit 9 Yes, I can!",
+  "unit_no": 9,
+  "page": 53,
+  "kind": "概念",
+  "description": "自己会做的事：wash、tie shoelaces、take a photo。",
+  "mastery": [
+   "能认读 wash、tie shoelaces、take a photo",
+   "能用动作表示 wash（洗）和 take a photo（拍照）",
+   "能说出自己会做的一件小事"
+  ]
+ },
+ {
+  "id": "hje_g1a_u9_l2",
+  "subject": "english",
+  "name": "用 can 说会做的事",
+  "grade": 1,
+  "term": "上",
+  "unit": "Unit 9 Yes, I can!",
+  "unit_no": 9,
+  "page": 56,
+  "kind": "技能",
+  "description": "用 can 说能力：I can wash.、Yes, I can!、No, I can't.",
+  "mastery": [
+   "能用 I can… 说自己会做的事",
+   "别人问 Can you…? 时能答 Yes, I can! 或 No, I can't.",
+   "能分清 can（会）和 can't（不会）"
+  ]
+ },
+ {
+  "id": "hje_g1a_u10_l1",
+  "subject": "english",
+  "name": "数字 1–6",
+  "grade": 1,
+  "term": "上",
+  "unit": "Unit 10 Fun numbers",
+  "unit_no": 10,
+  "page": 59,
+  "kind": "概念",
+  "description": "数字词 one、two、three、four、five、six。",
+  "mastery": [
+   "能认读 one 到 six",
+   "能按顺序数 1 到 6",
+   "能看着几个物品说出对应的数字词"
+  ]
+ },
+ {
+  "id": "hje_g1a_u10_l2",
+  "subject": "english",
+  "name": "数数与问数量",
+  "grade": 1,
+  "term": "上",
+  "unit": "Unit 10 Fun numbers",
+  "unit_no": 10,
+  "page": 62,
+  "kind": "技能",
+  "description": "数一数、问数量：How many…? 以及操场上的数数活动。",
+  "mastery": [
+   "能用 How many…? 问有几个",
+   "能数出图上物品的数量并用英语说出来",
+   "别人问数量时能用数字词回答"
+  ]
  }
 ]

@@ -11384,9 +11384,9 @@
   "topicId": "hjm_g4a_u1_l5",
   "difficulty": "hard",
   "type": "text",
-  "prompt": "请写出一个比1/3大、又比1/2小的分数，并说明理由。",
-  "answer": "2/5",
-  "explanation": "1/3约等于0.33，1/2等于0.5，2/5等于0.4，0.33＜0.4＜0.5，所以2/5比1/3大、比1/2小，符合要求。只要写出的分数落在1/3和1/2之间都算对。"
+  "prompt": "请写出一个分母是10、比1/3大又比1/2小的分数。",
+  "answer": "4/10",
+  "explanation": "4/10等于0.4，1/3约等于0.33，1/2等于0.5，0.33＜0.4＜0.5，所以4/10比1/3大、比1/2小；分母是10时只有4/10符合要求。"
  },
  {
   "id": "hjm_g4a_u2_l1_q1",
@@ -11694,9 +11694,9 @@
   "topicId": "hjm_g4a_u3_l3",
   "difficulty": "medium",
   "type": "text",
-  "prompt": "请借助分数墙写出一个与1/3相等的分数，并说明你是怎么找到的。",
+  "prompt": "请借助分数墙写出一个分母是6、与1/3相等的分数，并说明你是怎么找到的。",
   "answer": "2/6",
-  "explanation": "在分数墙上找到1/3那一格，再看下面1/6那一行，两个1/6拼起来正好和1/3一样长，所以1/3＝2/6。"
+  "explanation": "在分数墙上找到1/3那一格，再看下面1/6那一行，两个1/6拼起来正好和1/3一样长，所以1/3＝2/6；分母是6时只有2/6符合要求。"
  },
  {
   "id": "hjm_g4a_u3_l3_q3",
@@ -13087,8 +13087,8 @@
   "difficulty": "hard",
   "type": "choice",
   "prompt": "小方算 3.6×9.9 时写成 3.6×10－3.6，这种算法对吗？",
-  "answer": "正确",
-  "explanation": "正确。9.9 比 10 少 1，把 9.9 看成 10－1，用分配律展开就是 3.6×10－3.6×1＝36－3.6＝32.4。",
+  "answer": "不正确，结果偏小",
+  "explanation": "不正确。9.9 比 10 少 0.1，不是少 1；正确拆法是 3.6×9.9＝3.6×10－3.6×0.1＝36－0.36＝35.64，而小方的算法得 32.4，结果偏小。",
   "options": [
    "正确",
    "不正确，结果偏大",
@@ -13193,7 +13193,7 @@
   "type": "text",
   "prompt": "5÷6 的商用循环小数的知识写出来，并指出它的循环节。",
   "answer": "商是 0.8333……，循环节是 3",
-  "explanation": "5÷6＝0.8333……，从十分位起数字 3 不断重复，所以循环节是 3，简便写法是 0.8 上面 3 带循环点。"
+  "explanation": "5÷6＝0.8333……，十分位是 8，从百分位起数字 3 不断重复，所以循环节是 3。"
  },
  {
   "id": "hjm_g5a_u2_l8_q1",
@@ -14193,7 +14193,7 @@
  {
   "answer": "74",
   "difficulty": "hard",
-  "explanation": "无盖的盒子只有 5 个面：底面 5×4=20 平方厘米，四个侧面是 (5×3+4×3)×2=54 平方厘米，合起来 20+54=74 平方厘米。容易错的是按 6 个面算，那样会多算一个上面。",
+  "explanation": "无盖的盒子只有 5 个面：底面 5×4=20 平方分米，四个侧面是 (5×3+4×3)×2=54 平方分米，合起来 20+54=74 平方分米。容易错的是按 6 个面算，那样会多算一个上面。",
   "id": "hjm_g5b_u4_l5_q3",
   "options": [
    "74",
@@ -14441,5 +14441,7295 @@
   "prompt": "袋子里有 8 个红球、2 个蓝球，每次摸一个后放回，一共摸 20 次，大约有几次摸到红球？",
   "topicId": "hjm_g5b_u5_l6",
   "type": "choice"
+ },
+ {
+  "id": "hje_g1a_u0_l1_q1",
+  "topicId": "hje_g1a_u0_l1",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "课堂上，老师用英语跟大家打招呼，小朋友应该先做什么？",
+  "options": [
+   "开口跟着说",
+   "捂住耳朵",
+   "转过身去"
+  ],
+  "answer": "开口跟着说",
+  "explanation": "英语课要敢开口，跟着老师说。"
+ },
+ {
+  "id": "hje_g1a_u0_l1_q2",
+  "topicId": "hje_g1a_u0_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "老师说“Listen.”（听），小朋友应该怎么做？",
+  "options": [
+   "认真听老师说话",
+   "大声说话",
+   "离开座位"
+  ],
+  "answer": "认真听老师说话",
+  "explanation": "Listen 是“听”的意思，要安静认真听。"
+ },
+ {
+  "id": "hje_g1a_u0_l1_q3",
+  "topicId": "hje_g1a_u0_l1",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "下面哪种做法最适合英语准备课？",
+  "options": [
+   "大声跟着读，不怕读错",
+   "怕读错就不开口",
+   "只看不读"
+  ],
+  "answer": "大声跟着读，不怕读错",
+  "explanation": "准备课就是练开口的，读错没关系，多说才会越说越好。"
+ },
+ {
+  "id": "hje_g1a_u1_l1_q1",
+  "topicId": "hje_g1a_u1_l1",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "“早上”的英语单词是？",
+  "options": [
+   "morning",
+   "afternoon",
+   "evening"
+  ],
+  "answer": "morning",
+  "explanation": "morning 是早上，afternoon 是下午，evening 是晚上。"
+ },
+ {
+  "id": "hje_g1a_u1_l1_q2",
+  "topicId": "hje_g1a_u1_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "下午见到同学，应该说？",
+  "options": [
+   "Good afternoon!",
+   "Good morning!",
+   "Good evening!"
+  ],
+  "answer": "Good afternoon!",
+  "explanation": "下午用 afternoon，问候语是 Good afternoon。"
+ },
+ {
+  "id": "hje_g1a_u1_l1_q3",
+  "topicId": "hje_g1a_u1_l1",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "下面哪个单词拼写正确，表示“晚上”？",
+  "options": [
+   "evening",
+   "evning",
+   "evenig"
+  ],
+  "answer": "evening",
+  "explanation": "evening 拼写是 e-v-e-n-i-n-g，少字母或换顺序都不对。"
+ },
+ {
+  "id": "hje_g1a_u1_l2_q1",
+  "topicId": "hje_g1a_u1_l2",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "放学跟老师告别，应该说？",
+  "options": [
+   "Goodbye!",
+   "Hello!",
+   "Good morning!"
+  ],
+  "answer": "Goodbye!",
+  "explanation": "告别说 Goodbye；Hello 是见面打招呼。"
+ },
+ {
+  "id": "hje_g1a_u1_l2_q2",
+  "topicId": "hje_g1a_u1_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "早上小明见到老师说 Good morning，老师会怎么回应？",
+  "options": [
+   "Good morning!",
+   "Goodbye!",
+   "Good night!"
+  ],
+  "answer": "Good morning!",
+  "explanation": "早上问候要回同样的早上问候。"
+ },
+ {
+  "id": "hje_g1a_u1_l2_q3",
+  "topicId": "hje_g1a_u1_l2",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "下面哪句是正确的告别？",
+  "options": [
+   "Goodbye, Miss Li!",
+   "Hello, Miss Li!",
+   "Good morning, Miss Li!"
+  ],
+  "answer": "Goodbye, Miss Li!",
+  "explanation": "告别用 Goodbye，后两句是见面打招呼。"
+ },
+ {
+  "id": "hje_g1a_u2_l1_q1",
+  "topicId": "hje_g1a_u2_l1",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "“朋友”的英语单词是？",
+  "options": [
+   "friend",
+   "name",
+   "welcome"
+  ],
+  "answer": "friend",
+  "explanation": "friend 是朋友，name 是名字，welcome 是欢迎。"
+ },
+ {
+  "id": "hje_g1a_u2_l1_q2",
+  "topicId": "hje_g1a_u2_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "新朋友来了，小朋友想表示欢迎，应该说？",
+  "options": [
+   "Welcome!",
+   "Goodbye!",
+   "Sit down!"
+  ],
+  "answer": "Welcome!",
+  "explanation": "Welcome 是欢迎；Goodbye 是告别。"
+ },
+ {
+  "id": "hje_g1a_u2_l1_q3",
+  "topicId": "hje_g1a_u2_l1",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "下面哪个单词表示“名字”？",
+  "options": [
+   "name",
+   "neme",
+   "mane"
+  ],
+  "answer": "name",
+  "explanation": "name 拼写是 n-a-m-e，不要跟 mane 或错拼混淆。"
+ },
+ {
+  "id": "hje_g1a_u2_l2_q1",
+  "topicId": "hje_g1a_u2_l2",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "小明想告诉新朋友自己叫 Xiaoming，他应该说？",
+  "options": [
+   "I'm Xiaoming.",
+   "You're Xiaoming.",
+   "He's Xiaoming."
+  ],
+  "answer": "I'm Xiaoming.",
+  "explanation": "介绍自己用 I'm…；You're 是“你是”，He's 是“他是”。"
+ },
+ {
+  "id": "hje_g1a_u2_l2_q2",
+  "topicId": "hje_g1a_u2_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "小红想问新朋友叫什么名字，她应该问？",
+  "options": [
+   "What's your name?",
+   "How old are you?",
+   "Where are you?"
+  ],
+  "answer": "What's your name?",
+  "explanation": "问名字用 What's your name?；How old 问年龄，Where 问地点。"
+ },
+ {
+  "id": "hje_g1a_u2_l2_q3",
+  "topicId": "hje_g1a_u2_l2",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "新朋友问你 What's your name?，你叫 Lily，应该回答？",
+  "options": [
+   "I'm Lily.",
+   "I'm a girl.",
+   "I'm six."
+  ],
+  "answer": "I'm Lily.",
+  "explanation": "问名字就答名字；I'm six 答的是年龄，不对题。"
+ },
+ {
+  "id": "hje_g1a_u3_l1_q1",
+  "topicId": "hje_g1a_u3_l1",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "“铅笔”的英语单词是？",
+  "options": [
+   "pencil",
+   "ruler",
+   "book"
+  ],
+  "answer": "pencil",
+  "explanation": "pencil 是铅笔，ruler 是尺子，book 是书。"
+ },
+ {
+  "id": "hje_g1a_u3_l1_q2",
+  "topicId": "hje_g1a_u3_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "装铅笔、橡皮的盒子叫？",
+  "options": [
+   "pencil case",
+   "schoolbag",
+   "desk"
+  ],
+  "answer": "pencil case",
+  "explanation": "pencil case 是铅笔盒；schoolbag 是书包；desk 是课桌。"
+ },
+ {
+  "id": "hje_g1a_u3_l1_q3",
+  "topicId": "hje_g1a_u3_l1",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "下面哪个单词表示“橡皮”？",
+  "options": [
+   "eraser",
+   "easrer",
+   "erasr"
+  ],
+  "answer": "eraser",
+  "explanation": "eraser 拼写是 e-r-a-s-e-r，注意中间的 s。"
+ },
+ {
+  "id": "hje_g1a_u3_l2_q1",
+  "topicId": "hje_g1a_u3_l2",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "小明想说“我有一支铅笔”，应该说？",
+  "options": [
+   "I have a pencil.",
+   "I have a book.",
+   "I have a ruler."
+  ],
+  "answer": "I have a pencil.",
+  "explanation": "I have… 是“我有…”，pencil 是铅笔。"
+ },
+ {
+  "id": "hje_g1a_u3_l2_q2",
+  "topicId": "hje_g1a_u3_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "小红问同学书包里有什么，她可以问？",
+  "options": [
+   "What's in your schoolbag?",
+   "What's your name?",
+   "How are you?"
+  ],
+  "answer": "What's in your schoolbag?",
+  "explanation": "问书包里有什么用 What's in your schoolbag?。"
+ },
+ {
+  "id": "hje_g1a_u3_l2_q3",
+  "topicId": "hje_g1a_u3_l2",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "同学说 I have an eraser.，意思是他有什么？",
+  "options": [
+   "一块橡皮",
+   "一支铅笔",
+   "一把尺子"
+  ],
+  "answer": "一块橡皮",
+  "explanation": "eraser 是橡皮，an eraser 就是一块橡皮。"
+ },
+ {
+  "id": "hje_g1a_u4_l1_q1",
+  "topicId": "hje_g1a_u4_l1",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "“课桌”的英语单词是？",
+  "options": [
+   "desk",
+   "chair",
+   "door"
+  ],
+  "answer": "desk",
+  "explanation": "desk 是课桌，chair 是椅子，door 是门。"
+ },
+ {
+  "id": "hje_g1a_u4_l1_q2",
+  "topicId": "hje_g1a_u4_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "老师写字用的黑板是？",
+  "options": [
+   "blackboard",
+   "floor",
+   "classroom"
+  ],
+  "answer": "blackboard",
+  "explanation": "blackboard 是黑板；floor 是地板；classroom 是教室。"
+ },
+ {
+  "id": "hje_g1a_u4_l1_q3",
+  "topicId": "hje_g1a_u4_l1",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "下面哪个单词表示“椅子”？",
+  "options": [
+   "chair",
+   "chari",
+   "chiar"
+  ],
+  "answer": "chair",
+  "explanation": "chair 拼写是 c-h-a-i-r，注意 a 和 i 的顺序。"
+ },
+ {
+  "id": "hje_g1a_u4_l2_q1",
+  "topicId": "hje_g1a_u4_l2",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "“打扫”的英语单词是？",
+  "options": [
+   "clean",
+   "door",
+   "floor"
+  ],
+  "answer": "clean",
+  "explanation": "clean 是打扫；door 是门；floor 是地板。"
+ },
+ {
+  "id": "hje_g1a_u4_l2_q2",
+  "topicId": "hje_g1a_u4_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "想问今天谁值日，应该问？",
+  "options": [
+   "Who's on duty?",
+   "What's your name?",
+   "How are you?"
+  ],
+  "answer": "Who's on duty?",
+  "explanation": "问谁值日用 Who's on duty?，on duty 就是值日。"
+ },
+ {
+  "id": "hje_g1a_u4_l2_q3",
+  "topicId": "hje_g1a_u4_l2",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "老师说 Clean the blackboard.，是让大家做什么？",
+  "options": [
+   "擦黑板",
+   "开门",
+   "扫地"
+  ],
+  "answer": "擦黑板",
+  "explanation": "Clean the blackboard 是擦黑板；clean 是打扫，blackboard 是黑板。"
+ },
+ {
+  "id": "hje_g1a_u5_l1_q1",
+  "topicId": "hje_g1a_u5_l1",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "“眼睛”的英语单词是？",
+  "options": [
+   "eye",
+   "ear",
+   "nose"
+  ],
+  "answer": "eye",
+  "explanation": "eye 是眼睛，ear 是耳朵，nose 是鼻子。"
+ },
+ {
+  "id": "hje_g1a_u5_l1_q2",
+  "topicId": "hje_g1a_u5_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "小朋友指着自己的鼻子，应该说？",
+  "options": [
+   "nose",
+   "mouth",
+   "face"
+  ],
+  "answer": "nose",
+  "explanation": "nose 是鼻子；mouth 是嘴巴；face 是脸。"
+ },
+ {
+  "id": "hje_g1a_u5_l1_q3",
+  "topicId": "hje_g1a_u5_l1",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "下面哪个单词表示“耳朵”？",
+  "options": [
+   "ear",
+   "eye",
+   "are"
+  ],
+  "answer": "ear",
+  "explanation": "ear 是耳朵；eye 是眼睛；are 是“是”，不是身体部位。"
+ },
+ {
+  "id": "hje_g1a_u5_l2_q1",
+  "topicId": "hje_g1a_u5_l2",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "想介绍“这是我的鼻子”，应该说？",
+  "options": [
+   "This is my nose.",
+   "This is my eye.",
+   "This is my ear."
+  ],
+  "answer": "This is my nose.",
+  "explanation": "This is my… 是“这是我的…”，nose 是鼻子。"
+ },
+ {
+  "id": "hje_g1a_u5_l2_q2",
+  "topicId": "hje_g1a_u5_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "小明想说“我有两只眼睛”，应该说？",
+  "options": [
+   "I have two eyes.",
+   "I have one eye.",
+   "I have two ears."
+  ],
+  "answer": "I have two eyes.",
+  "explanation": "两只眼睛是 two eyes；one eye 是一只眼睛。"
+ },
+ {
+  "id": "hje_g1a_u5_l2_q3",
+  "topicId": "hje_g1a_u5_l2",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "同学说 I have one mouth.，意思是？",
+  "options": [
+   "我有一张嘴",
+   "我有一只眼睛",
+   "我有两个鼻子"
+  ],
+  "answer": "我有一张嘴",
+  "explanation": "one mouth 是一张嘴；mouth 是嘴巴。"
+ },
+ {
+  "id": "hje_g1a_u6_l1_q1",
+  "topicId": "hje_g1a_u6_l1",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "“妈妈”的英语单词是？",
+  "options": [
+   "mum",
+   "dad",
+   "sister"
+  ],
+  "answer": "mum",
+  "explanation": "mum 是妈妈，dad 是爸爸，sister 是姐姐或妹妹。"
+ },
+ {
+  "id": "hje_g1a_u6_l1_q2",
+  "topicId": "hje_g1a_u6_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "全家人一起的词是？",
+  "options": [
+   "family",
+   "brother",
+   "me"
+  ],
+  "answer": "family",
+  "explanation": "family 是家庭；brother 是哥哥或弟弟；me 是我。"
+ },
+ {
+  "id": "hje_g1a_u6_l1_q3",
+  "topicId": "hje_g1a_u6_l1",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "下面哪个词表示“姐姐或妹妹”？",
+  "options": [
+   "sister",
+   "siste",
+   "sistre"
+  ],
+  "answer": "sister",
+  "explanation": "sister 拼写是 s-i-s-t-e-r，注意不要漏掉 t。"
+ },
+ {
+  "id": "hje_g1a_u6_l2_q1",
+  "topicId": "hje_g1a_u6_l2",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "想介绍“这是我妈妈”，应该说？",
+  "options": [
+   "This is my mum.",
+   "This is my dad.",
+   "This is my sister."
+  ],
+  "answer": "This is my mum.",
+  "explanation": "This is my mum 是“这是我妈妈”。"
+ },
+ {
+  "id": "hje_g1a_u6_l2_q2",
+  "topicId": "hje_g1a_u6_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "看照片想问“他是谁”，应该问？",
+  "options": [
+   "Who is he?",
+   "Who is she?",
+   "What's your name?"
+  ],
+  "answer": "Who is he?",
+  "explanation": "问男性用 Who is he?；问女性用 Who is she?。"
+ },
+ {
+  "id": "hje_g1a_u6_l2_q3",
+  "topicId": "hje_g1a_u6_l2",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "同学指着照片说 This is my brother.，照片上是他的？",
+  "options": [
+   "哥哥或弟弟",
+   "姐姐或妹妹",
+   "爸爸"
+  ],
+  "answer": "哥哥或弟弟",
+  "explanation": "brother 是哥哥或弟弟；sister 才是姐姐或妹妹。"
+ },
+ {
+  "id": "hje_g1a_u6_l3_q1",
+  "topicId": "hje_g1a_u6_l3",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "“爱”的英语单词是？",
+  "options": [
+   "love",
+   "happy",
+   "warm"
+  ],
+  "answer": "love",
+  "explanation": "love 是爱；happy 是高兴；warm 是温暖。"
+ },
+ {
+  "id": "hje_g1a_u6_l3_q2",
+  "topicId": "hje_g1a_u6_l3",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "小朋友想说“我爱我的家人”，应该说？",
+  "options": [
+   "I love my family.",
+   "I love my school.",
+   "I love my dog."
+  ],
+  "answer": "I love my family.",
+  "explanation": "I love my family 是“我爱我的家人”。"
+ },
+ {
+  "id": "hje_g1a_u6_l3_q3",
+  "topicId": "hje_g1a_u6_l3",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "下面哪个词表示“高兴”？",
+  "options": [
+   "happy",
+   "happpy",
+   "hapyp"
+  ],
+  "answer": "happy",
+  "explanation": "happy 拼写是 h-a-p-p-y，注意 p 要双写。"
+ },
+ {
+  "id": "hje_g1a_u7_l1_q1",
+  "topicId": "hje_g1a_u7_l1",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "“小狗”的英语单词是？",
+  "options": [
+   "dog",
+   "cat",
+   "hen"
+  ],
+  "answer": "dog",
+  "explanation": "dog 是狗，cat 是猫，hen 是母鸡。"
+ },
+ {
+  "id": "hje_g1a_u7_l1_q2",
+  "topicId": "hje_g1a_u7_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "农场里会下蛋的家禽是？",
+  "options": [
+   "hen",
+   "bee",
+   "horse"
+  ],
+  "answer": "hen",
+  "explanation": "hen 是母鸡；bee 是蜜蜂；horse 是马。"
+ },
+ {
+  "id": "hje_g1a_u7_l1_q3",
+  "topicId": "hje_g1a_u7_l1",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "下面哪个单词表示“蜜蜂”？",
+  "options": [
+   "bee",
+   "be",
+   "been"
+  ],
+  "answer": "bee",
+  "explanation": "bee 拼写是 b-e-e，两个 e；be 是“是”，意思不同。"
+ },
+ {
+  "id": "hje_g1a_u7_l2_q1",
+  "topicId": "hje_g1a_u7_l2",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "想介绍“这是一只猫”，应该说？",
+  "options": [
+   "This is a cat.",
+   "This is a dog.",
+   "This is a hen."
+  ],
+  "answer": "This is a cat.",
+  "explanation": "This is a… 是“这是一只…”，cat 是猫。"
+ },
+ {
+  "id": "hje_g1a_u7_l2_q2",
+  "topicId": "hje_g1a_u7_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "小明想说“马对我们有帮助”，可以说？",
+  "options": [
+   "Horses help us.",
+   "Horses fly away.",
+   "Horses are happy."
+  ],
+  "answer": "Horses help us.",
+  "explanation": "help us 是帮助我们；fly away 是飞走，不合题意。"
+ },
+ {
+  "id": "hje_g1a_u7_l2_q3",
+  "topicId": "hje_g1a_u7_l2",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "同学说 This is a horse.，他介绍的是？",
+  "options": [
+   "一匹马",
+   "一只狗",
+   "一只猫"
+  ],
+  "answer": "一匹马",
+  "explanation": "horse 是马；dog 是狗；cat 是猫。"
+ },
+ {
+  "id": "hje_g1a_u8_l1_q1",
+  "topicId": "hje_g1a_u8_l1",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "“飞走”的英语短语是？",
+  "options": [
+   "fly away",
+   "come back",
+   "flap wings"
+  ],
+  "answer": "fly away",
+  "explanation": "fly away 是飞走；come back 是回来；flap wings 是扇动翅膀。"
+ },
+ {
+  "id": "hje_g1a_u8_l1_q2",
+  "topicId": "hje_g1a_u8_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "小鸟扇动翅膀，应该说？",
+  "options": [
+   "flap wings",
+   "fly away",
+   "come back"
+  ],
+  "answer": "flap wings",
+  "explanation": "flap wings 是扇动翅膀；fly away 是飞走。"
+ },
+ {
+  "id": "hje_g1a_u8_l1_q3",
+  "topicId": "hje_g1a_u8_l1",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "故事里小鸟飞走了又回来了，“回来”是？",
+  "options": [
+   "come back",
+   "come bake",
+   "com back"
+  ],
+  "answer": "come back",
+  "explanation": "come back 拼写是 c-o-m-e b-a-c-k，不要漏掉 e。"
+ },
+ {
+  "id": "hje_g1a_u8_l2_q1",
+  "topicId": "hje_g1a_u8_l2",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "表演故事时，小朋友应该？",
+  "options": [
+   "边说边做动作",
+   "一动不动站着",
+   "背对大家"
+  ],
+  "answer": "边说边做动作",
+  "explanation": "故事表演要边说边演，动作帮助大家听懂故事。"
+ },
+ {
+  "id": "hje_g1a_u8_l2_q2",
+  "topicId": "hje_g1a_u8_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "唱 Two little blackbirds 时，两只小黑鸟飞走了，应该表演？",
+  "options": [
+   "张开手臂做飞走的动作",
+   "坐下不动",
+   "捂住眼睛"
+  ],
+  "answer": "张开手臂做飞走的动作",
+  "explanation": "飞走要表演出翅膀飞起来的样子。"
+ },
+ {
+  "id": "hje_g1a_u8_l2_q3",
+  "topicId": "hje_g1a_u8_l2",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "下面哪种表演最适合 You can do it!（你能行！）这个故事？",
+  "options": [
+   "大声自信地说出来，配上加油的动作",
+   "小声说，低着头",
+   "一言不发"
+  ],
+  "answer": "大声自信地说出来，配上加油的动作",
+  "explanation": "You can do it 是鼓励自己，要自信大声，配上加油动作。"
+ },
+ {
+  "id": "hje_g1a_u9_l1_q1",
+  "topicId": "hje_g1a_u9_l1",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "“洗”的英语单词是？",
+  "options": [
+   "wash",
+   "tie",
+   "take"
+  ],
+  "answer": "wash",
+  "explanation": "wash 是洗；tie 是系；take 是拿或拍。"
+ },
+ {
+  "id": "hje_g1a_u9_l1_q2",
+  "topicId": "hje_g1a_u9_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "系鞋带应该说？",
+  "options": [
+   "tie shoelaces",
+   "take a photo",
+   "wash hands"
+  ],
+  "answer": "tie shoelaces",
+  "explanation": "tie shoelaces 是系鞋带；take a photo 是拍照。"
+ },
+ {
+  "id": "hje_g1a_u9_l1_q3",
+  "topicId": "hje_g1a_u9_l1",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "下面哪个短语表示“拍照”？",
+  "options": [
+   "take a photo",
+   "take a poto",
+   "tack a photo"
+  ],
+  "answer": "take a photo",
+  "explanation": "take a photo 拼写注意 photo 的 ph，不要写成 poto 或 tack。"
+ },
+ {
+  "id": "hje_g1a_u9_l2_q1",
+  "topicId": "hje_g1a_u9_l2",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "小明想说“我会洗手”，应该说？",
+  "options": [
+   "I can wash.",
+   "I can fly.",
+   "I can't wash."
+  ],
+  "answer": "I can wash.",
+  "explanation": "I can… 是“我会…”，wash 是洗；can't 是不会。"
+ },
+ {
+  "id": "hje_g1a_u9_l2_q2",
+  "topicId": "hje_g1a_u9_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "别人问 Can you tie shoelaces?（你会系鞋带吗？），小明会系，应该答？",
+  "options": [
+   "Yes, I can!",
+   "No, I can't.",
+   "I'm six."
+  ],
+  "answer": "Yes, I can!",
+  "explanation": "会就答 Yes, I can!；不会才答 No, I can't.。"
+ },
+ {
+  "id": "hje_g1a_u9_l2_q3",
+  "topicId": "hje_g1a_u9_l2",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "小红不会拍照，她应该说？",
+  "options": [
+   "I can't take a photo.",
+   "I can take a photo.",
+   "I take a photo."
+  ],
+  "answer": "I can't take a photo.",
+  "explanation": "不会用 can't；can 是会，意思正好相反。"
+ },
+ {
+  "id": "hje_g1a_u10_l1_q1",
+  "topicId": "hje_g1a_u10_l1",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "数字“3”的英语单词是？",
+  "options": [
+   "three",
+   "two",
+   "four"
+  ],
+  "answer": "three",
+  "explanation": "three 是 3；two 是 2；four 是 4。"
+ },
+ {
+  "id": "hje_g1a_u10_l1_q2",
+  "topicId": "hje_g1a_u10_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "数数：one, two, three, 接下来是？",
+  "options": [
+   "four",
+   "five",
+   "six"
+  ],
+  "answer": "four",
+  "explanation": "1 到 6 的顺序是 one, two, three, four, five, six。"
+ },
+ {
+  "id": "hje_g1a_u10_l1_q3",
+  "topicId": "hje_g1a_u10_l1",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "下面哪个单词表示“6”？",
+  "options": [
+   "six",
+   "sxi",
+   "sicks"
+  ],
+  "answer": "six",
+  "explanation": "six 拼写是 s-i-x，注意 i 和 x 的顺序。"
+ },
+ {
+  "id": "hje_g1a_u10_l2_q1",
+  "topicId": "hje_g1a_u10_l2",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "想问“有几个苹果”，应该问？",
+  "options": [
+   "How many apples?",
+   "What's your name?",
+   "How are you?"
+  ],
+  "answer": "How many apples?",
+  "explanation": "问数量用 How many…?。"
+ },
+ {
+  "id": "hje_g1a_u10_l2_q2",
+  "topicId": "hje_g1a_u10_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "图上有 5 个球，小明应该说？",
+  "options": [
+   "five balls",
+   "four balls",
+   "six balls"
+  ],
+  "answer": "five balls",
+  "explanation": "5 是 five；four 是 4；six 是 6。"
+ },
+ {
+  "id": "hje_g1a_u10_l2_q3",
+  "topicId": "hje_g1a_u10_l2",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "同学问 How many pencils?，你数出 4 支，应该答？",
+  "options": [
+   "Four pencils.",
+   "Five pencils.",
+   "Three pencils."
+  ],
+  "answer": "Four pencils.",
+  "explanation": "数出 4 支就答 Four pencils；five 是 5，three 是 3。"
+ },
+ {
+  "id": "hjm_g4a_u1_l1_q4",
+  "topicId": "hjm_g4a_u1_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "仓库原有7200袋大米，上午运出2846袋，下午又运进1975袋，现在仓库里有多少袋大米？",
+  "answer": "6329",
+  "explanation": "先算上午运出后剩下 7200－2846＝4354袋，再加上下午运进的1975袋，4354＋1975＝6329袋。",
+  "verify": "7200-2846+1975"
+ },
+ {
+  "id": "hjm_g4a_u1_l1_q5",
+  "topicId": "hjm_g4a_u1_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "两个数相加，和是9400，其中一个加数是3785，另一个加数是多少？",
+  "answer": "5615",
+  "explanation": "已知和与一个加数，求另一个加数用减法：9400－3785＝5615；验算：5615＋3785＝9400。",
+  "verify": "9400-3785"
+ },
+ {
+  "id": "hjm_g4a_u1_l1_q6",
+  "topicId": "hjm_g4a_u1_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "计算：9000－（3684＋1726）＝？",
+  "answer": "3590",
+  "explanation": "先算括号里的 3684＋1726＝5410，再算 9000－5410＝3590。",
+  "verify": "9000-(3684+1726)"
+ },
+ {
+  "id": "hjm_g4a_u1_l1_q7",
+  "topicId": "hjm_g4a_u1_l1",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "小华算5000－2876，他先算5000－2800＝2200，再算2200－76＝2124。这个做法对吗？",
+  "answer": "正确，2876拆成2800和76，分两次减",
+  "options": [
+   "正确，2876拆成2800和76，分两次减",
+   "错误，5000－2876不能拆开减",
+   "错误，5000－2800＝2200算错了",
+   "错误，第二次应该加76"
+  ],
+  "explanation": "2876＝2800＋76，从5000里连续减去2800和76，结果不变；分两次减是退位减法常用的拆数方法。"
+ },
+ {
+  "id": "hjm_g4a_u1_l1_q8",
+  "topicId": "hjm_g4a_u1_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "某电影院有座位1250个，已经卖出487张票，又退票36张，现在还剩多少张票没卖出？",
+  "answer": "799",
+  "explanation": "卖出后剩下 1250－487＝763张，退票后又多出36张，763＋36＝799张。",
+  "verify": "1250-487+36"
+ },
+ {
+  "id": "hjm_g4a_u1_l1_q9",
+  "topicId": "hjm_g4a_u1_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "甲数是4728，乙数比甲数少1935，丙数比乙数多2876，丙数是多少？",
+  "answer": "5669",
+  "explanation": "乙数是 4728－1935＝2793，丙数是 2793＋2876＝5669。",
+  "verify": "4728-1935+2876"
+ },
+ {
+  "id": "hjm_g4a_u1_l2_q4",
+  "topicId": "hjm_g4a_u1_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "每辆卡车装货125箱，8辆卡车一共装货多少箱？",
+  "answer": "1000",
+  "explanation": "125×8＝1000箱。",
+  "verify": "125*8"
+ },
+ {
+  "id": "hjm_g4a_u1_l2_q5",
+  "topicId": "hjm_g4a_u1_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一本书有264页，小丁每天看18页，9天后还剩多少页没看？",
+  "answer": "102",
+  "explanation": "9天看了 18×9＝162页，还剩 264－162＝102页。",
+  "verify": "264-18*9"
+ },
+ {
+  "id": "hjm_g4a_u1_l2_q6",
+  "topicId": "hjm_g4a_u1_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "96÷8＝12，下面哪个算式可以帮助验算这个结果？",
+  "answer": "12×8＝96",
+  "options": [
+   "12×8＝96",
+   "96＋8＝104",
+   "96－8＝88",
+   "8×8＝64"
+  ],
+  "explanation": "除法用乘法验算：商×除数应该等于被除数，12×8＝96，所以商12正确。"
+ },
+ {
+  "id": "hjm_g4a_u1_l2_q7",
+  "topicId": "hjm_g4a_u1_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "3台同样的机器4小时一共生产720个零件，平均每台机器每小时生产多少个零件？",
+  "answer": "60",
+  "explanation": "先算3台机器每小时一共生产 720÷4＝180个，再算每台每小时 180÷3＝60个。",
+  "verify": "720/4/3"
+ },
+ {
+  "id": "hjm_g4a_u1_l2_q8",
+  "topicId": "hjm_g4a_u1_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "学校买来25盒水彩笔，每盒16支，分给8个班，平均每班分到多少支？",
+  "answer": "50",
+  "explanation": "一共 25×16＝400支，400÷8＝50支。",
+  "verify": "25*16/8"
+ },
+ {
+  "id": "hjm_g4a_u1_l2_q9",
+  "topicId": "hjm_g4a_u1_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个数除以9后再乘7得315，这个数原来是多少？",
+  "answer": "405",
+  "explanation": "倒过来想：315÷7＝45，再算 45×9＝405；验算：405÷9＝45，45×7＝315。",
+  "verify": "315/7*9"
+ },
+ {
+  "id": "hjm_g4a_u1_l3_q4",
+  "topicId": "hjm_g4a_u1_l3",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "用计算器计算：123456÷12＝？",
+  "answer": "10288",
+  "explanation": "在计算器上依次按1、2、3、4、5、6、÷、1、2、＝，显示10288。",
+  "verify": "123456/12"
+ },
+ {
+  "id": "hjm_g4a_u1_l3_q5",
+  "topicId": "hjm_g4a_u1_l3",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "用计算器算456×78，小明按成了456×87，结果会比正确结果大还是小？大（小）多少？",
+  "answer": "大4104",
+  "options": [
+   "大4104",
+   "小4104",
+   "大456",
+   "小456"
+  ],
+  "explanation": "87比78多9，所以结果多了 456×9＝4104。"
+ },
+ {
+  "id": "hjm_g4a_u1_l3_q6",
+  "topicId": "hjm_g4a_u1_l3",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "小红想用计算器算12.5×40，下面哪组按键顺序是正确的？",
+  "answer": "先按1、2、.、5，再按×，再按4、0，最后按＝",
+  "options": [
+   "先按1、2、.、5，再按×，再按4、0，最后按＝",
+   "先按1、2、5，再按×，再按4、0，最后按＝",
+   "先按1、2、.、5，再按×，再按4，最后按＝",
+   "先按1、2、.、5，再按＋，再按4、0，最后按＝"
+  ],
+  "explanation": "小数点不能漏，按错成125结果就大了10倍；按4只表示乘4不是乘40；乘法不能按成加法。"
+ },
+ {
+  "id": "hjm_g4a_u1_l3_q7",
+  "topicId": "hjm_g4a_u1_l3",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "小丽用计算器算789＋456，她按成了789＋465，结果与正确结果相比有什么变化？请说明。",
+  "answer": "结果多了9",
+  "explanation": "465比456多9，多加了9，所以结果比正确结果多9。"
+ },
+ {
+  "id": "hjm_g4a_u1_l3_q8",
+  "topicId": "hjm_g4a_u1_l3",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "用计算器计算：9876＋5432－1234＝？",
+  "answer": "14074",
+  "explanation": "9876＋5432＝15308，15308－1234＝14074。",
+  "verify": "9876+5432-1234"
+ },
+ {
+  "id": "hjm_g4a_u1_l3_q9",
+  "topicId": "hjm_g4a_u1_l3",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "用计算器计算：864÷24＋36×15＝？",
+  "answer": "576",
+  "explanation": "先算 864÷24＝36，再算 36×15＝540，最后 36＋540＝576；直接按顺序输入时要注意乘除优先，加法最后算。",
+  "verify": "864/24+36*15"
+ },
+ {
+  "id": "hjm_g4a_u1_l4_q4",
+  "topicId": "hjm_g4a_u1_l4",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一个水龙头每分钟漏水25毫升，照这样计算，1小时漏水多少毫升？",
+  "answer": "1500",
+  "explanation": "1小时＝60分钟，25×60＝1500毫升。",
+  "verify": "25*60"
+ },
+ {
+  "id": "hjm_g4a_u1_l4_q5",
+  "topicId": "hjm_g4a_u1_l4",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "学校有6个水龙头，每个每天漏水18升，全部修好后，一周（7天）一共可以节约用水多少升？",
+  "answer": "756",
+  "explanation": "每天一共漏 18×6＝108升，一周节约 108×7＝756升。",
+  "verify": "18*6*7"
+ },
+ {
+  "id": "hjm_g4a_u1_l4_q6",
+  "topicId": "hjm_g4a_u1_l4",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "每人每天节约用水5升，一个4口之家一个月（30天）可以节约多少升水？下面哪个算式正确？",
+  "answer": "5×4×30",
+  "options": [
+   "5×4×30",
+   "5＋4＋30",
+   "5×4＋30",
+   "5×30－4"
+  ],
+  "explanation": "每天节约 5×4＝20升，30天节约 20×30＝600升；加法算式不能表示每天重复节约。"
+ },
+ {
+  "id": "hjm_g4a_u1_l4_q7",
+  "topicId": "hjm_g4a_u1_l4",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "某小区原来每天用水240吨，装节水设备后每天用水185吨，一年（365天）可以节约用水多少吨？",
+  "answer": "20075",
+  "explanation": "每天节约 240－185＝55吨，一年节约 55×365＝20075吨。",
+  "verify": "(240-185)*365"
+ },
+ {
+  "id": "hjm_g4a_u1_l4_q8",
+  "topicId": "hjm_g4a_u1_l4",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "洗手时如果不关水龙头，每次多用水12升，小明每天洗手4次，一个星期多用多少升水？",
+  "answer": "336",
+  "explanation": "每天多用 12×4＝48升，一周多用 48×7＝336升。",
+  "verify": "12*4*7"
+ },
+ {
+  "id": "hjm_g4a_u1_l4_q9",
+  "topicId": "hjm_g4a_u1_l4",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "学校开展节水活动后每月节约用水90吨，照这样计算，一年节约的水够一个每月用水45吨的家庭用几个月？",
+  "answer": "24",
+  "explanation": "一年节约 90×12＝1080吨，1080÷45＝24个月。",
+  "verify": "90*12/45"
+ },
+ {
+  "id": "hjm_g4a_u1_l5_q4",
+  "topicId": "hjm_g4a_u1_l5",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "把一个苹果平均分成6份，吃了2份，剩下的是这个苹果的几分之几？",
+  "answer": "4/6",
+  "options": [
+   "4/6",
+   "2/6",
+   "6/4",
+   "2/4"
+  ],
+  "explanation": "一共6份，吃了2份，剩下 6－2＝4份，所以剩下4/6。"
+ },
+ {
+  "id": "hjm_g4a_u1_l5_q5",
+  "topicId": "hjm_g4a_u1_l5",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "下面哪个分数比2/5大又比4/5小？",
+  "answer": "3/5",
+  "options": [
+   "3/5",
+   "1/5",
+   "5/5",
+   "5/6"
+  ],
+  "explanation": "分母相同时分子越大分数越大：1/5＜2/5，3/5在2/5和4/5之间，5/5＝1比4/5大，5/6也比4/5大。"
+ },
+ {
+  "id": "hjm_g4a_u1_l5_q6",
+  "topicId": "hjm_g4a_u1_l5",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一条绳子长12米，剪去它的3/4，剪去了多少米？",
+  "answer": "9",
+  "explanation": "把12米平均分成4份，每份3米，3份就是 3×3＝9米；也可以算 12×3÷4＝9。",
+  "verify": "12*3/4"
+ },
+ {
+  "id": "hjm_g4a_u1_l5_q7",
+  "topicId": "hjm_g4a_u1_l5",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "小刚说：把一个西瓜平均分成8份，吃了3份，剩下的比吃掉的多。请判断对错并说明理由。",
+  "answer": "正确，剩下的比吃掉的多",
+  "explanation": "吃了3/8，剩下 8/8－3/8＝5/8，5/8＞3/8，所以剩下的比吃掉的多。"
+ },
+ {
+  "id": "hjm_g4a_u1_l5_q8",
+  "topicId": "hjm_g4a_u1_l5",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "比较5/12和7/12，哪个大？大多少？",
+  "answer": "7/12大，大2/12",
+  "options": [
+   "7/12大，大2/12",
+   "5/12大，大2/12",
+   "一样大",
+   "7/12大，大2/7"
+  ],
+  "explanation": "分母相同，分子7比5大，所以7/12大；7/12－5/12＝2/12。"
+ },
+ {
+  "id": "hjm_g4a_u1_l5_q9",
+  "topicId": "hjm_g4a_u1_l5",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一本书有96页，小红第一天看了它的1/4，第二天看了它的1/3，两天一共看了多少页？",
+  "answer": "56",
+  "explanation": "第一天 96÷4＝24页，第二天 96÷3＝32页，一共 24＋32＝56页。",
+  "verify": "96/4+96/3"
+ },
+ {
+  "id": "hjm_g4a_u2_l1_q4",
+  "topicId": "hjm_g4a_u2_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "数字405000600中，数字5在什么数位上？",
+  "answer": "百万位",
+  "options": [
+   "百万位",
+   "千万位",
+   "十万位",
+   "亿位"
+  ],
+  "explanation": "从右往左数：405000600的数位依次是个、十、百、千、万、十万、百万、千万、亿，5在第七位，是百万位。"
+ },
+ {
+  "id": "hjm_g4a_u2_l1_q5",
+  "topicId": "hjm_g4a_u2_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个九位数，最高位是7，千万位是3，百万位是5，其余各位都是0，这个数是多少？",
+  "answer": "735000000",
+  "explanation": "最高位是亿位，7在亿位，3在千万位，5在百万位，其余写0，就是735000000。",
+  "verify": "700000000+30000000+5000000"
+ },
+ {
+  "id": "hjm_g4a_u2_l1_q6",
+  "topicId": "hjm_g4a_u2_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "用3、0、7、0、5这五个数字组成一个最大的五位数（每个数字用一次），是多少？",
+  "answer": "75300",
+  "explanation": "要最大，数字从大到小排：7、5、3、0、0，就是75300。"
+ },
+ {
+  "id": "hjm_g4a_u2_l1_q7",
+  "topicId": "hjm_g4a_u2_l1",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "下面哪个数最接近8000000？",
+  "answer": "7999995",
+  "options": [
+   "7999995",
+   "7990000",
+   "8009999",
+   "8100000"
+  ],
+  "explanation": "7999995与8000000相差5；7990000相差10000；8009999相差9999；8100000相差100000，所以7999995最接近。"
+ },
+ {
+  "id": "hjm_g4a_u2_l1_q8",
+  "topicId": "hjm_g4a_u2_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一个数由6个千万、4个十万和9个一组成，这个数是多少？",
+  "answer": "60400009",
+  "explanation": "6个千万是60000000，4个十万是400000，9个一是9，合起来是60400009。",
+  "verify": "60000000+400000+9"
+ },
+ {
+  "id": "hjm_g4a_u2_l1_q9",
+  "topicId": "hjm_g4a_u2_l1",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "小明说：一个十位数比所有的九位数都大。这句话对吗？请说明理由。",
+  "answer": "对，十位数比所有的九位数都大",
+  "explanation": "最小的十位数是1000000000，最大的九位数是999999999，1000000000＞999999999，所以任何十位数都比任何九位数大。"
+ },
+ {
+  "id": "hjm_g4a_u2_l2_q4",
+  "topicId": "hjm_g4a_u2_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "把726483凑整到千位，约是多少？",
+  "answer": "726000",
+  "explanation": "千位后面的数是483，不满500，舍去，所以约是726000。"
+ },
+ {
+  "id": "hjm_g4a_u2_l2_q5",
+  "topicId": "hjm_g4a_u2_l2",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "把一个数凑整到万位后约是60000，这个数可能是下面哪个？",
+  "answer": "64999",
+  "options": [
+   "64999",
+   "54999",
+   "65000",
+   "44999"
+  ],
+  "explanation": "64999千位上的数是4，不满5000，舍去后是60000；54999约是50000，65000约是70000，44999约是40000。"
+ },
+ {
+  "id": "hjm_g4a_u2_l2_q6",
+  "topicId": "hjm_g4a_u2_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "把385462凑整到百位，约是多少？",
+  "answer": "385500",
+  "explanation": "百位后面的数是62，满50，向百位进1，百位4变成5，所以约是385500。"
+ },
+ {
+  "id": "hjm_g4a_u2_l2_q7",
+  "topicId": "hjm_g4a_u2_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "某体育场大约能容纳48000人，这个数是凑整到千位得到的。实际人数最少可能是多少人？",
+  "answer": "47500",
+  "explanation": "凑整到千位后是48000，实际人数在47500到48499之间，最少是47500。"
+ },
+ {
+  "id": "hjm_g4a_u2_l2_q8",
+  "topicId": "hjm_g4a_u2_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "298765凑整到万位，下面哪个结果正确？",
+  "answer": "300000",
+  "options": [
+   "300000",
+   "290000",
+   "298000",
+   "310000"
+  ],
+  "explanation": "万位后面的数是8765，满5000，向万位进1，29万变成30万，所以约是300000。"
+ },
+ {
+  "id": "hjm_g4a_u2_l2_q9",
+  "topicId": "hjm_g4a_u2_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个数凑整到百位后是7200，这个数最大是多少？",
+  "answer": "7249",
+  "explanation": "凑整到百位后是7200，实际数在7150到7249之间，最大是7249。"
+ },
+ {
+  "id": "hjm_g4a_u2_l3_q4",
+  "topicId": "hjm_g4a_u2_l3",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "7平方千米等于多少平方米？",
+  "answer": "7000000",
+  "explanation": "1平方千米＝1000000平方米，7平方千米就是 7×1000000＝7000000平方米。",
+  "verify": "7*1000000"
+ },
+ {
+  "id": "hjm_g4a_u2_l3_q5",
+  "topicId": "hjm_g4a_u2_l3",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "一个公园面积是2平方千米，另一个公园面积是250000平方米，哪个公园大？",
+  "answer": "第一个大",
+  "options": [
+   "第一个大",
+   "第二个大",
+   "一样大",
+   "无法比较"
+  ],
+  "explanation": "2平方千米＝2000000平方米，2000000＞250000，所以第一个公园大。"
+ },
+ {
+  "id": "hjm_g4a_u2_l3_q6",
+  "topicId": "hjm_g4a_u2_l3",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一块森林面积是9平方千米，合多少公顷？",
+  "answer": "900",
+  "explanation": "1平方千米＝100公顷，9平方千米就是 9×100＝900公顷。",
+  "verify": "9*100"
+ },
+ {
+  "id": "hjm_g4a_u2_l3_q7",
+  "topicId": "hjm_g4a_u2_l3",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "某县面积约1200平方千米，其中水面占350平方千米，陆地面积约多少平方千米？",
+  "answer": "850",
+  "explanation": "陆地面积＝总面积－水面面积＝1200－350＝850平方千米。",
+  "verify": "1200-350"
+ },
+ {
+  "id": "hjm_g4a_u2_l3_q8",
+  "topicId": "hjm_g4a_u2_l3",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "1平方千米是1公顷的多少倍？",
+  "answer": "100倍",
+  "options": [
+   "100倍",
+   "10倍",
+   "1000倍",
+   "10000倍"
+  ],
+  "explanation": "1平方千米＝100公顷，所以1平方千米是1公顷的100倍。"
+ },
+ {
+  "id": "hjm_g4a_u2_l3_q9",
+  "topicId": "hjm_g4a_u2_l3",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一块长方形土地长3千米，宽2千米，它的面积是多少平方米？",
+  "answer": "6000000",
+  "explanation": "面积＝3×2＝6平方千米，6平方千米＝6000000平方米。",
+  "verify": "3*2*1000000"
+ },
+ {
+  "id": "hjm_g4a_u2_l4_q4",
+  "topicId": "hjm_g4a_u2_l4",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "6平方分米等于多少平方厘米？",
+  "answer": "600",
+  "explanation": "1平方分米＝100平方厘米，6平方分米就是 6×100＝600平方厘米。",
+  "verify": "6*100"
+ },
+ {
+  "id": "hjm_g4a_u2_l4_q5",
+  "topicId": "hjm_g4a_u2_l4",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一块手帕面积400平方厘米，5块这样的手帕面积合多少平方分米？",
+  "answer": "20",
+  "explanation": "5块一共 400×5＝2000平方厘米，2000平方厘米＝20平方分米。",
+  "verify": "400*5/100"
+ },
+ {
+  "id": "hjm_g4a_u2_l4_q6",
+  "topicId": "hjm_g4a_u2_l4",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "下面哪个面积最小？",
+  "answer": "5平方分米",
+  "options": [
+   "5平方米",
+   "450平方分米",
+   "50000平方厘米",
+   "5平方分米"
+  ],
+  "explanation": "5平方米＝500平方分米＝50000平方厘米，450平方分米＝4.5平方米，5平方分米最小。"
+ },
+ {
+  "id": "hjm_g4a_u2_l4_q7",
+  "topicId": "hjm_g4a_u2_l4",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个长方形长25分米，宽12分米，它的面积是多少平方厘米？",
+  "answer": "30000",
+  "explanation": "面积＝25×12＝300平方分米，300平方分米＝30000平方厘米。",
+  "verify": "25*12*100"
+ },
+ {
+  "id": "hjm_g4a_u2_l4_q8",
+  "topicId": "hjm_g4a_u2_l4",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "80000平方厘米等于多少平方米？",
+  "answer": "8",
+  "explanation": "1平方米＝10000平方厘米，80000÷10000＝8平方米。",
+  "verify": "80000/10000"
+ },
+ {
+  "id": "hjm_g4a_u2_l4_q9",
+  "topicId": "hjm_g4a_u2_l4",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "小明家客厅面积是24平方米，下面哪个换算正确？",
+  "answer": "24平方米＝2400平方分米",
+  "options": [
+   "24平方米＝2400平方分米",
+   "24平方米＝240平方分米",
+   "24平方米＝24000平方厘米",
+   "24平方米＝240000平方分米"
+  ],
+  "explanation": "1平方米＝100平方分米，24平方米＝2400平方分米；24平方米＝240000平方厘米，不是24000平方厘米。"
+ },
+ {
+  "id": "hjm_g4a_u2_l5_q4",
+  "topicId": "hjm_g4a_u2_l5",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "5千克等于多少克？",
+  "answer": "5000",
+  "explanation": "1千克＝1000克，5千克就是 5×1000＝5000克。",
+  "verify": "5*1000"
+ },
+ {
+  "id": "hjm_g4a_u2_l5_q5",
+  "topicId": "hjm_g4a_u2_l5",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一辆卡车载重8吨，已经装了6500千克货物，还能再装多少千克货物？",
+  "answer": "1500",
+  "explanation": "8吨＝8000千克，还能装 8000－6500＝1500千克。",
+  "verify": "8*1000-6500"
+ },
+ {
+  "id": "hjm_g4a_u2_l5_q6",
+  "topicId": "hjm_g4a_u2_l5",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "下面哪个最重？",
+  "answer": "3500千克",
+  "options": [
+   "3吨",
+   "3000千克",
+   "3500千克",
+   "2999千克"
+  ],
+  "explanation": "3吨＝3000千克，3500千克比3000千克和2999千克都重。"
+ },
+ {
+  "id": "hjm_g4a_u2_l5_q7",
+  "topicId": "hjm_g4a_u2_l5",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一头大象重4吨，一头牛重650千克，大象比牛重多少千克？",
+  "answer": "3350",
+  "explanation": "4吨＝4000千克，大象比牛重 4000－650＝3350千克。",
+  "verify": "4*1000-650"
+ },
+ {
+  "id": "hjm_g4a_u2_l5_q8",
+  "topicId": "hjm_g4a_u2_l5",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "8000克等于多少千克？",
+  "answer": "8",
+  "explanation": "1000克＝1千克，8000÷1000＝8千克。",
+  "verify": "8000/1000"
+ },
+ {
+  "id": "hjm_g4a_u2_l5_q9",
+  "topicId": "hjm_g4a_u2_l5",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "某粮店运来3吨大米，卖出1800千克，又运进950千克，现在有多少千克大米？",
+  "answer": "2150",
+  "explanation": "3吨＝3000千克，3000－1800＝1200千克，1200＋950＝2150千克。",
+  "verify": "3*1000-1800+950"
+ },
+ {
+  "id": "hjm_g4a_u2_l6_q4",
+  "topicId": "hjm_g4a_u2_l6",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "8升等于多少毫升？",
+  "answer": "8000",
+  "explanation": "1升＝1000毫升，8升就是 8×1000＝8000毫升。",
+  "verify": "8*1000"
+ },
+ {
+  "id": "hjm_g4a_u2_l6_q5",
+  "topicId": "hjm_g4a_u2_l6",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一桶饮料有12升，倒进每瓶750毫升的小瓶里，最多可以倒满几瓶？",
+  "answer": "16",
+  "explanation": "12升＝12000毫升，12000÷750＝16瓶。",
+  "verify": "12*1000/750"
+ },
+ {
+  "id": "hjm_g4a_u2_l6_q6",
+  "topicId": "hjm_g4a_u2_l6",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "下面哪个容积最大？",
+  "answer": "20000毫升",
+  "options": [
+   "2升",
+   "2500毫升",
+   "19升",
+   "20000毫升"
+  ],
+  "explanation": "2升＝2000毫升，19升＝19000毫升，20000毫升最大。"
+ },
+ {
+  "id": "hjm_g4a_u2_l6_q7",
+  "topicId": "hjm_g4a_u2_l6",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个水壶装2升水，已经倒出3次，每次300毫升，又加入500毫升，现在水壶里有多少毫升水？",
+  "answer": "1600",
+  "explanation": "2升＝2000毫升，倒出 3×300＝900毫升，剩下 2000－900＝1100毫升，加入500毫升后是 1100＋500＝1600毫升。",
+  "verify": "2*1000-3*300+500"
+ },
+ {
+  "id": "hjm_g4a_u2_l6_q8",
+  "topicId": "hjm_g4a_u2_l6",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "6000毫升等于多少升？",
+  "answer": "6",
+  "explanation": "1000毫升＝1升，6000÷1000＝6升。",
+  "verify": "6000/1000"
+ },
+ {
+  "id": "hjm_g4a_u2_l6_q9",
+  "topicId": "hjm_g4a_u2_l6",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "妈妈买了3瓶1.5升的果汁，全部倒进一个5升的桶里，桶里还能再倒进多少毫升果汁？",
+  "answer": "500",
+  "explanation": "3瓶一共 3×1.5＝4.5升＝4500毫升，5升＝5000毫升，还能倒 5000－4500＝500毫升。",
+  "verify": "5*1000-3*1500"
+ },
+ {
+  "id": "hjm_g4a_u3_l1_q4",
+  "topicId": "hjm_g4a_u3_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "比较4/11和4/13，哪个分数大？",
+  "answer": "4/11大",
+  "options": [
+   "4/11大",
+   "4/13大",
+   "一样大",
+   "无法比较"
+  ],
+  "explanation": "分子相同，分母越小分数越大，11＜13，所以4/11＞4/13。"
+ },
+ {
+  "id": "hjm_g4a_u3_l1_q5",
+  "topicId": "hjm_g4a_u3_l1",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "下面哪个分数比3/8大又比5/8小？",
+  "answer": "4/8",
+  "options": [
+   "4/8",
+   "2/8",
+   "6/8",
+   "3/4"
+  ],
+  "explanation": "分母都是8时，分子3＜4＜5，所以4/8在3/8和5/8之间；2/8比3/8小，6/8和3/4都比5/8大。"
+ },
+ {
+  "id": "hjm_g4a_u3_l1_q6",
+  "topicId": "hjm_g4a_u3_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "把5/6、5/8、5/12从大到小排列，最大的分数是几分之几？",
+  "answer": "5/6",
+  "options": [
+   "5/6",
+   "5/8",
+   "5/12",
+   "一样大"
+  ],
+  "explanation": "分子相同，分母越小分数越大，6＜8＜12，所以5/6最大。"
+ },
+ {
+  "id": "hjm_g4a_u3_l1_q7",
+  "topicId": "hjm_g4a_u3_l1",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "小红说：分子相同的分数，分母越大，分数反而越小。她说得对吗？请用 1/2 和 1/4 举例说明。",
+  "answer": "对，例如 1/2 和 1/4，分子都是 1，分母 4 比 2 大，但 1/4 比 1/2 小。",
+  "explanation": "例如1/2和1/4，分子都是1，分母4比2大，但1/4比1/2小；因为平均分的份数越多，每份就越小。"
+ },
+ {
+  "id": "hjm_g4a_u3_l1_q8",
+  "topicId": "hjm_g4a_u3_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "比较7/10和7/12，哪个大？",
+  "answer": "7/10大",
+  "options": [
+   "7/10大",
+   "7/12大",
+   "一样大",
+   "无法比较"
+  ],
+  "explanation": "分子相同，分母10比12小，所以7/10比7/12大。"
+ },
+ {
+  "id": "hjm_g4a_u3_l1_q9",
+  "topicId": "hjm_g4a_u3_l1",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "有两条同样长的彩带，第一条用去3/7，第二条用去5/9，哪条剩下的长？",
+  "answer": "第一条剩下的长",
+  "explanation": "第一条剩下 1－3/7＝4/7，第二条剩下 1－5/9＝4/9；分子相同，分母7比9小，4/7比4/9大，所以第一条剩下的长。"
+ },
+ {
+  "id": "hjm_g4a_u3_l2_q4",
+  "topicId": "hjm_g4a_u3_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "小华喝了一杯果汁的5/11，弟弟喝了这杯果汁的4/11，两人一共喝了这杯果汁的几分之几？",
+  "answer": "9/11",
+  "options": [
+   "9/11",
+   "9/22",
+   "1",
+   "5/11"
+  ],
+  "explanation": "同分母分数相加，分母不变，分子相加：5＋4＝9，所以一共喝了9/11。"
+ },
+ {
+  "id": "hjm_g4a_u3_l2_q5",
+  "topicId": "hjm_g4a_u3_l2",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "一块蛋糕，小明吃了2/9，爸爸吃了4/9，妈妈吃了1/9，三人一共吃了这块蛋糕的几分之几？",
+  "answer": "7/9",
+  "explanation": "同分母分数相加，分母不变，分子相加：2＋4＋1＝7，所以一共吃了7/9。"
+ },
+ {
+  "id": "hjm_g4a_u3_l2_q6",
+  "topicId": "hjm_g4a_u3_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "1－3/10等于多少？",
+  "answer": "7/10",
+  "options": [
+   "7/10",
+   "3/10",
+   "1/10",
+   "10/3"
+  ],
+  "explanation": "1可以看作10/10，10/10－3/10＝7/10。"
+ },
+ {
+  "id": "hjm_g4a_u3_l2_q7",
+  "topicId": "hjm_g4a_u3_l2",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "下面哪个算式的结果是1？",
+  "answer": "3/8＋5/8",
+  "options": [
+   "3/8＋5/8",
+   "2/5＋2/5",
+   "7/9－2/9",
+   "1/4＋1/4"
+  ],
+  "explanation": "3/8＋5/8＝8/8＝1；2/5＋2/5＝4/5，7/9－2/9＝5/9，1/4＋1/4＝2/4＝1/2，都不是1。"
+ },
+ {
+  "id": "hjm_g4a_u3_l2_q8",
+  "topicId": "hjm_g4a_u3_l2",
+  "difficulty": "medium",
+  "type": "text",
+  "prompt": "妈妈买了一块布，用去3/10做衣服，又用去4/10做窗帘，一共用去这块布的几分之几？",
+  "answer": "7/10",
+  "explanation": "3/10＋4/10＝7/10。"
+ },
+ {
+  "id": "hjm_g4a_u3_l2_q9",
+  "topicId": "hjm_g4a_u3_l2",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "一根绳子第一次用去它的4/9，第二次用去它的3/9，两次后还剩这根绳子的几分之几？请写出算式和结果。",
+  "answer": "还剩2/9，算式是1－4/9－3/9＝2/9",
+  "explanation": "把整根绳子看作1，先减去4/9，再减去3/9，1－4/9－3/9＝2/9。"
+ },
+ {
+  "id": "hjm_g4a_u3_l3_q4",
+  "topicId": "hjm_g4a_u3_l3",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "在分数墙上，1/3和几个1/6一样长？",
+  "answer": "2个",
+  "options": [
+   "2个",
+   "3个",
+   "6个",
+   "1个"
+  ],
+  "explanation": "2个1/6拼起来是2/6，2/6和1/3一样长，所以1/3等于2个1/6。"
+ },
+ {
+  "id": "hjm_g4a_u3_l3_q5",
+  "topicId": "hjm_g4a_u3_l3",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "在分数墙上，1/2、2/4、3/6、4/8的长度都相等，这说明了什么？",
+  "answer": "它们是相等的分数，分数值都等于1/2",
+  "explanation": "长度相等说明分数值相等：2/4＝1/2，3/6＝1/2，4/8＝1/2，分子分母同时扩大相同的倍数，分数值不变。"
+ },
+ {
+  "id": "hjm_g4a_u3_l3_q6",
+  "topicId": "hjm_g4a_u3_l3",
+  "difficulty": "medium",
+  "type": "text",
+  "prompt": "在分数墙上，5个1/12拼在一起是几分之几？",
+  "answer": "5/12",
+  "explanation": "5个1/12就是5/12。"
+ },
+ {
+  "id": "hjm_g4a_u3_l3_q7",
+  "topicId": "hjm_g4a_u3_l3",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "下面哪组分数在分数墙上的长度相等？",
+  "answer": "1/2和2/4",
+  "options": [
+   "1/2和2/4",
+   "1/3和2/5",
+   "1/4和2/3",
+   "3/8和1/2"
+  ],
+  "explanation": "2/4＝1/2，长度相等；1/3约0.33，2/5＝0.4，不相等；1/4＝0.25，2/3约0.67，不相等；3/8＝0.375，1/2＝0.5，不相等。"
+ },
+ {
+  "id": "hjm_g4a_u3_l3_q8",
+  "topicId": "hjm_g4a_u3_l3",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "分数墙上1/5的长度是1/10的几倍？",
+  "answer": "2倍",
+  "options": [
+   "2倍",
+   "5倍",
+   "10倍",
+   "1倍"
+  ],
+  "explanation": "2个1/10拼起来正好是1/5，所以1/5是1/10的2倍。"
+ },
+ {
+  "id": "hjm_g4a_u3_l3_q9",
+  "topicId": "hjm_g4a_u3_l3",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "小明在分数墙上发现：1/6加上2/6的长度正好等于1/2。请判断对错并说明理由。",
+  "answer": "正确，1/6＋2/6＝3/6＝1/2",
+  "explanation": "1/6＋2/6＝3/6，3/6和1/2在分数墙上一样长，所以这个发现是正确的。"
+ },
+ {
+  "id": "hjm_g4a_u4_l1_q4",
+  "topicId": "hjm_g4a_u4_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "李阿姨每小时织12米布，7小时可以织多少米布？",
+  "answer": "84",
+  "explanation": "工作量＝工作效率×工作时间，12×7＝84米。",
+  "verify": "12*7"
+ },
+ {
+  "id": "hjm_g4a_u4_l1_q5",
+  "topicId": "hjm_g4a_u4_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一台打印机6分钟打印540页，照这样计算，10分钟可以打印多少页？",
+  "answer": "900",
+  "explanation": "每分钟打印 540÷6＝90页，10分钟打印 90×10＝900页。",
+  "verify": "540/6*10"
+ },
+ {
+  "id": "hjm_g4a_u4_l1_q6",
+  "topicId": "hjm_g4a_u4_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "甲每小时做30个零件，乙每小时做25个零件，两人合作4小时一共做多少个？下面哪个算式正确？",
+  "answer": "(30＋25)×4",
+  "options": [
+   "(30＋25)×4",
+   "30×4＋25",
+   "30＋25×4",
+   "(30－25)×4"
+  ],
+  "explanation": "两人每小时一共做 30＋25＝55个，4小时做 55×4＝220个；其他算式都没有把两人的工作量都算满4小时。"
+ },
+ {
+  "id": "hjm_g4a_u4_l1_q7",
+  "topicId": "hjm_g4a_u4_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一项工程，甲队每天做85米，乙队每天做75米，两队合作12天一共做多少米？",
+  "answer": "1920",
+  "explanation": "两队每天一共做 85＋75＝160米，12天做 160×12＝1920米。",
+  "verify": "(85+75)*12"
+ },
+ {
+  "id": "hjm_g4a_u4_l1_q8",
+  "topicId": "hjm_g4a_u4_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一个工人8小时做了96个零件，照这样计算，5小时做多少个零件？",
+  "answer": "60",
+  "explanation": "每小时做 96÷8＝12个，5小时做 12×5＝60个。",
+  "verify": "96/8*5"
+ },
+ {
+  "id": "hjm_g4a_u4_l1_q9",
+  "topicId": "hjm_g4a_u4_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "3个工人5天一共做了450个零件，平均每个工人每天做多少个零件？",
+  "answer": "30",
+  "explanation": "先算3个工人每天一共做 450÷5＝90个，再算每个工人每天做 90÷3＝30个。",
+  "verify": "450/5/3"
+ },
+ {
+  "id": "hjm_g4a_u4_l2_q4",
+  "topicId": "hjm_g4a_u4_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "树状算图先算72÷9＝8，再算8×15。请写出综合算式并求出结果，填得数。",
+  "answer": "120",
+  "explanation": "把第二步的8换成第一步的算式72÷9，得到 72÷9×15＝120。",
+  "verify": "72/9*15"
+ },
+ {
+  "id": "hjm_g4a_u4_l2_q5",
+  "topicId": "hjm_g4a_u4_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "树状算图先算15＋27＝42，再算42÷6，再算30－7。请按顺序写出最后的结果，填得数。",
+  "answer": "23",
+  "explanation": "15＋27＝42，42÷6＝7，30－7＝23；也可以列成 30－(15＋27)÷6＝23。",
+  "verify": "30-(15+27)/6"
+ },
+ {
+  "id": "hjm_g4a_u4_l2_q6",
+  "topicId": "hjm_g4a_u4_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "树状算图先算20×3＝60，再算60＋40＝100。把它写成一个综合算式是哪个？",
+  "answer": "20×3＋40＝100",
+  "options": [
+   "20×3＋40＝100",
+   "(20＋40)×3",
+   "20×(3＋40)",
+   "60＋40×3"
+  ],
+  "explanation": "第二步的60就是第一步的20×3，直接代入得到 20×3＋40＝100；其他算式改变了运算顺序或结果。"
+ },
+ {
+  "id": "hjm_g4a_u4_l2_q7",
+  "topicId": "hjm_g4a_u4_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "树状算图先算144÷12＝12，再算12×9＝108，再算108－36。请按顺序写出最后的结果，填得数。",
+  "answer": "72",
+  "explanation": "144÷12＝12，12×9＝108，108－36＝72。",
+  "verify": "144/12*9-36"
+ },
+ {
+  "id": "hjm_g4a_u4_l2_q8",
+  "topicId": "hjm_g4a_u4_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "树状算图先算50－18＝32，再算32÷4。请按顺序写出综合算式并求出结果，填得数。",
+  "answer": "8",
+  "explanation": "把32换成50－18，因为减法要先算，所以要加括号：(50－18)÷4＝8。",
+  "verify": "(50-18)/4"
+ },
+ {
+  "id": "hjm_g4a_u4_l2_q9",
+  "topicId": "hjm_g4a_u4_l2",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "下面哪个树状算图写成的综合算式是(64－16)÷8？",
+  "answer": "先算64－16＝48，再算48÷8",
+  "options": [
+   "先算64－16＝48，再算48÷8",
+   "先算64÷8＝8，再算8－16",
+   "先算16÷8＝2，再算64－2",
+   "先算64－16＝48，再算48×8"
+  ],
+  "explanation": "综合算式(64－16)÷8表示先算括号里的减法，再算除法，只有第一种树状算图的顺序与它一致。"
+ },
+ {
+  "id": "hjm_g4a_u4_l3_q4",
+  "topicId": "hjm_g4a_u4_l3",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "计算：64÷8×9＋17＝？",
+  "answer": "89",
+  "explanation": "同级运算从左往右算：64÷8＝8，8×9＝72，72＋17＝89。",
+  "verify": "64/8*9+17"
+ },
+ {
+  "id": "hjm_g4a_u4_l3_q5",
+  "topicId": "hjm_g4a_u4_l3",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "计算：1000－(125＋75)×4＝？",
+  "answer": "200",
+  "explanation": "先算括号里 125＋75＝200，再算乘法 200×4＝800，最后 1000－800＝200。",
+  "verify": "1000-(125+75)*4"
+ },
+ {
+  "id": "hjm_g4a_u4_l3_q6",
+  "topicId": "hjm_g4a_u4_l3",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "计算：36＋48÷6×5＝？",
+  "answer": "76",
+  "explanation": "先算乘除：48÷6＝8，8×5＝40，再算加法 36＋40＝76。",
+  "verify": "36+48/6*5"
+ },
+ {
+  "id": "hjm_g4a_u4_l3_q7",
+  "topicId": "hjm_g4a_u4_l3",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "计算：(240－60)÷9×7－15＝？",
+  "answer": "125",
+  "explanation": "先算括号里 240－60＝180，再算 180÷9＝20，20×7＝140，最后 140－15＝125。",
+  "verify": "(240-60)/9*7-15"
+ },
+ {
+  "id": "hjm_g4a_u4_l3_q8",
+  "topicId": "hjm_g4a_u4_l3",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "计算：72＋96÷8－14＝？",
+  "answer": "70",
+  "explanation": "先算除法 96÷8＝12，再从左往右算加减：72＋12＝84，84－14＝70。",
+  "verify": "72+96/8-14"
+ },
+ {
+  "id": "hjm_g4a_u4_l3_q9",
+  "topicId": "hjm_g4a_u4_l3",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "计算90－40÷5×2时，第一步应该算什么？",
+  "answer": "40÷5",
+  "options": [
+   "40÷5",
+   "90－40",
+   "5×2",
+   "90－40÷5"
+  ],
+  "explanation": "没有括号时先算乘除后算加减；乘除同级从左往右算，所以第一步算40÷5。"
+ },
+ {
+  "id": "hjm_g4a_u4_l4_q4",
+  "topicId": "hjm_g4a_u4_l4",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "从8开始，先乘5，再加上24，最后得多少？",
+  "answer": "64",
+  "explanation": "8×5＝40，40＋24＝64。",
+  "verify": "8*5+24"
+ },
+ {
+  "id": "hjm_g4a_u4_l4_q5",
+  "topicId": "hjm_g4a_u4_l4",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "从15开始，先减去7，再乘6，最后除以8，得多少？",
+  "answer": "6",
+  "explanation": "15－7＝8，8×6＝48，48÷8＝6。",
+  "verify": "(15-7)*6/8"
+ },
+ {
+  "id": "hjm_g4a_u4_l4_q6",
+  "topicId": "hjm_g4a_u4_l4",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "从100开始，先除以4，再减去9，最后乘3，得多少？",
+  "answer": "48",
+  "explanation": "100÷4＝25，25－9＝16，16×3＝48。",
+  "verify": "(100/4-9)*3"
+ },
+ {
+  "id": "hjm_g4a_u4_l4_q7",
+  "topicId": "hjm_g4a_u4_l4",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "从6开始，先乘12，再减去18，最后加上36，再除以3，得多少？",
+  "answer": "30",
+  "explanation": "6×12＝72，72－18＝54，54＋36＝90，90÷3＝30。",
+  "verify": "(6*12-18+36)/3"
+ },
+ {
+  "id": "hjm_g4a_u4_l4_q8",
+  "topicId": "hjm_g4a_u4_l4",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "从3开始，先加上29，再乘2，最后减去14，得多少？",
+  "answer": "50",
+  "explanation": "3＋29＝32，32×2＝64，64－14＝50。",
+  "verify": "(3+29)*2-14"
+ },
+ {
+  "id": "hjm_g4a_u4_l4_q9",
+  "topicId": "hjm_g4a_u4_l4",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "小红正推一道题：从20开始，先除以4，再乘9，最后减去10，她算出最后是35。请判断她算得对不对，并写出正确过程。",
+  "answer": "对，20÷4＝5，5×9＝45，45－10＝35。",
+  "explanation": "20÷4＝5，5×9＝45，45－10＝35，和她算的一样，所以她算得对。"
+ },
+ {
+  "id": "hjm_g4a_u4_l5_q4",
+  "topicId": "hjm_g4a_u4_l5",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一个数减去38后得57，这个数原来是多少？",
+  "answer": "95",
+  "explanation": "倒过来想：用结果57加上减去的38，57＋38＝95。",
+  "verify": "57+38"
+ },
+ {
+  "id": "hjm_g4a_u4_l5_q5",
+  "topicId": "hjm_g4a_u4_l5",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个数先乘5，再加上29，得94，这个数原来是多少？",
+  "answer": "13",
+  "explanation": "倒过来想：先算 94－29＝65，再算 65÷5＝13；验算：13×5＋29＝94。",
+  "verify": "(94-29)/5"
+ },
+ {
+  "id": "hjm_g4a_u4_l5_q6",
+  "topicId": "hjm_g4a_u4_l5",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一个数先除以8，再减去12，得5，这个数原来是多少？",
+  "answer": "136",
+  "explanation": "倒过来想：先算 5＋12＝17，再算 17×8＝136；验算：136÷8－12＝5。",
+  "verify": "(5+12)*8"
+ },
+ {
+  "id": "hjm_g4a_u4_l5_q7",
+  "topicId": "hjm_g4a_u4_l5",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个数先加上46，再除以7，最后乘3，得54，这个数原来是多少？",
+  "answer": "80",
+  "explanation": "倒过来想：先算 54÷3＝18，再算 18×7＝126，最后算 126－46＝80；验算：(80＋46)÷7×3＝54。",
+  "verify": "54/3*7-46"
+ },
+ {
+  "id": "hjm_g4a_u4_l5_q8",
+  "topicId": "hjm_g4a_u4_l5",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一个数先减去17，再乘4，得100，这个数原来是多少？",
+  "answer": "42",
+  "explanation": "倒过来想：先算 100÷4＝25，再算 25＋17＝42；验算：(42－17)×4＝100。",
+  "verify": "100/4+17"
+ },
+ {
+  "id": "hjm_g4a_u4_l5_q9",
+  "topicId": "hjm_g4a_u4_l5",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个数先乘6，再减去18，最后除以4，得15，这个数原来是多少？",
+  "answer": "13",
+  "explanation": "倒过来想：先算 15×4＝60，再算 60＋18＝78，最后算 78÷6＝13；验算：(13×6－18)÷4＝15。",
+  "verify": "(15*4+18)/6"
+ },
+ {
+  "id": "hjm_g4a_u4_l6_q4",
+  "topicId": "hjm_g4a_u4_l6",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "36除以4的商，加上29，和是多少？",
+  "answer": "38",
+  "explanation": "36÷4＝9，9＋29＝38。",
+  "verify": "36/4+29"
+ },
+ {
+  "id": "hjm_g4a_u4_l6_q5",
+  "topicId": "hjm_g4a_u4_l6",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "15与27的和，乘8，再减去96，差是多少？",
+  "answer": "240",
+  "explanation": "15＋27＝42，42×8＝336，336－96＝240。",
+  "verify": "(15+27)*8-96"
+ },
+ {
+  "id": "hjm_g4a_u4_l6_q6",
+  "topicId": "hjm_g4a_u4_l6",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "480减去16与12的积，差是多少？",
+  "answer": "288",
+  "explanation": "16×12＝192，480－192＝288。",
+  "verify": "480-16*12"
+ },
+ {
+  "id": "hjm_g4a_u4_l6_q7",
+  "topicId": "hjm_g4a_u4_l6",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "54与36的差，除以9，再加上125，和是多少？",
+  "answer": "127",
+  "explanation": "54－36＝18，18÷9＝2，2＋125＝127。",
+  "verify": "(54-36)/9+125"
+ },
+ {
+  "id": "hjm_g4a_u4_l6_q8",
+  "topicId": "hjm_g4a_u4_l6",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "200加上15乘6的积，和是多少？",
+  "answer": "290",
+  "explanation": "15×6＝90，200＋90＝290。",
+  "verify": "200+15*6"
+ },
+ {
+  "id": "hjm_g4a_u4_l6_q9",
+  "topicId": "hjm_g4a_u4_l6",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "“96除以8，再乘5”列成综合算式是哪个？",
+  "answer": "96÷8×5",
+  "options": [
+   "96÷8×5",
+   "96÷(8×5)",
+   "(96－8)×5",
+   "96×8÷5"
+  ],
+  "explanation": "“除以8，再乘5”就是先除后乘，同级运算从左往右写成 96÷8×5；加括号会改变运算顺序。"
+ },
+ {
+  "id": "hjm_g4a_u4_l7_q4",
+  "topicId": "hjm_g4a_u4_l7",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "128＋76＋24用加法结合律简便计算，下面哪个算式运用了加法结合律并且算得简便？",
+  "answer": "128＋(76＋24)",
+  "options": [
+   "128＋(76＋24)",
+   "(128＋76)＋24",
+   "128＋76－24",
+   "128×76＋24"
+  ],
+  "explanation": "76＋24＝100，先把后两个数结合起来，128＋100＝228；第二个算式没有改变结合方式，第三、四个算式改变了运算。"
+ },
+ {
+  "id": "hjm_g4a_u4_l7_q5",
+  "topicId": "hjm_g4a_u4_l7",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "用乘法分配律简便计算35×102，得多少？",
+  "answer": "3570",
+  "explanation": "35×102＝35×(100＋2)＝35×100＋35×2＝3500＋70＝3570。",
+  "verify": "35*100+35*2"
+ },
+ {
+  "id": "hjm_g4a_u4_l7_q6",
+  "topicId": "hjm_g4a_u4_l7",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "用运算定律简便计算125×32，得多少？（提示：把32拆成8×4）",
+  "answer": "4000",
+  "explanation": "125×32＝125×(8×4)＝(125×8)×4＝1000×4＝4000。",
+  "verify": "125*8*4"
+ },
+ {
+  "id": "hjm_g4a_u4_l7_q7",
+  "topicId": "hjm_g4a_u4_l7",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "68×101－68用乘法分配律简便计算，下面哪个算式正确？",
+  "answer": "68×(101－1)",
+  "options": [
+   "68×(101－1)",
+   "68×101－1",
+   "68×(101＋1)",
+   "101×68＋68"
+  ],
+  "explanation": "68×101－68＝68×101－68×1＝68×(101－1)＝68×100＝6800；单独的68要看作68×1。"
+ },
+ {
+  "id": "hjm_g4a_u4_l7_q8",
+  "topicId": "hjm_g4a_u4_l7",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "25×(4＋8)＝25×4＋25×8运用了哪条运算定律？",
+  "answer": "乘法分配律",
+  "options": [
+   "乘法分配律",
+   "乘法结合律",
+   "乘法交换律",
+   "加法结合律"
+  ],
+  "explanation": "一个数乘两个数的和，等于这个数分别乘这两个数再相加，这就是乘法分配律。"
+ },
+ {
+  "id": "hjm_g4a_u4_l7_q9",
+  "topicId": "hjm_g4a_u4_l7",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "用简便方法计算360÷8÷5，得多少？（提示：连续除以两个数等于除以这两个数的积）",
+  "answer": "9",
+  "explanation": "360÷8÷5＝360÷(8×5)＝360÷40＝9。",
+  "verify": "360/(8*5)"
+ },
+ {
+  "id": "hjm_g4a_u4_l8_q4",
+  "topicId": "hjm_g4a_u4_l8",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "妈妈买了4千克苹果，每千克9元，又买了2千克香蕉，每千克7元，一共花了多少元？",
+  "answer": "50",
+  "explanation": "苹果 4×9＝36元，香蕉 2×7＝14元，一共 36＋14＝50元。",
+  "verify": "4*9+2*7"
+ },
+ {
+  "id": "hjm_g4a_u4_l8_q5",
+  "topicId": "hjm_g4a_u4_l8",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "学校买了12个足球，每个68元，付了1000元，应找回多少元？",
+  "answer": "184",
+  "explanation": "足球一共 12×68＝816元，找回 1000－816＝184元。",
+  "verify": "1000-12*68"
+ },
+ {
+  "id": "hjm_g4a_u4_l8_q6",
+  "topicId": "hjm_g4a_u4_l8",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一辆汽车每小时行75千米，4小时后离目的地还有60千米，全程多少千米？",
+  "answer": "360",
+  "explanation": "已经行了 75×4＝300千米，全程 300＋60＝360千米。",
+  "verify": "75*4+60"
+ },
+ {
+  "id": "hjm_g4a_u4_l8_q7",
+  "topicId": "hjm_g4a_u4_l8",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "图书馆有5层书架，每层有4格，每格放36本书，这个图书馆一共有多少本书？",
+  "answer": "720",
+  "explanation": "每层放 4×36＝144本，5层一共 144×5＝720本。",
+  "verify": "5*4*36"
+ },
+ {
+  "id": "hjm_g4a_u4_l8_q8",
+  "topicId": "hjm_g4a_u4_l8",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "同学们去春游，租了6辆车，每辆车坐42人，还剩下18个座位空着，一共有多少人去春游？",
+  "answer": "234",
+  "explanation": "6辆车一共能坐 6×42＝252人，空着18个座位，实际去了 252－18＝234人。",
+  "verify": "6*42-18"
+ },
+ {
+  "id": "hjm_g4a_u4_l8_q9",
+  "topicId": "hjm_g4a_u4_l8",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "水果店运来苹果和梨各15箱，苹果每箱28千克，梨每箱24千克，苹果比梨多多少千克？",
+  "answer": "60",
+  "explanation": "每箱苹果比梨多 28－24＝4千克，15箱一共多 4×15＝60千克。",
+  "verify": "(28-24)*15"
+ },
+ {
+  "id": "hjm_g4a_u5_l1_q4",
+  "topicId": "hjm_g4a_u5_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "一个圆有几条直径？",
+  "answer": "无数条",
+  "options": [
+   "无数条",
+   "1条",
+   "2条",
+   "4条"
+  ],
+  "explanation": "通过圆心的线段两端都在圆上，这样的线段可以画无数条，所以一个圆有无数条直径。"
+ },
+ {
+  "id": "hjm_g4a_u5_l1_q5",
+  "topicId": "hjm_g4a_u5_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个圆的直径是18厘米，它的半径是多少厘米？",
+  "answer": "9",
+  "explanation": "同一个圆里，直径是半径的2倍，半径＝直径÷2＝18÷2＝9厘米。",
+  "verify": "18/2"
+ },
+ {
+  "id": "hjm_g4a_u5_l1_q6",
+  "topicId": "hjm_g4a_u5_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "画一个直径是14厘米的圆，圆规两脚间的距离应是多少厘米？",
+  "answer": "7",
+  "explanation": "圆规两脚间的距离就是圆的半径，半径＝14÷2＝7厘米。",
+  "verify": "14/2"
+ },
+ {
+  "id": "hjm_g4a_u5_l1_q7",
+  "topicId": "hjm_g4a_u5_l1",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "下面关于圆的说法，哪个是正确的？",
+  "answer": "同一个圆里，所有直径都相等",
+  "options": [
+   "同一个圆里，所有直径都相等",
+   "同一个圆里，半径是直径的2倍",
+   "圆心决定圆的大小",
+   "直径是一条射线"
+  ],
+  "explanation": "同一个圆里所有直径都相等；半径是直径的一半，不是2倍；圆的半径决定圆的大小，圆心只决定圆的位置；直径是线段，不是射线。"
+ },
+ {
+  "id": "hjm_g4a_u5_l1_q8",
+  "topicId": "hjm_g4a_u5_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一个圆的半径是9厘米，另一个圆的半径比它大4厘米，另一个圆的直径是多少厘米？",
+  "answer": "26",
+  "explanation": "另一个圆的半径是 9＋4＝13厘米，直径是 13×2＝26厘米。",
+  "verify": "(9+4)*2"
+ },
+ {
+  "id": "hjm_g4a_u5_l1_q9",
+  "topicId": "hjm_g4a_u5_l1",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "小明说：同一个圆里，直径比半径长。请判断对错并说明理由。",
+  "answer": "正确，同一个圆里直径比半径长",
+  "explanation": "同一个圆里，直径是半径的2倍，2倍的半径当然比1倍的半径长，所以直径比半径长。"
+ },
+ {
+  "id": "hjm_g4a_u5_l2_q4",
+  "topicId": "hjm_g4a_u5_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "下面哪种图形可以向两端无限延长？",
+  "answer": "直线",
+  "options": [
+   "直线",
+   "线段",
+   "射线",
+   "角"
+  ],
+  "explanation": "直线没有端点，可以向两端无限延长；线段有两个端点，射线只能向一端无限延长。"
+ },
+ {
+  "id": "hjm_g4a_u5_l2_q5",
+  "topicId": "hjm_g4a_u5_l2",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "经过一点可以画多少条直线？",
+  "answer": "无数条",
+  "options": [
+   "无数条",
+   "1条",
+   "2条",
+   "10条"
+  ],
+  "explanation": "经过一点的直线可以向各个方向画，有无数条；经过两点只能画一条直线。"
+ },
+ {
+  "id": "hjm_g4a_u5_l2_q6",
+  "topicId": "hjm_g4a_u5_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一条线段长24厘米，把它平均分成3段，每段长多少厘米？",
+  "answer": "8",
+  "explanation": "24÷3＝8厘米。",
+  "verify": "24/3"
+ },
+ {
+  "id": "hjm_g4a_u5_l2_q7",
+  "topicId": "hjm_g4a_u5_l2",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "小亮说：射线比线段长，因为射线可以无限延长。请判断对错并说明理由。",
+  "answer": "错误，射线和线段无法比较长短",
+  "explanation": "射线向一方无限延长，长度无法度量；线段可以量出长度；一个能量、一个不能量，所以无法比较谁更长。"
+ },
+ {
+  "id": "hjm_g4a_u5_l2_q8",
+  "topicId": "hjm_g4a_u5_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "手电筒发出的光可以看作什么？",
+  "answer": "射线",
+  "options": [
+   "射线",
+   "线段",
+   "直线",
+   "角"
+  ],
+  "explanation": "手电筒的光从灯泡这一点出发，向一方照出去，和射线有1个端点、向一方无限延长的特点相同。"
+ },
+ {
+  "id": "hjm_g4a_u5_l2_q9",
+  "topicId": "hjm_g4a_u5_l2",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "下面关于线段、射线、直线的说法，哪个是错误的？",
+  "answer": "直线比射线长",
+  "options": [
+   "线段有两个端点",
+   "射线有一个端点",
+   "直线没有端点",
+   "直线比射线长"
+  ],
+  "explanation": "直线和射线都无限长，无法比较长短；前三个说法都是正确的。"
+ },
+ {
+  "id": "hjm_g4a_u5_l3_q4",
+  "topicId": "hjm_g4a_u5_l3",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "一个角的两边张开程度越大，这个角就越（）。",
+  "answer": "大",
+  "options": [
+   "大",
+   "小",
+   "不变",
+   "无法确定"
+  ],
+  "explanation": "角的大小看两边张开的程度，张开得越大，角就越大。"
+ },
+ {
+  "id": "hjm_g4a_u5_l3_q5",
+  "topicId": "hjm_g4a_u5_l3",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "把一张圆形纸对折两次，打开后中心形成的角是什么角？",
+  "answer": "直角",
+  "options": [
+   "直角",
+   "锐角",
+   "钝角",
+   "平角"
+  ],
+  "explanation": "对折一次得到平角，对折两次把平角平均分成2份，每份是90°，就是直角。"
+ },
+ {
+  "id": "hjm_g4a_u5_l3_q6",
+  "topicId": "hjm_g4a_u5_l3",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "下面哪个是锐角？",
+  "answer": "65°的角",
+  "options": [
+   "65°的角",
+   "90°的角",
+   "120°的角",
+   "180°的角"
+  ],
+  "explanation": "锐角是小于90°的角，65°＜90°；90°是直角，120°是钝角，180°是平角。"
+ },
+ {
+  "id": "hjm_g4a_u5_l3_q7",
+  "topicId": "hjm_g4a_u5_l3",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "小刚用放大镜看一个30°的角，角看起来变大了，实际的角变大了吗？请说明理由。",
+  "answer": "没有变大，实际的角不变",
+  "explanation": "放大镜把图形整体放大，但角两边张开的程度没有变；角的大小只看张开程度，所以实际的角还是30°，没有变大。"
+ },
+ {
+  "id": "hjm_g4a_u5_l3_q8",
+  "topicId": "hjm_g4a_u5_l3",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "钟面上3时整，时针和分针组成的角是什么角？",
+  "answer": "直角",
+  "options": [
+   "直角",
+   "锐角",
+   "钝角",
+   "平角"
+  ],
+  "explanation": "3时整，分针指12，时针指3，两针之间占了钟面的四分之一，是90°，就是直角。"
+ },
+ {
+  "id": "hjm_g4a_u5_l3_q9",
+  "topicId": "hjm_g4a_u5_l3",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个直角被分成了两个角，其中一个角是38°，另一个角是多少度？",
+  "answer": "52",
+  "explanation": "直角是90°，另一个角是 90－38＝52°。",
+  "verify": "90-38"
+ },
+ {
+  "id": "hjm_g4a_u5_l4_q4",
+  "topicId": "hjm_g4a_u5_l4",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "量角器的中心点应该对准角的什么位置？",
+  "answer": "角的顶点",
+  "options": [
+   "角的顶点",
+   "角的一条边",
+   "量角器的边缘",
+   "角的内部"
+  ],
+  "explanation": "量角时，量角器的中心点要对准角的顶点，0刻度线对准角的一条边，才能正确读数。"
+ },
+ {
+  "id": "hjm_g4a_u5_l4_q5",
+  "topicId": "hjm_g4a_u5_l4",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "一个角的一条边对准外圈0刻度线，另一条边指向外圈120°的刻度，这个角是多少度？",
+  "answer": "120°",
+  "options": [
+   "120°",
+   "60°",
+   "180°",
+   "90°"
+  ],
+  "explanation": "从哪圈的0刻度线出发，就读哪圈的数；从外圈0出发，另一条边指向外圈120°，这个角就是120°。"
+ },
+ {
+  "id": "hjm_g4a_u5_l4_q6",
+  "topicId": "hjm_g4a_u5_l4",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "小红量角时，一条边对准内圈0刻度线，另一条边指向内圈40°的刻度，她应该读多少度？",
+  "answer": "40°",
+  "options": [
+   "40°",
+   "140°",
+   "180°",
+   "90°"
+  ],
+  "explanation": "从内圈0出发就读内圈的数，另一条边指向内圈40°，这个角就是40°；读成140°就是内外圈读反了。"
+ },
+ {
+  "id": "hjm_g4a_u5_l4_q7",
+  "topicId": "hjm_g4a_u5_l4",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个角是75°，比它大25°的角是多少度？",
+  "answer": "100",
+  "explanation": "75＋25＝100°。",
+  "verify": "75+25"
+ },
+ {
+  "id": "hjm_g4a_u5_l4_q8",
+  "topicId": "hjm_g4a_u5_l4",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "用量角器量一个150°的角，一条边对准内圈0刻度线，另一条边应该指向内圈多少度的刻度？",
+  "answer": "150°",
+  "options": [
+   "150°",
+   "30°",
+   "180°",
+   "120°"
+  ],
+  "explanation": "从内圈0出发就读内圈，150°的角另一条边指向内圈150°的刻度；指向30°就成了30°的角。"
+ },
+ {
+  "id": "hjm_g4a_u5_l4_q9",
+  "topicId": "hjm_g4a_u5_l4",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "小明量角时把量角器的中心点对准了角的顶点，但0刻度线没有对准角的一条边，他量出的度数准确吗？请说明理由。",
+  "answer": "不准确，量出的度数不准确",
+  "explanation": "量角时中心点对准顶点、0刻度线对准一条边，两个条件缺一不可；0刻度线没有对准边，读数就会偏大或偏小，所以不准确。"
+ },
+ {
+  "id": "hjm_g4a_u5_l5_q4",
+  "topicId": "hjm_g4a_u5_l5",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一个角是52°，另一个角比它小14°，两个角加起来是多少度？",
+  "answer": "90",
+  "explanation": "另一个角是 52－14＝38°，两个角加起来是 52＋38＝90°。",
+  "verify": "52+(52-14)"
+ },
+ {
+  "id": "hjm_g4a_u5_l5_q5",
+  "topicId": "hjm_g4a_u5_l5",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个直角被分成两个角，一个角是27°，另一个角是多少度？",
+  "answer": "63",
+  "explanation": "直角是90°，另一个角是 90－27＝63°。",
+  "verify": "90-27"
+ },
+ {
+  "id": "hjm_g4a_u5_l5_q6",
+  "topicId": "hjm_g4a_u5_l5",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "三个角组成一个平角，第一个角是50°，第二个角是70°，第三个角是多少度？",
+  "answer": "60",
+  "explanation": "平角是180°，第三个角是 180－50－70＝60°。",
+  "verify": "180-50-70"
+ },
+ {
+  "id": "hjm_g4a_u5_l5_q7",
+  "topicId": "hjm_g4a_u5_l5",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "∠A＝∠B，∠A＋∠B＝160°，∠A是多少度？",
+  "answer": "80",
+  "explanation": "两个相等的角加起来是160°，每个角是 160÷2＝80°。",
+  "verify": "160/2"
+ },
+ {
+  "id": "hjm_g4a_u5_l5_q8",
+  "topicId": "hjm_g4a_u5_l5",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一个周角被平均分成4个角，每个角是多少度？",
+  "answer": "90",
+  "explanation": "周角是360°，平均分成4份，每份 360÷4＝90°。",
+  "verify": "360/4"
+ },
+ {
+  "id": "hjm_g4a_u5_l5_q9",
+  "topicId": "hjm_g4a_u5_l5",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个平角减去一个35°的角，再减去一个65°的角，还剩多少度？",
+  "answer": "80",
+  "explanation": "180－35＝145°，145－65＝80°。",
+  "verify": "180-35-65"
+ },
+ {
+  "id": "hjm_g4a_u6_l1_q4",
+  "topicId": "hjm_g4a_u6_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "60305000读作什么？",
+  "answer": "六千零三十万五千",
+  "options": [
+   "六千零三十万五千",
+   "六千零三万五千",
+   "六千三十万五千",
+   "六千零三十万零五千"
+  ],
+  "explanation": "60305000分级是6030万和5000，万级读六千零三十，个级读五千，合起来是六千零三十万五千。"
+ },
+ {
+  "id": "hjm_g4a_u6_l1_q5",
+  "topicId": "hjm_g4a_u6_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "“九千零八十万零六百”写作数字是多少？",
+  "answer": "90800600",
+  "explanation": "九千零八十万是90800000，再加上六百，就是90800600。",
+  "verify": "90000000+800000+600"
+ },
+ {
+  "id": "hjm_g4a_u6_l1_q6",
+  "topicId": "hjm_g4a_u6_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "把562347凑整到千位，约是多少？",
+  "answer": "562000",
+  "explanation": "千位后面的数是347，不满500，舍去，所以约是562000。"
+ },
+ {
+  "id": "hjm_g4a_u6_l1_q7",
+  "topicId": "hjm_g4a_u6_l1",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "把872940凑整到万位，下面哪个结果正确？",
+  "answer": "870000",
+  "options": [
+   "870000",
+   "880000",
+   "8700000",
+   "87000"
+  ],
+  "explanation": "万位后面的数是2940，不满5000，舍去，所以约是870000。"
+ },
+ {
+  "id": "hjm_g4a_u6_l1_q8",
+  "topicId": "hjm_g4a_u6_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "某城市人口约9350000人（凑整到万位），实际人口最少可能是多少人？",
+  "answer": "9345000",
+  "explanation": "凑整到万位后是9350000，实际人口在9345000到9354999之间，最少是9345000。"
+ },
+ {
+  "id": "hjm_g4a_u6_l1_q9",
+  "topicId": "hjm_g4a_u6_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个八位数，凑整到千万位后约是90000000，这个数最小是多少？",
+  "answer": "85000000",
+  "explanation": "凑整到千万位后是90000000，实际数在85000000到94999999之间，最小是85000000。"
+ },
+ {
+  "id": "hjm_g4a_u6_l2_q4",
+  "topicId": "hjm_g4a_u6_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "比较5/13和5/17，哪个分数大？",
+  "answer": "5/13大",
+  "options": [
+   "5/13大",
+   "5/17大",
+   "一样大",
+   "无法比较"
+  ],
+  "explanation": "分子相同，分母越小分数越大，13＜17，所以5/13＞5/17。"
+ },
+ {
+  "id": "hjm_g4a_u6_l2_q5",
+  "topicId": "hjm_g4a_u6_l2",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "一块蛋糕，吃了1/6，又吃了3/6，还剩这块蛋糕的几分之几？",
+  "answer": "2/6",
+  "explanation": "一共吃了 1/6＋3/6＝4/6，把整块蛋糕看作1，1－4/6＝2/6。"
+ },
+ {
+  "id": "hjm_g4a_u6_l2_q6",
+  "topicId": "hjm_g4a_u6_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "一块蛋糕，妈妈吃了7/15，爸爸吃了3/15，妈妈比爸爸多吃了这块蛋糕的几分之几？",
+  "answer": "4/15",
+  "options": [
+   "4/15",
+   "4/30",
+   "10/15",
+   "4/10"
+  ],
+  "explanation": "同分母分数相减，分母不变，分子相减：7－3＝4，所以多吃了4/15。"
+ },
+ {
+  "id": "hjm_g4a_u6_l2_q7",
+  "topicId": "hjm_g4a_u6_l2",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "下面四个分数算式中，得数最大的是哪一个？",
+  "answer": "2/9＋5/9",
+  "options": [
+   "2/9＋5/9",
+   "8/9－2/9",
+   "1/9＋3/9",
+   "7/9－4/9"
+  ],
+  "explanation": "2/9＋5/9＝7/9，8/9－2/9＝6/9，1/9＋3/9＝4/9，7/9－4/9＝3/9，7/9最大。"
+ },
+ {
+  "id": "hjm_g4a_u6_l2_q8",
+  "topicId": "hjm_g4a_u6_l2",
+  "difficulty": "medium",
+  "type": "text",
+  "prompt": "一个西瓜平均分成10份，爸爸吃了3份，妈妈吃了2份，两人一共吃了这个西瓜的几分之几？",
+  "answer": "5/10",
+  "explanation": "3/10＋2/10＝5/10。"
+ },
+ {
+  "id": "hjm_g4a_u6_l2_q9",
+  "topicId": "hjm_g4a_u6_l2",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "一根绳子长1米，第一次剪去3/10米，第二次剪去2/10米，还剩多少米？请写出算式和结果。",
+  "answer": "还剩5/10米，算式是1－3/10－2/10＝5/10",
+  "explanation": "这里的分数带单位米，表示实际长度；1米减去3/10米再减去2/10米，还剩5/10米，也就是0.5米。"
+ },
+ {
+  "id": "hjm_g4b_u1_l1_q4",
+  "topicId": "hjm_g4b_u1_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "计算：54＋18×3－27＝？",
+  "answer": "81",
+  "explanation": "先算乘法18×3＝54，再从左往右算加减法：54＋54－27＝81。",
+  "verify": "54+18*3-27"
+ },
+ {
+  "id": "hjm_g4b_u1_l1_q5",
+  "topicId": "hjm_g4b_u1_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "计算：(96－48)÷8×5＝？",
+  "answer": "30",
+  "explanation": "先算括号里的96－48＝48，再算48÷8＝6，最后6×5＝30。",
+  "verify": "(96-48)/8*5"
+ },
+ {
+  "id": "hjm_g4b_u1_l1_q6",
+  "topicId": "hjm_g4b_u1_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "计算：120－15×6＋38＝？",
+  "answer": "68",
+  "explanation": "先算乘法15×6＝90，再按顺序算120－90＋38＝68。",
+  "verify": "120-15*6+38"
+ },
+ {
+  "id": "hjm_g4b_u1_l1_q7",
+  "topicId": "hjm_g4b_u1_l1",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "在24＋16÷4这个算式里，如果想先算加法，应该怎么改？请写出改后的算式并算出结果。",
+  "answer": "(24＋16)÷4＝10",
+  "explanation": "原式按先乘除后加减的顺序，先算16÷4＝4，再算24＋4＝28；给24＋16加上括号后先算括号里的24＋16＝40，再算40÷4＝10。"
+ },
+ {
+  "id": "hjm_g4b_u1_l1_q8",
+  "topicId": "hjm_g4b_u1_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "下面哪个算式的结果是50？",
+  "answer": "30＋40÷2",
+  "options": [
+   "30＋40÷2",
+   "80－10×2",
+   "6×(12－4)",
+   "100÷(5＋5)"
+  ],
+  "explanation": "30＋40÷2先算40÷2＝20，再算30＋20＝50；80－10×2＝60，6×(12－4)＝48，100÷(5＋5)＝10，都不是50。"
+ },
+ {
+  "id": "hjm_g4b_u1_l1_q9",
+  "topicId": "hjm_g4b_u1_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "计算：360÷(12－4)×3－25＝？",
+  "answer": "110",
+  "explanation": "先算括号里的12－4＝8，再算360÷8＝45，接着45×3＝135，最后135－25＝110。",
+  "verify": "360/(12-4)*3-25"
+ },
+ {
+  "id": "hjm_g4b_u1_l2_q4",
+  "topicId": "hjm_g4b_u1_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "用简便方法计算：517－189－111＝？",
+  "answer": "217",
+  "explanation": "连续减去两个数等于减去这两个数的和：517－189－111＝517－(189＋111)＝517－300＝217。",
+  "verify": "517-189-111"
+ },
+ {
+  "id": "hjm_g4b_u1_l2_q5",
+  "topicId": "hjm_g4b_u1_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "用简便方法计算：720÷8÷9＝？",
+  "answer": "10",
+  "explanation": "连续除以两个数等于除以这两个数的积：720÷8÷9＝720÷(8×9)＝720÷72＝10。",
+  "verify": "720/8/9"
+ },
+ {
+  "id": "hjm_g4b_u1_l2_q6",
+  "topicId": "hjm_g4b_u1_l2",
+  "difficulty": "medium",
+  "type": "text",
+  "prompt": "小方计算700－298－202时写成700－298＋202＝404，对吗？为什么？",
+  "answer": "不对",
+  "explanation": "减法的性质是700－298－202＝700－(298＋202)＝700－500＝200；小方把减202写成了加202，结果错了。"
+ },
+ {
+  "id": "hjm_g4b_u1_l2_q7",
+  "topicId": "hjm_g4b_u1_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "用简便方法计算：865＋237－265＝？",
+  "answer": "837",
+  "explanation": "865－265＝600是整百数，先把减数调换位置：865＋237－265＝865－265＋237＝600＋237＝837。",
+  "verify": "865+237-265"
+ },
+ {
+  "id": "hjm_g4b_u1_l2_q8",
+  "topicId": "hjm_g4b_u1_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "用简便方法计算：540÷6÷15＝？",
+  "answer": "6",
+  "explanation": "540÷6÷15＝540÷(6×15)＝540÷90＝6。",
+  "verify": "540/6/15"
+ },
+ {
+  "id": "hjm_g4b_u1_l2_q9",
+  "topicId": "hjm_g4b_u1_l2",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "小军计算600－185－115时写成600－(185＋115)＝300，他做对了吗？为什么？",
+  "answer": "对",
+  "explanation": "减法的性质：a－b－c＝a－(b＋c)。这里185＋115＝300，600－300＝300，所以小军的做法正确。"
+ },
+ {
+  "id": "hjm_g4b_u1_l3_q4",
+  "topicId": "hjm_g4b_u1_l3",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "用简便方法计算：35×18＝？",
+  "answer": "630",
+  "explanation": "把18拆成2×9：35×18＝35×2×9＝70×9＝630。",
+  "verify": "35*18"
+ },
+ {
+  "id": "hjm_g4b_u1_l3_q5",
+  "topicId": "hjm_g4b_u1_l3",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "用简便方法计算：99×57＝？",
+  "answer": "5643",
+  "explanation": "把99看成100－1：99×57＝(100－1)×57＝5700－57＝5643。",
+  "verify": "99*57"
+ },
+ {
+  "id": "hjm_g4b_u1_l3_q6",
+  "topicId": "hjm_g4b_u1_l3",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "用简便方法计算：48×25＝？",
+  "answer": "1200",
+  "explanation": "把48拆成12×4：48×25＝12×4×25＝12×100＝1200。",
+  "verify": "48*25"
+ },
+ {
+  "id": "hjm_g4b_u1_l3_q7",
+  "topicId": "hjm_g4b_u1_l3",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "用简便方法计算：201×48＝？",
+  "answer": "9648",
+  "explanation": "把201看成200＋1：201×48＝200×48＋48＝9600＋48＝9648。",
+  "verify": "201*48"
+ },
+ {
+  "id": "hjm_g4b_u1_l3_q8",
+  "topicId": "hjm_g4b_u1_l3",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "计算76×99＋76，下面哪种简便写法正确？",
+  "answer": "76×(99＋1)",
+  "options": [
+   "76×(99＋1)",
+   "76×99＋1",
+   "76×(99－1)",
+   "99×(76＋1)"
+  ],
+  "explanation": "76×99＋76＝76×99＋76×1，可以逆用乘法分配律：76×(99＋1)＝76×100＝7600。"
+ },
+ {
+  "id": "hjm_g4b_u1_l3_q9",
+  "topicId": "hjm_g4b_u1_l3",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "用简便方法计算：125×(8＋4)＝？",
+  "answer": "1500",
+  "explanation": "用乘法分配律：125×(8＋4)＝125×8＋125×4＝1000＋500＝1500。",
+  "verify": "125*(8+4)"
+ },
+ {
+  "id": "hjm_g4b_u1_l4_q4",
+  "topicId": "hjm_g4b_u1_l4",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "寒假里，小冬每天练字20分钟，12天一共练了多少分钟？",
+  "answer": "240分钟",
+  "options": [
+   "240分钟",
+   "200分钟",
+   "260分钟",
+   "220分钟"
+  ],
+  "explanation": "每天20分钟，12天就是12个20分钟：20×12＝240分钟。"
+ },
+ {
+  "id": "hjm_g4b_u1_l4_q5",
+  "topicId": "hjm_g4b_u1_l4",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "寒假里，小雪每天做12道口算，做了15天，又做了9道应用题。她一共做了多少道题？",
+  "answer": "189",
+  "explanation": "口算做了12×15＝180道，再加上9道应用题，一共180＋9＝189道。",
+  "verify": "12*15+9"
+ },
+ {
+  "id": "hjm_g4b_u1_l4_q6",
+  "topicId": "hjm_g4b_u1_l4",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "寒假里，小峰去滑雪，门票每张45元，租雪具每套30元，他和爸爸一共花了多少元？",
+  "answer": "150",
+  "explanation": "每人花费45＋30＝75元，两个人一共75×2＝150元。",
+  "verify": "(45+30)*2"
+ },
+ {
+  "id": "hjm_g4b_u1_l4_q7",
+  "topicId": "hjm_g4b_u1_l4",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "寒假作业有96页，小兰每天做8页，做了7天后，还剩多少页？",
+  "answer": "40",
+  "explanation": "7天做了8×7＝56页，还剩96－56＝40页。",
+  "verify": "96-8*7"
+ },
+ {
+  "id": "hjm_g4b_u1_l4_q8",
+  "topicId": "hjm_g4b_u1_l4",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "寒假里，小雨每天折3只纸鹤，20天后想串成一串58只的风铃，够吗？",
+  "answer": "够了，还多2只",
+  "options": [
+   "够了，还多2只",
+   "不够，还差2只",
+   "够了，还多8只",
+   "刚好够"
+  ],
+  "explanation": "20天折了3×20＝60只，比58只多2只，所以够了，还多2只。"
+ },
+ {
+  "id": "hjm_g4b_u1_l4_q9",
+  "topicId": "hjm_g4b_u1_l4",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "寒假里，小刚上午看书1小时20分钟，下午看书50分钟，他这一天一共看了多少分钟书？",
+  "answer": "130",
+  "explanation": "1小时20分钟＝80分钟，再加上50分钟，一共80＋50＝130分钟。",
+  "verify": "80+50"
+ },
+ {
+  "id": "hjm_g4b_u2_l1_q4",
+  "topicId": "hjm_g4b_u2_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "0.8元表示多少钱？",
+  "answer": "8角",
+  "options": [
+   "8角",
+   "8分",
+   "8元",
+   "80元"
+  ],
+  "explanation": "1元＝10角，0.8元就是8个0.1元，也就是8角。"
+ },
+ {
+  "id": "hjm_g4b_u2_l1_q5",
+  "topicId": "hjm_g4b_u2_l1",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "小华说：“4.05读作四点零五，其中的‘5’表示5个百分之一。”这句话对吗？请说明理由。",
+  "answer": "对",
+  "explanation": "小数点后第一位是十分位，第二位是百分位；4.05的“5”在第二位，表示5个百分之一，所以这句话正确。"
+ },
+ {
+  "id": "hjm_g4b_u2_l1_q6",
+  "topicId": "hjm_g4b_u2_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "下面哪个小数读作“十二点零九”？",
+  "answer": "12.09",
+  "options": [
+   "12.09",
+   "12.9",
+   "12.90",
+   "10.29"
+  ],
+  "explanation": "十二点零九的整数部分是12，小数部分“零九”表示十分位是0、百分位是9，写作12.09。"
+ },
+ {
+  "id": "hjm_g4b_u2_l1_q7",
+  "topicId": "hjm_g4b_u2_l1",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "一支钢笔12.80元，这里的“8”表示什么？",
+  "answer": "8角",
+  "options": [
+   "8角",
+   "8分",
+   "8元",
+   "8个一"
+  ],
+  "explanation": "12.80元小数点后第一位是十分位，表示角；“8”在十分位，所以表示8角。"
+ },
+ {
+  "id": "hjm_g4b_u2_l1_q8",
+  "topicId": "hjm_g4b_u2_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "小明的体重是36.5千克，36.5读作什么？",
+  "answer": "三十六点五",
+  "options": [
+   "三十六点五",
+   "三十六点五十",
+   "三六点五",
+   "三十五点六"
+  ],
+  "explanation": "小数读法：整数部分按整数读，36读作三十六；小数点读作“点”；小数部分按顺序读，5读作五，所以是三十六点五。"
+ },
+ {
+  "id": "hjm_g4b_u2_l1_q9",
+  "topicId": "hjm_g4b_u2_l1",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "商品标价5.04元，小丁读作“五点四”，对吗？为什么？",
+  "answer": "不对",
+  "explanation": "读小数时，小数部分的0也要读出来；5.04的十分位是0、百分位是4，应读作五点零四，读作“五点四”的是5.4。"
+ },
+ {
+  "id": "hjm_g4b_u2_l2_q4",
+  "topicId": "hjm_g4b_u2_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "把3/10写成小数是多少？",
+  "answer": "0.3",
+  "explanation": "十分之三就是把1平均分成10份取3份，用小数表示是0.3。",
+  "verify": "3/10"
+ },
+ {
+  "id": "hjm_g4b_u2_l2_q5",
+  "topicId": "hjm_g4b_u2_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "由3个1、2个0.1和5个0.001组成的小数是多少？",
+  "answer": "3.205",
+  "explanation": "3个1是3，2个0.1是0.2，5个0.001是0.005，合起来是3.205。",
+  "verify": "3+2*0.1+5*0.001"
+ },
+ {
+  "id": "hjm_g4b_u2_l2_q6",
+  "topicId": "hjm_g4b_u2_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "0.09表示百分之几？",
+  "answer": "9/100",
+  "options": [
+   "9/100",
+   "9/10",
+   "90/100",
+   "9/1000"
+  ],
+  "explanation": "0.09的9在百分位，表示9个百分之一，也就是百分之九。"
+ },
+ {
+  "id": "hjm_g4b_u2_l2_q7",
+  "topicId": "hjm_g4b_u2_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "把85/1000写成小数是多少？",
+  "answer": "0.085",
+  "explanation": "千分之八十五就是把1平均分成1000份取85份，用小数表示是0.085。",
+  "verify": "85/1000"
+ },
+ {
+  "id": "hjm_g4b_u2_l2_q8",
+  "topicId": "hjm_g4b_u2_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "1.4里面有几个0.1？",
+  "answer": "14个",
+  "options": [
+   "14个",
+   "4个",
+   "10个",
+   "140个"
+  ],
+  "explanation": "1里面有10个0.1，0.4里面有4个0.1，合起来1.4里面有14个0.1。"
+ },
+ {
+  "id": "hjm_g4b_u2_l2_q9",
+  "topicId": "hjm_g4b_u2_l2",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "小方说：“0.25就是25个0.01，也就是百分之二十五。”这句话对吗？请说明理由。",
+  "answer": "对",
+  "explanation": "0.25＝25/100，百分位上的计数单位是0.01，所以0.25是25个0.01，也就是百分之二十五。"
+ },
+ {
+  "id": "hjm_g4b_u2_l3_q4",
+  "topicId": "hjm_g4b_u2_l3",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "3.7、3.68、3.69三个数中，最大的是哪一个？",
+  "answer": "3.7",
+  "options": [
+   "3.7",
+   "3.68",
+   "3.69",
+   "一样大"
+  ],
+  "explanation": "先比十分位，3.7的十分位是7，比3.68和3.69的十分位6大，所以3.7最大。"
+ },
+ {
+  "id": "hjm_g4b_u2_l3_q5",
+  "topicId": "hjm_g4b_u2_l3",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "把0.62、0.6、0.602按从小到大的顺序排列，正确的是哪一组？",
+  "answer": "0.6<0.602<0.62",
+  "options": [
+   "0.6<0.602<0.62",
+   "0.62<0.602<0.6",
+   "0.602<0.6<0.62",
+   "0.6<0.62<0.602"
+  ],
+  "explanation": "0.6＝0.600，0.602的千分位是2，0.62的百分位是2；从小到大是0.600＜0.602＜0.620，即0.6＜0.602＜0.62。"
+ },
+ {
+  "id": "hjm_g4b_u2_l3_q6",
+  "topicId": "hjm_g4b_u2_l3",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "下面哪个数比2.05大、比2.5小？",
+  "answer": "2.2",
+  "options": [
+   "2.2",
+   "2.04",
+   "2.6",
+   "1.98"
+  ],
+  "explanation": "2.2比2.05大，又比2.5小；2.04比2.05小，2.6比2.5大，1.98比2.05小。"
+ },
+ {
+  "id": "hjm_g4b_u2_l3_q7",
+  "topicId": "hjm_g4b_u2_l3",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "小明说：“0.99比1小，0.999也比1小，而且0.999比0.99大。”这句话对吗？请说明理由。",
+  "answer": "对",
+  "explanation": "0.99＝0.990，0.999的千分位是9，比0大；两个数都不到1，所以都比1小。"
+ },
+ {
+  "id": "hjm_g4b_u2_l3_q8",
+  "topicId": "hjm_g4b_u2_l3",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "把0.7、0.69、0.71按从大到小的顺序排列，正确的是哪一组？",
+  "answer": "0.71>0.7>0.69",
+  "options": [
+   "0.71>0.7>0.69",
+   "0.7>0.71>0.69",
+   "0.69>0.7>0.71",
+   "0.71>0.69>0.7"
+  ],
+  "explanation": "0.7＝0.70，十分位都是7时比百分位：0.71的百分位是1，0.70的百分位是0，0.69的十分位是6最小，所以从大到小是0.71＞0.7＞0.69。"
+ },
+ {
+  "id": "hjm_g4b_u2_l3_q9",
+  "topicId": "hjm_g4b_u2_l3",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "0.5□＞0.53，□里最小可以填几？",
+  "answer": "4",
+  "options": [
+   "4",
+   "3",
+   "5",
+   "0"
+  ],
+  "explanation": "□填3时是0.53，不大于0.53；填4时是0.54，比0.53大；填0时是0.50，比0.53小；所以最小填4。"
+ },
+ {
+  "id": "hjm_g4b_u2_l4_q4",
+  "topicId": "hjm_g4b_u2_l4",
+  "difficulty": "medium",
+  "type": "text",
+  "prompt": "小林说：“0.9和0.90大小相等，意义也完全相同。”对吗？为什么？",
+  "answer": "不对",
+  "explanation": "根据小数的性质，0.9＝0.90，大小相等；但0.9的计数单位是0.1，0.90的计数单位是0.01，精确度不同，所以意义不完全相同。"
+ },
+ {
+  "id": "hjm_g4b_u2_l4_q5",
+  "topicId": "hjm_g4b_u2_l4",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "把0.8改写成计数单位是0.001的小数是多少？",
+  "answer": "0.800",
+  "explanation": "计数单位是0.001就是千分之一，要写成三位小数；根据小数的性质，0.8＝0.800。"
+ },
+ {
+  "id": "hjm_g4b_u2_l4_q6",
+  "topicId": "hjm_g4b_u2_l4",
+  "difficulty": "medium",
+  "type": "text",
+  "prompt": "小明说 6.48 和 6.480 大小相等，对吗？为什么？",
+  "answer": "对",
+  "explanation": "小数末尾添上 0 不改变小数的大小：6.480 末尾的 0 去掉就是 6.48，所以两个数相等，小明的说法正确。"
+ },
+ {
+  "id": "hjm_g4b_u2_l4_q7",
+  "topicId": "hjm_g4b_u2_l4",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "去掉下面哪个数末尾的0，数的大小不变？",
+  "answer": "5.20",
+  "options": [
+   "5.20",
+   "5.02",
+   "502",
+   "205"
+  ],
+  "explanation": "5.20末尾的0去掉后是5.2，大小不变；5.02的0在中间，去掉会改变大小；502和205的末尾没有0。"
+ },
+ {
+  "id": "hjm_g4b_u2_l4_q8",
+  "topicId": "hjm_g4b_u2_l4",
+  "difficulty": "medium",
+  "type": "text",
+  "prompt": "0.5和0.50相比，哪个更精确？为什么？",
+  "answer": "0.50",
+  "explanation": "两个数大小相等，但0.5的计数单位是0.1，0.50的计数单位是0.01，精确度更高。"
+ },
+ {
+  "id": "hjm_g4b_u2_l4_q9",
+  "topicId": "hjm_g4b_u2_l4",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "把10.050化简后是多少？",
+  "answer": "10.05",
+  "explanation": "化简小数就是去掉末尾的0：10.050末尾的0去掉后是10.05，大小不变。"
+ },
+ {
+  "id": "hjm_g4b_u2_l5_q4",
+  "topicId": "hjm_g4b_u2_l5",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "计算：1.25×100＝？",
+  "answer": "125",
+  "explanation": "一个数乘100，小数点向右移动两位：1.25×100＝125。",
+  "verify": "1.25*100"
+ },
+ {
+  "id": "hjm_g4b_u2_l5_q5",
+  "topicId": "hjm_g4b_u2_l5",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个数的小数点向右移动三位后是72，这个数原来是多少？",
+  "answer": "0.072",
+  "explanation": "小数点向右移动三位是把原数扩大1000倍；反过来，原数是72缩小1000倍，即72÷1000＝0.072。",
+  "verify": "72/1000"
+ },
+ {
+  "id": "hjm_g4b_u2_l5_q6",
+  "topicId": "hjm_g4b_u2_l5",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "计算：9.6÷10＝？",
+  "answer": "0.96",
+  "explanation": "一个数除以10，小数点向左移动一位：9.6÷10＝0.96。",
+  "verify": "9.6/10"
+ },
+ {
+  "id": "hjm_g4b_u2_l5_q7",
+  "topicId": "hjm_g4b_u2_l5",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "把0.05扩大到原来的1000倍是多少？",
+  "answer": "50",
+  "explanation": "扩大1000倍就是小数点向右移动三位：0.05×1000＝50。",
+  "verify": "0.05*1000"
+ },
+ {
+  "id": "hjm_g4b_u2_l5_q8",
+  "topicId": "hjm_g4b_u2_l5",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "把3.4缩小到原来的1/100，小数点应该向哪个方向移动几位？",
+  "answer": "向左移动两位",
+  "options": [
+   "向左移动两位",
+   "向右移动两位",
+   "向左移动一位",
+   "向右移动一位"
+  ],
+  "explanation": "缩小到原来的1/100就是除以100，小数点向左移动两位：3.4÷100＝0.034。"
+ },
+ {
+  "id": "hjm_g4b_u2_l5_q9",
+  "topicId": "hjm_g4b_u2_l5",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "小林把一个数的小数点向左移动一位后得到0.68，再把0.68的小数点向右移动三位，最后得到的是多少？",
+  "answer": "680",
+  "explanation": "0.68的小数点向右移动三位就是0.68×1000＝680。",
+  "verify": "0.68*1000"
+ },
+ {
+  "id": "hjm_g4b_u2_l6_q4",
+  "topicId": "hjm_g4b_u2_l6",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "计算：3.6＋1.45＝？",
+  "answer": "5.05",
+  "explanation": "小数加法要把小数点对齐：3.6＋1.45＝5.05。",
+  "verify": "3.6+1.45"
+ },
+ {
+  "id": "hjm_g4b_u2_l6_q5",
+  "topicId": "hjm_g4b_u2_l6",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "计算：10－4.28＝？",
+  "answer": "5.72",
+  "explanation": "10可以看成10.00，借位计算：10.00－4.28＝5.72。",
+  "verify": "10-4.28"
+ },
+ {
+  "id": "hjm_g4b_u2_l6_q6",
+  "topicId": "hjm_g4b_u2_l6",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "计算：6.2－1.75＋0.55＝？",
+  "answer": "5",
+  "explanation": "按从左往右的顺序：6.2－1.75＝4.45，再算4.45＋0.55＝5。",
+  "verify": "6.2-1.75+0.55"
+ },
+ {
+  "id": "hjm_g4b_u2_l6_q7",
+  "topicId": "hjm_g4b_u2_l6",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一根绳子长5.4米，第一次剪去1.75米，第二次剪去0.85米，还剩多少米？",
+  "answer": "2.8",
+  "explanation": "两次一共剪去1.75＋0.85＝2.6米，还剩5.4－2.6＝2.8米。",
+  "verify": "5.4-1.75-0.85"
+ },
+ {
+  "id": "hjm_g4b_u2_l6_q8",
+  "topicId": "hjm_g4b_u2_l6",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "计算2.5＋3.68时，竖式中“5”和“8”能直接相加吗？为什么？",
+  "answer": "不能，因为数位没有对齐，5在十分位、8在百分位",
+  "options": [
+   "不能，因为数位没有对齐，5在十分位、8在百分位",
+   "能，因为都是小数",
+   "不能，因为2.5没有百分位",
+   "能，因为5＋8＝13"
+  ],
+  "explanation": "小数加法必须相同数位对齐：2.5的“5”在十分位，3.68的“8”在百分位，数位不同不能直接相加；正确做法是把2.5写成2.50再相加。"
+ },
+ {
+  "id": "hjm_g4b_u2_l6_q9",
+  "topicId": "hjm_g4b_u2_l6",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "小明计算4.6＋2.35时把4.6看成了4.06，结果比正确结果少多少？",
+  "answer": "0.54",
+  "explanation": "正确结果是4.6＋2.35＝6.95，算错的结果是4.06＋2.35＝6.41，相差6.95－6.41＝0.54。",
+  "verify": "(4.6+2.35)-(4.06+2.35)"
+ },
+ {
+  "id": "hjm_g4b_u3_l1_q4",
+  "topicId": "hjm_g4b_u3_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "某地一周气温折线图：星期一15℃，星期二17℃，星期三16℃，星期四20℃，星期五19℃。气温最低的是星期几？",
+  "answer": "星期一",
+  "options": [
+   "星期一",
+   "星期二",
+   "星期三",
+   "星期五"
+  ],
+  "explanation": "五天气温分别是15、17、16、20、19℃，最低的是15℃，对应星期一。"
+ },
+ {
+  "id": "hjm_g4b_u3_l1_q5",
+  "topicId": "hjm_g4b_u3_l1",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "小军的身高折线图：7岁120厘米，8岁125厘米，9岁128厘米，10岁136厘米。哪一年长得最快？长了多少厘米？",
+  "answer": "9岁到10岁长得最快，长了8厘米",
+  "explanation": "7岁到8岁长了125－120＝5厘米，8岁到9岁长了128－125＝3厘米，9岁到10岁长了136－128＝8厘米，所以9岁到10岁长得最快。"
+ },
+ {
+  "id": "hjm_g4b_u3_l1_q6",
+  "topicId": "hjm_g4b_u3_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "某商店五天卖出牛奶：星期一30箱，星期二42箱，星期三38箱，星期四50箱，星期五45箱。这五天平均每天卖出多少箱？",
+  "answer": "41",
+  "explanation": "五天一共卖出30＋42＋38＋50＋45＝205箱，平均每天205÷5＝41箱。",
+  "verify": "(30+42+38+50+45)/5"
+ },
+ {
+  "id": "hjm_g4b_u3_l1_q7",
+  "topicId": "hjm_g4b_u3_l1",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "折线统计图上，线段越陡说明什么？",
+  "answer": "数量变化越快",
+  "options": [
+   "数量变化越快",
+   "数量越多",
+   "数量越少",
+   "时间越长"
+  ],
+  "explanation": "折线越陡，表示在相同时间内数量变化越大，也就是变化越快；线段平缓则变化慢。"
+ },
+ {
+  "id": "hjm_g4b_u3_l1_q8",
+  "topicId": "hjm_g4b_u3_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "某城市1月到4月的降水量分别是40毫米、55毫米、50毫米、70毫米。降水量的变化趋势是？",
+  "answer": "总体上升，3月略有下降",
+  "explanation": "1月到2月从40毫米上升到55毫米，2月到3月下降到50毫米，3月到4月上升到70毫米，所以总体上升，中间3月略有下降。",
+  "options": [
+   "总体上升，3月略有下降",
+   "一直上升",
+   "先下降后上升",
+   "总体下降"
+  ]
+ },
+ {
+  "id": "hjm_g4b_u3_l1_q9",
+  "topicId": "hjm_g4b_u3_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "小红四次数学测验的成绩是88分、92分、90分、98分。她四次测验的平均分是多少分？",
+  "answer": "92",
+  "explanation": "四次成绩一共88＋92＋90＋98＝368分，平均分是368÷4＝92分。",
+  "verify": "(88+92+90+98)/4"
+ },
+ {
+  "id": "hjm_g4b_u3_l2_q4",
+  "topicId": "hjm_g4b_u3_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "画折线统计图时，第一步通常做什么？",
+  "answer": "整理数据，画出横轴和纵轴并标好刻度",
+  "options": [
+   "整理数据，画出横轴和纵轴并标好刻度",
+   "先把点连起来",
+   "先写标题",
+   "先描点"
+  ],
+  "explanation": "画折线统计图要先整理数据，再画横轴和纵轴并标好均匀的刻度，然后描点、连线、写标题。"
+ },
+ {
+  "id": "hjm_g4b_u3_l2_q5",
+  "topicId": "hjm_g4b_u3_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "小东画某地气温折线图，纵轴每格表示5℃，某天30℃的点描在第6格（从0起数），另一天20℃的点描在第几格？",
+  "answer": "4",
+  "explanation": "纵轴每格表示5℃，20℃对应的格数是20÷5＝4，所以描在第4格。",
+  "verify": "20/5"
+ },
+ {
+  "id": "hjm_g4b_u3_l2_q6",
+  "topicId": "hjm_g4b_u3_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一张折线统计图的纵轴每格表示4人，某班48人，在图上这个点应该描在第几格（从0起数）？",
+  "answer": "12",
+  "explanation": "纵轴每格表示4人，48人对应的格数是48÷4＝12，所以描在第12格。",
+  "verify": "48/4"
+ },
+ {
+  "id": "hjm_g4b_u3_l2_q7",
+  "topicId": "hjm_g4b_u3_l2",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "画折线统计图时，下面哪种做法是错误的？",
+  "answer": "描点后不连线，只留一堆点",
+  "options": [
+   "描点后不连线，只留一堆点",
+   "描好点后用线段顺次连接",
+   "横轴标明时间或类别",
+   "在图上写清单位和标题"
+  ],
+  "explanation": "折线统计图要把相邻的点用线段顺次连接起来，才能看出数量变化的趋势；只留一堆点就看不出变化。"
+ },
+ {
+  "id": "hjm_g4b_u3_l2_q8",
+  "topicId": "hjm_g4b_u3_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "折线统计图中的点表示什么？",
+  "answer": "某个时间或类别对应的数量",
+  "options": [
+   "某个时间或类别对应的数量",
+   "线段的长度",
+   "图的标题",
+   "刻度的大小"
+  ],
+  "explanation": "折线统计图上的每个点对应一个时间或类别的数量，点的位置高低表示数量的多少。"
+ },
+ {
+  "id": "hjm_g4b_u3_l2_q9",
+  "topicId": "hjm_g4b_u3_l2",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "小兰要画小明1月到5月的零花钱变化图，数据是：1月20元、2月25元、3月15元、4月30元、5月35元。纵轴每格表示5元合适吗？为什么？",
+  "answer": "合适",
+  "explanation": "纵轴刻度要根据数据范围来定：数据最大35元、最小15元，每格5元既不会让图挤在一起，也不会让变化看不出来，所以合适。"
+ },
+ {
+  "id": "hjm_g4b_u4_l1_q4",
+  "topicId": "hjm_g4b_u4_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "两条直线互相垂直，相交的四个角中，最大的角是多少度？",
+  "answer": "90°",
+  "options": [
+   "90°",
+   "60°",
+   "120°",
+   "180°"
+  ],
+  "explanation": "两条直线互相垂直就是相交成直角，四个角都是90°，所以最大的角是90°。"
+ },
+ {
+  "id": "hjm_g4b_u4_l1_q5",
+  "topicId": "hjm_g4b_u4_l1",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "从直线外一点向直线画垂线，垂足有几个？为什么？",
+  "answer": "1个",
+  "explanation": "垂线是唯一的：过直线外一点画直线的垂线只能画一条，这条垂线与直线的交点就是垂足，所以只有1个。"
+ },
+ {
+  "id": "hjm_g4b_u4_l1_q6",
+  "topicId": "hjm_g4b_u4_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "直线a垂直于直线b，可以记作什么？",
+  "answer": "a⊥b",
+  "options": [
+   "a⊥b",
+   "a∥b",
+   "a＝b",
+   "a＞b"
+  ],
+  "explanation": "垂直用符号“⊥”表示，直线a垂直于直线b记作a⊥b；“∥”表示平行。"
+ },
+ {
+  "id": "hjm_g4b_u4_l1_q7",
+  "topicId": "hjm_g4b_u4_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "从直线外一点P向直线l画垂线段，垂线段长7厘米；又画了一条斜线段，长10厘米。斜线段比垂线段长多少厘米？",
+  "answer": "3",
+  "explanation": "斜线段10厘米比垂线段7厘米长10－7＝3厘米；这也说明点到直线的线段中垂线段最短。",
+  "verify": "10-7"
+ },
+ {
+  "id": "hjm_g4b_u4_l1_q8",
+  "topicId": "hjm_g4b_u4_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "判断：两条直线相交，就一定互相垂直。对吗？",
+  "answer": "不对，只有相交成直角时才互相垂直",
+  "options": [
+   "不对，只有相交成直角时才互相垂直",
+   "对，相交就是垂直",
+   "对，四个角都相等",
+   "无法判断"
+  ],
+  "explanation": "两条直线相交时，四个角不一定是直角；只有相交成直角时，这两条直线才互相垂直。"
+ },
+ {
+  "id": "hjm_g4b_u4_l1_q9",
+  "topicId": "hjm_g4b_u4_l1",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "过直线l外一点A画直线l的垂线，再过点A画一条与这条垂线垂直的直线，这条直线与l是什么关系？为什么？",
+  "answer": "平行",
+  "explanation": "第一条垂线垂直于l，第二条直线垂直于第一条垂线；同一平面内，垂直于同一条直线的两条直线互相平行，所以第二条直线与l平行。"
+ },
+ {
+  "id": "hjm_g4b_u4_l2_q4",
+  "topicId": "hjm_g4b_u4_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "下面哪组线是互相平行的？",
+  "answer": "斑马线上的白条纹",
+  "options": [
+   "斑马线上的白条纹",
+   "黑板相邻的两条边",
+   "剪刀张开的两片刀刃",
+   "钟面上时针和分针"
+  ],
+  "explanation": "斑马线上的白条纹在同一平面内、永不相交，是平行线；黑板相邻的边互相垂直，剪刀刀刃和时针分针都相交。"
+ },
+ {
+  "id": "hjm_g4b_u4_l2_q5",
+  "topicId": "hjm_g4b_u4_l2",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "在同一平面内，两条直线要么相交，要么怎样？",
+  "answer": "互相平行",
+  "explanation": "同一平面内的两条直线只有相交和平行两种位置关系。"
+ },
+ {
+  "id": "hjm_g4b_u4_l2_q6",
+  "topicId": "hjm_g4b_u4_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "直线m平行于直线n，可以记作什么？",
+  "answer": "m∥n",
+  "options": [
+   "m∥n",
+   "m⊥n",
+   "m＝n",
+   "m＞n"
+  ],
+  "explanation": "平行用符号“∥”表示，直线m平行于直线n记作m∥n；“⊥”表示垂直。"
+ },
+ {
+  "id": "hjm_g4b_u4_l2_q7",
+  "topicId": "hjm_g4b_u4_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "两条平行线之间有4条垂线段，每条长6厘米，平行线之间的距离是多少厘米？",
+  "answer": "6",
+  "explanation": "平行线之间的距离处处相等，4条垂线段都长6厘米，所以平行线之间的距离是6厘米。"
+ },
+ {
+  "id": "hjm_g4b_u4_l2_q8",
+  "topicId": "hjm_g4b_u4_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "判断：不相交的两条直线一定互相平行。对吗？",
+  "answer": "不对，必须在同一平面内",
+  "options": [
+   "不对，必须在同一平面内",
+   "对，不相交就是平行",
+   "对，距离处处相等",
+   "无法判断"
+  ],
+  "explanation": "平行线必须在同一平面内；不在同一平面内的两条直线即使不相交，也不能叫平行线。"
+ },
+ {
+  "id": "hjm_g4b_u4_l2_q9",
+  "topicId": "hjm_g4b_u4_l2",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "两条平行线a和b之间画了3条线段，长度都是5厘米。小明说这3条线段一定都是垂线段，对吗？为什么？",
+  "answer": "不一定是垂线段",
+  "explanation": "斜着画的线段也可以是5厘米长；只有与两条平行线都垂直的线段才是垂线段，光长度相等不能说明是垂线段。"
+ },
+ {
+  "id": "hjm_g4b_u5_l1_q4",
+  "topicId": "hjm_g4b_u5_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "果园里摘了7筐苹果，每筐18千克，卖掉96千克，还剩多少千克？",
+  "answer": "30",
+  "explanation": "一共摘了7×18＝126千克，卖掉96千克后还剩126－96＝30千克。",
+  "verify": "7*18-96"
+ },
+ {
+  "id": "hjm_g4b_u5_l1_q5",
+  "topicId": "hjm_g4b_u5_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "学校组织春游，租了6辆车，每辆车坐42人，还有8名老师自己开车去。一共去了多少人？",
+  "answer": "260",
+  "explanation": "坐车去的有6×42＝252人，再加上8名老师，一共252＋8＝260人。",
+  "verify": "6*42+8"
+ },
+ {
+  "id": "hjm_g4b_u5_l1_q6",
+  "topicId": "hjm_g4b_u5_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一本书有120页，小红每天看15页，看了5天后，还剩多少页？",
+  "answer": "45",
+  "explanation": "5天看了15×5＝75页，还剩120－75＝45页。",
+  "verify": "120-15*5"
+ },
+ {
+  "id": "hjm_g4b_u5_l1_q7",
+  "topicId": "hjm_g4b_u5_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "妈妈买了3千克苹果，每千克9元，又买了2千克香蕉，每千克7元。妈妈一共花了多少元？",
+  "answer": "41",
+  "explanation": "苹果花了3×9＝27元，香蕉花了2×7＝14元，一共27＋14＝41元。",
+  "verify": "3*9+2*7"
+ },
+ {
+  "id": "hjm_g4b_u5_l1_q8",
+  "topicId": "hjm_g4b_u5_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "小明有200元，买了一个书包花了86元，又买了4本笔记本，每本9元。他还剩多少元？",
+  "answer": "78元",
+  "options": [
+   "78元",
+   "114元",
+   "86元",
+   "105元"
+  ],
+  "explanation": "笔记本花了4×9＝36元，一共花了86＋36＝122元，还剩200－122＝78元。"
+ },
+ {
+  "id": "hjm_g4b_u5_l1_q9",
+  "topicId": "hjm_g4b_u5_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "停车场原来有36辆车，上午开走9辆，开来14辆，下午开走6辆，开来11辆，现在停车场有多少辆车？",
+  "answer": "46",
+  "explanation": "上午结束后是36－9＋14＝41辆，下午结束后是41－6＋11＝46辆。",
+  "verify": "36-9+14-6+11"
+ },
+ {
+  "id": "hjm_g4b_u5_l2_q4",
+  "topicId": "hjm_g4b_u5_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一支牙膏6.5元，一把牙刷4.8元，买这两样一共要付多少元？",
+  "answer": "11.3",
+  "explanation": "小数点对齐相加：6.5＋4.8＝11.3元。",
+  "verify": "6.5+4.8"
+ },
+ {
+  "id": "hjm_g4b_u5_l2_q5",
+  "topicId": "hjm_g4b_u5_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "小红带了50元，买书花了23.6元，买文具花了14.8元，还剩多少元？",
+  "answer": "11.6",
+  "explanation": "一共花了23.6＋14.8＝38.4元，还剩50－38.4＝11.6元。",
+  "verify": "50-23.6-14.8"
+ },
+ {
+  "id": "hjm_g4b_u5_l2_q6",
+  "topicId": "hjm_g4b_u5_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "小明身高1.32米，小华比小明高0.15米，小华身高多少米？",
+  "answer": "1.47",
+  "explanation": "1.32＋0.15＝1.47米。",
+  "verify": "1.32+0.15"
+ },
+ {
+  "id": "hjm_g4b_u5_l2_q7",
+  "topicId": "hjm_g4b_u5_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一根彩带长4.5米，做手工用去1.75米，又接上2.3米，现在彩带长多少米？",
+  "answer": "5.05",
+  "explanation": "用去后剩4.5－1.75＝2.75米，接上2.3米后是2.75＋2.3＝5.05米。",
+  "verify": "4.5-1.75+2.3"
+ },
+ {
+  "id": "hjm_g4b_u5_l2_q8",
+  "topicId": "hjm_g4b_u5_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "小丽有10元，买了一支4.6元的笔和一块1.5元的橡皮，还剩多少元？",
+  "answer": "3.9元",
+  "options": [
+   "3.9元",
+   "4.4元",
+   "5.4元",
+   "3.4元"
+  ],
+  "explanation": "一共花了4.6＋1.5＝6.1元，还剩10－6.1＝3.9元。"
+ },
+ {
+  "id": "hjm_g4b_u5_l2_q9",
+  "topicId": "hjm_g4b_u5_l2",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "水果店上午卖出苹果12.5千克，下午卖出8.75千克。全天一共卖出多少千克？下午比上午少卖出多少千克？",
+  "answer": "全天一共卖出21.25千克，下午比上午少卖出3.75千克",
+  "explanation": "全天：12.5＋8.75＝21.25千克；上午比下午多12.5－8.75＝3.75千克，所以下午比上午少卖出3.75千克。"
+ },
+ {
+  "id": "hjm_g4b_u5_l3_q4",
+  "topicId": "hjm_g4b_u5_l3",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "2米40厘米和2.4米相比，哪个长？",
+  "answer": "一样长",
+  "options": [
+   "一样长",
+   "2米40厘米长",
+   "2.4米长",
+   "无法比较"
+  ],
+  "explanation": "40厘米＝0.4米，所以2米40厘米＝2.4米，两者一样长。"
+ },
+ {
+  "id": "hjm_g4b_u5_l3_q5",
+  "topicId": "hjm_g4b_u5_l3",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "5.08吨等于多少吨多少千克？",
+  "answer": "5吨80千克",
+  "options": [
+   "5吨80千克",
+   "5吨8千克",
+   "5吨800千克",
+   "50吨80千克"
+  ],
+  "explanation": "5.08吨的整数部分是5吨，小数部分0.08吨＝80千克，所以是5吨80千克。"
+ },
+ {
+  "id": "hjm_g4b_u5_l3_q6",
+  "topicId": "hjm_g4b_u5_l3",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "0.75米等于多少厘米？",
+  "answer": "75",
+  "explanation": "1米＝100厘米，0.75米＝0.75×100＝75厘米。",
+  "verify": "0.75*100"
+ },
+ {
+  "id": "hjm_g4b_u5_l3_q7",
+  "topicId": "hjm_g4b_u5_l3",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "小明跳远跳了1.85米，小亮比小明多跳0.25米，小亮跳了多少米？",
+  "answer": "2.1",
+  "explanation": "1.85＋0.25＝2.1米。",
+  "verify": "1.85+0.25"
+ },
+ {
+  "id": "hjm_g4b_u5_l3_q8",
+  "topicId": "hjm_g4b_u5_l3",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "4.05千克等于多少克？",
+  "answer": "4050克",
+  "options": [
+   "4050克",
+   "405克",
+   "450克",
+   "4005克"
+  ],
+  "explanation": "1千克＝1000克，4.05千克＝4.05×1000＝4050克。"
+ },
+ {
+  "id": "hjm_g4b_u5_l3_q9",
+  "topicId": "hjm_g4b_u5_l3",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一块布长3.6米，做一件衣服用去1.45米，做一条裤子用去0.95米，还剩多少米？",
+  "answer": "1.2",
+  "explanation": "两件一共用去1.45＋0.95＝2.4米，还剩3.6－2.4＝1.2米。",
+  "verify": "3.6-1.45-0.95"
+ },
+ {
+  "id": "hjm_g4b_u5_l4_q4",
+  "topicId": "hjm_g4b_u5_l4",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "8.36凑整到个位是多少？",
+  "answer": "8",
+  "options": [
+   "8",
+   "9",
+   "8.4",
+   "8.3"
+  ],
+  "explanation": "凑整到个位看十分位：十分位是3，不满5舍去，所以是8。"
+ },
+ {
+  "id": "hjm_g4b_u5_l4_q5",
+  "topicId": "hjm_g4b_u5_l4",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "2.048凑整到十分位是多少？",
+  "answer": "2.0",
+  "options": [
+   "2.0",
+   "2.1",
+   "2.05",
+   "2.04"
+  ],
+  "explanation": "凑整到十分位看百分位：百分位是4，不满5舍去，是2.0；十分位的0不能去掉，因为它表示精确到十分位。"
+ },
+ {
+  "id": "hjm_g4b_u5_l4_q6",
+  "topicId": "hjm_g4b_u5_l4",
+  "difficulty": "medium",
+  "type": "text",
+  "prompt": "小红把6.48凑整到个位得到6，她说因为十分位是4所以舍去，对吗？为什么？",
+  "answer": "对",
+  "explanation": "凑整到个位要看十分位上的数：4＜5，舍去尾数，6.48凑整到个位是6，小红的做法正确。"
+ },
+ {
+  "id": "hjm_g4b_u5_l4_q7",
+  "topicId": "hjm_g4b_u5_l4",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "小丁把9.96凑整到十分位得到10.0，他说10.0后面的0可以去掉，写成10。对吗？为什么？",
+  "answer": "不对",
+  "explanation": "10.0和10大小相等，但精确度不同：10.0精确到十分位，10精确到个位；凑整结果里的0不能随意去掉。"
+ },
+ {
+  "id": "hjm_g4b_u5_l4_q8",
+  "topicId": "hjm_g4b_u5_l4",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "12.74凑整到十分位后，与原数相差多少？",
+  "answer": "0.04",
+  "explanation": "12.74凑整到十分位是12.7，相差12.74－12.7＝0.04。",
+  "verify": "12.74-12.7"
+ },
+ {
+  "id": "hjm_g4b_u5_l4_q9",
+  "topicId": "hjm_g4b_u5_l4",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "一个数凑整到百分位后是3.00，这个数可能是下面哪一个？",
+  "answer": "2.996",
+  "options": [
+   "2.996",
+   "3.005",
+   "2.994",
+   "3.014"
+  ],
+  "explanation": "2.996的千分位是6，满5进1，凑整到百分位是3.00；3.005凑整是3.01，2.994凑整是2.99，3.014凑整是3.01。"
+ },
+ {
+  "id": "hjm_g4b_u5_l5_q4",
+  "topicId": "hjm_g4b_u5_l5",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "三角尺上哪两条边是互相垂直的？",
+  "answer": "直角边与直角边",
+  "options": [
+   "直角边与直角边",
+   "斜边与直角边",
+   "两条斜边",
+   "没有互相垂直的边"
+  ],
+  "explanation": "三角尺的直角由两条直角边相交而成，这两条直角边互相垂直；斜边与直角边相交成的不是直角。"
+ },
+ {
+  "id": "hjm_g4b_u5_l5_q5",
+  "topicId": "hjm_g4b_u5_l5",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "在长方形ABCD中，AB平行于CD，BC平行于AD。如果AC是一条对角线，AC和AB是什么关系？",
+  "answer": "相交但不垂直",
+  "explanation": "对角线与边在顶点处相交，但夹角不是90°，所以是相交但不垂直。"
+ },
+ {
+  "id": "hjm_g4b_u5_l5_q6",
+  "topicId": "hjm_g4b_u5_l5",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "下面哪个图形中既有平行线又有垂线？",
+  "answer": "长方形",
+  "options": [
+   "长方形",
+   "圆形",
+   "直线",
+   "点"
+  ],
+  "explanation": "长方形的对边互相平行，相邻的边互相垂直，所以既有平行线又有垂线；圆形、直线和点都没有这两组关系。"
+ },
+ {
+  "id": "hjm_g4b_u5_l5_q7",
+  "topicId": "hjm_g4b_u5_l5",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "过直线l外一点P画直线l的平行线，能画几条？为什么？",
+  "answer": "1条",
+  "explanation": "平行线的唯一性：过直线外一点画已知直线的平行线只能画一条，画第二条就会与第一条相交，不再平行。"
+ },
+ {
+  "id": "hjm_g4b_u5_l5_q8",
+  "topicId": "hjm_g4b_u5_l5",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "两条直线互相垂直，其中一条是另一条的什么？",
+  "answer": "垂线",
+  "options": [
+   "垂线",
+   "平行线",
+   "对角线",
+   "射线"
+  ],
+  "explanation": "两条直线互相垂直时，其中一条直线叫作另一条直线的垂线。"
+ },
+ {
+  "id": "hjm_g4b_u5_l5_q9",
+  "topicId": "hjm_g4b_u5_l5",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "小方说：“两条直线如果互相平行，它们就永远不会相交；如果互相垂直，相交的角一定是90°。”这句话对吗？请说明理由。",
+  "answer": "对",
+  "explanation": "平行线的定义就是同一平面内永不相交的两条直线；垂直的定义就是两条直线相交成直角，所以这句话正确。"
+ },
+ {
+  "id": "hjm_g5a_u1_l1_q4",
+  "topicId": "hjm_g5a_u1_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "△×4＝36，△－5 等于几？",
+  "answer": "4",
+  "explanation": "先由△×4＝36 得△＝36÷4＝9，再算 9－5＝4。",
+  "verify": "36/4-5"
+ },
+ {
+  "id": "hjm_g5a_u1_l1_q5",
+  "topicId": "hjm_g5a_u1_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "□＋□＋□＝30，□×2－3 等于几？",
+  "answer": "17",
+  "explanation": "三个相同的□相加是 30，所以□＝30÷3＝10，再算 10×2－3＝17。",
+  "verify": "30/3*2-3"
+ },
+ {
+  "id": "hjm_g5a_u1_l1_q6",
+  "topicId": "hjm_g5a_u1_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "☆－6＝14，☆＋☆ 等于几？",
+  "answer": "40",
+  "explanation": "由☆－6＝14 得☆＝14＋6＝20，两个☆相加是 20＋20＝40。",
+  "verify": "(14+6)*2"
+ },
+ {
+  "id": "hjm_g5a_u1_l1_q7",
+  "topicId": "hjm_g5a_u1_l1",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "△＋△＝18，□－△＝5，□代表的数是几？",
+  "answer": "14",
+  "explanation": "由△＋△＝18 得△＝18÷2＝9，再由□－9＝5 得□＝9＋5＝14。"
+ },
+ {
+  "id": "hjm_g5a_u1_l1_q8",
+  "topicId": "hjm_g5a_u1_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "5×□＝45，□÷3 等于几？",
+  "answer": "3",
+  "explanation": "先由 5×□＝45 得□＝45÷5＝9，再算 9÷3＝3。",
+  "verify": "45/5/3"
+ },
+ {
+  "id": "hjm_g5a_u1_l1_q9",
+  "topicId": "hjm_g5a_u1_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "甲数用△表示，乙数比甲数多 7，甲、乙两数之和是 25，△是几？",
+  "answer": "9",
+  "explanation": "甲数是△，乙数就是△＋7，两数之和是△＋△＋7＝25，所以 2 个△是 25－7＝18，△＝18÷2＝9。",
+  "verify": "(25-7)/2"
+ },
+ {
+  "id": "hjm_g5a_u1_l2_q4",
+  "topicId": "hjm_g5a_u1_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "2.35 里面有几个 0.01？",
+  "answer": "235",
+  "explanation": "2.35 的百分位是 5，表示 5 个 0.01，加上 2 个 1（200 个 0.01）和 3 个 0.1（30 个 0.01），一共是 235 个 0.01。"
+ },
+ {
+  "id": "hjm_g5a_u1_l2_q5",
+  "topicId": "hjm_g5a_u1_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "5.8－2.35 等于几？",
+  "answer": "3.45",
+  "explanation": "小数减法要把小数点对齐：5.8 就是 5.80，5.80－2.35＝3.45。",
+  "verify": "5.8-2.35"
+ },
+ {
+  "id": "hjm_g5a_u1_l2_q6",
+  "topicId": "hjm_g5a_u1_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "下面哪个小数最大？",
+  "options": [
+   "0.89",
+   "0.9",
+   "0.901",
+   "0.899"
+  ],
+  "answer": "0.901",
+  "explanation": "先比较十分位：0.901、0.9 的十分位都是 9，比 0.89、0.899 的 8 大；再比较 0.901 和 0.9：0.9 就是 0.900，千分位上 1＞0，所以 0.901 最大。"
+ },
+ {
+  "id": "hjm_g5a_u1_l2_q7",
+  "topicId": "hjm_g5a_u1_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个小数，整数部分是 3，小数部分由 5 个 0.1 和 4 个 0.01 组成，这个小数是几？",
+  "answer": "3.54",
+  "explanation": "5 个 0.1 是 0.5，4 个 0.01 是 0.04，合起来是 0.54，再加上整数部分 3，就是 3.54。"
+ },
+ {
+  "id": "hjm_g5a_u1_l2_q8",
+  "topicId": "hjm_g5a_u1_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "2.4 的 10 倍减去 6 是几？",
+  "answer": "18",
+  "explanation": "2.4 的 10 倍是 2.4×10＝24，再减去 6 得 24－6＝18。",
+  "verify": "2.4*10-6"
+ },
+ {
+  "id": "hjm_g5a_u1_l2_q9",
+  "topicId": "hjm_g5a_u1_l2",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "把 0.5、0.45、0.505、0.55 按从大到小的顺序排列。",
+  "answer": "0.55＞0.505＞0.5＞0.45",
+  "explanation": "都是一位整数 0，从十分位比起：0.55、0.505、0.5 的十分位是 5，0.45 的十分位是 4，最小；十分位相同的三个数再比百分位：0.55 的百分位是 5 最大，0.505 和 0.5 的百分位都是 0，再比千分位：0.505 是 5，0.5 是 0，所以顺序是 0.55＞0.505＞0.5＞0.45。"
+ },
+ {
+  "id": "hjm_g5a_u2_l1_q4",
+  "topicId": "hjm_g5a_u2_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "每包饼干 1.8 元，买 5 包，一共要付几元？",
+  "answer": "9",
+  "explanation": "一共要付 1.8×5＝9 元。",
+  "verify": "1.8*5"
+ },
+ {
+  "id": "hjm_g5a_u2_l1_q5",
+  "topicId": "hjm_g5a_u2_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一辆汽车每分钟行 0.9 千米，15 分钟行几千米？",
+  "answer": "13.5",
+  "explanation": "15 分钟行的路程是 0.9×15＝13.5 千米。",
+  "verify": "0.9*15"
+ },
+ {
+  "id": "hjm_g5a_u2_l1_q6",
+  "topicId": "hjm_g5a_u2_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "3.6×4 等于几？",
+  "answer": "14.4",
+  "explanation": "先按 36×4＝144 算，因数 3.6 是一位小数，积也是一位小数，从右边数出一位点上小数点，得 14.4。",
+  "verify": "3.6*4"
+ },
+ {
+  "id": "hjm_g5a_u2_l1_q7",
+  "topicId": "hjm_g5a_u2_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个长方形花坛长 4.5 米，宽 3 米，给花坛围一圈栅栏，需要几米栅栏？",
+  "answer": "15",
+  "explanation": "栅栏的长度就是长方形的周长：(4.5＋3)×2＝15 米。",
+  "verify": "(4.5+3)*2"
+ },
+ {
+  "id": "hjm_g5a_u2_l1_q8",
+  "topicId": "hjm_g5a_u2_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "计算 0.45×6 时，先按 45×6 算，再把积缩小到原来的几分之几？",
+  "options": [
+   "十分之一",
+   "百分之一",
+   "千分之一",
+   "2 倍"
+  ],
+  "answer": "百分之一",
+  "explanation": "0.45 是两位小数，把它看成 45 是扩大了 100 倍，所以算出的积也要缩小到原来的百分之一，才是 0.45×6 的积。"
+ },
+ {
+  "id": "hjm_g5a_u2_l1_q9",
+  "topicId": "hjm_g5a_u2_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "0.75×8＋0.75×2 等于几？",
+  "answer": "7.5",
+  "explanation": "先分别算出 0.75×8＝6 和 0.75×2＝1.5，再相加得 6＋1.5＝7.5。",
+  "verify": "0.75*8+0.75*2"
+ },
+ {
+  "id": "hjm_g5a_u2_l2_q4",
+  "topicId": "hjm_g5a_u2_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "0.6×0.8 等于几？",
+  "answer": "0.48",
+  "explanation": "先按 6×8＝48 算，两个因数都是一位小数，一共是两位小数，积就是 0.48。",
+  "verify": "0.6*0.8"
+ },
+ {
+  "id": "hjm_g5a_u2_l2_q5",
+  "topicId": "hjm_g5a_u2_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一块长方形菜地长 3.2 米，宽 2.5 米，它的面积是几平方米？",
+  "answer": "8",
+  "explanation": "长方形面积＝长×宽，3.2×2.5＝8 平方米。",
+  "verify": "3.2*2.5"
+ },
+ {
+  "id": "hjm_g5a_u2_l2_q6",
+  "topicId": "hjm_g5a_u2_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "2.4×0.5 等于几？",
+  "answer": "1.2",
+  "explanation": "先按 24×5＝120 算，两个因数一共是两位小数，积是 1.20，去掉末尾的 0 得 1.2。",
+  "verify": "2.4*0.5"
+ },
+ {
+  "id": "hjm_g5a_u2_l2_q7",
+  "topicId": "hjm_g5a_u2_l2",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "计算 1.5×0.4 时，积有几位小数？",
+  "options": [
+   "1 位",
+   "2 位",
+   "3 位",
+   "0 位"
+  ],
+  "answer": "1 位",
+  "explanation": "按数位算是 15×4＝60，两个因数一共两位小数，积是 0.60，去掉末尾的 0 后是 0.6，只有一位小数。"
+ },
+ {
+  "id": "hjm_g5a_u2_l2_q8",
+  "topicId": "hjm_g5a_u2_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "每千克梨 4.8 元，买 0.5 千克要付几元？",
+  "answer": "2.4",
+  "explanation": "要付 4.8×0.5＝2.4 元。",
+  "verify": "4.8*0.5"
+ },
+ {
+  "id": "hjm_g5a_u2_l2_q9",
+  "topicId": "hjm_g5a_u2_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "0.25×0.4×0.8 等于几？",
+  "answer": "0.08",
+  "explanation": "按从左到右的顺序算：0.25×0.4＝0.1，0.1×0.8＝0.08。",
+  "verify": "0.25*0.4*0.8"
+ },
+ {
+  "id": "hjm_g5a_u2_l3_q4",
+  "topicId": "hjm_g5a_u2_l3",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "1.5×2×4 等于几？",
+  "answer": "12",
+  "explanation": "按从左到右的顺序算：1.5×2＝3，3×4＝12。",
+  "verify": "1.5*2*4"
+ },
+ {
+  "id": "hjm_g5a_u2_l3_q5",
+  "topicId": "hjm_g5a_u2_l3",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "买 3 瓶每瓶 2.8 元的果汁和 1 包 4.5 元的饼干，一共要付几元？",
+  "answer": "12.9",
+  "explanation": "果汁要 3×2.8＝8.4 元，再加上饼干 4.5 元，一共是 8.4＋4.5＝12.9 元。",
+  "verify": "3*2.8+4.5"
+ },
+ {
+  "id": "hjm_g5a_u2_l3_q6",
+  "topicId": "hjm_g5a_u2_l3",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "4.6×3－5.2 等于几？",
+  "answer": "8.6",
+  "explanation": "先算乘法 4.6×3＝13.8，再算减法 13.8－5.2＝8.6。",
+  "verify": "4.6*3-5.2"
+ },
+ {
+  "id": "hjm_g5a_u2_l3_q7",
+  "topicId": "hjm_g5a_u2_l3",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "0.8×(2.5＋3.5) 等于几？",
+  "answer": "4.8",
+  "explanation": "有括号先算括号里的：2.5＋3.5＝6，再算 0.8×6＝4.8。",
+  "verify": "0.8*(2.5+3.5)"
+ },
+ {
+  "id": "hjm_g5a_u2_l3_q8",
+  "topicId": "hjm_g5a_u2_l3",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "3×(1.2＋0.8) 的结果与下面哪个算式相等？",
+  "options": [
+   "3×1.2＋3×0.8",
+   "3×1.2＋0.8",
+   "3＋1.2＋0.8",
+   "3×1.2×0.8"
+  ],
+  "answer": "3×1.2＋3×0.8",
+  "explanation": "这是乘法分配律：括号外的 3 要分别乘括号里的 1.2 和 0.8，再把两个积相加。"
+ },
+ {
+  "id": "hjm_g5a_u2_l3_q9",
+  "topicId": "hjm_g5a_u2_l3",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "小明跑步，每分钟跑 0.25 千米，他先跑了 6 分钟，又跑了 4 分钟，一共跑了几千米？",
+  "answer": "2.5",
+  "explanation": "一共跑了 6＋4＝10 分钟，0.25×10＝2.5 千米。",
+  "verify": "0.25*(6+4)"
+ },
+ {
+  "id": "hjm_g5a_u2_l4_q4",
+  "topicId": "hjm_g5a_u2_l4",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "计算 0.25×(4×1.6) 时，用乘法结合律先算 0.25×4，再乘 1.6，结果是几？",
+  "options": [
+   "1.6",
+   "4",
+   "0.4",
+   "6.4"
+  ],
+  "answer": "1.6",
+  "explanation": "0.25×4＝1，再用 1×1.6＝1.6。"
+ },
+ {
+  "id": "hjm_g5a_u2_l4_q5",
+  "topicId": "hjm_g5a_u2_l4",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "用简便方法计算 2.5×1.2×4，结果是几？",
+  "answer": "12",
+  "explanation": "把 2.5 和 4 结合起来先算：2.5×4＝10，再乘 1.2 得 12。",
+  "verify": "2.5*4*1.2"
+ },
+ {
+  "id": "hjm_g5a_u2_l4_q6",
+  "topicId": "hjm_g5a_u2_l4",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "用简便方法计算 0.6×2.5×4，结果是几？",
+  "answer": "6",
+  "explanation": "先算 2.5×4＝10，再算 0.6×10＝6。",
+  "verify": "2.5*4*0.6"
+ },
+ {
+  "id": "hjm_g5a_u2_l4_q7",
+  "topicId": "hjm_g5a_u2_l4",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "0.5×(6.4＋3.6) 用简便方法计算，结果是几？",
+  "answer": "5",
+  "explanation": "括号里 6.4＋3.6＝10，正好凑成整数，再算 0.5×10＝5。",
+  "verify": "0.5*(6.4+3.6)"
+ },
+ {
+  "id": "hjm_g5a_u2_l4_q8",
+  "topicId": "hjm_g5a_u2_l4",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "计算 1.2×2.5×4 时，把算式写成 2.5×4×1.2 运用了什么运算定律？",
+  "options": [
+   "乘法交换律",
+   "乘法结合律",
+   "乘法分配律",
+   "除法性质"
+  ],
+  "answer": "乘法交换律",
+  "explanation": "只是交换了因数的位置，积不变，运用的是乘法交换律。"
+ },
+ {
+  "id": "hjm_g5a_u2_l4_q9",
+  "topicId": "hjm_g5a_u2_l4",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "3.2×(0.5＋0.5×2) 等于几？",
+  "answer": "4.8",
+  "explanation": "括号里先算乘法 0.5×2＝1，再算加法 0.5＋1＝1.5，最后算 3.2×1.5＝4.8。",
+  "verify": "3.2*(0.5+0.5*2)"
+ },
+ {
+  "id": "hjm_g5a_u2_l5_q4",
+  "topicId": "hjm_g5a_u2_l5",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "9.6÷4 等于几？",
+  "answer": "2.4",
+  "explanation": "按整数除法算：96÷4＝24，商的小数点和被除数的小数点对齐，得 2.4。",
+  "verify": "9.6/4"
+ },
+ {
+  "id": "hjm_g5a_u2_l5_q5",
+  "topicId": "hjm_g5a_u2_l5",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一辆汽车 5 小时行 325.5 千米，平均每小时行几千米？",
+  "answer": "65.1",
+  "explanation": "平均每小时行 325.5÷5＝65.1 千米。",
+  "verify": "325.5/5"
+ },
+ {
+  "id": "hjm_g5a_u2_l5_q6",
+  "topicId": "hjm_g5a_u2_l5",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "15.6÷3 等于几？",
+  "answer": "5.2",
+  "explanation": "156÷3＝52，商的小数点和被除数对齐，得 5.2。",
+  "verify": "15.6/3"
+ },
+ {
+  "id": "hjm_g5a_u2_l5_q7",
+  "topicId": "hjm_g5a_u2_l5",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "把 12.5 米长的彩带平均剪成 8 段，每段长几米？",
+  "answer": "1.5625",
+  "explanation": "12.5÷8：125÷8＝15 余 5，添零继续除，商是 1.5625 米。",
+  "verify": "12.5/8"
+ },
+ {
+  "id": "hjm_g5a_u2_l5_q8",
+  "topicId": "hjm_g5a_u2_l5",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "计算 7.2÷6 时，商的小数点应该点在哪里？",
+  "options": [
+   "和被除数的小数点对齐",
+   "和除数的小数点对齐",
+   "在商的末尾",
+   "不用点小数点"
+  ],
+  "answer": "和被除数的小数点对齐",
+  "explanation": "除数是整数的小数除法，商的小数点要和被除数的小数点对齐。"
+ },
+ {
+  "id": "hjm_g5a_u2_l5_q9",
+  "topicId": "hjm_g5a_u2_l5",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一桶油原来重 30.4 千克，倒出 4 次，每次倒出同样多，一共倒出 21.2 千克，每次倒出几千克？",
+  "answer": "5.3",
+  "explanation": "每次倒出 21.2÷4＝5.3 千克；原来一桶油的重量是多余条件，用不上。",
+  "verify": "21.2/4"
+ },
+ {
+  "id": "hjm_g5a_u2_l6_q4",
+  "topicId": "hjm_g5a_u2_l6",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "2.4÷0.6 等于几？",
+  "answer": "4",
+  "explanation": "除数 0.6 是一位小数，把除数和被除数同时扩大 10 倍，变成 24÷6＝4。",
+  "verify": "2.4/0.6"
+ },
+ {
+  "id": "hjm_g5a_u2_l6_q5",
+  "topicId": "hjm_g5a_u2_l6",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "0.84÷0.7 等于几？",
+  "answer": "1.2",
+  "explanation": "除数 0.7 扩大 10 倍变成 7，被除数也扩大 10 倍变成 8.4，8.4÷7＝1.2。",
+  "verify": "0.84/0.7"
+ },
+ {
+  "id": "hjm_g5a_u2_l6_q6",
+  "topicId": "hjm_g5a_u2_l6",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "6.3÷0.9 等于几？",
+  "answer": "7",
+  "explanation": "把除数和被除数同时扩大 10 倍，变成 63÷9＝7。",
+  "verify": "6.3/0.9"
+ },
+ {
+  "id": "hjm_g5a_u2_l6_q7",
+  "topicId": "hjm_g5a_u2_l6",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一辆小汽车每升汽油行 12.5 千米，行 100 千米需要几升汽油？",
+  "answer": "8",
+  "explanation": "需要 100÷12.5＝8 升汽油。",
+  "verify": "100/12.5"
+ },
+ {
+  "id": "hjm_g5a_u2_l6_q8",
+  "topicId": "hjm_g5a_u2_l6",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "计算 5.4÷0.9 时，先把除数变成整数，同时被除数应该变成几？",
+  "options": [
+   "54",
+   "5.4",
+   "540",
+   "0.54"
+  ],
+  "answer": "54",
+  "explanation": "除数 0.9 扩大 10 倍变成 9，被除数也要扩大相同的倍数，5.4×10＝54。"
+ },
+ {
+  "id": "hjm_g5a_u2_l6_q9",
+  "topicId": "hjm_g5a_u2_l6",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "0.75÷0.25＋0.75÷0.5 等于几？",
+  "answer": "4.5",
+  "explanation": "先分别算出 0.75÷0.25＝3 和 0.75÷0.5＝1.5，再相加得 3＋1.5＝4.5。",
+  "verify": "0.75/0.25+0.75/0.5"
+ },
+ {
+  "id": "hjm_g5a_u2_l7_q4",
+  "topicId": "hjm_g5a_u2_l7",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "2÷3 的商是 0.666……，它的循环节是哪个？",
+  "options": [
+   "6",
+   "66",
+   "666",
+   "0.6"
+  ],
+  "answer": "6",
+  "explanation": "商里不断重复出现的数字是 6，所以循环节是 6。"
+ },
+ {
+  "id": "hjm_g5a_u2_l7_q5",
+  "topicId": "hjm_g5a_u2_l7",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "7÷6 的商用循环小数表示，并指出它的循环节。",
+  "answer": "商是 1.1666……，循环节是 6",
+  "explanation": "7÷6＝1.1666……，从十分位起数字 6 不断重复出现，所以循环节是 6。"
+ },
+ {
+  "id": "hjm_g5a_u2_l7_q6",
+  "topicId": "hjm_g5a_u2_l7",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "下面哪个小数是循环小数？",
+  "options": [
+   "0.333……",
+   "0.25",
+   "0.5",
+   "1.2"
+  ],
+  "answer": "0.333……",
+  "explanation": "0.333……里数字 3 依次不断重复出现，是循环小数；其余三个都是有限小数。"
+ },
+ {
+  "id": "hjm_g5a_u2_l7_q7",
+  "topicId": "hjm_g5a_u2_l7",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "0.123123……的循环节是哪个？",
+  "options": [
+   "123",
+   "12",
+   "23",
+   "1231"
+  ],
+  "answer": "123",
+  "explanation": "小数部分 123 不断重复出现，所以循环节是 123。"
+ },
+ {
+  "id": "hjm_g5a_u2_l7_q8",
+  "topicId": "hjm_g5a_u2_l7",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "1÷6 的商保留两位小数是几？",
+  "answer": "0.17",
+  "explanation": "1÷6＝0.1666……，保留两位小数要看千分位，千分位是 6，向前进 1，得 0.17。"
+ },
+ {
+  "id": "hjm_g5a_u2_l7_q9",
+  "topicId": "hjm_g5a_u2_l7",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "10÷3 的商是循环小数吗？为什么？",
+  "answer": "是，因为 10÷3＝3.333……，数字 3 不断重复出现",
+  "explanation": "10÷3 除不尽，商是 3.333……，数字 3 依次不断重复出现，符合循环小数的定义。"
+ },
+ {
+  "id": "hjm_g5a_u2_l8_q4",
+  "topicId": "hjm_g5a_u2_l8",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "用计算器计算 78.9×6，结果是几？",
+  "answer": "473.4",
+  "explanation": "依次按 7、8、.、9、×、6、＝，屏幕显示 473.4。",
+  "verify": "78.9*6"
+ },
+ {
+  "id": "hjm_g5a_u2_l8_q5",
+  "topicId": "hjm_g5a_u2_l8",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "用计算器计算 12.5×8－36，请写出按键顺序。",
+  "answer": "依次按 1、2、.、5、×、8、－、3、6、＝",
+  "explanation": "计算器按输入顺序算：先算 12.5×8＝100，再减 36 得 64，按键顺序就是算式书写的顺序。"
+ },
+ {
+  "id": "hjm_g5a_u2_l8_q6",
+  "topicId": "hjm_g5a_u2_l8",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "用计算器计算 315.9÷9，结果是几？",
+  "answer": "35.1",
+  "explanation": "依次按 3、1、5、.、9、÷、9、＝，屏幕显示 35.1。",
+  "verify": "315.9/9"
+ },
+ {
+  "id": "hjm_g5a_u2_l8_q7",
+  "topicId": "hjm_g5a_u2_l8",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "小华用计算器算 5.6×3 时，错按成了 5.6×30，结果比正确结果大几？",
+  "answer": "151.2",
+  "explanation": "正确结果是 5.6×3＝16.8，错误结果是 5.6×30＝168，相差 168－16.8＝151.2。",
+  "verify": "5.6*30-5.6*3"
+ },
+ {
+  "id": "hjm_g5a_u2_l8_q8",
+  "topicId": "hjm_g5a_u2_l8",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "用计算器算 0.8×0.5，显示屏上会出现什么？",
+  "options": [
+   "0.4",
+   "4",
+   "0.04",
+   "40"
+  ],
+  "answer": "0.4",
+  "explanation": "0.8×0.5＝0.4，显示屏上出现 0.4。"
+ },
+ {
+  "id": "hjm_g5a_u2_l8_q9",
+  "topicId": "hjm_g5a_u2_l8",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "计算器上的 OFF 键和 ON/C 键分别起什么作用？",
+  "answer": "OFF 是关机键，ON/C 是开机兼清除键",
+  "explanation": "OFF 按下后计算器关机；ON/C 按下后计算器开机，并清除屏幕上原来的数字。"
+ },
+ {
+  "id": "hjm_g5a_u2_l9_q4",
+  "topicId": "hjm_g5a_u2_l9",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "把 7.84 四舍五入到十分位，结果是几？",
+  "answer": "7.8",
+  "explanation": "凑整到十分位要看百分位，百分位是 4，小于 5 舍去，得 7.8。"
+ },
+ {
+  "id": "hjm_g5a_u2_l9_q5",
+  "topicId": "hjm_g5a_u2_l9",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "每条丝带 0.6 米，5 米长的丝带最多可以剪几条？",
+  "answer": "8",
+  "explanation": "5÷0.6≈8.33，只能剪 8 条，剩下的 0.2 米不够再剪一条，所以用去尾法，得 8 条。"
+ },
+ {
+  "id": "hjm_g5a_u2_l9_q6",
+  "topicId": "hjm_g5a_u2_l9",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "把 9.996 凑整到百分位，结果是几？",
+  "answer": "10.00",
+  "explanation": "凑整到百分位要看千分位，千分位是 6，向前进 1：9.99＋0.01＝10.00。"
+ },
+ {
+  "id": "hjm_g5a_u2_l9_q7",
+  "topicId": "hjm_g5a_u2_l9",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "计算 3.47×2.6，再把积凑整到十分位，结果是几？",
+  "answer": "9",
+  "explanation": "3.47×2.6＝9.022，凑整到十分位要看百分位，百分位是 2 舍去，得 9.0，也就是 9。"
+ },
+ {
+  "id": "hjm_g5a_u2_l9_q8",
+  "topicId": "hjm_g5a_u2_l9",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "5.26 凑整到十分位后是 5.3，凑整时看的是哪一位上的数字？",
+  "options": [
+   "十分位",
+   "百分位",
+   "个位",
+   "千分位"
+  ],
+  "answer": "百分位",
+  "explanation": "凑整到十分位，要看它下一位也就是百分位上的数字：百分位是 6，大于 5，向前进 1。"
+ },
+ {
+  "id": "hjm_g5a_u2_l9_q9",
+  "topicId": "hjm_g5a_u2_l9",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "3.8 米布做每套用 0.5 米的衣服，最多做几套？剩下的布够再做一套吗？",
+  "answer": "7 套，不够",
+  "explanation": "3.8÷0.5＝7 余 0.3，最多做 7 套；剩下 0.3 米，不够 0.5 米，所以不够再做一套。"
+ },
+ {
+  "id": "hjm_g5a_u3_l1_q4",
+  "topicId": "hjm_g5a_u3_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "4、7、9、12 这四个数的平均数是几？",
+  "answer": "8",
+  "explanation": "先求总和 4＋7＋9＋12＝32，再除以个数 4，得 32÷4＝8。",
+  "verify": "(4+7+9+12)/4"
+ },
+ {
+  "id": "hjm_g5a_u3_l1_q5",
+  "topicId": "hjm_g5a_u3_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "小丽前 4 次跳绳平均 110 下，第 5 次跳了 130 下，5 次平均是几下？",
+  "answer": "114",
+  "explanation": "前 4 次一共跳了 110×4＝440 下，加上第 5 次的 130 下是 570 下，570÷5＝114 下。",
+  "verify": "(110*4+130)/5"
+ },
+ {
+  "id": "hjm_g5a_u3_l1_q6",
+  "topicId": "hjm_g5a_u3_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "一组数是 5、5、5、5，它的平均数是几？",
+  "options": [
+   "5",
+   "20",
+   "4",
+   "0"
+  ],
+  "answer": "5",
+  "explanation": "总和是 5×4＝20，除以个数 4 得 5；每个数都相等时，平均数就是这个数本身。"
+ },
+ {
+  "id": "hjm_g5a_u3_l1_q7",
+  "topicId": "hjm_g5a_u3_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "5 个数的平均数是 12，去掉一个数后剩下 4 个数的平均数是 10，去掉的数是几？",
+  "answer": "20",
+  "explanation": "5 个数的总和是 12×5＝60，剩下 4 个数的总和是 10×4＝40，去掉的数是 60－40＝20。",
+  "verify": "12*5-10*4"
+ },
+ {
+  "id": "hjm_g5a_u3_l1_q8",
+  "topicId": "hjm_g5a_u3_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "8、12、15、9、6 这五个数的平均数是几？",
+  "answer": "10",
+  "explanation": "总和是 8＋12＋15＋9＋6＝50，除以 5 得 10。",
+  "verify": "(8+12+15+9+6)/5"
+ },
+ {
+  "id": "hjm_g5a_u3_l1_q9",
+  "topicId": "hjm_g5a_u3_l1",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "甲组 3 人平均分 88 分，乙组 5 人平均分 92 分，两个组总平均分比 90 分高还是低？",
+  "options": [
+   "高",
+   "低",
+   "正好 90 分",
+   "无法判断"
+  ],
+  "answer": "高",
+  "explanation": "甲组总分是 88×3＝264 分，乙组总分是 92×5＝460 分，合起来 724 分除以 8 人得 90.5 分，比 90 分高；不能直接用 (88＋92)÷2 算，因为两组人数不一样。"
+ },
+ {
+  "id": "hjm_g5a_u3_l2_q4",
+  "topicId": "hjm_g5a_u3_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "4 个数分别是 12、18、24、30，平均数是几？",
+  "answer": "21",
+  "explanation": "总和是 12＋18＋24＋30＝84，除以 4 得 21。",
+  "verify": "(12+18+24+30)/4"
+ },
+ {
+  "id": "hjm_g5a_u3_l2_q5",
+  "topicId": "hjm_g5a_u3_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "小明 4 次数学测试的平均分是 91 分，前 3 次分别是 89、93、90 分，第 4 次考了几分？",
+  "answer": "92",
+  "explanation": "4 次总分是 91×4＝364 分，前 3 次总分是 89＋93＋90＝272 分，第 4 次是 364－272＝92 分。",
+  "verify": "91*4-(89+93+90)"
+ },
+ {
+  "id": "hjm_g5a_u3_l2_q6",
+  "topicId": "hjm_g5a_u3_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "两个数的平均数是 14，其中一个数是 9，另一个数是几？",
+  "answer": "19",
+  "explanation": "两个数的总和是 14×2＝28，另一个数是 28－9＝19。",
+  "verify": "14*2-9"
+ },
+ {
+  "id": "hjm_g5a_u3_l2_q7",
+  "topicId": "hjm_g5a_u3_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "小芳每周跑步 5 次，每次平均跑 2.4 千米，一周一共跑几千米？",
+  "answer": "12",
+  "explanation": "已知平均数和次数求总和，用乘法：2.4×5＝12 千米。",
+  "verify": "2.4*5"
+ },
+ {
+  "id": "hjm_g5a_u3_l2_q8",
+  "topicId": "hjm_g5a_u3_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "求 20、30、40 的平均数，下面哪个算式正确？",
+  "options": [
+   "(20＋30＋40)÷3",
+   "(20＋30＋40)÷2",
+   "20＋30＋40",
+   "(20＋40)÷2"
+  ],
+  "answer": "(20＋30＋40)÷3",
+  "explanation": "求平均数要先把三个数加起来，再除以个数 3。"
+ },
+ {
+  "id": "hjm_g5a_u3_l2_q9",
+  "topicId": "hjm_g5a_u3_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "4 名同学的平均体重是 25 千克，又加入 1 名体重 20 千克的同学，现在 5 名同学的平均体重是几千克？",
+  "answer": "24",
+  "explanation": "原来 4 名同学总体重是 25×4＝100 千克，加入后是 100＋20＝120 千克，120÷5＝24 千克。",
+  "verify": "(25*4+20)/5"
+ },
+ {
+  "id": "hjm_g5a_u3_l3_q4",
+  "topicId": "hjm_g5a_u3_l3",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "甲队 4 人总分 360 分，乙队 5 人总分 430 分，哪一队平均分更高？",
+  "options": [
+   "甲队",
+   "乙队",
+   "一样高",
+   "无法比较"
+  ],
+  "answer": "甲队",
+  "explanation": "甲队平均分是 360÷4＝90 分，乙队平均分是 430÷5＝86 分，90＞86，所以甲队平均分更高；不能直接比总分，因为人数不一样。"
+ },
+ {
+  "id": "hjm_g5a_u3_l3_q5",
+  "topicId": "hjm_g5a_u3_l3",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "有人算 (90＋130)÷2＝110 台，说某商店上半年平均每月卖出 110 台电视，对吗？为什么？（已知：1 月卖 90 台，2 至 6 月平均每月卖 130 台。）",
+  "answer": "不对，上半年平均每月约 123.3 台",
+  "explanation": "上半年一共卖出 90＋130×5＝740 台，平均每月是 740÷6≈123.3 台；(90＋130)÷2 是把 1 个月和 5 个月当成同样分量平均，月份个数不一样，不能这样算。"
+ },
+ {
+  "id": "hjm_g5a_u3_l3_q6",
+  "topicId": "hjm_g5a_u3_l3",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一组数据：10、20、30、40，平均数是 25，再加入一个数 25，新的平均数是几？",
+  "answer": "25",
+  "explanation": "原来总和是 100，加入 25 后总和是 125，除以 5 得 25；加入的数正好等于原来的平均数，平均数不变。",
+  "verify": "(10+20+30+40+25)/5"
+ },
+ {
+  "id": "hjm_g5a_u3_l3_q7",
+  "topicId": "hjm_g5a_u3_l3",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "7 个数的平均数是 18，去掉最大的 30 后，剩下 6 个数的平均数是几？",
+  "answer": "16",
+  "explanation": "7 个数的总和是 18×7＝126，去掉 30 后剩下 96，96÷6＝16。",
+  "verify": "(18*7-30)/6"
+ },
+ {
+  "id": "hjm_g5a_u3_l3_q8",
+  "topicId": "hjm_g5a_u3_l3",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "下面哪种情况用平均数比较最合适？",
+  "options": [
+   "比较两个班的整体成绩",
+   "找出全班最高分",
+   "统计全班人数",
+   "找出考满分的同学"
+  ],
+  "answer": "比较两个班的整体成绩",
+  "explanation": "平均数反映的是整体水平，适合比较两个集体的整体情况；找最高分、满分、数人数都不用平均数。"
+ },
+ {
+  "id": "hjm_g5a_u3_l3_q9",
+  "topicId": "hjm_g5a_u3_l3",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "小红参加唱歌比赛，7 名评委打分，去掉一个最高分 98 分和一个最低分 88 分，剩下 5 名评委的平均分是 92 分，7 名评委打分的总和是几分？",
+  "answer": "646",
+  "explanation": "剩下 5 名评委的总分是 92×5＝460 分，再加上去掉的 98 分和 88 分，7 名评委打分的总和是 460＋98＋88＝646 分。",
+  "verify": "92*5+98+88"
+ },
+ {
+  "id": "hjm_g5a_u4_l1_q4",
+  "topicId": "hjm_g5a_u4_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "式子 5b 表示什么意思？",
+  "options": [
+   "b 的 5 倍",
+   "b 加 5",
+   "b 减 5",
+   "5 除以 b"
+  ],
+  "answer": "b 的 5 倍",
+  "explanation": "字母前面的数字表示倍数，5b 就是 5 个 b 相加，也就是 b 的 5 倍。"
+ },
+ {
+  "id": "hjm_g5a_u4_l1_q5",
+  "topicId": "hjm_g5a_u4_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "当 x＝5 时，(x＋3)×2 的值是几？",
+  "answer": "16",
+  "explanation": "把 x＝5 代入式子：(5＋3)×2＝8×2＝16。",
+  "verify": "(5+3)*2"
+ },
+ {
+  "id": "hjm_g5a_u4_l1_q6",
+  "topicId": "hjm_g5a_u4_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "式子 a－3（a＞3）表示什么意思？",
+  "options": [
+   "比 a 小 3 的数",
+   "比 a 大 3 的数",
+   "a 的 3 倍",
+   "a 除以 3"
+  ],
+  "answer": "比 a 小 3 的数",
+  "explanation": "a－3 就是从 a 里减去 3，得到比 a 小 3 的数。"
+ },
+ {
+  "id": "hjm_g5a_u4_l1_q7",
+  "topicId": "hjm_g5a_u4_l1",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "姐姐有 a 本书，妹妹的书是姐姐的 2 倍还多 3 本，妹妹有几本书？用含有字母的式子表示。",
+  "answer": "2a＋3 本",
+  "explanation": "姐姐的 2 倍是 2a，再多 3 本就是 2a＋3 本。"
+ },
+ {
+  "id": "hjm_g5a_u4_l1_q8",
+  "topicId": "hjm_g5a_u4_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "当 a＝10 时，a÷2＋6 的值是几？",
+  "answer": "11",
+  "explanation": "把 a＝10 代入：10÷2＝5，5＋6＝11。",
+  "verify": "10/2+6"
+ },
+ {
+  "id": "hjm_g5a_u4_l1_q9",
+  "topicId": "hjm_g5a_u4_l1",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "下面哪个式子表示“x 的 3 倍减去 5”？",
+  "options": [
+   "3x－5",
+   "3x＋5",
+   "x÷3－5",
+   "5－3x"
+  ],
+  "answer": "3x－5",
+  "explanation": "x 的 3 倍是 3x，减去 5 就是 3x－5。"
+ },
+ {
+  "id": "hjm_g5a_u4_l2_q4",
+  "topicId": "hjm_g5a_u4_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "7x－2x 化简后是哪个式子？",
+  "options": [
+   "5x",
+   "9x",
+   "14x",
+   "5"
+  ],
+  "answer": "5x",
+  "explanation": "7 个 x 减去 2 个 x，剩下 5 个 x，就是 5x。"
+ },
+ {
+  "id": "hjm_g5a_u4_l2_q5",
+  "topicId": "hjm_g5a_u4_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "化简 6x＋4－2x，再求当 x＝5 时这个式子的值。",
+  "answer": "24",
+  "explanation": "6x－2x＝4x，化简后是 4x＋4；当 x＝5 时，4×5＋4＝24。",
+  "verify": "(6-2)*5+4"
+ },
+ {
+  "id": "hjm_g5a_u4_l2_q6",
+  "topicId": "hjm_g5a_u4_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "当 y＝7 时，5y－9 的值是几？",
+  "answer": "26",
+  "explanation": "把 y＝7 代入：5×7－9＝35－9＝26。",
+  "verify": "5*7-9"
+ },
+ {
+  "id": "hjm_g5a_u4_l2_q7",
+  "topicId": "hjm_g5a_u4_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "当 a＝3 时，(a＋5)×(a－1) 的值是几？",
+  "answer": "16",
+  "explanation": "把 a＝3 代入：(3＋5)×(3－1)＝8×2＝16。",
+  "verify": "(3+5)*(3-1)"
+ },
+ {
+  "id": "hjm_g5a_u4_l2_q8",
+  "topicId": "hjm_g5a_u4_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "当 x＝9 时，x÷3＋2 的值是几？",
+  "options": [
+   "5",
+   "11",
+   "29",
+   "3"
+  ],
+  "answer": "5",
+  "explanation": "把 x＝9 代入：9÷3＝3，3＋2＝5。"
+ },
+ {
+  "id": "hjm_g5a_u4_l2_q9",
+  "topicId": "hjm_g5a_u4_l2",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "化简 2x＋3x＋x，并说明化简的依据是什么。",
+  "answer": "6x；依据是乘法分配律（相同字母的项可以合并）",
+  "explanation": "2x＋3x＋x 就是 2 个 x 加 3 个 x 再加 1 个 x，一共 6 个 x；相同字母的项可以合并，依据是乘法分配律。"
+ },
+ {
+  "id": "hjm_g5a_u4_l3_q4",
+  "topicId": "hjm_g5a_u4_l3",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "方程 3x＝18 的解是几？",
+  "options": [
+   "6",
+   "54",
+   "15",
+   "21"
+  ],
+  "answer": "6",
+  "explanation": "3×6＝18，所以 x＝6 是方程的解。"
+ },
+ {
+  "id": "hjm_g5a_u4_l3_q5",
+  "topicId": "hjm_g5a_u4_l3",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "方程 5x－8＝32 的解是几？",
+  "answer": "8",
+  "explanation": "5x＝32＋8＝40，x＝40÷5＝8；代入检验：5×8－8＝32，正确。",
+  "verify": "(32+8)/5"
+ },
+ {
+  "id": "hjm_g5a_u4_l3_q6",
+  "topicId": "hjm_g5a_u4_l3",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "方程 x÷4＝9 的解是几？",
+  "answer": "36",
+  "explanation": "x＝9×4＝36；代入检验：36÷4＝9，正确。",
+  "verify": "9*4"
+ },
+ {
+  "id": "hjm_g5a_u4_l3_q7",
+  "topicId": "hjm_g5a_u4_l3",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "方程 3(x－2)＝15 的解是几？",
+  "answer": "7",
+  "explanation": "x－2＝15÷3＝5，x＝5＋2＝7；代入检验：3×(7－2)＝15，正确。",
+  "verify": "15/3+2"
+ },
+ {
+  "id": "hjm_g5a_u4_l3_q8",
+  "topicId": "hjm_g5a_u4_l3",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "下面哪个数是方程 2x＋3＝11 的解？",
+  "options": [
+   "4",
+   "7",
+   "5",
+   "14"
+  ],
+  "answer": "4",
+  "explanation": "把 4 代入：2×4＋3＝11，左右两边相等，所以 4 是方程的解；代入 7、5、14 都不相等。"
+ },
+ {
+  "id": "hjm_g5a_u4_l3_q9",
+  "topicId": "hjm_g5a_u4_l3",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "方程 4x＝20 的解是 5，请用代入法检验这个解对不对，并写出检验过程。",
+  "answer": "把 x＝5 代入左边得 4×5＝20，与右边相等，所以 x＝5 是方程的解",
+  "explanation": "检验方程的解要把解代入原方程：左边 4×5＝20，右边也是 20，左右相等，说明 x＝5 的确是方程的解。"
+ },
+ {
+  "id": "hjm_g5a_u4_l4_q4",
+  "topicId": "hjm_g5a_u4_l4",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "小华有 12 张贴纸，比小丽少 4 张。设小丽有 x 张，下面哪个方程正确？",
+  "options": [
+   "x－4＝12",
+   "x＋4＝12",
+   "4x＝12",
+   "x÷4＝12"
+  ],
+  "answer": "x－4＝12",
+  "explanation": "小丽的贴纸减去 4 张就是小华的 12 张，所以方程是 x－4＝12。"
+ },
+ {
+  "id": "hjm_g5a_u4_l4_q5",
+  "topicId": "hjm_g5a_u4_l4",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个数的 5 倍加上 12 等于 47，这个数是几？",
+  "answer": "7",
+  "explanation": "设这个数是 x，列方程 5x＋12＝47，5x＝47－12＝35，x＝35÷5＝7。",
+  "verify": "(47-12)/5"
+ },
+ {
+  "id": "hjm_g5a_u4_l4_q6",
+  "topicId": "hjm_g5a_u4_l4",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "爸爸今年 36 岁，是儿子年龄的 3 倍，儿子今年几岁？",
+  "answer": "12",
+  "explanation": "设儿子今年 x 岁，3x＝36，x＝36÷3＝12 岁。",
+  "verify": "36/3"
+ },
+ {
+  "id": "hjm_g5a_u4_l4_q7",
+  "topicId": "hjm_g5a_u4_l4",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个长方形的长是 15 厘米，宽比长少 6 厘米，它的面积是几平方厘米？",
+  "answer": "135",
+  "explanation": "宽是 15－6＝9 厘米，面积是 15×9＝135 平方厘米。",
+  "verify": "(15-6)*15"
+ },
+ {
+  "id": "hjm_g5a_u4_l4_q8",
+  "topicId": "hjm_g5a_u4_l4",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "某班男生 28 人，比女生多 6 人，女生有几人？",
+  "answer": "22",
+  "explanation": "男生比女生多 6 人，女生人数是 28－6＝22 人。",
+  "verify": "28-6"
+ },
+ {
+  "id": "hjm_g5a_u4_l4_q9",
+  "topicId": "hjm_g5a_u4_l4",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "小明买了 3 支同样的钢笔和 1 本 8 元的日记本，一共花了 38 元，每支钢笔几元？",
+  "answer": "10",
+  "explanation": "3 支钢笔一共花了 38－8＝30 元，每支是 30÷3＝10 元。",
+  "verify": "(38-8)/3"
+ },
+ {
+  "id": "hjm_g5a_u5_l1_q4",
+  "topicId": "hjm_g5a_u5_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "平行四边形的对角有什么关系？",
+  "options": [
+   "相等",
+   "互补",
+   "不确定",
+   "都是直角"
+  ],
+  "answer": "相等",
+  "explanation": "平行四边形的对角相等，对边平行且相等，这是平行四边形的特征。"
+ },
+ {
+  "id": "hjm_g5a_u5_l1_q5",
+  "topicId": "hjm_g5a_u5_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个平行四边形相邻两条边的长分别是 6 厘米和 4 厘米，它的周长是几厘米？",
+  "answer": "20",
+  "explanation": "平行四边形的对边相等，周长是 (6＋4)×2＝20 厘米。",
+  "verify": "(6+4)*2"
+ },
+ {
+  "id": "hjm_g5a_u5_l1_q6",
+  "topicId": "hjm_g5a_u5_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "下面哪个图形一定是平行四边形？",
+  "options": [
+   "两组对边分别平行的四边形",
+   "只有一组对边平行的四边形",
+   "有一组对边相等的四边形",
+   "有一个角是直角的四边形"
+  ],
+  "answer": "两组对边分别平行的四边形",
+  "explanation": "平行四边形的定义就是两组对边分别平行的四边形；其余选项都不能保证是平行四边形。"
+ },
+ {
+  "id": "hjm_g5a_u5_l1_q7",
+  "topicId": "hjm_g5a_u5_l1",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "平行四边形具有什么特性，生活中常用来做什么？",
+  "options": [
+   "容易变形——伸缩门",
+   "稳定——三角架",
+   "容易变形——自行车架",
+   "稳定——伸缩门"
+  ],
+  "answer": "容易变形——伸缩门",
+  "explanation": "平行四边形容易变形、不稳定，这个特性被用在伸缩门上；三角架利用的是三角形的稳定性。"
+ },
+ {
+  "id": "hjm_g5a_u5_l1_q8",
+  "topicId": "hjm_g5a_u5_l1",
+  "difficulty": "medium",
+  "type": "text",
+  "prompt": "长方形和一般的平行四边形相比，在角上多出哪一条特征？",
+  "answer": "四个角都是直角",
+  "explanation": "长方形是特殊的平行四边形，两组对边分别平行且相等、对角相等这些特征它都有，还多出四个角都是直角这一条。"
+ },
+ {
+  "id": "hjm_g5a_u5_l1_q9",
+  "topicId": "hjm_g5a_u5_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个平行四边形的周长是 30 厘米，其中一条边长 9 厘米，与它相邻的边长几厘米？",
+  "answer": "6",
+  "explanation": "周长的一半是两条相邻边的和：30÷2＝15 厘米，相邻的边是 15－9＝6 厘米。",
+  "verify": "30/2-9"
+ },
+ {
+  "id": "hjm_g5a_u5_l2_q4",
+  "topicId": "hjm_g5a_u5_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一个平行四边形的底是 8 分米，高是 5 分米，它的面积是几平方分米？",
+  "answer": "40",
+  "explanation": "平行四边形的面积＝底×高，8×5＝40 平方分米。",
+  "verify": "8*5"
+ },
+ {
+  "id": "hjm_g5a_u5_l2_q5",
+  "topicId": "hjm_g5a_u5_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个平行四边形的面积是 96 平方米，高是 8 米，它的底是几米？",
+  "answer": "12",
+  "explanation": "底＝面积÷高，96÷8＝12 米。",
+  "verify": "96/8"
+ },
+ {
+  "id": "hjm_g5a_u5_l2_q6",
+  "topicId": "hjm_g5a_u5_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一个平行四边形的底是 12 厘米，高是底的一半，它的面积是几平方厘米？",
+  "answer": "72",
+  "explanation": "高是 12÷2＝6 厘米，面积是 12×6＝72 平方厘米。",
+  "verify": "12*(12/2)"
+ },
+ {
+  "id": "hjm_g5a_u5_l2_q7",
+  "topicId": "hjm_g5a_u5_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一块平行四边形菜地，底是 25 米，高是 16 米，如果每平方米收菜 4 千克，这块地一共收菜几千克？",
+  "answer": "1600",
+  "explanation": "菜地面积是 25×16＝400 平方米，一共收菜 400×4＝1600 千克。",
+  "verify": "25*16*4"
+ },
+ {
+  "id": "hjm_g5a_u5_l2_q8",
+  "topicId": "hjm_g5a_u5_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "计算平行四边形面积时，高必须与哪条底对应？",
+  "options": [
+   "与高对应的那条底",
+   "任意一条底",
+   "最长的那条底",
+   "最短的那条底"
+  ],
+  "answer": "与高对应的那条底",
+  "explanation": "平行四边形的高是从一条底向对边作的垂线段，这条高只能和它对应的那条底相乘。"
+ },
+ {
+  "id": "hjm_g5a_u5_l2_q9",
+  "topicId": "hjm_g5a_u5_l2",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "一个平行四边形的底不变，高扩大到原来的 2 倍，它的面积会怎样变化？为什么？",
+  "answer": "面积也扩大到原来的 2 倍；因为面积＝底×高，底不变，高乘 2，积也乘 2",
+  "explanation": "面积＝底×高，底不变时，面积随高的变化而变化：高扩大到原来的 2 倍，积也扩大到原来的 2 倍。"
+ },
+ {
+  "id": "hjm_g5a_u5_l3_q4",
+  "topicId": "hjm_g5a_u5_l3",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一个三角形的底是 9 厘米，高是 6 厘米，它的面积是几平方厘米？",
+  "answer": "27",
+  "explanation": "三角形面积＝底×高÷2，9×6÷2＝27 平方厘米。",
+  "verify": "9*6/2"
+ },
+ {
+  "id": "hjm_g5a_u5_l3_q5",
+  "topicId": "hjm_g5a_u5_l3",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个三角形的面积是 84 平方分米，高是 12 分米，它的底是几分米？",
+  "answer": "14",
+  "explanation": "底＝面积×2÷高，84×2÷12＝14 分米。",
+  "verify": "84*2/12"
+ },
+ {
+  "id": "hjm_g5a_u5_l3_q6",
+  "topicId": "hjm_g5a_u5_l3",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一个直角三角形的两条直角边分别是 8 米和 6 米，它的面积是几平方米？",
+  "answer": "24",
+  "explanation": "直角三角形的两条直角边可以分别看作底和高，面积是 8×6÷2＝24 平方米。",
+  "verify": "8*6/2"
+ },
+ {
+  "id": "hjm_g5a_u5_l3_q7",
+  "topicId": "hjm_g5a_u5_l3",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一块三角形红领巾的底是 100 厘米，高是 33 厘米，它的面积是几平方厘米？",
+  "answer": "1650",
+  "explanation": "100×33÷2＝1650 平方厘米。",
+  "verify": "100*33/2"
+ },
+ {
+  "id": "hjm_g5a_u5_l3_q8",
+  "topicId": "hjm_g5a_u5_l3",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "两个完全相同的三角形可以拼成什么图形？",
+  "options": [
+   "平行四边形",
+   "正方形",
+   "梯形",
+   "圆形"
+  ],
+  "answer": "平行四边形",
+  "explanation": "两个完全相同的三角形一定能拼成一个平行四边形，三角形的面积公式就是这样推导出来的；只有特殊的直角三角形才能拼成正方形。"
+ },
+ {
+  "id": "hjm_g5a_u5_l3_q9",
+  "topicId": "hjm_g5a_u5_l3",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个三角形的面积是 50 平方厘米，底是 20 厘米，如果底增加 5 厘米（高不变），新的面积是几平方厘米？",
+  "answer": "62.5",
+  "explanation": "原来的高是 50×2÷20＝5 厘米，底增加后是 25 厘米，新的面积是 25×5÷2＝62.5 平方厘米。",
+  "verify": "(20+5)*5/2"
+ },
+ {
+  "id": "hjm_g5a_u5_l4_q4",
+  "topicId": "hjm_g5a_u5_l4",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "梯形里互相平行的两条边叫什么？",
+  "options": [
+   "上底和下底",
+   "两条腰",
+   "对角线",
+   "高"
+  ],
+  "answer": "上底和下底",
+  "explanation": "梯形里互相平行的两条边分别叫上底和下底，不平行的两条边叫腰。"
+ },
+ {
+  "id": "hjm_g5a_u5_l4_q5",
+  "topicId": "hjm_g5a_u5_l4",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "一个等腰梯形的两条腰有什么关系？上底和下底有什么关系？",
+  "answer": "两条腰相等；上底和下底互相平行",
+  "explanation": "等腰梯形的两条腰长度相等；上底和下底是梯形里互相平行的那两条边。"
+ },
+ {
+  "id": "hjm_g5a_u5_l4_q6",
+  "topicId": "hjm_g5a_u5_l4",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一个等腰梯形的周长是 34 厘米，上底 6 厘米，下底 12 厘米，它的腰长几厘米？",
+  "answer": "8",
+  "explanation": "两条腰的总长是 34－6－12＝16 厘米，等腰梯形的两条腰相等，一条腰是 16÷2＝8 厘米。",
+  "verify": "(34-6-12)/2"
+ },
+ {
+  "id": "hjm_g5a_u5_l4_q7",
+  "topicId": "hjm_g5a_u5_l4",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个梯形，上底 3 厘米，下底 7 厘米，两条腰分别是 4 厘米和 5 厘米，这个梯形的周长是几厘米？",
+  "answer": "19",
+  "explanation": "梯形的周长是四条边相加：3＋7＋4＋5＝19 厘米。",
+  "verify": "3+7+4+5"
+ },
+ {
+  "id": "hjm_g5a_u5_l4_q8",
+  "topicId": "hjm_g5a_u5_l4",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "梯形的高是指什么？",
+  "options": [
+   "两底之间的距离",
+   "上底的长度",
+   "下底的长度",
+   "腰的长度"
+  ],
+  "answer": "两底之间的距离",
+  "explanation": "梯形的高是从上底的一点向下底作的垂线段，它的长度就是两底之间的距离。"
+ },
+ {
+  "id": "hjm_g5a_u5_l4_q9",
+  "topicId": "hjm_g5a_u5_l4",
+  "difficulty": "hard",
+  "type": "choice",
+  "prompt": "一个梯形的上底是 5 分米，下底是 11 分米，高是 6 分米，如果把它的上底延长 6 分米，它就变成了一个什么图形？",
+  "options": [
+   "平行四边形",
+   "三角形",
+   "梯形",
+   "长方形"
+  ],
+  "answer": "平行四边形",
+  "explanation": "上底延长后是 5＋6＝11 分米，和下底相等且平行，两组对边分别平行的四边形就是平行四边形。"
+ },
+ {
+  "id": "hjm_g5a_u5_l5_q4",
+  "topicId": "hjm_g5a_u5_l5",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一个梯形的上底是 3 米，下底是 7 米，高是 4 米，它的面积是几平方米？",
+  "answer": "20",
+  "explanation": "梯形面积＝(上底＋下底)×高÷2，(3＋7)×4÷2＝20 平方米。",
+  "verify": "(3+7)*4/2"
+ },
+ {
+  "id": "hjm_g5a_u5_l5_q5",
+  "topicId": "hjm_g5a_u5_l5",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个梯形的面积是 96 平方厘米，高是 8 厘米，上底是 10 厘米，它的下底是几厘米？",
+  "answer": "14",
+  "explanation": "上底加下底的和是 96×2÷8＝24 厘米，下底是 24－10＝14 厘米。",
+  "verify": "96*2/8-10"
+ },
+ {
+  "id": "hjm_g5a_u5_l5_q6",
+  "topicId": "hjm_g5a_u5_l5",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一个梯形的上底是 6 分米，下底是 12 分米，高是 5 分米，它的面积是几平方分米？",
+  "answer": "45",
+  "explanation": "(6＋12)×5÷2＝45 平方分米。",
+  "verify": "(6+12)*5/2"
+ },
+ {
+  "id": "hjm_g5a_u5_l5_q7",
+  "topicId": "hjm_g5a_u5_l5",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一块梯形菜地，上底 12 米，下底 20 米，高 10 米，如果每平方米种 3 棵白菜，一共可以种几棵？",
+  "answer": "480",
+  "explanation": "菜地面积是 (12＋20)×10÷2＝160 平方米，一共可以种 160×3＝480 棵。",
+  "verify": "(12+20)*10/2*3"
+ },
+ {
+  "id": "hjm_g5a_u5_l5_q8",
+  "topicId": "hjm_g5a_u5_l5",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "计算梯形面积时，为什么要先把上底和下底加起来？",
+  "options": [
+   "因为两个完全相同的梯形可以拼成平行四边形，平行四边形的底就是上底加下底",
+   "因为梯形有两条底",
+   "因为要先算周长",
+   "因为上底比下底短"
+  ],
+  "answer": "因为两个完全相同的梯形可以拼成平行四边形，平行四边形的底就是上底加下底",
+  "explanation": "梯形面积公式就是这样推导的：两个相同的梯形拼成的平行四边形，底是上底加下底，高是梯形的高，平行四边形面积除以 2 就是梯形面积。"
+ },
+ {
+  "id": "hjm_g5a_u5_l5_q9",
+  "topicId": "hjm_g5a_u5_l5",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个梯形的面积是 120 平方米，上底是 8 米，下底是 16 米，如果高增加 2 米，新的面积是几平方米？",
+  "answer": "144",
+  "explanation": "原来的高是 120×2÷(8＋16)＝10 米，高增加后是 12 米，新的面积是 (8＋16)×12÷2＝144 平方米。",
+  "verify": "(8+16)*12/2"
+ },
+ {
+  "id": "hjm_g5a_u6_l1_q4",
+  "topicId": "hjm_g5a_u6_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "3.2×2＋1.8 等于几？",
+  "answer": "8.2",
+  "explanation": "先算乘法 3.2×2＝6.4，再算加法 6.4＋1.8＝8.2。",
+  "verify": "3.2*2+1.8"
+ },
+ {
+  "id": "hjm_g5a_u6_l1_q5",
+  "topicId": "hjm_g5a_u6_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "(5.4－2.4)÷0.5＋1.6 等于几？",
+  "answer": "7.6",
+  "explanation": "先算括号里的 5.4－2.4＝3，再算除法 3÷0.5＝6，最后算加法 6＋1.6＝7.6。",
+  "verify": "(5.4-2.4)/0.5+1.6"
+ },
+ {
+  "id": "hjm_g5a_u6_l1_q6",
+  "topicId": "hjm_g5a_u6_l1",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "10－2.5×3 等于几？",
+  "answer": "2.5",
+  "explanation": "先算乘法 2.5×3＝7.5，再算减法 10－7.5＝2.5。",
+  "verify": "10-2.5*3"
+ },
+ {
+  "id": "hjm_g5a_u6_l1_q7",
+  "topicId": "hjm_g5a_u6_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "2.4×(3.6－1.2)÷0.8 等于几？",
+  "answer": "7.2",
+  "explanation": "先算括号里的 3.6－1.2＝2.4，再算乘法 2.4×2.4＝5.76，最后算除法 5.76÷0.8＝7.2。",
+  "verify": "2.4*(3.6-1.2)/0.8"
+ },
+ {
+  "id": "hjm_g5a_u6_l1_q8",
+  "topicId": "hjm_g5a_u6_l1",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "计算 6.4÷0.8＋2.3 时，应该先算什么？",
+  "options": [
+   "6.4÷0.8",
+   "0.8＋2.3",
+   "6.4＋2.3",
+   "从左到右依次算"
+  ],
+  "answer": "6.4÷0.8",
+  "explanation": "四则混合运算先乘除后加减，没有括号时先算除法 6.4÷0.8，再加 2.3。"
+ },
+ {
+  "id": "hjm_g5a_u6_l1_q9",
+  "topicId": "hjm_g5a_u6_l1",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "小明算 4.5＋2.5×2 时，先算加法再算乘法，得到 14，正确结果应该是几？",
+  "answer": "9.5",
+  "explanation": "正确的运算顺序是先算乘法 2.5×2＝5，再算加法 4.5＋5＝9.5；小明先算加法是错的。",
+  "verify": "4.5+2.5*2"
+ },
+ {
+  "id": "hjm_g5a_u6_l2_q4",
+  "topicId": "hjm_g5a_u6_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "小华家上月水表读数是 125 吨，本月读数是 140 吨，每吨水费 2 元，本月水费是几元？",
+  "answer": "30",
+  "explanation": "本月用水是 140－125＝15 吨，水费是 15×2＝30 元。",
+  "verify": "(140-125)*2"
+ },
+ {
+  "id": "hjm_g5a_u6_l2_q5",
+  "topicId": "hjm_g5a_u6_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "某地电费分段计价：100 度以内每度 0.5 元，超过 100 度的部分每度 0.8 元。小红家本月用电 130 度，电费是几元？",
+  "answer": "74",
+  "explanation": "100 度以内是 100×0.5＝50 元，超过的 30 度是 30×0.8＝24 元，一共 50＋24＝74 元。",
+  "verify": "100*0.5+30*0.8"
+ },
+ {
+  "id": "hjm_g5a_u6_l2_q6",
+  "topicId": "hjm_g5a_u6_l2",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "每立方米天然气 3.5 元，用 20 立方米，费用是几元？",
+  "answer": "70",
+  "explanation": "费用是 20×3.5＝70 元。",
+  "verify": "20*3.5"
+ },
+ {
+  "id": "hjm_g5a_u6_l2_q7",
+  "topicId": "hjm_g5a_u6_l2",
+  "difficulty": "hard",
+  "type": "text",
+  "prompt": "用电 120 度时，A 方案每度电 0.6 元；B 方案每月固定收 20 元，另加每度 0.4 元。哪种方案更便宜？便宜几元？",
+  "answer": "B 方案便宜 4 元",
+  "explanation": "A 方案是 120×0.6＝72 元；B 方案是 20＋120×0.4＝68 元；72－68＝4 元，所以 B 方案便宜 4 元。"
+ },
+ {
+  "id": "hjm_g5a_u6_l2_q8",
+  "topicId": "hjm_g5a_u6_l2",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "算水费时，本月用水量应该怎么得到？",
+  "options": [
+   "本月读数减去上月读数",
+   "本月读数",
+   "上月读数",
+   "两次读数相加"
+  ],
+  "answer": "本月读数减去上月读数",
+  "explanation": "水表读数是累计数，本月用水量就是本月读数减去上月读数得到的差。"
+ },
+ {
+  "id": "hjm_g5a_u6_l2_q9",
+  "topicId": "hjm_g5a_u6_l2",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "某地水费：每月用水不超过 10 吨，每吨 2.4 元；超过 10 吨，超过部分每吨加收 1 元。小丽家本月用水 14 吨，水费是几元？",
+  "answer": "37.6",
+  "explanation": "10 吨以内是 10×2.4＝24 元，超过的 4 吨每吨是 2.4＋1＝3.4 元，是 4×3.4＝13.6 元，一共 24＋13.6＝37.6 元。",
+  "verify": "10*2.4+4*3.4"
+ },
+ {
+  "id": "hjm_g5a_u6_l3_q4",
+  "topicId": "hjm_g5a_u6_l3",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一辆汽车每小时行 60 千米，3 小时行几千米？",
+  "answer": "180",
+  "explanation": "路程＝速度×时间，60×3＝180 千米。",
+  "verify": "60*3"
+ },
+ {
+  "id": "hjm_g5a_u6_l3_q5",
+  "topicId": "hjm_g5a_u6_l3",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "甲、乙两地相距 240 千米，一辆汽车从甲地开往乙地，每小时行 80 千米，几小时到达？",
+  "answer": "3",
+  "explanation": "时间＝路程÷速度，240÷80＝3 小时。",
+  "verify": "240/80"
+ },
+ {
+  "id": "hjm_g5a_u6_l3_q6",
+  "topicId": "hjm_g5a_u6_l3",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "学校买了 6 个足球，每个 45 元，一共花了几元？",
+  "answer": "270",
+  "explanation": "一共花了 6×45＝270 元。",
+  "verify": "6*45"
+ },
+ {
+  "id": "hjm_g5a_u6_l3_q7",
+  "topicId": "hjm_g5a_u6_l3",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一根绳子长 10 米，第一次剪去 2.5 米，第二次剪去 3.5 米，还剩几米？",
+  "answer": "4",
+  "explanation": "还剩 10－2.5－3.5＝4 米。",
+  "verify": "10-2.5-3.5"
+ },
+ {
+  "id": "hjm_g5a_u6_l3_q8",
+  "topicId": "hjm_g5a_u6_l3",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "解决“买 4 千克苹果花了 32 元，每千克苹果几元”这个问题，应该用什么方法？",
+  "options": [
+   "用总价除以数量",
+   "用总价乘数量",
+   "用总价加数量",
+   "用总价减数量"
+  ],
+  "answer": "用总价除以数量",
+  "explanation": "已知总价和数量求单价，用总价除以数量：32÷4＝8 元。"
+ },
+ {
+  "id": "hjm_g5a_u6_l3_q9",
+  "topicId": "hjm_g5a_u6_l3",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "1 个大人带 2 个小孩去游乐场，买单人票一共要 44 元，家庭套票 40 元，买家庭套票比单人票便宜几元？",
+  "answer": "4",
+  "explanation": "单人票一共是 44 元，家庭套票是 40 元，便宜 44－40＝4 元。",
+  "verify": "44-40"
+ },
+ {
+  "id": "hjm_g5a_u6_l4_q4",
+  "topicId": "hjm_g5a_u6_l4",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一个三角形的底是 12 米，高是 8 米，它的面积是几平方米？",
+  "answer": "48",
+  "explanation": "三角形面积＝底×高÷2，12×8÷2＝48 平方米。",
+  "verify": "12*8/2"
+ },
+ {
+  "id": "hjm_g5a_u6_l4_q5",
+  "topicId": "hjm_g5a_u6_l4",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个组合图形由一个边长 6 米的正方形和一个底 6 米、高 4 米的三角形拼成，这个组合图形的面积是几平方米？",
+  "answer": "48",
+  "explanation": "正方形面积是 6×6＝36 平方米，三角形面积是 6×4÷2＝12 平方米，合起来是 36＋12＝48 平方米。",
+  "verify": "6*6+6*4/2"
+ },
+ {
+  "id": "hjm_g5a_u6_l4_q6",
+  "topicId": "hjm_g5a_u6_l4",
+  "difficulty": "medium",
+  "type": "numeric",
+  "prompt": "一个梯形的上底是 5 厘米，下底是 11 厘米，高是 6 厘米，它的面积是几平方厘米？",
+  "answer": "48",
+  "explanation": "(5＋11)×6÷2＝48 平方厘米。",
+  "verify": "(5+11)*6/2"
+ },
+ {
+  "id": "hjm_g5a_u6_l4_q7",
+  "topicId": "hjm_g5a_u6_l4",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一个长 12 分米、宽 8 分米的长方形里剪去一个最大的正方形，剩下的面积是几平方分米？",
+  "answer": "32",
+  "explanation": "长方形里剪出的最大正方形边长是 8 分米（和宽相等），面积是 8×8＝64 平方分米；长方形面积是 12×8＝96 平方分米，剩下 96－64＝32 平方分米。",
+  "verify": "12*8-8*8"
+ },
+ {
+  "id": "hjm_g5a_u6_l4_q8",
+  "topicId": "hjm_g5a_u6_l4",
+  "difficulty": "medium",
+  "type": "choice",
+  "prompt": "求组合图形的面积时，分割法是什么意思？",
+  "options": [
+   "把组合图形拆成几个已学图形分别算再相加",
+   "把组合图形补成一个大图形",
+   "直接量出面积",
+   "把组合图形平均分成几份"
+  ],
+  "answer": "把组合图形拆成几个已学图形分别算再相加",
+  "explanation": "分割法是把组合图形拆成几个已经学过的图形，分别算出面积再相加；补成大图形再减去多余部分叫添补法。"
+ },
+ {
+  "id": "hjm_g5a_u6_l4_q9",
+  "topicId": "hjm_g5a_u6_l4",
+  "difficulty": "hard",
+  "type": "numeric",
+  "prompt": "一块长方形菜地长 20 米，宽 12 米，中间有一条宽 2 米的小路（沿着宽的方向横穿菜地），种菜的面积是几平方米？",
+  "answer": "216",
+  "explanation": "菜地总面积是 20×12＝240 平方米，小路面积是 2×12＝24 平方米，种菜的面积是 240－24＝216 平方米。",
+  "verify": "20*12-2*12"
+ },
+ {
+  "answer": "14.9",
+  "difficulty": "medium",
+  "explanation": "先算除法 6.4÷0.8=8，再算乘法 2.3×3=6.9，最后算加法 8+6.9=14.9。乘除在加减前面，不能按从左往右的顺序硬算。",
+  "id": "hjm_g5b_u1_l1_q4",
+  "prompt": "计算：6.4÷0.8+2.3×3=？（填得数）",
+  "topicId": "hjm_g5b_u1_l1",
+  "type": "numeric",
+  "verify": "6.4/0.8+2.3*3"
+ },
+ {
+  "answer": "2.5",
+  "difficulty": "hard",
+  "explanation": "先算括号里的 7.2-4.2=3，再算 0.5×3=1.5，最后算 1.5÷0.6=2.5。选 5 是漏了乘 0.5，选 1.5 是漏了除以 0.6。",
+  "id": "hjm_g5b_u1_l1_q5",
+  "options": [
+   "2.5",
+   "5",
+   "1.5"
+  ],
+  "prompt": "计算：0.5×(7.2-4.2)÷0.6 的得数是下面哪一个？",
+  "topicId": "hjm_g5b_u1_l1",
+  "type": "choice"
+ },
+ {
+  "answer": "1.6",
+  "difficulty": "medium",
+  "explanation": "先算乘法 3.2×2.5=8，再算减法 9.6-8=1.6。先乘除后加减，顺序错了答案就不对。",
+  "id": "hjm_g5b_u1_l1_q6",
+  "prompt": "计算：9.6-3.2×2.5=？（填得数）",
+  "topicId": "hjm_g5b_u1_l1",
+  "type": "numeric",
+  "verify": "9.6-3.2*2.5"
+ },
+ {
+  "answer": "4.8",
+  "difficulty": "hard",
+  "explanation": "括号里先算乘法 2.5×2=5，再算 12.5-5=7.5；括号外面先算除法 7.5÷2.5=3，最后算加法 3+1.8=4.8。",
+  "id": "hjm_g5b_u1_l1_q7",
+  "prompt": "计算：(12.5-2.5×2)÷2.5+1.8=？（填得数）",
+  "topicId": "hjm_g5b_u1_l1",
+  "type": "numeric",
+  "verify": "(12.5-2.5*2)/2.5+1.8"
+ },
+ {
+  "answer": "5",
+  "difficulty": "medium",
+  "explanation": "先算乘法 4.5×2=9 和除法 3.6÷0.9=4，再算减法 9-4=5。按从左往右算会得到 6，错在没有先算乘除。",
+  "id": "hjm_g5b_u1_l1_q8",
+  "options": [
+   "5",
+   "6",
+   "1"
+  ],
+  "prompt": "计算：4.5×2-3.6÷0.9 的得数是下面哪一个？",
+  "topicId": "hjm_g5b_u1_l1",
+  "type": "choice"
+ },
+ {
+  "answer": "24.4",
+  "difficulty": "hard",
+  "explanation": "2 本书一共 12.8×2=25.6 元，找回 50-25.6=24.4 元。先算乘法再算减法，不能先用 50 减 12.8。",
+  "id": "hjm_g5b_u1_l1_q9",
+  "prompt": "一本书 12.8 元，小丁买了 2 本，付 50 元，应找回多少元？（填数）",
+  "topicId": "hjm_g5b_u1_l1",
+  "type": "numeric",
+  "verify": "50-12.8*2"
+ },
+ {
+  "answer": "4",
+  "difficulty": "medium",
+  "explanation": "2x=11.6-3.6=8，x=8÷2=4。检验：2×4+3.6=11.6，等式成立。",
+  "id": "hjm_g5b_u1_l2_q4",
+  "prompt": "解方程：2x+3.6=11.6，x=？（填得数）",
+  "topicId": "hjm_g5b_u1_l2",
+  "type": "numeric",
+  "verify": "(11.6-3.6)/2"
+ },
+ {
+  "answer": "3x-5=13",
+  "difficulty": "hard",
+  "explanation": "把 x=6 代入验算：3×6-5=13，等式成立；另外两个代入后是 7 和 13，等式都不成立。所以 x=6 是第一个方程的解。",
+  "id": "hjm_g5b_u1_l2_q5",
+  "options": [
+   "3x-5=13",
+   "x÷2+4=6",
+   "2x+1=11"
+  ],
+  "prompt": "下列方程中，x=6 的是哪个？",
+  "topicId": "hjm_g5b_u1_l2",
+  "type": "choice"
+ },
+ {
+  "answer": "2.5",
+  "difficulty": "medium",
+  "explanation": "5x=10.7+1.8=12.5，x=12.5÷5=2.5。移项时减去的要加上：-1.8 移到右边变成 +1.8。",
+  "id": "hjm_g5b_u1_l2_q6",
+  "prompt": "解方程：5x-1.8=10.7，x=？（填得数）",
+  "topicId": "hjm_g5b_u1_l2",
+  "type": "numeric",
+  "verify": "(10.7+1.8)/5"
+ },
+ {
+  "answer": "7.5",
+  "difficulty": "hard",
+  "explanation": "先把 x÷3 看成一个整体：x÷3=5.1-2.6=2.5，再算 x=2.5×3=7.5。两步方程要一层一层剥开，不能一步算出 x。",
+  "id": "hjm_g5b_u1_l2_q7",
+  "prompt": "解方程：x÷3+2.6=5.1，x=？（填得数）",
+  "topicId": "hjm_g5b_u1_l2",
+  "type": "numeric",
+  "verify": "(5.1-2.6)*3"
+ },
+ {
+  "answer": "6",
+  "difficulty": "medium",
+  "explanation": "x=15÷2.5=6。乘 2.5 得到 37.5、减 2.5 得到 12.5 都是错的：求未知数 x 要用除法，把 2.5 除过去。",
+  "id": "hjm_g5b_u1_l2_q8",
+  "options": [
+   "6",
+   "37.5",
+   "12.5"
+  ],
+  "prompt": "解方程 2.5x=15，x 是多少？",
+  "topicId": "hjm_g5b_u1_l2",
+  "type": "choice"
+ },
+ {
+  "answer": "5",
+  "difficulty": "hard",
+  "explanation": "0.8x=5.2-1.2=4，x=4÷0.8=5。检验：0.8×5+1.2=5.2，等式成立。",
+  "id": "hjm_g5b_u1_l2_q9",
+  "prompt": "解方程：0.8x+1.2=5.2，x=？（填得数）",
+  "topicId": "hjm_g5b_u1_l2",
+  "type": "numeric",
+  "verify": "(5.2-1.2)/0.8"
+ },
+ {
+  "answer": "18",
+  "difficulty": "medium",
+  "explanation": "满格 11 个算 11，不满一格的 14 个按半格算，是 14÷2=7，合起来 11+7=18，所以面积大约是 18 平方厘米。",
+  "id": "hjm_g5b_u1_l3_q4",
+  "prompt": "一张不规则纸片放在方格纸上，满格 11 个，不满一格的有 14 个，每个小方格是 1 平方厘米，这张纸片的面积大约是多少平方厘米？（填数）",
+  "topicId": "hjm_g5b_u1_l3",
+  "type": "numeric",
+  "verify": "11+14/2"
+ },
+ {
+  "answer": "26",
+  "difficulty": "hard",
+  "explanation": "先数格子：7+12÷2=13 格，每格 2 平方厘米，13×2=26 平方厘米。选 13 是最后忘了乘每格的面积，选 38 是把不满一格的都算成了一格。",
+  "id": "hjm_g5b_u1_l3_q5",
+  "options": [
+   "26",
+   "13",
+   "38"
+  ],
+  "prompt": "估计一片树叶的面积：满格 7 个，不满一格的有 12 个，每个小方格是 2 平方厘米，这片树叶的面积大约是多少平方厘米？",
+  "topicId": "hjm_g5b_u1_l3",
+  "type": "choice"
+ },
+ {
+  "answer": "24",
+  "difficulty": "medium",
+  "explanation": "满格 20 个算 20，不满一格的 8 个按半格算，是 8÷2=4，合起来 20+4=24，所以面积大约是 24 平方米。",
+  "id": "hjm_g5b_u1_l3_q6",
+  "prompt": "方格纸上一个小岛满格 20 个，不满一格的有 8 个，每个小方格是 1 平方米，这个小岛的面积大约是多少平方米？（填数）",
+  "topicId": "hjm_g5b_u1_l3",
+  "type": "numeric",
+  "verify": "20+8/2"
+ },
+ {
+  "answer": "0",
+  "difficulty": "hard",
+  "explanation": "第一次是 18+16÷2=26 平方厘米，第二次是 17+18÷2=26 平方厘米，两次结果一样，相差 0。数格子的方法不同，但估测结果可以相同。",
+  "id": "hjm_g5b_u1_l3_q7",
+  "prompt": "两次估测同一个图形：第一次满格 18 个、不满一格 16 个，第二次满格 17 个、不满一格 18 个，每个小方格是 1 平方厘米，两次估测结果相差多少平方厘米？（填数）",
+  "topicId": "hjm_g5b_u1_l3",
+  "type": "numeric",
+  "verify": "(18+16/2)-(17+18/2)"
+ },
+ {
+  "answer": "半格",
+  "difficulty": "medium",
+  "explanation": "满格算一格，不满一格的按半格算，再合起来；都算一格会估大，都不算会估小。",
+  "id": "hjm_g5b_u1_l3_q8",
+  "options": [
+   "半格",
+   "一格",
+   "不算"
+  ],
+  "prompt": "估测不规则图形面积时，不满一格的按什么算？",
+  "topicId": "hjm_g5b_u1_l3",
+  "type": "choice"
+ },
+ {
+  "answer": "26",
+  "difficulty": "hard",
+  "explanation": "菜地面积 8×5=40 平方米，花坛面积约 9+10÷2=14 平方米，除花坛外是 40-14=26 平方米。先算整体、再减去花坛，是这类题的通用思路。",
+  "id": "hjm_g5b_u1_l3_q9",
+  "prompt": "一块长方形菜地长 8 米、宽 5 米，里面有个不规则花坛，方格图（每个小方格是 1 平方米）上花坛满格 9 个、不满一格 10 个，菜地除花坛外的面积约多少平方米？（填数）",
+  "topicId": "hjm_g5b_u1_l3",
+  "type": "numeric",
+  "verify": "8*5-(9+10/2)"
+ },
+ {
+  "answer": "2.5",
+  "difficulty": "medium",
+  "explanation": "7 和 0 都是自然数，2.5 是小数，不是自然数。自然数是 0、1、2、3……这样的数，不带小数点和负号。",
+  "id": "hjm_g5b_u1_l4_q4",
+  "options": [
+   "7",
+   "0",
+   "2.5"
+  ],
+  "prompt": "下面哪个数不是自然数？",
+  "topicId": "hjm_g5b_u1_l4",
+  "type": "choice"
+ },
+ {
+  "answer": "不对",
+  "difficulty": "hard",
+  "explanation": "不对。自然数确实有无数个，但最小的自然数是 0，不是 1。前半句对、后半句错，整句话就是错的。",
+  "id": "hjm_g5b_u1_l4_q5",
+  "prompt": "判断：自然数有无数个，最小的自然数是 1。这句话对吗？请回答“对”或“不对”。",
+  "topicId": "hjm_g5b_u1_l4",
+  "type": "text"
+ },
+ {
+  "answer": "21",
+  "difficulty": "medium",
+  "explanation": "0、1、2……20，一共是 20+1=21 个数。容易少算 0，只数出 20 个；包括两端在内要加 1。",
+  "id": "hjm_g5b_u1_l4_q6",
+  "prompt": "从 0 数到 20（包括 0 和 20），一共有几个自然数？（填数）",
+  "topicId": "hjm_g5b_u1_l4",
+  "type": "numeric"
+ },
+ {
+  "answer": "自然数中最小的是 0，没有最大的",
+  "difficulty": "hard",
+  "explanation": "自然数从 0 开始往上数，没有尽头，所以最小的是 0，没有最大的。说最小是 1 是把 0 漏掉了，说有最大的就违背了“可以一直数下去”。",
+  "id": "hjm_g5b_u1_l4_q7",
+  "options": [
+   "自然数中最小的是 0，没有最大的",
+   "自然数中最小的是 1，没有最大的",
+   "自然数有最大的"
+  ],
+  "prompt": "关于自然数，下面哪个说法正确？",
+  "topicId": "hjm_g5b_u1_l4",
+  "type": "choice"
+ },
+ {
+  "answer": "89",
+  "difficulty": "medium",
+  "explanation": "最大的两位数是 99，最小的两位数是 10，相差 99-10=89。",
+  "id": "hjm_g5b_u1_l4_q8",
+  "prompt": "最大的两位数自然数与最小的两位数自然数相差多少？（填数）",
+  "topicId": "hjm_g5b_u1_l4",
+  "type": "numeric",
+  "verify": "99-10"
+ },
+ {
+  "answer": "对",
+  "difficulty": "hard",
+  "explanation": "对。0 是自然数，而自然数都是整数，所以 0 也是整数。自然数是整数的一部分，不是和整数平行的另一类数。",
+  "id": "hjm_g5b_u1_l4_q9",
+  "prompt": "判断：0 既是自然数，也是整数。这句话对吗？请回答“对”或“不对”。",
+  "topicId": "hjm_g5b_u1_l4",
+  "type": "text"
+ },
+ {
+  "answer": "-200元",
+  "difficulty": "medium",
+  "explanation": "收入和支出是意义相反的量，收入记正，支出就记负，支出 200 元记作 -200 元。只写 200 元没有表示出“支出”这个相反方向。",
+  "id": "hjm_g5b_u2_l1_q4",
+  "options": [
+   "-200元",
+   "+200元",
+   "200元"
+  ],
+  "prompt": "收入 500 元记作 +500 元，支出 200 元记作下面哪一个？",
+  "topicId": "hjm_g5b_u2_l1",
+  "type": "choice"
+ },
+ {
+  "answer": "-5",
+  "difficulty": "hard",
+  "explanation": "低 13℃ 就是 8-13=-5℃。气温可以是负数，-5℃ 表示零下 5℃。",
+  "id": "hjm_g5b_u2_l1_q5",
+  "prompt": "某地白天 8℃，夜里比白天低 13℃，夜里多少摄氏度？（填数）",
+  "topicId": "hjm_g5b_u2_l1",
+  "type": "numeric",
+  "verify": "8-13"
+ },
+ {
+  "answer": "0",
+  "difficulty": "medium",
+  "explanation": "0 既不是正数也不是负数；-1 是负数，1 是正数。0 是正负数的分界线。",
+  "id": "hjm_g5b_u2_l1_q6",
+  "options": [
+   "0",
+   "-1",
+   "1"
+  ],
+  "prompt": "下面哪个数既不是正数也不是负数？",
+  "topicId": "hjm_g5b_u2_l1",
+  "type": "choice"
+ },
+ {
+  "answer": "-30",
+  "difficulty": "hard",
+  "explanation": "120-150=-30 元。负数表示不但取光了，还透支了 30 元。余额出现负数在生活中是真实存在的。",
+  "id": "hjm_g5b_u2_l1_q7",
+  "prompt": "小明存了 120 元，后来取了 150 元，存折上的余额会显示多少元？（填数）",
+  "topicId": "hjm_g5b_u2_l1",
+  "type": "numeric",
+  "verify": "120-150"
+ },
+ {
+  "answer": "-35",
+  "difficulty": "medium",
+  "explanation": "海平面以上记正，海平面以下就记负，以下 35 米记作 -35 米。",
+  "id": "hjm_g5b_u2_l1_q8",
+  "prompt": "海平面以上 120 米记作 +120 米，海平面以下 35 米记作多少米？（填数）",
+  "topicId": "hjm_g5b_u2_l1",
+  "type": "numeric"
+ },
+ {
+  "answer": "-12℃",
+  "difficulty": "hard",
+  "explanation": "比 0 低的数越小温度越低，-12℃ 比 -5℃ 还低 7℃，所以 -12℃ 最低。比较负数大小时，离 0 越远反而越小。",
+  "id": "hjm_g5b_u2_l1_q9",
+  "options": [
+   "-5℃",
+   "0℃",
+   "-12℃",
+   "3℃"
+  ],
+  "prompt": "下面哪个温度最低？",
+  "topicId": "hjm_g5b_u2_l1",
+  "type": "choice"
+ },
+ {
+  "answer": "-4",
+  "difficulty": "medium",
+  "explanation": "向左移动数变小：5-9=-4。向右是加，向左是减，方向搞反会得到 14。",
+  "id": "hjm_g5b_u2_l2_q4",
+  "prompt": "数轴上点 A 表示 5，把它向左移动 9 个单位后表示的数是几？（填数）",
+  "topicId": "hjm_g5b_u2_l2",
+  "type": "numeric",
+  "verify": "5-9"
+ },
+ {
+  "answer": "6",
+  "difficulty": "hard",
+  "explanation": "-4 到 2 要走 6 格，距离是 2-(-4)=6。数成 7 是把两个端点都数进去了，距离数的是格子数，不是点数。",
+  "id": "hjm_g5b_u2_l2_q5",
+  "options": [
+   "6",
+   "2",
+   "7"
+  ],
+  "prompt": "数轴上点 M 表示 -4，点 N 表示 2，M、N 之间的距离是多少？",
+  "topicId": "hjm_g5b_u2_l2",
+  "type": "choice"
+ },
+ {
+  "answer": "1",
+  "difficulty": "medium",
+  "explanation": "中点就是两个数的平均数：(-3+5)÷2=1。在数轴上，中点到两端的距离相等。",
+  "id": "hjm_g5b_u2_l2_q6",
+  "prompt": "数轴上点 P 表示 -3，点 Q 表示 5，P、Q 的中点表示的数是几？（填数）",
+  "topicId": "hjm_g5b_u2_l2",
+  "type": "numeric",
+  "verify": "(-3+5)/2"
+ },
+ {
+  "answer": "11",
+  "difficulty": "hard",
+  "explanation": "-6、-5、-4、-3、-2、-1、0、1、2、3、4，一共 11 个。包括两端在内，不能只算中间的 9 个。",
+  "id": "hjm_g5b_u2_l2_q7",
+  "prompt": "数轴上从 -6 到 4（包括 -6 和 4），一共有几个整数点？（填数）",
+  "topicId": "hjm_g5b_u2_l2",
+  "type": "numeric"
+ },
+ {
+  "answer": "1",
+  "difficulty": "medium",
+  "explanation": "-2 向右移 3 个单位是 -2+3=1；向左移才是 -5。",
+  "id": "hjm_g5b_u2_l2_q8",
+  "options": [
+   "1",
+   "-5",
+   "5"
+  ],
+  "prompt": "数轴上哪个数在 -2 的右边第 3 个单位处？",
+  "topicId": "hjm_g5b_u2_l2",
+  "type": "choice"
+ },
+ {
+  "answer": "-13",
+  "difficulty": "hard",
+  "explanation": "-8+6=-2，再向左 11 个单位是 -2-11=-13。两次移动要按顺序算，先右后左不能抵消成一次。",
+  "id": "hjm_g5b_u2_l2_q9",
+  "prompt": "数轴上点 A 表示 -8，把它先向右移动 6 个单位，再向左移动 11 个单位，最后表示的数是几？（填数）",
+  "topicId": "hjm_g5b_u2_l2",
+  "type": "numeric",
+  "verify": "-8+6-11"
+ },
+ {
+  "answer": "8.5",
+  "difficulty": "medium",
+  "explanation": "3 支钢笔的钱加上找回的钱等于付的钱：3x+4.5=30，3x=25.5，x=8.5。检验：3×8.5+4.5=30，成立。",
+  "id": "hjm_g5b_u3_l1_q4",
+  "prompt": "小亚买了 3 支同样的钢笔，付了 30 元，找回 4.5 元。设每支 x 元，列方程求解，x=？（填得数）",
+  "topicId": "hjm_g5b_u3_l1",
+  "type": "numeric",
+  "verify": "(30-4.5)/3"
+ },
+ {
+  "answer": "2x+3=51",
+  "difficulty": "hard",
+  "explanation": "“小丁比小巧的 2 倍还多 3 颗”，等量关系是小巧的 2 倍加 3 等于小丁的颗数：2x+3=51。减 3 是把“多”理解反了。",
+  "id": "hjm_g5b_u3_l1_q5",
+  "options": [
+   "2x+3=51",
+   "2x-3=51",
+   "x÷2+3=51"
+  ],
+  "prompt": "小丁有 51 颗糖，比小巧的 2 倍还多 3 颗。设小巧有 x 颗，下面哪个方程正确？",
+  "topicId": "hjm_g5b_u3_l1",
+  "type": "choice"
+ },
+ {
+  "answer": "6",
+  "difficulty": "medium",
+  "explanation": "长是 2x 厘米，周长是 (x+2x)×2=36，即 6x=36，x=6。检验：长 12 厘米，宽 6 厘米，周长 (12+6)×2=36，成立。",
+  "id": "hjm_g5b_u3_l1_q6",
+  "prompt": "一个长方形周长 36 厘米，长是宽的 2 倍。设宽 x 厘米，列方程求解，宽是几厘米？（填数）",
+  "topicId": "hjm_g5b_u3_l1",
+  "type": "numeric",
+  "verify": "36/2/(1+2)"
+ },
+ {
+  "answer": "2",
+  "difficulty": "hard",
+  "explanation": "汽车 4 个轮，三轮车 3 个轮，三轮车有 (10-x) 辆：4x+3(10-x)=32，化简得 x+30=32，x=2。检验：2 辆汽车 8 个轮，8 辆三轮车 24 个轮，一共 32 个轮。",
+  "id": "hjm_g5b_u3_l1_q7",
+  "prompt": "停车场有汽车和三轮车共 10 辆，轮子共 32 个。设汽车 x 辆，列方程求解，汽车有几辆？（填数）",
+  "topicId": "hjm_g5b_u3_l1",
+  "type": "numeric",
+  "verify": "32-3*10"
+ },
+ {
+  "answer": "24",
+  "difficulty": "medium",
+  "explanation": "等量关系是第一天的 2 倍减 8 等于第二天的页数：2x-8=40，2x=48，x=24。",
+  "id": "hjm_g5b_u3_l1_q8",
+  "prompt": "小胖第二天看了 40 页，是第一天看的 2 倍少 8 页。设第一天看了 x 页，列方程求解，x=？（填得数）",
+  "topicId": "hjm_g5b_u3_l1",
+  "type": "numeric",
+  "verify": "(40+8)/2"
+ },
+ {
+  "answer": "11",
+  "difficulty": "hard",
+  "explanation": "3x+3=36，3x=33，x=11。检验：儿子年龄的 3 倍是 33，再大 3 岁正好是 36 岁。",
+  "id": "hjm_g5b_u3_l1_q9",
+  "prompt": "爸爸今年 36 岁，比儿子年龄的 3 倍大 3 岁。设儿子 x 岁，列方程求解，儿子几岁？（填数）",
+  "topicId": "hjm_g5b_u3_l1",
+  "type": "numeric",
+  "verify": "(36-3)/3"
+ },
+ {
+  "answer": "形状不同体积可能一样",
+  "difficulty": "medium",
+  "explanation": "体积只看占空间的大小，跟轻重、占地面积都没有必然关系；一块橡皮泥捏成什么形状，体积都可以一样。",
+  "id": "hjm_g5b_u4_l1_q4",
+  "options": [
+   "体积大的物体一定重",
+   "形状不同体积可能一样",
+   "体积大的物体占地一定大"
+  ],
+  "prompt": "关于物体的体积，下面哪个说法正确？",
+  "topicId": "hjm_g5b_u4_l1",
+  "type": "choice"
+ },
+ {
+  "answer": "不对",
+  "difficulty": "hard",
+  "explanation": "不对。只是装牛奶的容器变了，牛奶本身占的空间没有变，体积不变。看体积要看物体本身，不是看容器。",
+  "id": "hjm_g5b_u4_l1_q5",
+  "prompt": "判断：把一盒牛奶倒进大碗里，牛奶的体积变大了。这句话对吗？请回答“对”或“不对”。",
+  "topicId": "hjm_g5b_u4_l1",
+  "type": "text"
+ },
+ {
+  "answer": "150",
+  "difficulty": "medium",
+  "explanation": "溢出的水就是苹果占掉的空间，150 毫升=150 立方厘米，所以苹果的体积是 150 立方厘米。1 毫升=1 立方厘米，乘 10 或除以 10 都错了。",
+  "id": "hjm_g5b_u4_l1_q6",
+  "options": [
+   "150",
+   "1500",
+   "15"
+  ],
+  "prompt": "一个苹果放进装满水的盆里，溢出 150 毫升水，苹果的体积是多少立方厘米？",
+  "topicId": "hjm_g5b_u4_l1",
+  "type": "choice"
+ },
+ {
+  "answer": "600",
+  "difficulty": "hard",
+  "explanation": "水的形状是长 10 厘米、宽 10 厘米、高 6 厘米的长方体，体积=10×10×6=600 立方厘米。水的高度就是长方体的高。",
+  "id": "hjm_g5b_u4_l1_q7",
+  "prompt": "一个正方体容器棱长 10 厘米，里面装了 6 厘米深的水，水的体积是多少立方厘米？（填数）",
+  "topicId": "hjm_g5b_u4_l1",
+  "type": "numeric",
+  "verify": "10*10*6"
+ },
+ {
+  "answer": "不对",
+  "difficulty": "medium",
+  "explanation": "不对。体积一样，形状完全可以不同，比如一个长方体和一个正方体的体积可以相等。体积相等不等于形状相同。",
+  "id": "hjm_g5b_u4_l1_q8",
+  "prompt": "判断：两个体积一样的盒子，形状一定一样。这句话对吗？请回答“对”或“不对”。",
+  "topicId": "hjm_g5b_u4_l1",
+  "type": "text"
+ },
+ {
+  "answer": "不管怎么拼，12 个小正方体的总体积都是 12 立方厘米",
+  "difficulty": "hard",
+  "explanation": "每个小正方体 1 立方厘米，12 个合起来永远是 12 立方厘米，拼法只改变形状，不改变总体积。",
+  "id": "hjm_g5b_u4_l1_q9",
+  "options": [
+   "拼法不同体积就不同",
+   "不管怎么拼，12 个小正方体的总体积都是 12 立方厘米",
+   "拼得越高体积越大"
+  ],
+  "prompt": "把棱长 1 厘米的小正方体拼成长方体，关于体积的变化，下面哪个说法正确？",
+  "topicId": "hjm_g5b_u4_l1",
+  "type": "choice"
+ },
+ {
+  "answer": "3.5",
+  "difficulty": "medium",
+  "explanation": "1 立方分米=1000 立方厘米，小单位化大单位要除以进率：3500÷1000=3.5 立方分米。",
+  "id": "hjm_g5b_u4_l2_q4",
+  "prompt": "3500 立方厘米等于多少立方分米？（填数）",
+  "topicId": "hjm_g5b_u4_l2",
+  "type": "numeric",
+  "verify": "3500/1000"
+ },
+ {
+  "answer": "2000",
+  "difficulty": "hard",
+  "explanation": "先把单位统一成厘米：1.2 立方分米=1200 立方厘米，再加 800，等于 2000 立方厘米。单位不同不能直接相加。",
+  "id": "hjm_g5b_u4_l2_q5",
+  "prompt": "1.2 立方分米+800 立方厘米等于多少立方厘米？（填数）",
+  "topicId": "hjm_g5b_u4_l2",
+  "type": "numeric",
+  "verify": "1.2*1000+800"
+ },
+ {
+  "answer": "1 立方米",
+  "difficulty": "medium",
+  "explanation": "换算成同一个单位比：1 立方米=1000 立方分米，900 立方分米不到 1000，9500 立方厘米只有 9.5 立方分米，所以 1 立方米最大。只看数字大小会错选 9500。",
+  "id": "hjm_g5b_u4_l2_q6",
+  "options": [
+   "1 立方米",
+   "900 立方分米",
+   "9500 立方厘米"
+  ],
+  "prompt": "下面哪个体积最大？",
+  "topicId": "hjm_g5b_u4_l2",
+  "type": "choice"
+ },
+ {
+  "answer": "3000000",
+  "difficulty": "hard",
+  "explanation": "1 立方米=1000 立方分米=1000000 立方厘米，所以 3 立方米=3×1000000=3000000 立方厘米。要连乘两次进率，只乘一次会少算。",
+  "id": "hjm_g5b_u4_l2_q7",
+  "prompt": "一个水池的体积是 3 立方米，等于多少立方厘米？（填数）",
+  "topicId": "hjm_g5b_u4_l2",
+  "type": "numeric",
+  "verify": "3*1000*1000"
+ },
+ {
+  "answer": "450",
+  "difficulty": "medium",
+  "explanation": "大单位化小单位乘进率：0.45×1000=450 立方分米。",
+  "id": "hjm_g5b_u4_l2_q8",
+  "prompt": "0.45 立方米等于多少立方分米？（填数）",
+  "topicId": "hjm_g5b_u4_l2",
+  "type": "numeric",
+  "verify": "0.45*1000"
+ },
+ {
+  "answer": "4060",
+  "difficulty": "hard",
+  "explanation": "4 立方分米=4000 立方厘米，再加 60，等于 4060 立方厘米。写成 460 是少了一个零，4006 是把 60 错放到了十位上。",
+  "id": "hjm_g5b_u4_l2_q9",
+  "options": [
+   "460",
+   "4060",
+   "4006"
+  ],
+  "prompt": "4 立方分米 60 立方厘米等于多少立方厘米？",
+  "topicId": "hjm_g5b_u4_l2",
+  "type": "choice"
+ },
+ {
+  "answer": "160",
+  "difficulty": "medium",
+  "explanation": "体积=长×宽×高=8×5×4=160 立方分米。",
+  "id": "hjm_g5b_u4_l3_q4",
+  "prompt": "一个长方体长 8 分米，宽 5 分米，高 4 分米，它的体积是多少立方分米？（填数）",
+  "topicId": "hjm_g5b_u4_l3",
+  "type": "numeric",
+  "verify": "8*5*4"
+ },
+ {
+  "answer": "5",
+  "difficulty": "hard",
+  "explanation": "哪个数连乘三次等于 125？5×5×5=125，所以棱长是 5 厘米。反过来想乘法，比直接算更省事。",
+  "id": "hjm_g5b_u4_l3_q5",
+  "prompt": "一个正方体体积是 125 立方厘米，它的棱长是多少厘米？（填数）",
+  "topicId": "hjm_g5b_u4_l3",
+  "type": "numeric"
+ },
+ {
+  "answer": "3",
+  "difficulty": "medium",
+  "explanation": "高=体积÷长÷宽=120÷10÷4=3 厘米。",
+  "id": "hjm_g5b_u4_l3_q6",
+  "prompt": "一个长方体体积是 120 立方厘米，长 10 厘米，宽 4 厘米，高是多少厘米？（填数）",
+  "topicId": "hjm_g5b_u4_l3",
+  "type": "numeric",
+  "verify": "120/10/4"
+ },
+ {
+  "answer": "扩大8倍",
+  "difficulty": "hard",
+  "explanation": "体积是三个长度相乘，每个都扩大 2 倍，体积就扩大 2×2×2=8 倍。只扩一个量才是 2 倍，扩两个量是 4 倍。",
+  "id": "hjm_g5b_u4_l3_q7",
+  "options": [
+   "扩大8倍",
+   "扩大2倍",
+   "扩大4倍"
+  ],
+  "prompt": "一个长方体的长、宽、高都扩大 2 倍，它的体积扩大几倍？",
+  "topicId": "hjm_g5b_u4_l3",
+  "type": "choice"
+ },
+ {
+  "answer": "长5厘米、宽4厘米、高3厘米",
+  "difficulty": "medium",
+  "explanation": "分别算：5×4×3=60，10×2×2=40，6×3×4=72，只有第一个是 60 立方厘米。",
+  "id": "hjm_g5b_u4_l3_q8",
+  "options": [
+   "长5厘米、宽4厘米、高3厘米",
+   "长10厘米、宽2厘米、高2厘米",
+   "长6厘米、宽3厘米、高4厘米"
+  ],
+  "prompt": "下面哪个长方体的体积是 60 立方厘米？",
+  "topicId": "hjm_g5b_u4_l3",
+  "type": "choice"
+ },
+ {
+  "answer": "48",
+  "difficulty": "hard",
+  "explanation": "上升的那部分水的体积就是石头的体积：12×8×0.5=48 立方分米。水面上升多少，石头的体积就是底面积乘上升的高度。",
+  "id": "hjm_g5b_u4_l3_q9",
+  "prompt": "一个长方体水槽长 12 分米，宽 8 分米，放入一块石头后水面上升了 0.5 分米，石头的体积是多少立方分米？（填数）",
+  "topicId": "hjm_g5b_u4_l3",
+  "type": "numeric",
+  "verify": "12*8*0.5"
+ },
+ {
+  "answer": "57",
+  "difficulty": "medium",
+  "explanation": "长方体 5×3×2=30 立方厘米，正方体 3×3×3=27 立方厘米，合起来 30+27=57 立方厘米。",
+  "id": "hjm_g5b_u4_l4_q4",
+  "prompt": "一个组合体由两块积木拼成：一块是长 5 厘米、宽 3 厘米、高 2 厘米的长方体，另一块是棱长 3 厘米的正方体，这个组合体的体积是多少立方厘米？（填数）",
+  "topicId": "hjm_g5b_u4_l4",
+  "type": "numeric",
+  "verify": "5*3*2+3*3*3"
+ },
+ {
+  "answer": "216",
+  "difficulty": "hard",
+  "explanation": "大长方体 10×6×4=240 立方厘米，挖掉 4×3×2=24 立方厘米，剩下 240-24=216 立方厘米。",
+  "id": "hjm_g5b_u4_l4_q5",
+  "prompt": "一块长 10 厘米、宽 6 厘米、高 4 厘米的长方体木块，挖掉一个长 4 厘米、宽 3 厘米、高 2 厘米的长方体小洞，剩下部分的体积是多少立方厘米？（填数）",
+  "topicId": "hjm_g5b_u4_l4",
+  "type": "numeric",
+  "verify": "10*6*4-4*3*2"
+ },
+ {
+  "answer": "160",
+  "difficulty": "medium",
+  "explanation": "下层 8×5×3=120 立方分米，上层 4×5×2=40 立方分米，合起来 120+40=160 立方分米。两层没有重叠，直接相加。",
+  "id": "hjm_g5b_u4_l4_q6",
+  "prompt": "一个组合体由上下两层叠成：下层长 8 分米、宽 5 分米、高 3 分米，上层长 4 分米、宽 5 分米、高 2 分米，这个组合体的体积是多少立方分米？（填数）",
+  "topicId": "hjm_g5b_u4_l4",
+  "type": "numeric",
+  "verify": "8*5*3+4*5*2"
+ },
+ {
+  "answer": "54",
+  "difficulty": "hard",
+  "explanation": "两个 27 合起来是 27+27=54 立方厘米。选 27 是只算了一个，选 81 是多算了一个。",
+  "id": "hjm_g5b_u4_l4_q7",
+  "options": [
+   "54",
+   "27",
+   "81"
+  ],
+  "prompt": "一个组合体由两个完全相同的正方体拼成，每个正方体体积 27 立方厘米，组合体的体积是多少立方厘米？",
+  "topicId": "hjm_g5b_u4_l4",
+  "type": "choice"
+ },
+ {
+  "answer": "40",
+  "difficulty": "medium",
+  "explanation": "大长方体 6×4×2=48 立方分米，缺角 2×2×2=8 立方分米，台阶体积 48-8=40 立方分米。补全再减是算组合体的好办法。",
+  "id": "hjm_g5b_u4_l4_q8",
+  "prompt": "一个 L 形台阶可以看成一个大长方体减去一个缺角：大长方体长 6 分米、宽 4 分米、高 2 分米，缺角是棱长 2 分米的正方体，这个台阶的体积是多少立方分米？（填数）",
+  "topicId": "hjm_g5b_u4_l4",
+  "type": "numeric",
+  "verify": "6*4*2-2*2*2"
+ },
+ {
+  "answer": "276",
+  "difficulty": "hard",
+  "explanation": "鱼缸容积 10×6×5=300 立方分米，铁块占了 4×3×2=24 立方分米，能装的水是 300-24=276 立方分米。",
+  "id": "hjm_g5b_u4_l4_q9",
+  "prompt": "一个鱼缸长 10 分米、宽 6 分米、高 5 分米，里面放了一个长 4 分米、宽 3 分米、高 2 分米的长方体铁块，鱼缸最多能装水多少立方分米？（填数）",
+  "topicId": "hjm_g5b_u4_l4",
+  "type": "numeric",
+  "verify": "10*6*5-4*3*2"
+ },
+ {
+  "answer": "150",
+  "difficulty": "medium",
+  "explanation": "一个面 5×5=25 平方分米，6 个面就是 25×6=150 平方分米。",
+  "id": "hjm_g5b_u4_l5_q4",
+  "prompt": "一个正方体棱长 5 分米，它的表面积是多少平方分米？（填数）",
+  "topicId": "hjm_g5b_u4_l5",
+  "type": "numeric",
+  "verify": "6*5*5"
+ },
+ {
+  "answer": "108",
+  "difficulty": "hard",
+  "explanation": "三个不同面的面积是 6×4=24、6×3=18、4×3=12 平方米，每种面各有两个，表面积=(24+18+12)×2=108 平方米。",
+  "id": "hjm_g5b_u4_l5_q5",
+  "prompt": "一个长方体长 6 米、宽 4 米、高 3 米，它的表面积是多少平方米？（填数）",
+  "topicId": "hjm_g5b_u4_l5",
+  "type": "numeric",
+  "verify": "(6*4+6*3+4*3)*2"
+ },
+ {
+  "answer": "扩大4倍",
+  "difficulty": "medium",
+  "explanation": "表面积是一个面面积的 6 倍，一个面的边长扩大 2 倍，面积就扩大 2×2=4 倍，所以表面积也扩大 4 倍。8 倍是体积的扩大倍数，不能混淆。",
+  "id": "hjm_g5b_u4_l5_q6",
+  "options": [
+   "扩大2倍",
+   "扩大4倍",
+   "扩大8倍"
+  ],
+  "prompt": "一个正方体棱长扩大 2 倍，它的表面积扩大几倍？",
+  "topicId": "hjm_g5b_u4_l5",
+  "type": "choice"
+ },
+ {
+  "answer": "184",
+  "difficulty": "hard",
+  "explanation": "带盖就是 6 个面全算：(8×5+8×4+5×4)×2=(40+32+20)×2=184 平方分米。",
+  "id": "hjm_g5b_u4_l5_q7",
+  "prompt": "做一个带盖的长方体铁皮箱，长 8 分米、宽 5 分米、高 4 分米，至少需要多少平方分米的铁皮？（填数）",
+  "topicId": "hjm_g5b_u4_l5",
+  "type": "numeric",
+  "verify": "(8*5+8*4+5*4)*2"
+ },
+ {
+  "answer": "180",
+  "difficulty": "medium",
+  "explanation": "无盖只有 5 个面，每个面 6×6=36 平方厘米，5×36=180 平方厘米。按 6 个面算会多算一个上面。",
+  "id": "hjm_g5b_u4_l5_q8",
+  "prompt": "一个无盖正方体盒子棱长 6 厘米，做这个盒子至少需要多少平方厘米的纸板？（填数）",
+  "topicId": "hjm_g5b_u4_l5",
+  "type": "numeric",
+  "verify": "5*6*6"
+ },
+ {
+  "answer": "120",
+  "difficulty": "hard",
+  "explanation": "天花板 8×6=48 平方米，四面墙 (8×3+6×3)×2=84 平方米，合起来 132，再减去门窗 12，等于 120 平方米。地面不用粉刷，门窗要扣除。",
+  "id": "hjm_g5b_u4_l5_q9",
+  "prompt": "一间教室长 8 米、宽 6 米、高 3 米，门窗面积共 12 平方米，粉刷天花板和四面墙壁，粉刷面积是多少平方米？（填数）",
+  "topicId": "hjm_g5b_u4_l5",
+  "type": "numeric",
+  "verify": "8*6+(8*3+6*3)*2-12"
+ },
+ {
+  "answer": "4.5",
+  "difficulty": "medium",
+  "explanation": "1 升=1000 毫升，小单位化大单位除以进率：4500÷1000=4.5 升。",
+  "id": "hjm_g5b_u4_l6_q4",
+  "prompt": "4500 毫升等于多少升？（填数）",
+  "topicId": "hjm_g5b_u4_l6",
+  "type": "numeric",
+  "verify": "4500/1000"
+ },
+ {
+  "answer": "800",
+  "difficulty": "hard",
+  "explanation": "1 立方分米=1 升=1000 毫升，所以 0.8 立方分米=0.8×1000=800 毫升。先过“升”这一桥，再换算成毫升。",
+  "id": "hjm_g5b_u4_l6_q5",
+  "prompt": "0.8 立方分米等于多少毫升？（填数）",
+  "topicId": "hjm_g5b_u4_l6",
+  "type": "numeric",
+  "verify": "0.8*1000"
+ },
+ {
+  "answer": "2 立方分米的箱子",
+  "difficulty": "medium",
+  "explanation": "换算成升比：瓶子 0.5 升，水壶 1 升，箱子 2 立方分米=2 升，所以箱子的容积最大。",
+  "id": "hjm_g5b_u4_l6_q6",
+  "options": [
+   "500 毫升的瓶子",
+   "1 升的水壶",
+   "2 立方分米的箱子"
+  ],
+  "prompt": "下面哪个容器的容积最大？",
+  "topicId": "hjm_g5b_u4_l6",
+  "type": "choice"
+ },
+ {
+  "answer": "溢出来",
+  "difficulty": "hard",
+  "explanation": "0.6 升=600 毫升，比量杯的 500 毫升多 100 毫升，所以水会溢出来。先把单位换算成一样再比较。",
+  "id": "hjm_g5b_u4_l6_q7",
+  "options": [
+   "正好装满",
+   "溢出来",
+   "还差一点"
+  ],
+  "prompt": "一个量杯最多能装 500 毫升水，倒入 0.6 升水会怎样？",
+  "topicId": "hjm_g5b_u4_l6",
+  "type": "choice"
+ },
+ {
+  "answer": "60",
+  "difficulty": "medium",
+  "explanation": "容积=长×宽×高=5×4×3=60 立方分米，1 立方分米=1 升，所以能装水 60 升。",
+  "id": "hjm_g5b_u4_l6_q8",
+  "prompt": "一个长方体容器从里面量长 5 分米、宽 4 分米、高 3 分米，能装水多少升？（填数）",
+  "topicId": "hjm_g5b_u4_l6",
+  "type": "numeric",
+  "verify": "5*4*3"
+ },
+ {
+  "answer": "5000",
+  "difficulty": "hard",
+  "explanation": "容器容积 2×2×2=8 立方分米=8 升，倒出 3 升还剩 5 升，5 升=5000 毫升。",
+  "id": "hjm_g5b_u4_l6_q9",
+  "prompt": "一个正方体容器从里面量棱长 2 分米，装满水后倒出 3 升，还剩水多少毫升？（填数）",
+  "topicId": "hjm_g5b_u4_l6",
+  "type": "numeric",
+  "verify": "(2*2*2-3)*1000"
+ },
+ {
+  "answer": "60",
+  "difficulty": "medium",
+  "explanation": "路程=速度×时间=15×4=60 千米。",
+  "id": "hjm_g5b_u5_l1_q4",
+  "prompt": "一辆自行车每小时行 15 千米，行了 4 小时，一共行了多少千米？（填数）",
+  "topicId": "hjm_g5b_u5_l1",
+  "type": "numeric",
+  "verify": "15*4"
+ },
+ {
+  "answer": "2.4",
+  "difficulty": "hard",
+  "explanation": "速度和是 90+60=150 千米/时，相遇时间=路程÷速度和=360÷150=2.4 小时。相遇问题先算速度和，再用路程除。",
+  "id": "hjm_g5b_u5_l1_q5",
+  "prompt": "两地相距 360 千米，客车每小时行 90 千米，货车每小时行 60 千米，两车同时相向开出，几小时后相遇？（填数）",
+  "topicId": "hjm_g5b_u5_l1",
+  "type": "numeric",
+  "verify": "360/(90+60)"
+ },
+ {
+  "answer": "90",
+  "difficulty": "medium",
+  "explanation": "速度=路程÷时间=270÷3=90 千米/时。",
+  "id": "hjm_g5b_u5_l1_q6",
+  "prompt": "一列火车 3 小时行了 270 千米，平均每小时行多少千米？（填数）",
+  "topicId": "hjm_g5b_u5_l1",
+  "type": "numeric",
+  "verify": "270/3"
+ },
+ {
+  "answer": "3",
+  "difficulty": "hard",
+  "explanation": "先算路程：12×2=24 千米，回来时间=路程÷速度=24÷8=3 小时。往返路程是一样的，不能拿去时的 2 小时直接当答案。",
+  "id": "hjm_g5b_u5_l1_q7",
+  "prompt": "小亚骑车去外婆家，去时每小时行 12 千米，用了 2 小时；回来时每小时行 8 千米，回来用了几小时？（填数）",
+  "topicId": "hjm_g5b_u5_l1",
+  "type": "numeric",
+  "verify": "12*2/8"
+ },
+ {
+  "answer": "240",
+  "difficulty": "medium",
+  "explanation": "背向而行也要算速度和：70+50=120 千米/时，2 小时后相距 120×2=240 千米。只算速度和忘了乘时间会得到 120；算速度差是相向追及的思路，这里用不上。",
+  "id": "hjm_g5b_u5_l1_q8",
+  "options": [
+   "240",
+   "120",
+   "40"
+  ],
+  "prompt": "甲每小时行 70 千米，乙每小时行 50 千米，两人同时从同一地点向相反方向走，2 小时后两人相距多少千米？",
+  "topicId": "hjm_g5b_u5_l1",
+  "type": "choice"
+ },
+ {
+  "answer": "360",
+  "difficulty": "hard",
+  "explanation": "前段 2×60=120 千米，后段 3×80=240 千米，合起来 120+240=360 千米。分段算再相加，不能用平均速度直接乘总时间。",
+  "id": "hjm_g5b_u5_l1_q9",
+  "prompt": "一辆汽车从 A 地到 B 地，前 2 小时每小时行 60 千米，后 3 小时每小时行 80 千米，A、B 两地相距多少千米？（填数）",
+  "topicId": "hjm_g5b_u5_l1",
+  "type": "numeric",
+  "verify": "2*60+3*80"
+ },
+ {
+  "answer": "36",
+  "difficulty": "medium",
+  "explanation": "排成一排要拼 2 次，每次拼合处盖住 2 个面，每个面 3×3=9 平方厘米，一共少了 2×2×9=36 平方厘米。",
+  "id": "hjm_g5b_u5_l2_q4",
+  "prompt": "把 3 个棱长 3 厘米的正方体排成一排拼成长方体，表面积比原来 3 个正方体的表面积之和减少了多少平方厘米？（填数）",
+  "topicId": "hjm_g5b_u5_l2",
+  "type": "numeric",
+  "verify": "2*2*3*3"
+ },
+ {
+  "answer": "120",
+  "difficulty": "hard",
+  "explanation": "最大的面是长×宽=10×6=60 平方厘米，切一刀多出两个这样的面，增加 60×2=120 平方厘米。切面要挑最大的面，不是随便一个面。",
+  "id": "hjm_g5b_u5_l2_q5",
+  "prompt": "一个长方体长 10 厘米、宽 6 厘米、高 4 厘米，沿着最大的面切一刀分成两段，表面积增加了多少平方厘米？（填数）",
+  "topicId": "hjm_g5b_u5_l2",
+  "type": "numeric",
+  "verify": "10*6*2"
+ },
+ {
+  "answer": "减少",
+  "difficulty": "medium",
+  "explanation": "减少。拼合处两个面被盖住，不再露在外面，表面积就变小了。和切开正好相反：切是增加，拼是减少。",
+  "id": "hjm_g5b_u5_l2_q6",
+  "options": [
+   "减少",
+   "增加",
+   "不变"
+  ],
+  "prompt": "把两个相同的长方体拼在一起，表面积会怎样变化？",
+  "topicId": "hjm_g5b_u5_l2",
+  "type": "choice"
+ },
+ {
+  "answer": "216",
+  "difficulty": "hard",
+  "explanation": "原来表面积 6×6×6=216 平方厘米；切成 2×2×2 的 8 块，每块棱长 3 厘米，表面积 6×3×3=54 平方厘米，8 块一共 432 平方厘米，增加了 432-216=216 平方厘米。",
+  "id": "hjm_g5b_u5_l2_q7",
+  "prompt": "把一个棱长 6 厘米的正方体切成 8 个同样大的小正方体，表面积一共增加了多少平方厘米？（填数）",
+  "topicId": "hjm_g5b_u5_l2",
+  "type": "numeric",
+  "verify": "8*6*3*3-6*6*6"
+ },
+ {
+  "answer": "32",
+  "difficulty": "medium",
+  "explanation": "切一刀多出两个切面，每个切面 4×4=16 平方厘米，增加 16×2=32 平方厘米。",
+  "id": "hjm_g5b_u5_l2_q8",
+  "prompt": "把棱长 4 厘米的正方体切成两个完全相同的长方体，表面积增加了多少平方厘米？（填数）",
+  "topicId": "hjm_g5b_u5_l2",
+  "type": "numeric",
+  "verify": "4*4*2"
+ },
+ {
+  "answer": "88",
+  "difficulty": "hard",
+  "explanation": "6 个小正方体可以排成 6×1×1 或 3×2×1，越接近正方体表面积越小；3×2×1 的长方体是长 6 厘米、宽 4 厘米、高 2 厘米，表面积=(6×4+6×2+4×2)×2=88 平方厘米。",
+  "id": "hjm_g5b_u5_l2_q9",
+  "prompt": "用 6 个棱长 2 厘米的小正方体拼成一个长方体，表面积最小是多少平方厘米？（填数）",
+  "topicId": "hjm_g5b_u5_l2",
+  "type": "numeric",
+  "verify": "2*(6*4+6*2+4*2)"
+ },
+ {
+  "answer": "3",
+  "difficulty": "medium",
+  "explanation": "体积=总重量÷每立方分米的重量=8.1÷2.7=3 立方分米。知道重量求体积用除法，和“体积乘单位重量求总重量”正好反过来。",
+  "id": "hjm_g5b_u5_l3_q4",
+  "prompt": "一块铝块重 8.1 千克，每立方分米重 2.7 千克，这块铝块的体积是多少立方分米？（填数）",
+  "topicId": "hjm_g5b_u5_l3",
+  "type": "numeric",
+  "verify": "8.1/2.7"
+ },
+ {
+  "answer": "48",
+  "difficulty": "hard",
+  "explanation": "油箱容积 5×4×3=60 立方分米=60 升，油重 60×0.8=48 千克。先算容积、再换算成升、最后乘单位重量，三步缺一不可。",
+  "id": "hjm_g5b_u5_l3_q5",
+  "prompt": "一个长方体油箱长 5 分米、宽 4 分米、高 3 分米，装满油，油每升重 0.8 千克，油重多少千克？（填数）",
+  "topicId": "hjm_g5b_u5_l3",
+  "type": "numeric",
+  "verify": "5*4*3*0.8"
+ },
+ {
+  "answer": "27",
+  "difficulty": "medium",
+  "explanation": "水重 25×1=25 千克，再加上桶本身的 2 千克，一共 27 千克。容易漏掉桶的重量。",
+  "id": "hjm_g5b_u5_l3_q6",
+  "prompt": "一桶水体积 25 升，每升水重 1 千克，桶重 2 千克，桶和水一共重多少千克？（填数）",
+  "topicId": "hjm_g5b_u5_l3",
+  "type": "numeric",
+  "verify": "25*1+2"
+ },
+ {
+  "answer": "1300",
+  "difficulty": "hard",
+  "explanation": "先把体积换算成立方分米：0.5 立方米=500 立方分米，再乘单位重量：500×2.6=1300 千克。单位没对齐就直接乘会错得很离谱。",
+  "id": "hjm_g5b_u5_l3_q7",
+  "prompt": "一块石头体积 0.5 立方米，每立方分米重 2.6 千克，这块石头重多少千克？（填数）",
+  "topicId": "hjm_g5b_u5_l3",
+  "type": "numeric",
+  "verify": "0.5*1000*2.6"
+ },
+ {
+  "answer": "4",
+  "difficulty": "medium",
+  "explanation": "总重量=体积×每立方分米的重量=8×0.5=4 千克。",
+  "id": "hjm_g5b_u5_l3_q8",
+  "prompt": "一块木板体积 8 立方分米，每立方分米重 0.5 千克，这块木板重多少千克？（填数）",
+  "topicId": "hjm_g5b_u5_l3",
+  "type": "numeric",
+  "verify": "8*0.5"
+ },
+ {
+  "answer": "2",
+  "difficulty": "hard",
+  "explanation": "水的重量是 2.5-0.5=2 千克，1 升水重 1 千克，所以水的体积是 2÷1=2 升。先减去瓶的重量，再换算成体积。",
+  "id": "hjm_g5b_u5_l3_q9",
+  "prompt": "一个空瓶重 0.5 千克，装满水后总重 2.5 千克，1 升水重 1 千克，瓶里的水是多少升？（填数）",
+  "topicId": "hjm_g5b_u5_l3",
+  "type": "numeric",
+  "verify": "(2.5-0.5)/1"
+ },
+ {
+  "answer": "可能",
+  "difficulty": "medium",
+  "explanation": "明天会不会下雨现在还不知道，有可能下，也有可能不下，所以是“可能”。",
+  "id": "hjm_g5b_u5_l4_q4",
+  "options": [
+   "一定",
+   "可能",
+   "不可能"
+  ],
+  "prompt": "明天会下雨，这件事属于下面哪一种情况？",
+  "topicId": "hjm_g5b_u5_l4",
+  "type": "choice"
+ },
+ {
+  "answer": "对",
+  "difficulty": "hard",
+  "explanation": "对。袋子里全是白球，没有别的颜色，摸出来只能是白球，所以是“一定”。",
+  "id": "hjm_g5b_u5_l4_q5",
+  "prompt": "判断：从装满白球的袋子里摸出一个球，一定是白球。这句话对吗？请回答“对”或“不对”。",
+  "topicId": "hjm_g5b_u5_l4",
+  "type": "text"
+ },
+ {
+  "answer": "可能",
+  "difficulty": "medium",
+  "explanation": "可能。每一次抛硬币都是独立的，前面的结果不会影响下一次，正面和反面朝上都有可能。",
+  "id": "hjm_g5b_u5_l4_q6",
+  "options": [
+   "一定",
+   "可能",
+   "不可能"
+  ],
+  "prompt": "抛一枚硬币 10 次，每次都正面朝上，第 11 次抛，正面朝上的可能性属于下面哪一种？",
+  "topicId": "hjm_g5b_u5_l4",
+  "type": "choice"
+ },
+ {
+  "answer": "太阳从西边升起",
+  "difficulty": "hard",
+  "explanation": "太阳永远从东方升起，从西边升起是绝对不会发生的，属于“不可能”；明天下雨和抛硬币正面朝上都是“可能”。",
+  "id": "hjm_g5b_u5_l4_q7",
+  "options": [
+   "太阳从西边升起",
+   "明天下雨",
+   "抛硬币正面朝上"
+  ],
+  "prompt": "下面哪件事是不可能的？",
+  "topicId": "hjm_g5b_u5_l4",
+  "type": "choice"
+ },
+ {
+  "answer": "对",
+  "difficulty": "medium",
+  "explanation": "对。红球和蓝球各 3 个，数量相等，摸到哪种颜色的可能性就一样大。",
+  "id": "hjm_g5b_u5_l4_q8",
+  "prompt": "判断：袋子里有 3 个红球和 3 个蓝球，摸出一个球，摸到红球和蓝球的可能性一样大。这句话对吗？请回答“对”或“不对”。",
+  "topicId": "hjm_g5b_u5_l4",
+  "type": "text"
+ },
+ {
+  "answer": "不对",
+  "difficulty": "hard",
+  "explanation": "不对。每次抛硬币都是独立的，前面的 5 次结果不会影响下一次，下一次正反两面都有可能，不能说“一定”是正面。",
+  "id": "hjm_g5b_u5_l4_q9",
+  "prompt": "小丁说：“我连续抛了 5 次硬币都是反面朝上，所以下一次一定是正面朝上。”这句话对吗？",
+  "topicId": "hjm_g5b_u5_l4",
+  "type": "text"
+ },
+ {
+  "answer": "11",
+  "difficulty": "medium",
+  "explanation": "两个点数之和最小是 1+1=2，最大是 6+6=12，从 2 到 12 每个整数都有可能出现，一共 11 种。",
+  "id": "hjm_g5b_u5_l5_q4",
+  "prompt": "同时掷两个骰子，朝上点数之和可能出现的情况有几种？（填数）",
+  "topicId": "hjm_g5b_u5_l5",
+  "type": "numeric"
+ },
+ {
+  "answer": "6",
+  "difficulty": "hard",
+  "explanation": "组成的两位数有 12、13、21、23、31、32，一共 6 种。抽出的两张卡片分先后，12 和 21 是不同的情况。",
+  "id": "hjm_g5b_u5_l5_q5",
+  "prompt": "从 1、2、3 三张卡片中抽两张组成两位数，可能出现的情况有几种？（填数）",
+  "topicId": "hjm_g5b_u5_l5",
+  "type": "numeric"
+ },
+ {
+  "answer": "9",
+  "difficulty": "medium",
+  "explanation": "第一次转动有红、黄、蓝 3 种结果，第二次也有 3 种，合起来 3×3=9 种。",
+  "id": "hjm_g5b_u5_l5_q6",
+  "prompt": "一个转盘平均分成红、黄、蓝 3 部分，转动两次，颜色组合可能出现的情况有几种？（填数）",
+  "topicId": "hjm_g5b_u5_l5",
+  "type": "numeric",
+  "verify": "3*3"
+ },
+ {
+  "answer": "6",
+  "difficulty": "hard",
+  "explanation": "第一次有 3 种摸法，摸走一个后只剩 2 个球，第二次有 2 种摸法，合起来 3×2=6 种。不放回时第二次的选择比第一次少一个。",
+  "id": "hjm_g5b_u5_l5_q7",
+  "prompt": "袋子里有红、黄、蓝 3 个球，每次摸一个不放回，连摸两次，摸到的颜色可能出现的情况有几种？（填数）",
+  "topicId": "hjm_g5b_u5_l5",
+  "type": "numeric",
+  "verify": "3*2"
+ },
+ {
+  "answer": "6",
+  "difficulty": "medium",
+  "explanation": "点数相同的情况是 1-1、2-2、3-3、4-4、5-5、6-6，一共 6 种。",
+  "id": "hjm_g5b_u5_l5_q8",
+  "prompt": "掷一个骰子两次，朝上点数相同的可能情况有几种？（填数）",
+  "topicId": "hjm_g5b_u5_l5",
+  "type": "numeric"
+ },
+ {
+  "answer": "4",
+  "difficulty": "hard",
+  "explanation": "百位只能是 1 或 2：百位是 1 时有 102、120，百位是 2 时有 201、210，一共 4 种。0 不能在百位，012 这样的不算三位数。",
+  "id": "hjm_g5b_u5_l5_q9",
+  "prompt": "用 0、1、2 三张卡片组成三位数（0 不能在百位），可能出现的情况有几种？（填数）",
+  "topicId": "hjm_g5b_u5_l5",
+  "type": "numeric"
+ },
+ {
+  "answer": "一样大",
+  "difficulty": "medium",
+  "explanation": "红球和蓝球各 10 个，数量相等，摸到哪种颜色的可能性就一样大。",
+  "id": "hjm_g5b_u5_l6_q4",
+  "options": [
+   "红球大",
+   "蓝球大",
+   "一样大"
+  ],
+  "prompt": "袋子里有 10 个红球、10 个蓝球，摸到红球和蓝球的可能性相比怎么样？",
+  "topicId": "hjm_g5b_u5_l6",
+  "type": "choice"
+ },
+ {
+  "answer": "12个左右",
+  "difficulty": "hard",
+  "explanation": "摸到红球大约占 18÷30=十分之六，袋子里红球大约有 20×6÷10=12 个。注意这是由试验结果反推数量，是大约数。",
+  "id": "hjm_g5b_u5_l6_q5",
+  "options": [
+   "12个左右",
+   "18个左右",
+   "6个左右"
+  ],
+  "prompt": "袋子里红球和白球共 20 个，摸 30 次（每次摸后放回）大约 18 次摸到红球，袋子里大约有几个红球？",
+  "topicId": "hjm_g5b_u5_l6",
+  "type": "choice"
+ },
+ {
+  "answer": "蓝色",
+  "difficulty": "medium",
+  "explanation": "蓝色只占 1 份，是三种颜色里最少的，指针停在蓝色的可能性就最小。",
+  "id": "hjm_g5b_u5_l6_q6",
+  "options": [
+   "红色",
+   "黄色",
+   "蓝色"
+  ],
+  "prompt": "一个转盘平均分成 8 份，红 5 份、黄 2 份、蓝 1 份，指针停在哪个颜色上的可能性最小？",
+  "topicId": "hjm_g5b_u5_l6",
+  "type": "choice"
+ },
+ {
+  "answer": "10次左右",
+  "difficulty": "hard",
+  "explanation": "每个点数出现的可能性都相等，都是六分之一，60 次里大约有 60÷6=10 次是 3 点。这是大约数，不会正好每次都 10 次。",
+  "id": "hjm_g5b_u5_l6_q7",
+  "options": [
+   "10次左右",
+   "30次左右",
+   "60次左右"
+  ],
+  "prompt": "掷一个均匀的骰子 60 次，大约有几次朝上点数是 3？",
+  "topicId": "hjm_g5b_u5_l6",
+  "type": "choice"
+ },
+ {
+  "answer": "8 个红球、2 个白球",
+  "difficulty": "medium",
+  "explanation": "红球所占的份数分别是十分之三、十分之五、十分之八，第三个袋子红球占比最大，摸到红球的可能性就最大。比的是占比，不是只看红球的个数。",
+  "id": "hjm_g5b_u5_l6_q8",
+  "options": [
+   "3 个红球、7 个白球",
+   "5 个红球、5 个白球",
+   "8 个红球、2 个白球"
+  ],
+  "prompt": "下面哪个袋子里摸到红球的可能性最大？",
+  "topicId": "hjm_g5b_u5_l6",
+  "type": "choice"
+ },
+ {
+  "answer": "不对",
+  "difficulty": "hard",
+  "explanation": "不对。红球多只是摸到红球的可能性大，蓝球也有可能被摸到，“一定”这个词用错了，可能性大不等于一定发生。",
+  "id": "hjm_g5b_u5_l6_q9",
+  "prompt": "小明说：“袋子里红球比蓝球多，所以每次摸到的都一定是红球。”这句话对吗？",
+  "topicId": "hjm_g5b_u5_l6",
+  "type": "text"
  }
 ]

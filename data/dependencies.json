@@ -986,5 +986,61 @@
  {
   "from": "hjm_g5b_u4_l5",
   "to": "hjm_g5b_u5_l2"
+ },
+ {
+  "from": "hje_g1a_u1_l1",
+  "to": "hje_g1a_u1_l2"
+ },
+ {
+  "from": "hje_g1a_u2_l1",
+  "to": "hje_g1a_u2_l2"
+ },
+ {
+  "from": "hje_g1a_u3_l1",
+  "to": "hje_g1a_u3_l2"
+ },
+ {
+  "from": "hje_g1a_u4_l1",
+  "to": "hje_g1a_u4_l2"
+ },
+ {
+  "from": "hje_g1a_u5_l1",
+  "to": "hje_g1a_u5_l2"
+ },
+ {
+  "from": "hje_g1a_u6_l1",
+  "to": "hje_g1a_u6_l2"
+ },
+ {
+  "from": "hje_g1a_u7_l1",
+  "to": "hje_g1a_u7_l2"
+ },
+ {
+  "from": "hje_g1a_u8_l1",
+  "to": "hje_g1a_u8_l2"
+ },
+ {
+  "from": "hje_g1a_u9_l1",
+  "to": "hje_g1a_u9_l2"
+ },
+ {
+  "from": "hje_g1a_u10_l1",
+  "to": "hje_g1a_u10_l2"
+ },
+ {
+  "from": "hje_g1a_u6_l2",
+  "to": "hje_g1a_u6_l3"
+ },
+ {
+  "from": "hje_g1a_u0_l1",
+  "to": "hje_g1a_u1_l1"
+ },
+ {
+  "from": "hje_g1a_u1_l2",
+  "to": "hje_g1a_u2_l2"
+ },
+ {
+  "from": "hje_g1a_u2_l2",
+  "to": "hje_g1a_u6_l2"
  }
 ]
