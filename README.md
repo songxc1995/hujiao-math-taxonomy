@@ -5,7 +5,7 @@
 ## 现状
 
 - 已有：一～三年级知识点树（按沪教版新版目录整理：一上 28、一下 24、二上 21、二下 19、三上 23，共 115 个知识点），每条含原创描述与掌握标准
-- 已有：原创题目 575 道（每知识点 5 道：基础 1、中等 2、较难 2），先修关系 124 条
+- 已有：原创题目 805 道（每知识点 7 道：基础 1、中等 3、较难 3），先修关系 124 条
 - 校验：`python3 scripts/validate.py`，通过打印 `VALIDATION PASSED`
 - 摸底：`python3 scripts/quiz.py list` 列出知识点，`python3 scripts/quiz.py ask <知识点id>` 出题练习，进度记入 `quiz-progress.json`（不入库）
 
@@ -14,7 +14,7 @@
 ```
 data/
   topics.json        知识点：id、名称、年级、学期、单元、小节、页码、类型、描述、掌握标准
-  questions.json     题目（575 道原创，每知识点 5 道：基础 1、中等 2、较难 2）
+  questions.json     题目（805 道原创，每知识点 7 道：基础 1、中等 3、较难 3）
   dependencies.json  先修关系（124 条）
   schema.md          字段说明
 scripts/
