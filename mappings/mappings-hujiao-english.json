@@ -1,0 +1,520 @@
+{
+ "meta": {
+  "title": "cn-math-taxonomy 沪教版（上海）小学英语映射（一年级上册）",
+  "generated": "2026-10-23",
+  "scope": "牛津上海版（2022 年版课程标准新版）一年级上册 10 个 Unit 拆分的 22 条知识点，到项目 topics.json 小学英语知识点（cne_p*）的映射",
+  "basis说明": "沪教目录取自实物课本目录页（用户 2026-10-23 拍摄）：Starter + Unit 1–10，每 Unit 含 Small task / Topic words / Song / Story / Mini-project。项目侧为 data/topics.json 小学英语全部 208 条（人教版口径、三年级起始，无一、二年级知识点）。",
+  "字段说明": {
+   "confidence": "exact=项目有内容实质相同的知识点（年级多为三至五年级，属内容对应、年级错位）；approx=部分重叠或义项/范围有差；none=项目小学段没有；pending=基准目录信息不足待核",
+   "project_topics": "引用的项目知识点（topic_id/name 及项目内年级、学期、domain），已逐个回 topics.json 核对"
+  },
+  "stats": {
+   "total": 22,
+   "exact": 12,
+   "approx": 5,
+   "none": 4,
+   "pending": 1
+  }
+ },
+ "mappings": [
+  {
+   "seq": 1,
+   "hujiao_grade": 1,
+   "hujiao_semester": "上",
+   "hujiao_unit": "Starter",
+   "knowledge_point": "准备课（内容待核）",
+   "topic_words": "",
+   "project_topics": [
+    {
+     "topic_id": "cne_p001",
+     "topic_name": "英语字母表",
+     "project_grade": 3,
+     "project_semester": "上",
+     "domain": "语音"
+    }
+   ],
+   "confidence": "pending",
+   "notes": "目录仅列页码（p.2），内容疑含字母/课堂用语，需看内页确认；cne_p001 为候选对应"
+  },
+  {
+   "seq": 2,
+   "hujiao_grade": 1,
+   "hujiao_semester": "上",
+   "hujiao_unit": "Unit 1 Greetings",
+   "knowledge_point": "分时段问候词",
+   "topic_words": "morning, afternoon, evening",
+   "project_topics": [
+    {
+     "topic_id": "cne_p005",
+     "topic_name": "问候用语",
+     "project_grade": 3,
+     "project_semester": "上",
+     "domain": "词汇"
+    }
+   ],
+   "confidence": "approx",
+   "notes": "项目 cne_p005 只收 hello/hi/goodbye/thanks，分时段问候词未单列"
+  },
+  {
+   "seq": 3,
+   "hujiao_grade": 1,
+   "hujiao_semester": "上",
+   "hujiao_unit": "Unit 1 Greetings",
+   "knowledge_point": "问候、告别交际",
+   "topic_words": "",
+   "project_topics": [
+    {
+     "topic_id": "cne_p007",
+     "topic_name": "问候、告别和致谢",
+     "project_grade": 3,
+     "project_semester": "上",
+     "domain": "日常表达"
+    }
+   ],
+   "confidence": "exact",
+   "notes": ""
+  },
+  {
+   "seq": 4,
+   "hujiao_grade": 1,
+   "hujiao_semester": "上",
+   "hujiao_unit": "Unit 2 New friends",
+   "knowledge_point": "自我介绍（介绍名字）",
+   "topic_words": "hello, friend, welcome, name, hi",
+   "project_topics": [
+    {
+     "topic_id": "cne_p006",
+     "topic_name": "be 动词 am",
+     "project_grade": 3,
+     "project_semester": "上",
+     "domain": "语法"
+    },
+    {
+     "topic_id": "cne_p008",
+     "topic_name": "读懂自我介绍",
+     "project_grade": 3,
+     "project_semester": "上",
+     "domain": "读写"
+    }
+   ],
+   "confidence": "exact",
+   "notes": ""
+  },
+  {
+   "seq": 5,
+   "hujiao_grade": 1,
+   "hujiao_semester": "上",
+   "hujiao_unit": "Unit 2 New friends",
+   "knowledge_point": "询问名字 What's your name?",
+   "topic_words": "",
+   "project_topics": [],
+   "confidence": "none",
+   "notes": "项目有问年龄（cne_p027）、问来自哪里（cne_p032）、问是谁（cne_p036），唯独没有问名字"
+  },
+  {
+   "seq": 6,
+   "hujiao_grade": 1,
+   "hujiao_semester": "上",
+   "hujiao_unit": "Unit 2 New friends",
+   "knowledge_point": "朋友与欢迎词",
+   "topic_words": "friend, welcome, name",
+   "project_topics": [
+    {
+     "topic_id": "cne_p067",
+     "topic_name": "描述朋友",
+     "project_grade": 4,
+     "project_semester": "上",
+     "domain": "词汇"
+    }
+   ],
+   "confidence": "approx",
+   "notes": "friend 在 cne_p067（四上）；welcome 与 name（名字一词）项目未收"
+  },
+  {
+   "seq": 7,
+   "hujiao_grade": 1,
+   "hujiao_semester": "上",
+   "hujiao_unit": "Unit 3 My schoolbag",
+   "knowledge_point": "文具词汇",
+   "topic_words": "schoolbag, book, pencil, ruler, eraser, pencil case",
+   "project_topics": [
+    {
+     "topic_id": "cne_p063",
+     "topic_name": "书包里的文具",
+     "project_grade": 3,
+     "project_semester": "下",
+     "domain": "词汇"
+    }
+   ],
+   "confidence": "exact",
+   "notes": "pencil case 项目未收；book 在 cne_p044"
+  },
+  {
+   "seq": 8,
+   "hujiao_grade": 1,
+   "hujiao_semester": "上",
+   "hujiao_unit": "Unit 3 My schoolbag",
+   "knowledge_point": "谈论书包里有什么",
+   "topic_words": "",
+   "project_topics": [
+    {
+     "topic_id": "cne_p064",
+     "topic_name": "谈论书包里有什么",
+     "project_grade": 3,
+     "project_semester": "下",
+     "domain": "日常表达"
+    },
+    {
+     "topic_id": "cne_p065",
+     "topic_name": "读懂书包里的物品",
+     "project_grade": 3,
+     "project_semester": "下",
+     "domain": "读写"
+    }
+   ],
+   "confidence": "exact",
+   "notes": ""
+  },
+  {
+   "seq": 9,
+   "hujiao_grade": 1,
+   "hujiao_semester": "上",
+   "hujiao_unit": "Unit 4 My classroom",
+   "knowledge_point": "教室物品词汇",
+   "topic_words": "classroom, desk, door, chair, blackboard, floor",
+   "project_topics": [
+    {
+     "topic_id": "cne_p058",
+     "topic_name": "教室物品",
+     "project_grade": 3,
+     "project_semester": "下",
+     "domain": "词汇"
+    },
+    {
+     "topic_id": "cne_p044",
+     "topic_name": "房间里的物品",
+     "project_grade": 3,
+     "project_semester": "下",
+     "domain": "词汇"
+    }
+   ],
+   "confidence": "exact",
+   "notes": "两点拼合；floor 项目未收"
+  },
+  {
+   "seq": 10,
+   "hujiao_grade": 1,
+   "hujiao_semester": "上",
+   "hujiao_unit": "Unit 4 My classroom",
+   "knowledge_point": "值日与打扫",
+   "topic_words": "clean, on duty",
+   "project_topics": [
+    {
+     "topic_id": "cne_p060",
+     "topic_name": "教室里的建议",
+     "project_grade": 3,
+     "project_semester": "下",
+     "domain": "日常表达"
+    }
+   ],
+   "confidence": "approx",
+   "notes": "cne_p060 为 Let's 建议句（擦黑板等），值日概念与 clean/on duty 词汇项目没有"
+  },
+  {
+   "seq": 11,
+   "hujiao_grade": 1,
+   "hujiao_semester": "上",
+   "hujiao_unit": "Unit 5 Lovely faces",
+   "knowledge_point": "五官词汇",
+   "topic_words": "face, eye, ear, nose, mouth",
+   "project_topics": [
+    {
+     "topic_id": "cne_p013",
+     "topic_name": "身体部位",
+     "project_grade": 3,
+     "project_semester": "下",
+     "domain": "词汇"
+    }
+   ],
+   "confidence": "exact",
+   "notes": "项目该点缺 ear"
+  },
+  {
+   "seq": 12,
+   "hujiao_grade": 1,
+   "hujiao_semester": "上",
+   "hujiao_unit": "Unit 5 Lovely faces",
+   "knowledge_point": "介绍五官",
+   "topic_words": "",
+   "project_topics": [
+    {
+     "topic_id": "cne_p015",
+     "topic_name": "介绍身体部位",
+     "project_grade": 3,
+     "project_semester": "下",
+     "domain": "日常表达"
+    },
+    {
+     "topic_id": "cne_p016",
+     "topic_name": "读懂五官介绍",
+     "project_grade": 3,
+     "project_semester": "下",
+     "domain": "读写"
+    }
+   ],
+   "confidence": "exact",
+   "notes": ""
+  },
+  {
+   "seq": 13,
+   "hujiao_grade": 1,
+   "hujiao_semester": "上",
+   "hujiao_unit": "Unit 6 My family",
+   "knowledge_point": "家庭成员词汇",
+   "topic_words": "family, mum, dad, brother, sister",
+   "project_topics": [
+    {
+     "topic_id": "cne_p035",
+     "topic_name": "家庭成员",
+     "project_grade": 3,
+     "project_semester": "上",
+     "domain": "词汇"
+    }
+   ],
+   "confidence": "exact",
+   "notes": "称呼差异：沪教用 mum/dad，项目用 father/mother"
+  },
+  {
+   "seq": 14,
+   "hujiao_grade": 1,
+   "hujiao_semester": "上",
+   "hujiao_unit": "Unit 6 My family",
+   "knowledge_point": "介绍家人、询问是谁",
+   "topic_words": "",
+   "project_topics": [
+    {
+     "topic_id": "cne_p037",
+     "topic_name": "介绍家人",
+     "project_grade": 3,
+     "project_semester": "上",
+     "domain": "日常表达"
+    },
+    {
+     "topic_id": "cne_p036",
+     "topic_name": "Who is 询问是谁",
+     "project_grade": 3,
+     "project_semester": "上",
+     "domain": "语法"
+    },
+    {
+     "topic_id": "cne_p038",
+     "topic_name": "读懂家人介绍",
+     "project_grade": 3,
+     "project_semester": "上",
+     "domain": "读写"
+    }
+   ],
+   "confidence": "exact",
+   "notes": ""
+  },
+  {
+   "seq": 15,
+   "hujiao_grade": 1,
+   "hujiao_semester": "上",
+   "hujiao_unit": "Unit 6 My family",
+   "knowledge_point": "情感词",
+   "topic_words": "love, warm, happy",
+   "project_topics": [],
+   "confidence": "none",
+   "notes": "warm 项目只作天气义（cne_p092，四上）；love/happy 小学段未收"
+  },
+  {
+   "seq": 16,
+   "hujiao_grade": 1,
+   "hujiao_semester": "上",
+   "hujiao_unit": "Unit 7 Animals in our lives",
+   "knowledge_point": "动物词汇",
+   "topic_words": "animal, horse, dog, hen, bee, cat",
+   "project_topics": [
+    {
+     "topic_id": "cne_p017",
+     "topic_name": "动物",
+     "project_grade": 3,
+     "project_semester": "上",
+     "domain": "词汇"
+    },
+    {
+     "topic_id": "cne_p096",
+     "topic_name": "农场",
+     "project_grade": 4,
+     "project_semester": "下",
+     "domain": "词汇"
+    }
+   ],
+   "confidence": "approx",
+   "notes": "主体在 cne_p017（cat/dog 等），horse 在 cne_p096（四下）；hen、bee 未收"
+  },
+  {
+   "seq": 17,
+   "hujiao_grade": 1,
+   "hujiao_semester": "上",
+   "hujiao_unit": "Unit 7 Animals in our lives",
+   "knowledge_point": "介绍动物",
+   "topic_words": "",
+   "project_topics": [
+    {
+     "topic_id": "cne_p018",
+     "topic_name": "用 This is a 介绍动物",
+     "project_grade": 3,
+     "project_semester": "上",
+     "domain": "日常表达"
+    },
+    {
+     "topic_id": "cne_p019",
+     "topic_name": "读懂动物句子",
+     "project_grade": 3,
+     "project_semester": "上",
+     "domain": "读写"
+    }
+   ],
+   "confidence": "exact",
+   "notes": ""
+  },
+  {
+   "seq": 18,
+   "hujiao_grade": 1,
+   "hujiao_semester": "上",
+   "hujiao_unit": "Unit 8 Have a go!",
+   "knowledge_point": "故事动作短语",
+   "topic_words": "bird, hill, fly away, come back, flap wings",
+   "project_topics": [],
+   "confidence": "none",
+   "notes": "项目无动作短语/故事表演类知识点（bird 本身在 cne_p017）"
+  },
+  {
+   "seq": 19,
+   "hujiao_grade": 1,
+   "hujiao_semester": "上",
+   "hujiao_unit": "Unit 9 Yes, I can!",
+   "knowledge_point": "can 说能力",
+   "topic_words": "",
+   "project_topics": [
+    {
+     "topic_id": "cne_p122",
+     "topic_name": "can 表示能力",
+     "project_grade": 5,
+     "project_semester": "上",
+     "domain": "语法"
+    },
+    {
+     "topic_id": "cne_p123",
+     "topic_name": "谈论会做的事",
+     "project_grade": 5,
+     "project_semester": "上",
+     "domain": "日常表达"
+    }
+   ],
+   "confidence": "exact",
+   "notes": "内容对应但项目置于五年级上册，一年级使用须降阶或另建初阶节点"
+  },
+  {
+   "seq": 20,
+   "hujiao_grade": 1,
+   "hujiao_semester": "上",
+   "hujiao_unit": "Unit 9 Yes, I can!",
+   "knowledge_point": "生活技能动作",
+   "topic_words": "wash, tie shoelaces, take a photo",
+   "project_topics": [],
+   "confidence": "none",
+   "notes": "项目无生活技能动作词汇"
+  },
+  {
+   "seq": 21,
+   "hujiao_grade": 1,
+   "hujiao_semester": "上",
+   "hujiao_unit": "Unit 10 Fun numbers",
+   "knowledge_point": "数字 1–6",
+   "topic_words": "one, two, three, four, five, six",
+   "project_topics": [
+    {
+     "topic_id": "cne_p024",
+     "topic_name": "1 到 10",
+     "project_grade": 3,
+     "project_semester": "上",
+     "domain": "词汇"
+    }
+   ],
+   "confidence": "exact",
+   "notes": "范围差：沪教一上只到 6，项目点为 1–10"
+  },
+  {
+   "seq": 22,
+   "hujiao_grade": 1,
+   "hujiao_semester": "上",
+   "hujiao_unit": "Unit 10 Fun numbers",
+   "knowledge_point": "数数与找数字活动",
+   "topic_words": "",
+   "project_topics": [
+    {
+     "topic_id": "cne_p026",
+     "topic_name": "How many 问数量",
+     "project_grade": 3,
+     "project_semester": "上",
+     "domain": "语法"
+    }
+   ],
+   "confidence": "approx",
+   "notes": "项目侧重用 How many 问数量，沪教侧重认数与数数"
+  }
+ ],
+ "reverse_gaps": [
+  {
+   "name": "询问名字",
+   "domain_suggestion": "日常表达",
+   "hujiao_unit": "Unit 2 New friends",
+   "notes": "What's your name? / I'm…，与自我介绍配套"
+  },
+  {
+   "name": "分时段问候词",
+   "domain_suggestion": "词汇",
+   "hujiao_unit": "Unit 1 Greetings",
+   "notes": "morning / afternoon / evening 的问候用法"
+  },
+  {
+   "name": "值日与打扫教室",
+   "domain_suggestion": "词汇",
+   "hujiao_unit": "Unit 4 My classroom",
+   "notes": "clean、on duty 及教室内劳动指令"
+  },
+  {
+   "name": "情感词",
+   "domain_suggestion": "词汇",
+   "hujiao_unit": "Unit 6 My family",
+   "notes": "love、happy、warm（情感义）"
+  },
+  {
+   "name": "故事动作短语",
+   "domain_suggestion": "词汇",
+   "hujiao_unit": "Unit 8 Have a go!",
+   "notes": "fly away、come back、flap wings，故事表演配套"
+  },
+  {
+   "name": "生活技能动作",
+   "domain_suggestion": "词汇",
+   "hujiao_unit": "Unit 9 Yes, I can!",
+   "notes": "wash、tie shoelaces、take a photo"
+  },
+  {
+   "name": "can 初阶节点（建议）",
+   "domain_suggestion": "日常表达",
+   "hujiao_unit": "Unit 9 Yes, I can!",
+   "notes": "项目 can 句型在五上（cne_p122）；一年级用建议建初阶节点并与 cne_p122 建先修关系"
+  },
+  {
+   "name": "零星补词",
+   "domain_suggestion": "词汇",
+   "hujiao_unit": "多个 Unit",
+   "notes": "pencil case、floor、ear、hen、bee、welcome——并入相邻词汇点，不单独立点"
+  }
+ ]
+}
