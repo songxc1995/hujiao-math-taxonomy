@@ -9,10 +9,10 @@
 默认数据目录为脚本所在目录的 ../data/；--data-dir 可指定其他目录。
 答题进度累计保存在运行目录（当前工作目录）下的 quiz-progress.json。
 
-判分规则：
-- numeric：去空格后字符串比对；
+判分规则（归一化后比对：全半角统一、去全部空白、英文字母不分大小写）：
+- numeric：归一化后字符串比对；
 - choice：接受选项字母（如 A）或选项文本；
-- text：去首尾空白后字符串比对。
+- text：归一化后字符串比对。
 """
 
 import argparse
@@ -20,6 +20,7 @@ import json
 import os
 import random
 import sys
+import unicodedata
 
 PROGRESS_FILE = "quiz-progress.json"
 
@@ -105,26 +106,33 @@ def cmd_list(args):
     print("共 {} 个知识点。".format(len(shown)))
 
 
+def normalize_text(value):
+    """判分归一化：全半角统一（NFKC）、去全部空白、英文字母不分大小写。"""
+    text = unicodedata.normalize("NFKC", str(value))
+    return "".join(text.split()).casefold()
+
+
 def _judge(question, raw):
     """返回是否答对。raw 为用户原始输入。"""
-    answer = str(question.get("answer", "")).strip()
-    given = raw.strip()
+    answer = str(question.get("answer", ""))
+    given = raw
     qtype = question.get("type")
     if qtype == "choice":
-        options = [str(o).strip() for o in question.get("options", [])]
+        options = [str(o) for o in question.get("options", [])]
         picked = None
-        if len(given) == 1 and given.upper().isalpha():
-            idx = ord(given.upper()) - ord("A")
+        if len(given.strip()) == 1 and given.strip().upper().isalpha():
+            idx = ord(given.strip().upper()) - ord("A")
             if 0 <= idx < len(options):
                 picked = options[idx]
-        if picked is None and given in options:
-            picked = given
+        if picked is None:
+            for opt in options:
+                if normalize_text(given) == normalize_text(opt):
+                    picked = opt
+                    break
         if picked is None:
             picked = given
-        return picked == answer
-    if qtype == "numeric":
-        return "".join(given.split()) == "".join(answer.split())
-    return given == answer
+        return normalize_text(picked) == normalize_text(answer)
+    return normalize_text(given) == normalize_text(answer)
 
 
 def cmd_ask(args):
