@@ -2,9 +2,9 @@
 """摸底小工具（命令行版，仅标准库）。
 
 用法：
-    python3 scripts/quiz.py [--data-dir DATA_DIR] list [--grade N] [--term 上|下]
+    python3 scripts/quiz.py [--data-dir DATA_DIR] list [--grade N] [--term 上|下] [--subject 数学|英语]
     python3 scripts/quiz.py [--data-dir DATA_DIR] ask [--topic ID] [--unit 单元名]
-                            [--grade N] [--term 上|下] [--count N] [--seed N]
+                            [--grade N] [--term 上|下] [--subject 数学|英语] [--count N] [--seed N]
 
 默认数据目录为脚本所在目录的 ../data/；--data-dir 可指定其他目录。
 答题进度累计保存在运行目录（当前工作目录）下的 quiz-progress.json。
@@ -68,18 +68,30 @@ def load_data(data_dir):
     return topics, topic_by_id, usable
 
 
-def filter_topics(topics, grade, term):
+def normalize_subject(value):
+    """学科归一化：缺字段按数学计；接受中文或英文写法。"""
+    if value in (None, "", "数学", "math"):
+        return "math"
+    if value in ("英语", "english"):
+        return "english"
+    return str(value)
+
+
+def filter_topics(topics, grade, term, subject=None):
     result = topics
     if grade is not None:
         result = [t for t in result if t.get("grade") == grade]
     if term is not None:
         result = [t for t in result if t.get("term") == term]
+    if subject is not None:
+        want = normalize_subject(subject)
+        result = [t for t in result if normalize_subject(t.get("subject")) == want]
     return result
 
 
 def cmd_list(args):
     topics, _topic_by_id, questions = load_data(args.data_dir)
-    shown = filter_topics(topics, args.grade, args.term)
+    shown = filter_topics(topics, args.grade, args.term, args.subject)
     counts = {}
     for q in questions:
         counts[q["topicId"]] = counts.get(q["topicId"], 0) + 1
@@ -124,14 +136,15 @@ def cmd_ask(args):
         selected = [q for q in questions if q["topicId"] == args.topic]
     elif args.unit:
         unit_topics = filter_topics(
-            [t for t in topics if t.get("unit") == args.unit], args.grade, args.term
+            [t for t in topics if t.get("unit") == args.unit], args.grade, args.term,
+            args.subject,
         )
         if not unit_topics:
             fail("未找到单元：{}".format(args.unit))
         unit_ids = {t["id"] for t in unit_topics}
         selected = [q for q in questions if q["topicId"] in unit_ids]
-    elif args.grade is not None or args.term is not None:
-        kept = filter_topics(topics, args.grade, args.term)
+    elif args.grade is not None or args.term is not None or args.subject is not None:
+        kept = filter_topics(topics, args.grade, args.term, args.subject)
         kept_ids = {t["id"] for t in kept}
         selected = [q for q in questions if q["topicId"] in kept_ids]
     if not selected:
@@ -220,6 +233,7 @@ def main(argv=None):
     p_list.add_argument("--data-dir", default=argparse.SUPPRESS)
     p_list.add_argument("--grade", type=int, default=None)
     p_list.add_argument("--term", default=None, choices=["上", "下"])
+    p_list.add_argument("--subject", default=None, choices=["数学", "英语", "math", "english"])
 
     p_ask = sub.add_parser("ask", help="出题答题")
     p_ask.add_argument("--data-dir", default=argparse.SUPPRESS)
@@ -227,6 +241,7 @@ def main(argv=None):
     p_ask.add_argument("--unit", default=None, help="按单元名出题")
     p_ask.add_argument("--grade", type=int, default=None)
     p_ask.add_argument("--term", default=None, choices=["上", "下"])
+    p_ask.add_argument("--subject", default=None, choices=["数学", "英语", "math", "english"])
     p_ask.add_argument("--count", type=int, default=None, help="出题数量（默认全部）")
     p_ask.add_argument("--seed", type=int, default=None, help="随机种子（便于复现）")
 
