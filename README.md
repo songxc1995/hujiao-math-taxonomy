@@ -7,7 +7,7 @@
 - 已有：一～五年级知识点树（数学：一年级～三年级按沪教版新版目录整理 115 个知识点；四、五年级按旧版（试用本）目录整理：四年级 48、五年级 46，共 209 个知识点；英语：一年级上册按牛津上海版新版目录整理 22 个知识点；合计 231 条），每条含原创描述与掌握标准
 - 已有：原创题目 1947 道（数学每知识点 9 道：基础 1、中等 4、较难 4；英语每知识点 3 道：基础 1、中等 1、较难 1），先修关系 261 条
 - 校验：`python3 scripts/validate.py`，通过打印 `VALIDATION PASSED`
-- 摸底：`python3 scripts/quiz.py list` 列出知识点，`python3 scripts/quiz.py ask <知识点id>` 出题练习，进度记入 `quiz-progress.json`（不入库）
+- 摸底：`python3 scripts/quiz.py list` 列出知识点，`python3 scripts/quiz.py ask <知识点id>` 出题练习，进度记入 `quiz-progress.json`（不入库）；判分归一化：全半角统一、去空白、英文字母不分大小写
 
 ## 目录结构
 
