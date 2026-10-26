@@ -22907,5 +22907,89 @@
     "prompt": "天气很冷，小明出门应该说什么？",
     "topicId": "hje_g3b_u3_l2",
     "type": "choice"
+  },
+  {
+    "answer": "sound",
+    "difficulty": "basic",
+    "explanation": "sound 是“声音”，hear 是“听见”，bird 是“鸟”。",
+    "id": "hje_g3b_u4_l1_q1",
+    "options": [
+      "sound",
+      "hear",
+      "bird"
+    ],
+    "prompt": "“声音”的英语单词是？",
+    "topicId": "hje_g3b_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "loud",
+    "difficulty": "medium",
+    "explanation": "loud 是“大声的”，quiet 是“安静的”，bell 是“铃铛”。",
+    "id": "hje_g3b_u4_l1_q2",
+    "options": [
+      "loud",
+      "quiet",
+      "bell"
+    ],
+    "prompt": "下面哪个单词表示“大声的”？",
+    "topicId": "hje_g3b_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "听到了鸟叫",
+    "difficulty": "hard",
+    "explanation": "bird 是“鸟”，hear 是“听见”，所以 hear a bird 是“听到了鸟叫”。",
+    "id": "hje_g3b_u4_l1_q3",
+    "options": [
+      "听到了鸟叫",
+      "听到了铃声",
+      "听到了音乐"
+    ],
+    "prompt": "小明说 I can hear a bird. 他听到了什么？",
+    "topicId": "hje_g3b_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "What sounds can you hear?",
+    "difficulty": "basic",
+    "explanation": "问别人听到了什么声音，要说 What sounds can you hear?，问穿什么和问空闲时间都不对题。",
+    "id": "hje_g3b_u4_l2_q1",
+    "options": [
+      "What sounds can you hear?",
+      "What are you wearing?",
+      "What do you do in your free time?"
+    ],
+    "prompt": "想问别人听到了什么声音，应该说？",
+    "topicId": "hje_g3b_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I can hear music.",
+    "difficulty": "medium",
+    "explanation": "别人问 What sounds can you hear?，回答自己听到了什么，要说 I can hear music.，问候语和问名字都不对题。",
+    "id": "hje_g3b_u4_l2_q2",
+    "options": [
+      "I can hear music.",
+      "Good morning!",
+      "What's your name?"
+    ],
+    "prompt": "别人问 What sounds can you hear? 你听到了音乐，应该回答？",
+    "topicId": "hje_g3b_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "It is quiet.",
+    "difficulty": "hard",
+    "explanation": "声音很小是安静的，要说 It is quiet.，说大声和说吵闹都不对题。",
+    "id": "hje_g3b_u4_l2_q3",
+    "options": [
+      "It is quiet.",
+      "It is loud.",
+      "It is noisy."
+    ],
+    "prompt": "教室里声音很小，小红应该说什么？",
+    "topicId": "hje_g3b_u4_l2",
+    "type": "choice"
   }
 ]
