@@ -23159,5 +23159,89 @@
     "prompt": "小红想说家里有一个厨房，应该说什么？",
     "topicId": "hje_g3b_u6_l2",
     "type": "choice"
+  },
+  {
+    "answer": "school",
+    "difficulty": "basic",
+    "explanation": "school 是“学校”，class 是“班级”，lesson 是“课程”。",
+    "id": "hje_g3b_u7_l1_q1",
+    "options": [
+      "school",
+      "class",
+      "lesson"
+    ],
+    "prompt": "“学校”的英语单词是？",
+    "topicId": "hje_g3b_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "playground",
+    "difficulty": "medium",
+    "explanation": "playground 是“操场”，teacher 是“老师”，book 是“书”。",
+    "id": "hje_g3b_u7_l1_q2",
+    "options": [
+      "playground",
+      "teacher",
+      "book"
+    ],
+    "prompt": "下面哪个单词表示“操场”？",
+    "topicId": "hje_g3b_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "在学校读书",
+    "difficulty": "hard",
+    "explanation": "read books 是“读书”，所以 read books at school 是“在学校读书”。",
+    "id": "hje_g3b_u7_l1_q3",
+    "options": [
+      "在学校读书",
+      "在学校玩耍",
+      "在学校吃饭"
+    ],
+    "prompt": "小明说 I read books at school. 他在学校做什么？",
+    "topicId": "hje_g3b_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "What do you do at school?",
+    "difficulty": "basic",
+    "explanation": "问别人在学校做什么，要说 What do you do at school?，问家是什么样和问颜色都不对题。",
+    "id": "hje_g3b_u7_l2_q1",
+    "options": [
+      "What do you do at school?",
+      "What is your home like?",
+      "What colour is it?"
+    ],
+    "prompt": "想问新朋友在学校做什么，应该说？",
+    "topicId": "hje_g3b_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I play at school.",
+    "difficulty": "medium",
+    "explanation": "别人问 What do you do at school?，回答自己在学校做的事，要说 I play at school.，问候语和问名字都不对题。",
+    "id": "hje_g3b_u7_l2_q2",
+    "options": [
+      "I play at school.",
+      "Good morning!",
+      "What's your name?"
+    ],
+    "prompt": "别人问 What do you do at school? 你在学校玩耍，应该回答？",
+    "topicId": "hje_g3b_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I have lessons at school.",
+    "difficulty": "hard",
+    "explanation": "在学校上课，要说 I have lessons at school.，说在学校吃饭和在学校睡觉都不对题。",
+    "id": "hje_g3b_u7_l2_q3",
+    "options": [
+      "I have lessons at school.",
+      "I eat at school.",
+      "I sleep at school."
+    ],
+    "prompt": "小红想说自己在学校上课，应该说什么？",
+    "topicId": "hje_g3b_u7_l2",
+    "type": "choice"
   }
 ]

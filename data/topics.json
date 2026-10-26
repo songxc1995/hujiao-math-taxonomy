@@ -4294,5 +4294,39 @@
     "term": "下",
     "unit": "Unit 6 What are our homes like?",
     "unit_no": 6
+  },
+  {
+    "description": "学校生活相关的词，如 school、class、lesson、teacher、book、playground。",
+    "grade": 3,
+    "id": "hje_g3b_u7_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 school、class、lesson、teacher、book、playground",
+      "知道 school 是“学校”、class 是“班级”的意思",
+      "能用学校生活词汇说一说在学校做什么"
+    ],
+    "name": "学校生活词汇",
+    "page": 61,
+    "subject": "english",
+    "term": "下",
+    "unit": "Unit 7 What do we do at school?",
+    "unit_no": 7
+  },
+  {
+    "description": "谈论在学校做的事：What do you do at school?、I… at school。",
+    "grade": 3,
+    "id": "hje_g3b_u7_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 What do you do at school? 问别人在学校做什么",
+      "能用 I… at school 回答自己在学校做的事",
+      "能说一说在学校上课、读书、玩耍的活动"
+    ],
+    "name": "谈论在学校做的事",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Unit 7 What do we do at school?",
+    "unit_no": 7
   }
 ]
