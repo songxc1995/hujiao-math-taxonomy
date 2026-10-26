@@ -4260,5 +4260,39 @@
     "term": "下",
     "unit": "Unit 5 Where can we see colours?",
     "unit_no": 5
+  },
+  {
+    "description": "家相关的词，如 home、house、room、kitchen、bedroom、living room。",
+    "grade": 3,
+    "id": "hje_g3b_u6_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 home、house、room、kitchen、bedroom、living room",
+      "知道 home 是“家”、house 是“房子”的意思",
+      "能用家相关的词汇说一说自己家里有什么房间"
+    ],
+    "name": "家相关的词汇",
+    "page": 51,
+    "subject": "english",
+    "term": "下",
+    "unit": "Unit 6 What are our homes like?",
+    "unit_no": 6
+  },
+  {
+    "description": "谈论自己的家：What is your home like?、My home is…、There is…。",
+    "grade": 3,
+    "id": "hje_g3b_u6_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 What is your home like? 问别人的家是什么样的",
+      "能用 My home is… 说一说自己的家",
+      "能用 There is… 说一说家里有什么"
+    ],
+    "name": "谈论自己的家",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Unit 6 What are our homes like?",
+    "unit_no": 6
   }
 ]

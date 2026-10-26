@@ -23075,5 +23075,89 @@
     "prompt": "小红抬头看到了蓝天，应该说什么？",
     "topicId": "hje_g3b_u5_l2",
     "type": "choice"
+  },
+  {
+    "answer": "home",
+    "difficulty": "basic",
+    "explanation": "home 是“家”，house 是“房子”，room 是“房间”。",
+    "id": "hje_g3b_u6_l1_q1",
+    "options": [
+      "home",
+      "house",
+      "room"
+    ],
+    "prompt": "“家”的英语单词是？",
+    "topicId": "hje_g3b_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "kitchen",
+    "difficulty": "medium",
+    "explanation": "kitchen 是“厨房”，bedroom 是“卧室”，living room 是“客厅”。",
+    "id": "hje_g3b_u6_l1_q2",
+    "options": [
+      "kitchen",
+      "bedroom",
+      "living room"
+    ],
+    "prompt": "下面哪个单词表示“厨房”？",
+    "topicId": "hje_g3b_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "卧室",
+    "difficulty": "hard",
+    "explanation": "bedroom 是“卧室”，kitchen 是“厨房”，living room 是“客厅”。",
+    "id": "hje_g3b_u6_l1_q3",
+    "options": [
+      "卧室",
+      "厨房",
+      "客厅"
+    ],
+    "prompt": "小明说 My bedroom is big. 他说的是哪个房间？",
+    "topicId": "hje_g3b_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "What is your home like?",
+    "difficulty": "basic",
+    "explanation": "问别人的家是什么样的，要说 What is your home like?，问颜色和问听到了什么都不对题。",
+    "id": "hje_g3b_u6_l2_q1",
+    "options": [
+      "What is your home like?",
+      "What colour is it?",
+      "What sounds can you hear?"
+    ],
+    "prompt": "想问新朋友的家是什么样的，应该说？",
+    "topicId": "hje_g3b_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "My home is big.",
+    "difficulty": "medium",
+    "explanation": "别人问 What is your home like?，回答自己的家，要说 My home is big.，问候语和问名字都不对题。",
+    "id": "hje_g3b_u6_l2_q2",
+    "options": [
+      "My home is big.",
+      "Good morning!",
+      "What's your name?"
+    ],
+    "prompt": "别人问 What is your home like? 你的家很大，应该回答？",
+    "topicId": "hje_g3b_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "There is a kitchen.",
+    "difficulty": "hard",
+    "explanation": "家里有厨房，要说 There is a kitchen.，说有卧室和有客厅都不对题。",
+    "id": "hje_g3b_u6_l2_q3",
+    "options": [
+      "There is a kitchen.",
+      "There is a bedroom.",
+      "There is a living room."
+    ],
+    "prompt": "小红想说家里有一个厨房，应该说什么？",
+    "topicId": "hje_g3b_u6_l2",
+    "type": "choice"
   }
 ]
