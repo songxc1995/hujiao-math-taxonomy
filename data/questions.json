@@ -22655,5 +22655,173 @@
     "prompt": "下面哪句谈论最喜欢的食物是正确的？",
     "topicId": "hje_g3a_u10_l2",
     "type": "choice"
+  },
+  {
+    "answer": "free time",
+    "difficulty": "basic",
+    "explanation": "free time 是“空闲时间”，school time 是“上学时间”，dinner time 是“晚餐时间”。",
+    "id": "hje_g3b_u1_l1_q1",
+    "options": [
+      "free time",
+      "school time",
+      "dinner time"
+    ],
+    "prompt": "“空闲时间”的英语说法是？",
+    "topicId": "hje_g3b_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "play football",
+    "difficulty": "medium",
+    "explanation": "play football 是“踢足球”，play the piano 是“弹钢琴”，draw pictures 是“画画”。",
+    "id": "hje_g3b_u1_l1_q2",
+    "options": [
+      "play football",
+      "play the piano",
+      "draw pictures"
+    ],
+    "prompt": "下面哪个是“踢足球”的英语？",
+    "topicId": "hje_g3b_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "画画",
+    "difficulty": "hard",
+    "explanation": "draw pictures 是“画画”，所以小明空闲时间喜欢画画。",
+    "id": "hje_g3b_u1_l1_q3",
+    "options": [
+      "画画",
+      "踢足球",
+      "听音乐"
+    ],
+    "prompt": "小明说 I like to draw pictures in my free time. 他空闲时间喜欢做什么？",
+    "topicId": "hje_g3b_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "What do you do in your free time?",
+    "difficulty": "basic",
+    "explanation": "问别人空闲时间做什么，要说 What do you do in your free time?，问名字和年龄都不对题。",
+    "id": "hje_g3b_u1_l2_q1",
+    "options": [
+      "What do you do in your free time?",
+      "What's your name?",
+      "How old are you?"
+    ],
+    "prompt": "问别人空闲时间做什么，应该说？",
+    "topicId": "hje_g3b_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Yes, I do.",
+    "difficulty": "medium",
+    "explanation": "别人问 Do you like…?，喜欢就回答 Yes, I do.，不喜欢回答 No, I don't.，问候语不对题。",
+    "id": "hje_g3b_u1_l2_q2",
+    "options": [
+      "Yes, I do.",
+      "No, I don't.",
+      "Good morning!"
+    ],
+    "prompt": "别人问 Do you like to read books in your free time? 你喜欢，应该回答？",
+    "topicId": "hje_g3b_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "What do you do in your free time?",
+    "difficulty": "hard",
+    "explanation": "小红说的是空闲时间做的事，要问空闲时间做什么，只有第一句对题，问喜欢吃什么和住哪里都不对题。",
+    "id": "hje_g3b_u1_l2_q3",
+    "options": [
+      "What do you do in your free time?",
+      "What do you like to eat?",
+      "Where do you live?"
+    ],
+    "prompt": "小红说 I play football in my free time. 下面哪句问得对？",
+    "topicId": "hje_g3b_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "friend",
+    "difficulty": "basic",
+    "explanation": "friend 是“朋友”，teacher 是“老师”，student 是“学生”。",
+    "id": "hje_g3b_u2_l1_q1",
+    "options": [
+      "friend",
+      "teacher",
+      "student"
+    ],
+    "prompt": "“朋友”的英语单词是？",
+    "topicId": "hje_g3b_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "share",
+    "difficulty": "medium",
+    "explanation": "share 是“分享”，helpful 是“乐于助人的”，kind 是“友好的”。",
+    "id": "hje_g3b_u2_l1_q2",
+    "options": [
+      "share",
+      "helpful",
+      "kind"
+    ],
+    "prompt": "下面哪个单词表示“分享”？",
+    "topicId": "hje_g3b_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "一起玩",
+    "difficulty": "hard",
+    "explanation": "together 是“一起”，所以 play together 是“一起玩”。",
+    "id": "hje_g3b_u2_l1_q3",
+    "options": [
+      "一起玩",
+      "一起吃",
+      "一起睡"
+    ],
+    "prompt": "小明说 Let's play together. 他是想和朋友怎么样？",
+    "topicId": "hje_g3b_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Let's be friends!",
+    "difficulty": "basic",
+    "explanation": "想和别人交朋友，要说 Let's be friends!，问名字和问年龄都不对题。",
+    "id": "hje_g3b_u2_l2_q1",
+    "options": [
+      "Let's be friends!",
+      "What's your name?",
+      "How old are you?"
+    ],
+    "prompt": "想和新同学交朋友，应该说？",
+    "topicId": "hje_g3b_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Yes, please.",
+    "difficulty": "medium",
+    "explanation": "别人问 Can I play with you?，同意就回答 Yes, please.，不同意回答 Sorry.，问候语不对题。",
+    "id": "hje_g3b_u2_l2_q2",
+    "options": [
+      "Yes, please.",
+      "Sorry.",
+      "Good morning!"
+    ],
+    "prompt": "新朋友问 Can I play with you? 你同意，应该回答？",
+    "topicId": "hje_g3b_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Hello! I'm Xiaoming.",
+    "difficulty": "hard",
+    "explanation": "见面先打招呼再介绍自己，只有第一句既打招呼又介绍了名字，问空闲时间和问住哪里都不对题。",
+    "id": "hje_g3b_u2_l2_q3",
+    "options": [
+      "Hello! I'm Xiaoming.",
+      "What do you do in your free time?",
+      "Where do you live?"
+    ],
+    "prompt": "小明第一次见新朋友，应该先说什么？",
+    "topicId": "hje_g3b_u2_l2",
+    "type": "choice"
   }
 ]

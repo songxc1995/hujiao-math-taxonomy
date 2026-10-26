@@ -1110,5 +1110,13 @@
   {
     "from": "hje_g1a_u9_l2",
     "to": "hje_g3a_u5_l2"
+  },
+  {
+    "from": "hje_g3b_u1_l1",
+    "to": "hje_g3b_u1_l2"
+  },
+  {
+    "from": "hje_g3b_u2_l1",
+    "to": "hje_g3b_u2_l2"
   }
 ]

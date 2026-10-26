@@ -4090,5 +4090,73 @@
     "term": "上",
     "unit": "Unit 10 Foods around the world",
     "unit_no": 10
+  },
+  {
+    "description": "空闲时间常做的事，如 read books、play football、draw pictures、listen to music。",
+    "grade": 3,
+    "id": "hje_g3b_u1_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 read books、play football、draw pictures、listen to music",
+      "知道 free time 是“空闲时间”的意思",
+      "能用空闲时间活动词汇说一说自己常做的事"
+    ],
+    "name": "空闲时间活动词汇",
+    "page": 1,
+    "subject": "english",
+    "term": "下",
+    "unit": "Unit 1 How do we spend our free time?",
+    "unit_no": 1
+  },
+  {
+    "description": "谈论空闲时间：What do you do in your free time?、I like…、Do you like…?",
+    "grade": 3,
+    "id": "hje_g3b_u1_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 What do you do in your free time? 问别人空闲时间做什么",
+      "能用 I like… 回答自己空闲时间喜欢做的事",
+      "能用 Do you like…? 提问，并用 Yes, I do. / No, I don't. 回答"
+    ],
+    "name": "谈论空闲时间",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Unit 1 How do we spend our free time?",
+    "unit_no": 1
+  },
+  {
+    "description": "交朋友相关的词，如 friend、kind、helpful、share、together。",
+    "grade": 3,
+    "id": "hje_g3b_u2_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 friend、kind、helpful、share、together",
+      "知道 friend 是“朋友”的意思",
+      "能用交朋友词汇说一说好朋友的样子"
+    ],
+    "name": "交朋友词汇",
+    "page": 11,
+    "subject": "english",
+    "term": "下",
+    "unit": "Unit 2 How do we make friends?",
+    "unit_no": 2
+  },
+  {
+    "description": "交朋友的说法：Hello!、I'm…、Let's be friends!、Can I play with you?",
+    "grade": 3,
+    "id": "hje_g3b_u2_l2",
+    "kind": "技能",
+    "mastery": [
+      "见面时能用 Hello! 打招呼并介绍自己",
+      "能用 Let's be friends! 提出交朋友",
+      "能用 Can I play with you? 询问，并用 Yes, please. / Sorry. 回答"
+    ],
+    "name": "交朋友的说法",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Unit 2 How do we make friends?",
+    "unit_no": 2
   }
 ]
