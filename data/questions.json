@@ -22823,5 +22823,89 @@
     "prompt": "小明第一次见新朋友，应该先说什么？",
     "topicId": "hje_g3b_u2_l2",
     "type": "choice"
+  },
+  {
+    "answer": "shirt",
+    "difficulty": "basic",
+    "explanation": "shirt 是“衬衫”，pants 是“裤子”，shoes 是“鞋子”。",
+    "id": "hje_g3b_u3_l1_q1",
+    "options": [
+      "shirt",
+      "pants",
+      "shoes"
+    ],
+    "prompt": "“衬衫”的英语单词是？",
+    "topicId": "hje_g3b_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "dress",
+    "difficulty": "medium",
+    "explanation": "dress 是“连衣裙”，hat 是“帽子”，coat 是“外套”。",
+    "id": "hje_g3b_u3_l1_q2",
+    "options": [
+      "dress",
+      "hat",
+      "coat"
+    ],
+    "prompt": "下面哪个单词表示“连衣裙”？",
+    "topicId": "hje_g3b_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "穿了一双鞋",
+    "difficulty": "hard",
+    "explanation": "shoes 是“鞋子”，所以 wearing shoes 是“穿了一双鞋”。",
+    "id": "hje_g3b_u3_l1_q3",
+    "options": [
+      "穿了一双鞋",
+      "戴了一顶帽子",
+      "穿了一件外套"
+    ],
+    "prompt": "小红说 I'm wearing shoes. 她穿了什么？",
+    "topicId": "hje_g3b_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "What are you wearing?",
+    "difficulty": "basic",
+    "explanation": "问别人穿了什么，要说 What are you wearing?，问名字和问空闲时间都不对题。",
+    "id": "hje_g3b_u3_l2_q1",
+    "options": [
+      "What are you wearing?",
+      "What's your name?",
+      "What do you do in your free time?"
+    ],
+    "prompt": "想问新朋友今天穿了什么，应该说？",
+    "topicId": "hje_g3b_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I'm wearing a shirt.",
+    "difficulty": "medium",
+    "explanation": "别人问 What are you wearing?，回答自己穿了什么，要说 I'm wearing a shirt.，问候语和问名字都不对题。",
+    "id": "hje_g3b_u3_l2_q2",
+    "options": [
+      "I'm wearing a shirt.",
+      "Good morning!",
+      "What's your name?"
+    ],
+    "prompt": "别人问 What are you wearing? 你穿了一件衬衫，应该回答？",
+    "topicId": "hje_g3b_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I wear a coat.",
+    "difficulty": "hard",
+    "explanation": "天气冷要穿外套保暖，只有第一句说穿外套，穿连衣裙和穿鞋子都不对题。",
+    "id": "hje_g3b_u3_l2_q3",
+    "options": [
+      "I wear a coat.",
+      "I wear a dress.",
+      "I wear shoes."
+    ],
+    "prompt": "天气很冷，小明出门应该说什么？",
+    "topicId": "hje_g3b_u3_l2",
+    "type": "choice"
   }
 ]

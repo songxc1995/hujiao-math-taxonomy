@@ -4158,5 +4158,39 @@
     "term": "下",
     "unit": "Unit 2 How do we make friends?",
     "unit_no": 2
+  },
+  {
+    "description": "穿着相关的词，如 shirt、pants、dress、shoes、hat、coat。",
+    "grade": 3,
+    "id": "hje_g3b_u3_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 shirt、pants、dress、shoes、hat、coat",
+      "知道 shirt 是“衬衫”、pants 是“裤子”的意思",
+      "能用穿着词汇说一说自己今天穿了什么"
+    ],
+    "name": "穿着词汇",
+    "page": 21,
+    "subject": "english",
+    "term": "下",
+    "unit": "Unit 3 What do we wear?",
+    "unit_no": 3
+  },
+  {
+    "description": "谈论穿着：What are you wearing?、I'm wearing…、I wear…。",
+    "grade": 3,
+    "id": "hje_g3b_u3_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 What are you wearing? 问别人穿了什么",
+      "能用 I'm wearing… 回答自己穿了什么",
+      "能根据天气说一说穿什么，如 I wear a coat."
+    ],
+    "name": "谈论穿着",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Unit 3 What do we wear?",
+    "unit_no": 3
   }
 ]
