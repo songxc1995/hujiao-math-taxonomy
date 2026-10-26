@@ -23243,5 +23243,89 @@
     "prompt": "小红想说自己在学校上课，应该说什么？",
     "topicId": "hje_g3b_u7_l2",
     "type": "choice"
+  },
+  {
+    "answer": "Children's Day",
+    "difficulty": "basic",
+    "explanation": "Children's Day 是“儿童节”，game 是“游戏”，gift 是“礼物”。",
+    "id": "hje_g3b_u8_l1_q1",
+    "options": [
+      "Children's Day",
+      "game",
+      "gift"
+    ],
+    "prompt": "“儿童节”的英语说法是？",
+    "topicId": "hje_g3b_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "sing",
+    "difficulty": "medium",
+    "explanation": "sing 是“唱歌”，dance 是“跳舞”，happy 是“高兴的”。",
+    "id": "hje_g3b_u8_l1_q2",
+    "options": [
+      "sing",
+      "dance",
+      "happy"
+    ],
+    "prompt": "下面哪个单词表示“唱歌”？",
+    "topicId": "hje_g3b_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "玩游戏",
+    "difficulty": "hard",
+    "explanation": "play games 是“玩游戏”，sing 是“唱歌”，dance 是“跳舞”。",
+    "id": "hje_g3b_u8_l1_q3",
+    "options": [
+      "玩游戏",
+      "唱歌",
+      "跳舞"
+    ],
+    "prompt": "小明说 I play games on Children's Day. 他在儿童节做什么？",
+    "topicId": "hje_g3b_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "What do you do on Children's Day?",
+    "difficulty": "basic",
+    "explanation": "问别人儿童节做什么，要说 What do you do on Children's Day?，问在学校做什么和问家是什么样都不对题。",
+    "id": "hje_g3b_u8_l2_q1",
+    "options": [
+      "What do you do on Children's Day?",
+      "What do you do at school?",
+      "What is your home like?"
+    ],
+    "prompt": "想问新朋友儿童节做什么，应该说？",
+    "topicId": "hje_g3b_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I sing on Children's Day.",
+    "difficulty": "medium",
+    "explanation": "别人问 What do you do on Children's Day?，回答自己儿童节做的事，要说 I sing on Children's Day.，问候语和问名字都不对题。",
+    "id": "hje_g3b_u8_l2_q2",
+    "options": [
+      "I sing on Children's Day.",
+      "Good morning!",
+      "What's your name?"
+    ],
+    "prompt": "别人问 What do you do on Children's Day? 你在儿童节唱歌，应该回答？",
+    "topicId": "hje_g3b_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I dance on Children's Day.",
+    "difficulty": "hard",
+    "explanation": "在儿童节跳舞，要说 I dance on Children's Day.，说在儿童节吃饭和在儿童节睡觉都不对题。",
+    "id": "hje_g3b_u8_l2_q3",
+    "options": [
+      "I dance on Children's Day.",
+      "I eat on Children's Day.",
+      "I sleep on Children's Day."
+    ],
+    "prompt": "小红想说自己在儿童节跳舞，应该说什么？",
+    "topicId": "hje_g3b_u8_l2",
+    "type": "choice"
   }
 ]

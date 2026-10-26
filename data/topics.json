@@ -4328,5 +4328,39 @@
     "term": "下",
     "unit": "Unit 7 What do we do at school?",
     "unit_no": 7
+  },
+  {
+    "description": "儿童节相关的词，如 Children's Day、game、sing、dance、gift、happy。",
+    "grade": 3,
+    "id": "hje_g3b_u8_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 Children's Day、game、sing、dance、gift、happy",
+      "知道 Children's Day 是“儿童节”、game 是“游戏”的意思",
+      "能用儿童节词汇说一说儿童节做什么"
+    ],
+    "name": "儿童节词汇",
+    "page": 71,
+    "subject": "english",
+    "term": "下",
+    "unit": "Unit 8 What do you do on Children's Day?",
+    "unit_no": 8
+  },
+  {
+    "description": "谈论儿童节做的事：What do you do on Children's Day?、I… on Children's Day。",
+    "grade": 3,
+    "id": "hje_g3b_u8_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 What do you do on Children's Day? 问别人儿童节做什么",
+      "能用 I… on Children's Day 回答自己儿童节做的事",
+      "能说一说儿童节唱歌、跳舞、玩游戏的活动"
+    ],
+    "name": "谈论儿童节做的事",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Unit 8 What do you do on Children's Day?",
+    "unit_no": 8
   }
 ]
