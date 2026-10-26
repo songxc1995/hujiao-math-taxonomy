@@ -24503,5 +24503,1013 @@
     "prompt": "同学说 In the street, there is a car.，意思是？",
     "topicId": "hje_g2a_u12_l2",
     "type": "choice"
+  },
+  {
+    "answer": "see",
+    "difficulty": "basic",
+    "explanation": "see 是“看见”，I can see… 就是“我能看见……”。",
+    "id": "hje_g2b_u1_l1_q1",
+    "options": [
+      "see",
+      "look",
+      "eye"
+    ],
+    "prompt": "“看见”的英语单词是？",
+    "topicId": "hje_g2b_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "eye",
+    "difficulty": "medium",
+    "explanation": "eye 是“眼睛”，看东西要用眼睛。",
+    "id": "hje_g2b_u1_l1_q2",
+    "options": [
+      "eye",
+      "see",
+      "look"
+    ],
+    "prompt": "“眼睛”用哪个英语单词？",
+    "topicId": "hje_g2b_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "look",
+    "difficulty": "hard",
+    "explanation": "look 是“看”，see 是“看见”，colour 是“颜色”。",
+    "id": "hje_g2b_u1_l1_q3",
+    "options": [
+      "look",
+      "see",
+      "colour"
+    ],
+    "prompt": "下面哪个单词表示“看”？",
+    "topicId": "hje_g2b_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "What can you see?",
+    "difficulty": "basic",
+    "explanation": "问看到什么用 What can you see?。",
+    "id": "hje_g2b_u1_l2_q1",
+    "options": [
+      "What can you see?",
+      "What can you hear?",
+      "What is it?"
+    ],
+    "prompt": "想问“你能看见什么”，应该问？",
+    "topicId": "hje_g2b_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I can see a book.",
+    "difficulty": "medium",
+    "explanation": "说看见某物用 I can see 加名词，一本书用 a book。",
+    "id": "hje_g2b_u1_l2_q2",
+    "options": [
+      "I can see a book.",
+      "I can see book.",
+      "I see a book."
+    ],
+    "prompt": "小明想说“我能看见一本书”，他应该说？",
+    "topicId": "hje_g2b_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I can see a cat.",
+    "difficulty": "hard",
+    "explanation": "看见用 see，一只猫用 a cat。",
+    "id": "hje_g2b_u1_l2_q3",
+    "options": [
+      "I can see a cat.",
+      "I can hear a cat.",
+      "I can see cat."
+    ],
+    "prompt": "同学问 What can you see?，你看见一只猫，应该答？",
+    "topicId": "hje_g2b_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "touch",
+    "difficulty": "basic",
+    "explanation": "touch 是“触摸”，Touch it! 就是“摸一摸它！”。",
+    "id": "hje_g2b_u2_l1_q1",
+    "options": [
+      "touch",
+      "feel",
+      "soft"
+    ],
+    "prompt": "“触摸”的英语单词是？",
+    "topicId": "hje_g2b_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "feel",
+    "difficulty": "medium",
+    "explanation": "feel 是“感觉”，How does it feel? 就是“摸起来感觉怎么样？”。",
+    "id": "hje_g2b_u2_l1_q2",
+    "options": [
+      "feel",
+      "touch",
+      "hard"
+    ],
+    "prompt": "“感觉”用哪个英语单词？",
+    "topicId": "hje_g2b_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "soft",
+    "difficulty": "hard",
+    "explanation": "soft 是“软的”，hard 是“硬的”。",
+    "id": "hje_g2b_u2_l1_q3",
+    "options": [
+      "soft",
+      "hard",
+      "touch"
+    ],
+    "prompt": "下面哪个单词表示“软的”？",
+    "topicId": "hje_g2b_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Touch it!",
+    "difficulty": "basic",
+    "explanation": "请别人摸用 Touch it!，it 指那个东西。",
+    "id": "hje_g2b_u2_l2_q1",
+    "options": [
+      "Touch it!",
+      "Look at it!",
+      "Listen to it!"
+    ],
+    "prompt": "小明想请同学“摸一摸它”，他应该说？",
+    "topicId": "hje_g2b_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "It feels soft.",
+    "difficulty": "medium",
+    "explanation": "说摸起来的感觉用 It feels 加形容词。",
+    "id": "hje_g2b_u2_l2_q2",
+    "options": [
+      "It feels soft.",
+      "It feels hard.",
+      "It is soft."
+    ],
+    "prompt": "小红摸了毛绒玩具，想说“它摸起来软”，她应该说？",
+    "topicId": "hje_g2b_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "How does it feel?",
+    "difficulty": "hard",
+    "explanation": "问感觉用 How does it feel?，feel 是感觉。",
+    "id": "hje_g2b_u2_l2_q3",
+    "options": [
+      "How does it feel?",
+      "How does it look?",
+      "What can you feel?"
+    ],
+    "prompt": "想问“摸起来感觉怎么样”，应该问？",
+    "topicId": "hje_g2b_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "hear",
+    "difficulty": "basic",
+    "explanation": "hear 是“听见”，I can hear… 就是“我能听见……”。",
+    "id": "hje_g2b_u3_l1_q1",
+    "options": [
+      "hear",
+      "ear",
+      "sound"
+    ],
+    "prompt": "“听见”的英语单词是？",
+    "topicId": "hje_g2b_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "ear",
+    "difficulty": "medium",
+    "explanation": "ear 是“耳朵”，听声音要用耳朵。",
+    "id": "hje_g2b_u3_l1_q2",
+    "options": [
+      "ear",
+      "hear",
+      "listen"
+    ],
+    "prompt": "“耳朵”用哪个英语单词？",
+    "topicId": "hje_g2b_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "sound",
+    "difficulty": "hard",
+    "explanation": "sound 是“声音”，hear 是“听见”。",
+    "id": "hje_g2b_u3_l1_q3",
+    "options": [
+      "sound",
+      "hear",
+      "ear"
+    ],
+    "prompt": "下面哪个单词表示“声音”？",
+    "topicId": "hje_g2b_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "What can you hear?",
+    "difficulty": "basic",
+    "explanation": "问听到什么用 What can you hear?。",
+    "id": "hje_g2b_u3_l2_q1",
+    "options": [
+      "What can you hear?",
+      "What can you see?",
+      "What is it?"
+    ],
+    "prompt": "想问“你能听见什么”，应该问？",
+    "topicId": "hje_g2b_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I can hear music.",
+    "difficulty": "medium",
+    "explanation": "听见用 hear，music 是不可数名词，不加 a。",
+    "id": "hje_g2b_u3_l2_q2",
+    "options": [
+      "I can hear music.",
+      "I can hear a music.",
+      "I can see music."
+    ],
+    "prompt": "小明想说“我能听见音乐”，他应该说？",
+    "topicId": "hje_g2b_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I can hear a bird.",
+    "difficulty": "hard",
+    "explanation": "听见一只鸟用 I can hear a bird.。",
+    "id": "hje_g2b_u3_l2_q3",
+    "options": [
+      "I can hear a bird.",
+      "I can see a bird.",
+      "I can hear bird."
+    ],
+    "prompt": "同学问 What can you hear?，你听见鸟叫，应该答？",
+    "topicId": "hje_g2b_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "like",
+    "difficulty": "basic",
+    "explanation": "like 是“喜欢”，I like… 就是“我喜欢……”。",
+    "id": "hje_g2b_u4_l1_q1",
+    "options": [
+      "like",
+      "play",
+      "read"
+    ],
+    "prompt": "“喜欢”的英语单词是？",
+    "topicId": "hje_g2b_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "read",
+    "difficulty": "medium",
+    "explanation": "read 是“读书”，sing 是“唱歌”。",
+    "id": "hje_g2b_u4_l1_q2",
+    "options": [
+      "read",
+      "sing",
+      "play"
+    ],
+    "prompt": "“读书、阅读”用哪个英语单词？",
+    "topicId": "hje_g2b_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "sing",
+    "difficulty": "hard",
+    "explanation": "sing 是“唱歌”，小朋友唱歌时就用这个词。",
+    "id": "hje_g2b_u4_l1_q3",
+    "options": [
+      "sing",
+      "read",
+      "like"
+    ],
+    "prompt": "小朋友在唱歌，sing 这个词的意思是？",
+    "topicId": "hje_g2b_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I like reading.",
+    "difficulty": "basic",
+    "explanation": "like 后面接动词 -ing，reading 是读书。",
+    "id": "hje_g2b_u4_l2_q1",
+    "options": [
+      "I like reading.",
+      "I like read.",
+      "I like reads."
+    ],
+    "prompt": "小明想说“我喜欢读书”，他应该说？",
+    "topicId": "hje_g2b_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "What do you like doing?",
+    "difficulty": "medium",
+    "explanation": "问喜欢做什么用 What do you like doing?。",
+    "id": "hje_g2b_u4_l2_q2",
+    "options": [
+      "What do you like doing?",
+      "What do you like do?",
+      "What are you like doing?"
+    ],
+    "prompt": "想问“你喜欢做什么”，应该问？",
+    "topicId": "hje_g2b_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "我喜欢唱歌",
+    "difficulty": "hard",
+    "explanation": "singing 是唱歌，like 是喜欢。",
+    "id": "hje_g2b_u4_l2_q3",
+    "options": [
+      "我喜欢唱歌",
+      "我喜欢读书",
+      "我喜欢玩"
+    ],
+    "prompt": "同学说 I like singing.，意思是？",
+    "topicId": "hje_g2b_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "food",
+    "difficulty": "basic",
+    "explanation": "food 是“食物”，my favourite food 就是“我最喜欢的食物”。",
+    "id": "hje_g2b_u5_l1_q1",
+    "options": [
+      "food",
+      "rice",
+      "apple"
+    ],
+    "prompt": "“食物”的英语单词是？",
+    "topicId": "hje_g2b_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "rice",
+    "difficulty": "medium",
+    "explanation": "rice 是“米饭”，noodle 是“面条”。",
+    "id": "hje_g2b_u5_l1_q2",
+    "options": [
+      "rice",
+      "noodle",
+      "apple"
+    ],
+    "prompt": "中国人常吃的“米饭”叫？",
+    "topicId": "hje_g2b_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "apple",
+    "difficulty": "hard",
+    "explanation": "apple 是“苹果”，是一种水果。",
+    "id": "hje_g2b_u5_l1_q3",
+    "options": [
+      "apple",
+      "rice",
+      "food"
+    ],
+    "prompt": "下面哪个单词表示“苹果”？",
+    "topicId": "hje_g2b_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "My favourite food is noodles.",
+    "difficulty": "basic",
+    "explanation": "最喜欢的食物用 My favourite food is…，面条用 noodles。",
+    "id": "hje_g2b_u5_l2_q1",
+    "options": [
+      "My favourite food is noodles.",
+      "My favourite food are noodles.",
+      "My favourite food is noodle."
+    ],
+    "prompt": "小红想说“我最喜欢的食物是面条”，她应该说？",
+    "topicId": "hje_g2b_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I like apples.",
+    "difficulty": "medium",
+    "explanation": "喜欢苹果泛指用 I like apples.，复数。",
+    "id": "hje_g2b_u5_l2_q2",
+    "options": [
+      "I like apples.",
+      "I like apple.",
+      "I like an apple."
+    ],
+    "prompt": "小明想说“我喜欢苹果”，他应该说？",
+    "topicId": "hje_g2b_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "我最喜欢的食物是米饭",
+    "difficulty": "hard",
+    "explanation": "favourite 是“最喜欢的”，rice 是米饭。",
+    "id": "hje_g2b_u5_l2_q3",
+    "options": [
+      "我最喜欢的食物是米饭",
+      "我最喜欢的食物是面条",
+      "我喜欢米饭"
+    ],
+    "prompt": "同学说 My favourite food is rice.，意思是？",
+    "topicId": "hje_g2b_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "animal",
+    "difficulty": "basic",
+    "explanation": "animal 是“动物”，my favourite animal 就是“我最喜欢的动物”。",
+    "id": "hje_g2b_u6_l1_q1",
+    "options": [
+      "animal",
+      "dog",
+      "cat"
+    ],
+    "prompt": "“动物”的英语单词是？",
+    "topicId": "hje_g2b_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "dog",
+    "difficulty": "medium",
+    "explanation": "dog 是“小狗”，cat 是“小猫”。",
+    "id": "hje_g2b_u6_l1_q2",
+    "options": [
+      "dog",
+      "cat",
+      "rabbit"
+    ],
+    "prompt": "“小狗”用哪个英语单词？",
+    "topicId": "hje_g2b_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "rabbit",
+    "difficulty": "hard",
+    "explanation": "rabbit 是“兔子”，一种小动物。",
+    "id": "hje_g2b_u6_l1_q3",
+    "options": [
+      "rabbit",
+      "dog",
+      "animal"
+    ],
+    "prompt": "下面哪个单词表示“兔子”？",
+    "topicId": "hje_g2b_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I like dogs.",
+    "difficulty": "basic",
+    "explanation": "喜欢小狗泛指用 I like dogs.，复数。",
+    "id": "hje_g2b_u6_l2_q1",
+    "options": [
+      "I like dogs.",
+      "I like dog.",
+      "I like a dog."
+    ],
+    "prompt": "小明想说“我喜欢小狗”，他应该说？",
+    "topicId": "hje_g2b_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "My favourite animal is a rabbit.",
+    "difficulty": "medium",
+    "explanation": "最喜欢的动物用 My favourite animal is a…。",
+    "id": "hje_g2b_u6_l2_q2",
+    "options": [
+      "My favourite animal is a rabbit.",
+      "My favourite animal are a rabbit.",
+      "My favourite animal is rabbit."
+    ],
+    "prompt": "小红想说“我最喜欢的动物是兔子”，她应该说？",
+    "topicId": "hje_g2b_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "我喜欢小猫",
+    "difficulty": "hard",
+    "explanation": "cats 是小猫的复数，like 是喜欢。",
+    "id": "hje_g2b_u6_l2_q3",
+    "options": [
+      "我喜欢小猫",
+      "我喜欢小狗",
+      "我喜欢兔子"
+    ],
+    "prompt": "同学说 I like cats.，意思是？",
+    "topicId": "hje_g2b_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "season",
+    "difficulty": "basic",
+    "explanation": "season 是“季节”，four seasons 就是“四季”。",
+    "id": "hje_g2b_u7_l1_q1",
+    "options": [
+      "season",
+      "spring",
+      "summer"
+    ],
+    "prompt": "“季节”的英语单词是？",
+    "topicId": "hje_g2b_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "spring",
+    "difficulty": "medium",
+    "explanation": "spring 是“春天”，summer 是“夏天”。",
+    "id": "hje_g2b_u7_l1_q2",
+    "options": [
+      "spring",
+      "summer",
+      "winter"
+    ],
+    "prompt": "一年四季中的“春天”叫？",
+    "topicId": "hje_g2b_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "winter",
+    "difficulty": "hard",
+    "explanation": "winter 是“冬天”，autumn 是“秋天”。",
+    "id": "hje_g2b_u7_l1_q3",
+    "options": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "prompt": "下面哪个单词表示“冬天”？",
+    "topicId": "hje_g2b_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "There are four seasons.",
+    "difficulty": "basic",
+    "explanation": "四季是复数，用 There are four seasons.。",
+    "id": "hje_g2b_u7_l2_q1",
+    "options": [
+      "There are four seasons.",
+      "There is four seasons.",
+      "There are four season."
+    ],
+    "prompt": "小明想说“一年有四季”，他应该说？",
+    "topicId": "hje_g2b_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Spring is warm.",
+    "difficulty": "medium",
+    "explanation": "春天作主语用 is，warm 是“暖和的”。",
+    "id": "hje_g2b_u7_l2_q2",
+    "options": [
+      "Spring is warm.",
+      "Spring are warm.",
+      "Spring is cold."
+    ],
+    "prompt": "小红想说“春天很暖和”，她应该说？",
+    "topicId": "hje_g2b_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "夏天很热",
+    "difficulty": "hard",
+    "explanation": "summer 是夏天，hot 是热的。",
+    "id": "hje_g2b_u7_l2_q3",
+    "options": [
+      "夏天很热",
+      "春天很暖和",
+      "冬天很冷"
+    ],
+    "prompt": "同学说 Summer is hot.，意思是？",
+    "topicId": "hje_g2b_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "rule",
+    "difficulty": "basic",
+    "explanation": "rule 是“规则”，遵守规则用 follow the rules。",
+    "id": "hje_g2b_u8_l1_q1",
+    "options": [
+      "rule",
+      "quiet",
+      "line"
+    ],
+    "prompt": "“规则”的英语单词是？",
+    "topicId": "hje_g2b_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "quiet",
+    "difficulty": "medium",
+    "explanation": "quiet 是“安静的”，Be quiet! 就是“安静！”。",
+    "id": "hje_g2b_u8_l1_q2",
+    "options": [
+      "quiet",
+      "rule",
+      "wait"
+    ],
+    "prompt": "“安静的”用哪个英语单词？",
+    "topicId": "hje_g2b_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "line",
+    "difficulty": "hard",
+    "explanation": "line 是“队伍”，wait in line 就是“排队等候”。",
+    "id": "hje_g2b_u8_l1_q3",
+    "options": [
+      "line",
+      "wait",
+      "rule"
+    ],
+    "prompt": "下面哪个单词表示“排队、队伍”？",
+    "topicId": "hje_g2b_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Be quiet!",
+    "difficulty": "basic",
+    "explanation": "请别人安静用 Be quiet!。",
+    "id": "hje_g2b_u8_l2_q1",
+    "options": [
+      "Be quiet!",
+      "Be loud!",
+      "Be quick!"
+    ],
+    "prompt": "老师想请大家“安静”，她应该说？",
+    "topicId": "hje_g2b_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Please wait in line.",
+    "difficulty": "medium",
+    "explanation": "请排队用 Please wait in line.。",
+    "id": "hje_g2b_u8_l2_q2",
+    "options": [
+      "Please wait in line.",
+      "Please run in line.",
+      "Please talk in line."
+    ],
+    "prompt": "老师想请大家“请排队”，她应该说？",
+    "topicId": "hje_g2b_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "请安静",
+    "difficulty": "hard",
+    "explanation": "quiet 是安静，please 是“请”。",
+    "id": "hje_g2b_u8_l2_q3",
+    "options": [
+      "请安静",
+      "请排队",
+      "请快点"
+    ],
+    "prompt": "同学说 Be quiet, please!，意思是？",
+    "topicId": "hje_g2b_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "clothes",
+    "difficulty": "basic",
+    "explanation": "clothes 是“衣服”，my clothes 就是“我的衣服”。",
+    "id": "hje_g2b_u9_l1_q1",
+    "options": [
+      "clothes",
+      "shirt",
+      "dress"
+    ],
+    "prompt": "“衣服”的英语单词是？",
+    "topicId": "hje_g2b_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "shirt",
+    "difficulty": "medium",
+    "explanation": "shirt 是“衬衫”，dress 是“连衣裙”。",
+    "id": "hje_g2b_u9_l1_q2",
+    "options": [
+      "shirt",
+      "dress",
+      "coat"
+    ],
+    "prompt": "“衬衫”用哪个英语单词？",
+    "topicId": "hje_g2b_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "coat",
+    "difficulty": "hard",
+    "explanation": "coat 是“外套”，冬天常穿外套。",
+    "id": "hje_g2b_u9_l1_q3",
+    "options": [
+      "coat",
+      "shirt",
+      "clothes"
+    ],
+    "prompt": "下面哪个单词表示“外套”？",
+    "topicId": "hje_g2b_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I wear a shirt.",
+    "difficulty": "basic",
+    "explanation": "穿衣服用 wear，一件衬衫用 a shirt。",
+    "id": "hje_g2b_u9_l2_q1",
+    "options": [
+      "I wear a shirt.",
+      "I wear shirt.",
+      "I wears a shirt."
+    ],
+    "prompt": "小明想说“我穿一件衬衫”，他应该说？",
+    "topicId": "hje_g2b_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "What are you wearing?",
+    "difficulty": "medium",
+    "explanation": "问正在穿什么用 What are you wearing?。",
+    "id": "hje_g2b_u9_l2_q2",
+    "options": [
+      "What are you wearing?",
+      "What do you wear?",
+      "What is you wearing?"
+    ],
+    "prompt": "想问“你在穿什么”，应该问？",
+    "topicId": "hje_g2b_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "我穿一件外套",
+    "difficulty": "hard",
+    "explanation": "coat 是外套，wear 是穿。",
+    "id": "hje_g2b_u9_l2_q3",
+    "options": [
+      "我穿一件外套",
+      "我穿一件衬衫",
+      "我穿一条连衣裙"
+    ],
+    "prompt": "同学说 I wear a coat.，意思是？",
+    "topicId": "hje_g2b_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "activity",
+    "difficulty": "basic",
+    "explanation": "activity 是“活动”，activities 是复数。",
+    "id": "hje_g2b_u10_l1_q1",
+    "options": [
+      "activity",
+      "play",
+      "dance"
+    ],
+    "prompt": "“活动”的英语单词是？",
+    "topicId": "hje_g2b_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "dance",
+    "difficulty": "medium",
+    "explanation": "dance 是“跳舞”，sing 是“唱歌”。",
+    "id": "hje_g2b_u10_l1_q2",
+    "options": [
+      "dance",
+      "sing",
+      "play"
+    ],
+    "prompt": "“跳舞”用哪个英语单词？",
+    "topicId": "hje_g2b_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "play",
+    "difficulty": "hard",
+    "explanation": "play 是“玩”，活动里常玩游戏。",
+    "id": "hje_g2b_u10_l1_q3",
+    "options": [
+      "play",
+      "dance",
+      "activity"
+    ],
+    "prompt": "下面哪个单词表示“玩”？",
+    "topicId": "hje_g2b_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I join activities.",
+    "difficulty": "basic",
+    "explanation": "参加活动用 join，活动泛指用复数 activities。",
+    "id": "hje_g2b_u10_l2_q1",
+    "options": [
+      "I join activities.",
+      "I join activity.",
+      "I joins activities."
+    ],
+    "prompt": "小明想说“我参加活动”，他应该说？",
+    "topicId": "hje_g2b_u10_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "What activities do you like?",
+    "difficulty": "medium",
+    "explanation": "问喜欢的活动用 What activities do you like?。",
+    "id": "hje_g2b_u10_l2_q2",
+    "options": [
+      "What activities do you like?",
+      "What activity do you like?",
+      "What do you like activities?"
+    ],
+    "prompt": "想问“你喜欢什么活动”，应该问？",
+    "topicId": "hje_g2b_u10_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "我喜欢跳舞",
+    "difficulty": "hard",
+    "explanation": "dancing 是跳舞，like 是喜欢。",
+    "id": "hje_g2b_u10_l2_q3",
+    "options": [
+      "我喜欢跳舞",
+      "我喜欢唱歌",
+      "我喜欢玩"
+    ],
+    "prompt": "同学说 I like dancing.，意思是？",
+    "topicId": "hje_g2b_u10_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Mother's Day",
+    "difficulty": "basic",
+    "explanation": "母亲节是 Mother's Day，注意撇号位置。",
+    "id": "hje_g2b_u11_l1_q1",
+    "options": [
+      "Mother's Day",
+      "Mother Day",
+      "Mothers Day"
+    ],
+    "prompt": "“母亲节”的英语是？",
+    "topicId": "hje_g2b_u11_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "gift",
+    "difficulty": "medium",
+    "explanation": "gift 是“礼物”，card 是“卡片”。",
+    "id": "hje_g2b_u11_l1_q2",
+    "options": [
+      "gift",
+      "card",
+      "mother"
+    ],
+    "prompt": "“礼物”用哪个英语单词？",
+    "topicId": "hje_g2b_u11_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "card",
+    "difficulty": "hard",
+    "explanation": "card 是“卡片”，母亲节可以送卡片。",
+    "id": "hje_g2b_u11_l1_q3",
+    "options": [
+      "card",
+      "gift",
+      "mother"
+    ],
+    "prompt": "下面哪个单词表示“卡片”？",
+    "topicId": "hje_g2b_u11_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Happy Mother's Day!",
+    "difficulty": "basic",
+    "explanation": "祝节日快乐用 Happy 加节日名，母亲节是 Mother's Day。",
+    "id": "hje_g2b_u11_l2_q1",
+    "options": [
+      "Happy Mother's Day!",
+      "Happy Mother Day!",
+      "Happy Mothers Day!"
+    ],
+    "prompt": "母亲节想祝妈妈“母亲节快乐”，应该说？",
+    "topicId": "hje_g2b_u11_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I give Mum a card.",
+    "difficulty": "medium",
+    "explanation": "给某人某物用 give 加人和物，一张卡片用 a card。",
+    "id": "hje_g2b_u11_l2_q2",
+    "options": [
+      "I give Mum a card.",
+      "I give Mum card.",
+      "I gives Mum a card."
+    ],
+    "prompt": "小红想说“我给妈妈一张卡片”，她应该说？",
+    "topicId": "hje_g2b_u11_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "我给妈妈一份礼物",
+    "difficulty": "hard",
+    "explanation": "give Mum a gift 是给妈妈一份礼物。",
+    "id": "hje_g2b_u11_l2_q3",
+    "options": [
+      "我给妈妈一份礼物",
+      "我给妈妈一张卡片",
+      "妈妈给我一份礼物"
+    ],
+    "prompt": "同学说 I give Mum a gift.，意思是？",
+    "topicId": "hje_g2b_u11_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "story",
+    "difficulty": "basic",
+    "explanation": "story 是“故事”，stories 是复数。",
+    "id": "hje_g2b_u12_l1_q1",
+    "options": [
+      "story",
+      "book",
+      "read"
+    ],
+    "prompt": "“故事”的英语单词是？",
+    "topicId": "hje_g2b_u12_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "book",
+    "difficulty": "medium",
+    "explanation": "book 是“书”，故事常在书里。",
+    "id": "hje_g2b_u12_l1_q2",
+    "options": [
+      "book",
+      "story",
+      "tell"
+    ],
+    "prompt": "“书”用哪个英语单词？",
+    "topicId": "hje_g2b_u12_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "tell",
+    "difficulty": "hard",
+    "explanation": "tell 是“讲、告诉”，Tell me a story! 就是“给我讲个故事！”。",
+    "id": "hje_g2b_u12_l1_q3",
+    "options": [
+      "tell",
+      "read",
+      "story"
+    ],
+    "prompt": "下面哪个单词表示“讲、告诉”？",
+    "topicId": "hje_g2b_u12_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Tell me a story!",
+    "difficulty": "basic",
+    "explanation": "请别人讲故事用 Tell me a story!。",
+    "id": "hje_g2b_u12_l2_q1",
+    "options": [
+      "Tell me a story!",
+      "Tell I a story!",
+      "Tell me story!"
+    ],
+    "prompt": "小明想请老师“给我讲个故事”，他应该说？",
+    "topicId": "hje_g2b_u12_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I like stories.",
+    "difficulty": "medium",
+    "explanation": "喜欢故事泛指用 I like stories.，复数。",
+    "id": "hje_g2b_u12_l2_q2",
+    "options": [
+      "I like stories.",
+      "I like story.",
+      "I like a story."
+    ],
+    "prompt": "小红想说“我喜欢故事”，她应该说？",
+    "topicId": "hje_g2b_u12_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "我读了一个故事",
+    "difficulty": "hard",
+    "explanation": "read a story 是读了一个故事。",
+    "id": "hje_g2b_u12_l2_q3",
+    "options": [
+      "我读了一个故事",
+      "我讲了一个故事",
+      "我喜欢一个故事"
+    ],
+    "prompt": "同学说 I read a story.，意思是？",
+    "topicId": "hje_g2b_u12_l2",
+    "type": "choice"
   }
 ]

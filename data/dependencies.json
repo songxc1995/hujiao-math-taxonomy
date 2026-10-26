@@ -1198,5 +1198,53 @@
   {
     "from": "hje_g2a_u12_l1",
     "to": "hje_g2a_u12_l2"
+  },
+  {
+    "from": "hje_g2b_u1_l1",
+    "to": "hje_g2b_u1_l2"
+  },
+  {
+    "from": "hje_g2b_u2_l1",
+    "to": "hje_g2b_u2_l2"
+  },
+  {
+    "from": "hje_g2b_u3_l1",
+    "to": "hje_g2b_u3_l2"
+  },
+  {
+    "from": "hje_g2b_u4_l1",
+    "to": "hje_g2b_u4_l2"
+  },
+  {
+    "from": "hje_g2b_u5_l1",
+    "to": "hje_g2b_u5_l2"
+  },
+  {
+    "from": "hje_g2b_u6_l1",
+    "to": "hje_g2b_u6_l2"
+  },
+  {
+    "from": "hje_g2b_u7_l1",
+    "to": "hje_g2b_u7_l2"
+  },
+  {
+    "from": "hje_g2b_u8_l1",
+    "to": "hje_g2b_u8_l2"
+  },
+  {
+    "from": "hje_g2b_u9_l1",
+    "to": "hje_g2b_u9_l2"
+  },
+  {
+    "from": "hje_g2b_u10_l1",
+    "to": "hje_g2b_u10_l2"
+  },
+  {
+    "from": "hje_g2b_u11_l1",
+    "to": "hje_g2b_u11_l2"
+  },
+  {
+    "from": "hje_g2b_u12_l1",
+    "to": "hje_g2b_u12_l2"
   }
 ]

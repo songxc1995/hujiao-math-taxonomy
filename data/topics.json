@@ -4838,5 +4838,413 @@
     "term": "上",
     "unit": "Module 4 The natural world - Unit 3 In the street",
     "unit_no": 12
+  },
+  {
+    "description": "看相关的词，如 see、eye、look、colour。",
+    "grade": 2,
+    "id": "hje_g2b_u1_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 see、eye、look",
+      "知道 see 是“看见”的意思",
+      "能用看的词汇说一说看到的东西"
+    ],
+    "name": "看的词汇",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Module 1 Using my five senses - Unit 1 What can you see?",
+    "unit_no": 1
+  },
+  {
+    "description": "说看到的东西：What can you see?、I can see…。",
+    "grade": 2,
+    "id": "hje_g2b_u1_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 What can you see? 问别人看到什么",
+      "能用 I can see… 回答自己看到的东西",
+      "能听懂别人说看到的东西"
+    ],
+    "name": "说看到的东西",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Module 1 Using my five senses - Unit 1 What can you see?",
+    "unit_no": 1
+  },
+  {
+    "description": "触摸与感觉词：touch、feel、soft、hard。",
+    "grade": 2,
+    "id": "hje_g2b_u2_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 touch、feel、soft",
+      "知道 touch 是“触摸”、feel 是“感觉”的意思",
+      "能用触摸的词说一说东西摸起来怎么样"
+    ],
+    "name": "触摸与感觉词汇",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Module 1 Using my five senses - Unit 2 Touch and feel",
+    "unit_no": 2
+  },
+  {
+    "description": "说摸起来的感觉：Touch it!、It feels soft.、How does it feel?",
+    "grade": 2,
+    "id": "hje_g2b_u2_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 Touch it! 请别人摸一摸",
+      "能用 It feels soft. 说东西摸起来软",
+      "能用 How does it feel? 问摸起来的感觉"
+    ],
+    "name": "说摸起来的感觉",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Module 1 Using my five senses - Unit 2 Touch and feel",
+    "unit_no": 2
+  },
+  {
+    "description": "听相关的词：hear、ear、sound、listen。",
+    "grade": 2,
+    "id": "hje_g2b_u3_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 hear、ear、sound、listen",
+      "知道 hear 是“听见”、ear 是“耳朵”的意思",
+      "能用听的词汇说一说听到的声音"
+    ],
+    "name": "听的词汇",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Module 1 Using my five senses - Unit 3 What can you hear?",
+    "unit_no": 3
+  },
+  {
+    "description": "说听到的声音：What can you hear?、I can hear…。",
+    "grade": 2,
+    "id": "hje_g2b_u3_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 What can you hear? 问别人听到什么",
+      "能用 I can hear… 回答自己听到的声音",
+      "能听懂别人说听到的声音"
+    ],
+    "name": "说听到的声音",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Module 1 Using my five senses - Unit 3 What can you hear?",
+    "unit_no": 3
+  },
+  {
+    "description": "喜欢做的事相关的词：like、play、read、sing。",
+    "grade": 2,
+    "id": "hje_g2b_u4_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 like、play、read、sing",
+      "知道 like 是“喜欢”的意思",
+      "能用喜欢做的事的词说一说自己喜欢做什么"
+    ],
+    "name": "喜欢做的事词汇",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Module 2 My favourite things - Unit 1 Things I like doing",
+    "unit_no": 4
+  },
+  {
+    "description": "说喜欢做的事：I like reading.、What do you like doing?",
+    "grade": 2,
+    "id": "hje_g2b_u4_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 I like… 说自己喜欢做的事",
+      "能用 What do you like doing? 问别人喜欢做什么",
+      "能听懂别人说喜欢做的事"
+    ],
+    "name": "说喜欢做的事",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Module 2 My favourite things - Unit 1 Things I like doing",
+    "unit_no": 4
+  },
+  {
+    "description": "食物词：food、rice、noodle、apple。",
+    "grade": 2,
+    "id": "hje_g2b_u5_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 food、rice、noodle、apple",
+      "知道 food 是“食物”的意思",
+      "能用食物词说一说自己喜欢的食物"
+    ],
+    "name": "喜欢的食物词汇",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Module 2 My favourite things - Unit 2 My favourite food",
+    "unit_no": 5
+  },
+  {
+    "description": "说最喜欢的食物：My favourite food is…、I like noodles.",
+    "grade": 2,
+    "id": "hje_g2b_u5_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 My favourite food is… 说最喜欢的食物",
+      "能用 I like… 说喜欢的食物",
+      "能听懂别人说喜欢的食物"
+    ],
+    "name": "说最喜欢的食物",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Module 2 My favourite things - Unit 2 My favourite food",
+    "unit_no": 5
+  },
+  {
+    "description": "动物词：animal、dog、cat、rabbit。",
+    "grade": 2,
+    "id": "hje_g2b_u6_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 animal、dog、cat",
+      "知道 animal 是“动物”的意思",
+      "能用动物词说一说自己喜欢的动物"
+    ],
+    "name": "喜欢的动物词汇",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Module 2 My favourite things - Unit 3 Animals I like",
+    "unit_no": 6
+  },
+  {
+    "description": "说喜欢的动物：I like dogs.、My favourite animal is a rabbit.",
+    "grade": 2,
+    "id": "hje_g2b_u6_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 I like… 说喜欢的动物",
+      "能用 My favourite animal is… 说最喜欢的动物",
+      "能听懂别人说喜欢的动物"
+    ],
+    "name": "说喜欢的动物",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Module 2 My favourite things - Unit 3 Animals I like",
+    "unit_no": 6
+  },
+  {
+    "description": "四季词：season、spring、summer、autumn、winter。",
+    "grade": 2,
+    "id": "hje_g2b_u7_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 season、spring、summer、winter",
+      "知道 season 是“季节”、spring 是“春天”的意思",
+      "能用四季词说一说一年四季"
+    ],
+    "name": "四季词汇",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Module 3 Things around us - Unit 1 The four seasons",
+    "unit_no": 7
+  },
+  {
+    "description": "说四季：There are four seasons.、Spring is warm.",
+    "grade": 2,
+    "id": "hje_g2b_u7_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 There are four seasons. 说一年有四季",
+      "能用 Spring is… 说春天的特点",
+      "能听懂别人说四季"
+    ],
+    "name": "说四季",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Module 3 Things around us - Unit 1 The four seasons",
+    "unit_no": 7
+  },
+  {
+    "description": "规则相关的词：rule、quiet、line、wait。",
+    "grade": 2,
+    "id": "hje_g2b_u8_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 rule、quiet、line",
+      "知道 rule 是“规则”、quiet 是“安静的”的意思",
+      "能用规则词说一说要遵守的规则"
+    ],
+    "name": "规则词汇",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Module 3 Things around us - Unit 2 Rules",
+    "unit_no": 8
+  },
+  {
+    "description": "说规则：Be quiet!、Please wait in line.",
+    "grade": 2,
+    "id": "hje_g2b_u8_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 Be quiet! 请别人安静",
+      "能用 Please wait in line. 请别人排队",
+      "能听懂别人说的规则"
+    ],
+    "name": "说规则",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Module 3 Things around us - Unit 2 Rules",
+    "unit_no": 8
+  },
+  {
+    "description": "衣服词：clothes、shirt、dress、coat。",
+    "grade": 2,
+    "id": "hje_g2b_u9_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 clothes、shirt、dress",
+      "知道 clothes 是“衣服”的意思",
+      "能用衣服词说一说穿什么"
+    ],
+    "name": "衣服词汇",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Module 3 Things around us - Unit 3 My clothes",
+    "unit_no": 9
+  },
+  {
+    "description": "说穿什么衣服：I wear a shirt.、What are you wearing?",
+    "grade": 2,
+    "id": "hje_g2b_u9_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 I wear… 说自己穿什么",
+      "能用 What are you wearing? 问别人穿什么",
+      "能听懂别人说穿的衣服"
+    ],
+    "name": "说穿什么衣服",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Module 3 Things around us - Unit 3 My clothes",
+    "unit_no": 9
+  },
+  {
+    "description": "活动相关的词：activity、play、dance、sing。",
+    "grade": 2,
+    "id": "hje_g2b_u10_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 activity、play、dance",
+      "知道 activity 是“活动”的意思",
+      "能用活动词说一说参加的活动"
+    ],
+    "name": "活动词汇",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Module 4 More things to learn - Unit 1 Activities",
+    "unit_no": 10
+  },
+  {
+    "description": "说参加的活动：I join activities.、What activities do you like?",
+    "grade": 2,
+    "id": "hje_g2b_u10_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 I join… 说参加的活动",
+      "能用 What activities do you like? 问别人喜欢的活动",
+      "能听懂别人说参加的活动"
+    ],
+    "name": "说参加的活动",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Module 4 More things to learn - Unit 1 Activities",
+    "unit_no": 10
+  },
+  {
+    "description": "母亲节相关的词：Mother's Day、mother、gift、card。",
+    "grade": 2,
+    "id": "hje_g2b_u11_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 Mother's Day、mother、gift、card",
+      "知道 Mother's Day 是“母亲节”的意思",
+      "能用母亲节词汇说一说给妈妈的礼物"
+    ],
+    "name": "母亲节词汇",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Module 4 More things to learn - Unit 2 Mother's Day",
+    "unit_no": 11
+  },
+  {
+    "description": "说母亲节：Happy Mother's Day!、I give Mum a card.",
+    "grade": 2,
+    "id": "hje_g2b_u11_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 Happy Mother's Day! 祝妈妈母亲节快乐",
+      "能用 I give Mum… 说给妈妈的礼物",
+      "能听懂别人说母亲节"
+    ],
+    "name": "说母亲节",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Module 4 More things to learn - Unit 2 Mother's Day",
+    "unit_no": 11
+  },
+  {
+    "description": "故事相关的词：story、book、read、tell。",
+    "grade": 2,
+    "id": "hje_g2b_u12_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 story、book、read",
+      "知道 story 是“故事”的意思",
+      "能用故事词汇说一说听过的故事"
+    ],
+    "name": "故事词汇",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Module 4 More things to learn - Unit 3 Story time",
+    "unit_no": 12
+  },
+  {
+    "description": "讲故事与听故事：Tell me a story!、I like stories.",
+    "grade": 2,
+    "id": "hje_g2b_u12_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 Tell me a story! 请别人讲故事",
+      "能用 I like stories. 说喜欢故事",
+      "能听懂别人讲的故事"
+    ],
+    "name": "讲故事与听故事",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Module 4 More things to learn - Unit 3 Story time",
+    "unit_no": 12
   }
 ]
