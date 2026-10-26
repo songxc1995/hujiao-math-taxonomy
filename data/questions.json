@@ -23495,5 +23495,1013 @@
     "prompt": "小明听到了风铃的声音，他应该说？",
     "topicId": "hje_g3b_u10_l2",
     "type": "choice"
+  },
+  {
+    "answer": "hello",
+    "difficulty": "basic",
+    "explanation": "hello 是“你好”，见面打招呼常用这个词。",
+    "id": "hje_g2a_u1_l1_q1",
+    "options": [
+      "hello",
+      "goodbye",
+      "morning"
+    ],
+    "prompt": "“你好”的英语单词是？",
+    "topicId": "hje_g2a_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "goodbye",
+    "difficulty": "medium",
+    "explanation": "goodbye 是“再见”，离开时说这个词。",
+    "id": "hje_g2a_u1_l1_q2",
+    "options": [
+      "goodbye",
+      "hello",
+      "hi"
+    ],
+    "prompt": "放学跟同学说“再见”，应该用哪个单词？",
+    "topicId": "hje_g2a_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "morning",
+    "difficulty": "hard",
+    "explanation": "morning 是“早上”，早上打招呼可以说 Good morning!。",
+    "id": "hje_g2a_u1_l1_q3",
+    "options": [
+      "morning",
+      "evening",
+      "afternoon"
+    ],
+    "prompt": "下面哪个单词表示“早上”？",
+    "topicId": "hje_g2a_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Hello!",
+    "difficulty": "basic",
+    "explanation": "见面打招呼说 Hello!，对方也可以同样回应。",
+    "id": "hje_g2a_u1_l2_q1",
+    "options": [
+      "Hello!",
+      "Goodbye!",
+      "Thank you!"
+    ],
+    "prompt": "早上见到同学，小明想打招呼，他应该先说？",
+    "topicId": "hje_g2a_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Good morning!",
+    "difficulty": "medium",
+    "explanation": "早上打招呼用 Good morning!，下午和晚上不用这个说法。",
+    "id": "hje_g2a_u1_l2_q2",
+    "options": [
+      "Good morning!",
+      "Good evening!",
+      "Good night!"
+    ],
+    "prompt": "早上见到老师，小红应该说？",
+    "topicId": "hje_g2a_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Hi!",
+    "difficulty": "hard",
+    "explanation": "Hi! 也是打招呼，比较随意，同学之间常用。",
+    "id": "hje_g2a_u1_l2_q3",
+    "options": [
+      "Hi!",
+      "Bye!",
+      "Sorry!"
+    ],
+    "prompt": "同学跟你说 Hello!，你想用一个简短的词回应，可以说？",
+    "topicId": "hje_g2a_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "name",
+    "difficulty": "basic",
+    "explanation": "name 是“名字”，自我介绍时要说自己的名字。",
+    "id": "hje_g2a_u2_l1_q1",
+    "options": [
+      "name",
+      "boy",
+      "girl"
+    ],
+    "prompt": "“名字”的英语单词是？",
+    "topicId": "hje_g2a_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I",
+    "difficulty": "medium",
+    "explanation": "I 是“我”，自我介绍时 I am… 就是“我是……”。",
+    "id": "hje_g2a_u2_l1_q2",
+    "options": [
+      "I",
+      "You",
+      "He"
+    ],
+    "prompt": "自我介绍时，“我”用哪个英语单词？",
+    "topicId": "hje_g2a_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "girl",
+    "difficulty": "hard",
+    "explanation": "girl 是“女孩”，boy 是“男孩”，不要混淆。",
+    "id": "hje_g2a_u2_l1_q3",
+    "options": [
+      "girl",
+      "boy",
+      "name"
+    ],
+    "prompt": "下面哪个单词表示“女孩”？",
+    "topicId": "hje_g2a_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I am Xiaoming.",
+    "difficulty": "basic",
+    "explanation": "自我介绍用 I am 加名字，Xiaoming 是名字。",
+    "id": "hje_g2a_u2_l2_q1",
+    "options": [
+      "I am Xiaoming.",
+      "You are Xiaoming.",
+      "He is Xiaoming."
+    ],
+    "prompt": "小明想告诉大家自己叫 Xiaoming，他应该说？",
+    "topicId": "hje_g2a_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I am a girl.",
+    "difficulty": "medium",
+    "explanation": "说自己是女孩用 I am a girl.，a 不能少。",
+    "id": "hje_g2a_u2_l2_q2",
+    "options": [
+      "I am a girl.",
+      "I am girl.",
+      "I am a boy."
+    ],
+    "prompt": "小红想说自己是个女孩，她应该说？",
+    "topicId": "hje_g2a_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I am a boy.",
+    "difficulty": "hard",
+    "explanation": "说自己是男孩用 I am a boy.，主语是 I，be 动词用 am。",
+    "id": "hje_g2a_u2_l2_q3",
+    "options": [
+      "I am a boy.",
+      "I is a boy.",
+      "I are a boy."
+    ],
+    "prompt": "小明想说自己是个男孩，他应该说？",
+    "topicId": "hje_g2a_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "classmate",
+    "difficulty": "basic",
+    "explanation": "classmate 是“同学”，同班同学就是 classmate。",
+    "id": "hje_g2a_u3_l1_q1",
+    "options": [
+      "classmate",
+      "friend",
+      "class"
+    ],
+    "prompt": "“同学”的英语单词是？",
+    "topicId": "hje_g2a_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "new",
+    "difficulty": "medium",
+    "explanation": "new 是“新的”，新同学就是 new classmate。",
+    "id": "hje_g2a_u3_l1_q2",
+    "options": [
+      "new",
+      "old",
+      "good"
+    ],
+    "prompt": "班里来了一位“新的”同学，“新的”用哪个单词？",
+    "topicId": "hje_g2a_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "class",
+    "difficulty": "hard",
+    "explanation": "class 是“班级”，our class 就是“我们班”。",
+    "id": "hje_g2a_u3_l1_q3",
+    "options": [
+      "class",
+      "friend",
+      "welcome"
+    ],
+    "prompt": "下面哪个单词表示“班级”？",
+    "topicId": "hje_g2a_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "This is Xiaohong.",
+    "difficulty": "basic",
+    "explanation": "介绍别人用 This is 加名字，Xiaohong 是新同学的名字。",
+    "id": "hje_g2a_u3_l2_q1",
+    "options": [
+      "This is Xiaohong.",
+      "This are Xiaohong.",
+      "That is I."
+    ],
+    "prompt": "老师想把新同学 Xiaohong 介绍给大家，他应该说？",
+    "topicId": "hje_g2a_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Welcome to our class!",
+    "difficulty": "medium",
+    "explanation": "欢迎新同学来我们班用 Welcome to our class!。",
+    "id": "hje_g2a_u3_l2_q2",
+    "options": [
+      "Welcome to our class!",
+      "Goodbye to our class!",
+      "Hello to our class!"
+    ],
+    "prompt": "新同学来了，大家想表示欢迎，应该说？",
+    "topicId": "hje_g2a_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Hello, Xiaohong!",
+    "difficulty": "hard",
+    "explanation": "跟新同学打招呼可以直接说 Hello 加名字，友好又清楚。",
+    "id": "hje_g2a_u3_l2_q3",
+    "options": [
+      "Hello, Xiaohong!",
+      "Goodbye, Xiaohong!",
+      "Sorry, Xiaohong!"
+    ],
+    "prompt": "小明第一次见到新同学 Xiaohong，想跟她打招呼，他可以说？",
+    "topicId": "hje_g2a_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "swim",
+    "difficulty": "basic",
+    "explanation": "swim 是“游泳”，swimming 是游泳这项活动。",
+    "id": "hje_g2a_u4_l1_q1",
+    "options": [
+      "swim",
+      "jump",
+      "run"
+    ],
+    "prompt": "“游泳”的英语单词是？",
+    "topicId": "hje_g2a_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "can",
+    "difficulty": "medium",
+    "explanation": "can 表示“会、能”，I can… 就是“我会……”。",
+    "id": "hje_g2a_u4_l1_q2",
+    "options": [
+      "can",
+      "swim",
+      "jump"
+    ],
+    "prompt": "想说“我会做某事”，应该用哪个词？",
+    "topicId": "hje_g2a_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "jump",
+    "difficulty": "hard",
+    "explanation": "jump 是“跳”，run 是“跑”，swim 是“游泳”。",
+    "id": "hje_g2a_u4_l1_q3",
+    "options": [
+      "jump",
+      "run",
+      "swim"
+    ],
+    "prompt": "下面哪个单词表示“跳”？",
+    "topicId": "hje_g2a_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I can swim.",
+    "difficulty": "basic",
+    "explanation": "说能力用 I can 加动词原形，swim 不加 s。",
+    "id": "hje_g2a_u4_l2_q1",
+    "options": [
+      "I can swim.",
+      "I can swims.",
+      "I swim can."
+    ],
+    "prompt": "小明想说“我会游泳”，他应该说？",
+    "topicId": "hje_g2a_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Can you swim?",
+    "difficulty": "medium",
+    "explanation": "问别人会不会用 Can you 加动词，句末加问号。",
+    "id": "hje_g2a_u4_l2_q2",
+    "options": [
+      "Can you swim?",
+      "You can swim.",
+      "Can I swim?"
+    ],
+    "prompt": "想问同学“你会游泳吗”，应该问？",
+    "topicId": "hje_g2a_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "No, I can't.",
+    "difficulty": "hard",
+    "explanation": "不会就答 No, I can't.，can't 是 cannot 的缩写。",
+    "id": "hje_g2a_u4_l2_q3",
+    "options": [
+      "No, I can't.",
+      "Yes, I can!",
+      "I can swim."
+    ],
+    "prompt": "别人问 Can you swim?，小红不会游泳，她应该答？",
+    "topicId": "hje_g2a_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "family",
+    "difficulty": "basic",
+    "explanation": "family 是“家庭”，my family 就是“我的家庭”。",
+    "id": "hje_g2a_u5_l1_q1",
+    "options": [
+      "family",
+      "mum",
+      "dad"
+    ],
+    "prompt": "“家庭”的英语单词是？",
+    "topicId": "hje_g2a_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "dad",
+    "difficulty": "medium",
+    "explanation": "dad 是“爸爸”，mum 是“妈妈”。",
+    "id": "hje_g2a_u5_l1_q2",
+    "options": [
+      "dad",
+      "mum",
+      "sister"
+    ],
+    "prompt": "“爸爸”的英语单词是？",
+    "topicId": "hje_g2a_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "sister",
+    "difficulty": "hard",
+    "explanation": "sister 是姐妹，brother 是兄弟。",
+    "id": "hje_g2a_u5_l1_q3",
+    "options": [
+      "sister",
+      "brother",
+      "family"
+    ],
+    "prompt": "下面哪个单词表示“姐姐或妹妹”？",
+    "topicId": "hje_g2a_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "That is my mum.",
+    "difficulty": "basic",
+    "explanation": "指较远的人用 That is…，mum 前加 my。",
+    "id": "hje_g2a_u5_l2_q1",
+    "options": [
+      "That is my mum.",
+      "This is my mum.",
+      "That are my mum."
+    ],
+    "prompt": "小明想介绍“那是我妈妈”，他应该说？",
+    "topicId": "hje_g2a_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "This is my family.",
+    "difficulty": "medium",
+    "explanation": "介绍近处的一家人用 This is my family.。",
+    "id": "hje_g2a_u5_l2_q2",
+    "options": [
+      "This is my family.",
+      "That is my family.",
+      "This are my family."
+    ],
+    "prompt": "小红想介绍“这是我的家庭”，她应该说？",
+    "topicId": "hje_g2a_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "哥哥或弟弟",
+    "difficulty": "hard",
+    "explanation": "brother 是兄弟，可能是哥哥也可能是弟弟。",
+    "id": "hje_g2a_u5_l2_q3",
+    "options": [
+      "哥哥或弟弟",
+      "姐姐或妹妹",
+      "爸爸"
+    ],
+    "prompt": "同学指着照片说 That is my brother.，照片上是他的？",
+    "topicId": "hje_g2a_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "hair",
+    "difficulty": "basic",
+    "explanation": "hair 是“头发”，my hair 就是“我的头发”。",
+    "id": "hje_g2a_u6_l1_q1",
+    "options": [
+      "hair",
+      "short",
+      "long"
+    ],
+    "prompt": "“头发”的英语单词是？",
+    "topicId": "hje_g2a_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "short",
+    "difficulty": "medium",
+    "explanation": "short 是“短的”，long 是“长的”。",
+    "id": "hje_g2a_u6_l1_q2",
+    "options": [
+      "short",
+      "long",
+      "black"
+    ],
+    "prompt": "“短的”用哪个英语单词？",
+    "topicId": "hje_g2a_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "long",
+    "difficulty": "hard",
+    "explanation": "long 是“长的”，short 是“短的”。",
+    "id": "hje_g2a_u6_l1_q3",
+    "options": [
+      "long",
+      "short",
+      "hair"
+    ],
+    "prompt": "下面哪个单词表示“长的”？",
+    "topicId": "hje_g2a_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "My hair is short.",
+    "difficulty": "basic",
+    "explanation": "头发作主语时 be 动词用 is，short 是“短的”。",
+    "id": "hje_g2a_u6_l2_q1",
+    "options": [
+      "My hair is short.",
+      "My hair are short.",
+      "My hair is long."
+    ],
+    "prompt": "小明想说“我的头发短”，他应该说？",
+    "topicId": "hje_g2a_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Her hair is long.",
+    "difficulty": "medium",
+    "explanation": "她的头发用 Her hair，long 是“长的”。",
+    "id": "hje_g2a_u6_l2_q2",
+    "options": [
+      "Her hair is long.",
+      "Her hair are long.",
+      "Her hair is short."
+    ],
+    "prompt": "小红想说“她的头发长”，她应该说？",
+    "topicId": "hje_g2a_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "他的头发短",
+    "difficulty": "hard",
+    "explanation": "His 是“他的”，short 是“短的”。",
+    "id": "hje_g2a_u6_l2_q3",
+    "options": [
+      "他的头发短",
+      "他的头发长",
+      "她的头发短"
+    ],
+    "prompt": "同学说 His hair is short.，意思是？",
+    "topicId": "hje_g2a_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "playground",
+    "difficulty": "basic",
+    "explanation": "playground 是“操场”，play 是“玩”。",
+    "id": "hje_g2a_u7_l1_q1",
+    "options": [
+      "playground",
+      "swing",
+      "slide"
+    ],
+    "prompt": "“操场”的英语单词是？",
+    "topicId": "hje_g2a_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "swing",
+    "difficulty": "medium",
+    "explanation": "swing 是“秋千”，slide 是“滑梯”。",
+    "id": "hje_g2a_u7_l1_q2",
+    "options": [
+      "swing",
+      "slide",
+      "ball"
+    ],
+    "prompt": "操场上荡的秋千叫？",
+    "topicId": "hje_g2a_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "ball",
+    "difficulty": "hard",
+    "explanation": "ball 是“球”，操场上常玩球。",
+    "id": "hje_g2a_u7_l1_q3",
+    "options": [
+      "ball",
+      "swing",
+      "playground"
+    ],
+    "prompt": "下面哪个单词表示“球”？",
+    "topicId": "hje_g2a_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "In the playground, we play.",
+    "difficulty": "basic",
+    "explanation": "在操场上用 In the playground，play 是“玩”。",
+    "id": "hje_g2a_u7_l2_q1",
+    "options": [
+      "In the playground, we play.",
+      "In the room, we play.",
+      "In the kitchen, we play."
+    ],
+    "prompt": "小明想说“在操场上，我们玩”，他应该说？",
+    "topicId": "hje_g2a_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Let's play on the swing.",
+    "difficulty": "medium",
+    "explanation": "提议一起玩用 Let's play…，swing 是秋千。",
+    "id": "hje_g2a_u7_l2_q2",
+    "options": [
+      "Let's play on the swing.",
+      "Let's play on the slide.",
+      "Let's play in the room."
+    ],
+    "prompt": "小红想提议“我们一起荡秋千吧”，她可以说？",
+    "topicId": "hje_g2a_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "在操场上，我们玩球",
+    "difficulty": "hard",
+    "explanation": "play ball 是“玩球”，地点是操场。",
+    "id": "hje_g2a_u7_l2_q3",
+    "options": [
+      "在操场上，我们玩球",
+      "在房间里，我们玩球",
+      "在厨房里，我们玩球"
+    ],
+    "prompt": "同学说 In the playground, we play ball.，意思是？",
+    "topicId": "hje_g2a_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "room",
+    "difficulty": "basic",
+    "explanation": "room 是“房间”，my room 就是“我的房间”。",
+    "id": "hje_g2a_u8_l1_q1",
+    "options": [
+      "room",
+      "bed",
+      "desk"
+    ],
+    "prompt": "“房间”的英语单词是？",
+    "topicId": "hje_g2a_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "bed",
+    "difficulty": "medium",
+    "explanation": "bed 是“床”，desk 是“书桌”。",
+    "id": "hje_g2a_u8_l1_q2",
+    "options": [
+      "bed",
+      "desk",
+      "toy"
+    ],
+    "prompt": "房间里睡觉用的家具是？",
+    "topicId": "hje_g2a_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "toy",
+    "difficulty": "hard",
+    "explanation": "toy 是“玩具”，房间里常有玩具。",
+    "id": "hje_g2a_u8_l1_q3",
+    "options": [
+      "toy",
+      "bed",
+      "room"
+    ],
+    "prompt": "下面哪个单词表示“玩具”？",
+    "topicId": "hje_g2a_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "In my room, there is a bed.",
+    "difficulty": "basic",
+    "explanation": "有一张床用 there is a bed，bed 是单数。",
+    "id": "hje_g2a_u8_l2_q1",
+    "options": [
+      "In my room, there is a bed.",
+      "In my room, there are a bed.",
+      "In my room, there is a desk."
+    ],
+    "prompt": "小明想说“在我的房间里，有一张床”，他应该说？",
+    "topicId": "hje_g2a_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "What's in your room?",
+    "difficulty": "medium",
+    "explanation": "问房间里有什么用 What's in your room?。",
+    "id": "hje_g2a_u8_l2_q2",
+    "options": [
+      "What's in your room?",
+      "What's in your class?",
+      "What's your name?"
+    ],
+    "prompt": "想问别人“你的房间里有什么”，应该问？",
+    "topicId": "hje_g2a_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "在我的房间里，有一个玩具",
+    "difficulty": "hard",
+    "explanation": "toy 是玩具，there is 表示“有”。",
+    "id": "hje_g2a_u8_l2_q3",
+    "options": [
+      "在我的房间里，有一个玩具",
+      "在我的房间里，有一张床",
+      "在我的房间里，有一张书桌"
+    ],
+    "prompt": "同学说 In my room, there is a toy.，意思是？",
+    "topicId": "hje_g2a_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "kitchen",
+    "difficulty": "basic",
+    "explanation": "kitchen 是“厨房”，in the kitchen 就是“在厨房里”。",
+    "id": "hje_g2a_u9_l1_q1",
+    "options": [
+      "kitchen",
+      "cook",
+      "food"
+    ],
+    "prompt": "“厨房”的英语单词是？",
+    "topicId": "hje_g2a_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "cook",
+    "difficulty": "medium",
+    "explanation": "cook 是“做饭”，food 是“食物”。",
+    "id": "hje_g2a_u9_l1_q2",
+    "options": [
+      "cook",
+      "food",
+      "table"
+    ],
+    "prompt": "在厨房里“做饭”用哪个动词？",
+    "topicId": "hje_g2a_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "food",
+    "difficulty": "hard",
+    "explanation": "food 是“食物”，厨房里有食物。",
+    "id": "hje_g2a_u9_l1_q3",
+    "options": [
+      "food",
+      "cook",
+      "kitchen"
+    ],
+    "prompt": "下面哪个单词表示“食物”？",
+    "topicId": "hje_g2a_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "In the kitchen, Mum cooks.",
+    "difficulty": "basic",
+    "explanation": "妈妈作主语时 cook 加 s，地点是厨房。",
+    "id": "hje_g2a_u9_l2_q1",
+    "options": [
+      "In the kitchen, Mum cooks.",
+      "In the kitchen, Mum cook.",
+      "In the room, Mum cooks."
+    ],
+    "prompt": "小明想说“在厨房里，妈妈在做饭”，他应该说？",
+    "topicId": "hje_g2a_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "What do you do in the kitchen?",
+    "difficulty": "medium",
+    "explanation": "问在厨房里做什么用 What do you do in the kitchen?。",
+    "id": "hje_g2a_u9_l2_q2",
+    "options": [
+      "What do you do in the kitchen?",
+      "What do you do in the room?",
+      "What is in the kitchen?"
+    ],
+    "prompt": "想问“你在厨房里做什么”，应该问？",
+    "topicId": "hje_g2a_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "在厨房里，爸爸在做饭",
+    "difficulty": "hard",
+    "explanation": "Dad 是爸爸，cooks 是做饭。",
+    "id": "hje_g2a_u9_l2_q3",
+    "options": [
+      "在厨房里，爸爸在做饭",
+      "在厨房里，妈妈在做饭",
+      "在房间里，爸爸在做饭"
+    ],
+    "prompt": "同学说 In the kitchen, Dad cooks.，意思是？",
+    "topicId": "hje_g2a_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "sky",
+    "difficulty": "basic",
+    "explanation": "sky 是“天空”，in the sky 就是“在天上”。",
+    "id": "hje_g2a_u10_l1_q1",
+    "options": [
+      "sky",
+      "sun",
+      "cloud"
+    ],
+    "prompt": "“天空”的英语单词是？",
+    "topicId": "hje_g2a_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "sun",
+    "difficulty": "medium",
+    "explanation": "sun 是“太阳”，cloud 是“云”。",
+    "id": "hje_g2a_u10_l1_q2",
+    "options": [
+      "sun",
+      "cloud",
+      "bird"
+    ],
+    "prompt": "天上发光的“太阳”叫？",
+    "topicId": "hje_g2a_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "bird",
+    "difficulty": "hard",
+    "explanation": "bird 是“鸟”，天上常有鸟在飞。",
+    "id": "hje_g2a_u10_l1_q3",
+    "options": [
+      "bird",
+      "sun",
+      "sky"
+    ],
+    "prompt": "下面哪个单词表示“鸟”？",
+    "topicId": "hje_g2a_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "In the sky, there is the sun.",
+    "difficulty": "basic",
+    "explanation": "太阳是单数，用 there is，地点是天空。",
+    "id": "hje_g2a_u10_l2_q1",
+    "options": [
+      "In the sky, there is the sun.",
+      "In the sky, there are the sun.",
+      "In the forest, there is the sun."
+    ],
+    "prompt": "小明想说“在天上，有太阳”，他应该说？",
+    "topicId": "hje_g2a_u10_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Look at the sky!",
+    "difficulty": "medium",
+    "explanation": "请别人看某物用 Look at…，sky 是天空。",
+    "id": "hje_g2a_u10_l2_q2",
+    "options": [
+      "Look at the sky!",
+      "Look at the forest!",
+      "Look at the street!"
+    ],
+    "prompt": "小红想请大家“看天空”，她应该说？",
+    "topicId": "hje_g2a_u10_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "在天上，有一只鸟",
+    "difficulty": "hard",
+    "explanation": "a bird 是一只鸟，地点是天空。",
+    "id": "hje_g2a_u10_l2_q3",
+    "options": [
+      "在天上，有一只鸟",
+      "在森林里，有一只鸟",
+      "在天上，有一朵云"
+    ],
+    "prompt": "同学说 In the sky, there is a bird.，意思是？",
+    "topicId": "hje_g2a_u10_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "forest",
+    "difficulty": "basic",
+    "explanation": "forest 是“森林”，in the forest 就是“在森林里”。",
+    "id": "hje_g2a_u11_l1_q1",
+    "options": [
+      "forest",
+      "tree",
+      "flower"
+    ],
+    "prompt": "“森林”的英语单词是？",
+    "topicId": "hje_g2a_u11_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "tree",
+    "difficulty": "medium",
+    "explanation": "tree 是“树”，flower 是“花”。",
+    "id": "hje_g2a_u11_l1_q2",
+    "options": [
+      "tree",
+      "flower",
+      "animal"
+    ],
+    "prompt": "森林里高大的“树”叫？",
+    "topicId": "hje_g2a_u11_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "flower",
+    "difficulty": "hard",
+    "explanation": "flower 是“花”，森林里有花。",
+    "id": "hje_g2a_u11_l1_q3",
+    "options": [
+      "flower",
+      "tree",
+      "forest"
+    ],
+    "prompt": "下面哪个单词表示“花”？",
+    "topicId": "hje_g2a_u11_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "In the forest, there are trees.",
+    "difficulty": "basic",
+    "explanation": "很多树是复数，用 there are trees。",
+    "id": "hje_g2a_u11_l2_q1",
+    "options": [
+      "In the forest, there are trees.",
+      "In the forest, there is trees.",
+      "In the sky, there are trees."
+    ],
+    "prompt": "小明想说“在森林里，有很多树”，他应该说？",
+    "topicId": "hje_g2a_u11_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "In the forest, there is a flower.",
+    "difficulty": "medium",
+    "explanation": "一朵花是单数，用 there is a flower。",
+    "id": "hje_g2a_u11_l2_q2",
+    "options": [
+      "In the forest, there is a flower.",
+      "In the forest, there are a flower.",
+      "In the forest, there is a tree."
+    ],
+    "prompt": "小红想说“在森林里，有一朵花”，她应该说？",
+    "topicId": "hje_g2a_u11_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "在森林里，有一只动物",
+    "difficulty": "hard",
+    "explanation": "an animal 是一只动物，单数用 there is。",
+    "id": "hje_g2a_u11_l2_q3",
+    "options": [
+      "在森林里，有一只动物",
+      "在森林里，有很多动物",
+      "在天上，有一只动物"
+    ],
+    "prompt": "同学说 In the forest, there is an animal.，意思是？",
+    "topicId": "hje_g2a_u11_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "street",
+    "difficulty": "basic",
+    "explanation": "street 是“街道”，in the street 就是“在街道上”。",
+    "id": "hje_g2a_u12_l1_q1",
+    "options": [
+      "street",
+      "shop",
+      "road"
+    ],
+    "prompt": "“街道”的英语单词是？",
+    "topicId": "hje_g2a_u12_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "shop",
+    "difficulty": "medium",
+    "explanation": "shop 是“商店”，road 是“路”。",
+    "id": "hje_g2a_u12_l1_q2",
+    "options": [
+      "shop",
+      "road",
+      "car"
+    ],
+    "prompt": "街道上买东西的“商店”叫？",
+    "topicId": "hje_g2a_u12_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "car",
+    "difficulty": "hard",
+    "explanation": "car 是“汽车”，街道上有汽车。",
+    "id": "hje_g2a_u12_l1_q3",
+    "options": [
+      "car",
+      "shop",
+      "street"
+    ],
+    "prompt": "下面哪个单词表示“汽车”？",
+    "topicId": "hje_g2a_u12_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "In the street, there are cars.",
+    "difficulty": "basic",
+    "explanation": "很多汽车是复数，用 there are cars。",
+    "id": "hje_g2a_u12_l2_q1",
+    "options": [
+      "In the street, there are cars.",
+      "In the street, there is cars.",
+      "In the forest, there are cars."
+    ],
+    "prompt": "小明想说“在街道上，有很多汽车”，他应该说？",
+    "topicId": "hje_g2a_u12_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Look! There is a shop.",
+    "difficulty": "medium",
+    "explanation": "一家商店是单数，用 There is a shop。",
+    "id": "hje_g2a_u12_l2_q2",
+    "options": [
+      "Look! There is a shop.",
+      "Look! There are a shop.",
+      "Look! There is a street."
+    ],
+    "prompt": "小红想引起大家注意“看！有一家商店”，她应该说？",
+    "topicId": "hje_g2a_u12_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "在街道上，有一辆汽车",
+    "difficulty": "hard",
+    "explanation": "a car 是一辆汽车，单数用 there is。",
+    "id": "hje_g2a_u12_l2_q3",
+    "options": [
+      "在街道上，有一辆汽车",
+      "在街道上，有很多汽车",
+      "在森林里，有一辆汽车"
+    ],
+    "prompt": "同学说 In the street, there is a car.，意思是？",
+    "topicId": "hje_g2a_u12_l2",
+    "type": "choice"
   }
 ]

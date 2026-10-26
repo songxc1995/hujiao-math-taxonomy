@@ -4430,5 +4430,413 @@
     "term": "下",
     "unit": "Project 2 A wind-bell",
     "unit_no": 10
+  },
+  {
+    "description": "打招呼的词，如 hello、hi、goodbye、morning。",
+    "grade": 2,
+    "id": "hje_g2a_u1_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 hello、hi、goodbye、morning",
+      "知道 hello 是“你好”、goodbye 是“再见”的意思",
+      "能用打招呼的词跟同学打招呼"
+    ],
+    "name": "打招呼词汇",
+    "page": null,
+    "subject": "english",
+    "term": "上",
+    "unit": "Module 1 Getting to know you - Unit 1 Hello",
+    "unit_no": 1
+  },
+  {
+    "description": "见面打招呼：Hello!、Hi!、Good morning!，以及回应打招呼。",
+    "grade": 2,
+    "id": "hje_g2a_u1_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 Hello!、Hi! 跟别人打招呼",
+      "能用 Good morning! 在早上打招呼",
+      "能回应别人的打招呼"
+    ],
+    "name": "打招呼",
+    "page": null,
+    "subject": "english",
+    "term": "上",
+    "unit": "Module 1 Getting to know you - Unit 1 Hello",
+    "unit_no": 1
+  },
+  {
+    "description": "自我介绍的词，如 name、I、am、boy、girl。",
+    "grade": 2,
+    "id": "hje_g2a_u2_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 name、I、am、boy、girl",
+      "知道 name 是“名字”的意思",
+      "能用自我介绍的词说一说自己"
+    ],
+    "name": "自我介绍词汇",
+    "page": null,
+    "subject": "english",
+    "term": "上",
+    "unit": "Module 1 Getting to know you - Unit 2 I am Danny",
+    "unit_no": 2
+  },
+  {
+    "description": "自我介绍：I am…、I am a boy / girl。",
+    "grade": 2,
+    "id": "hje_g2a_u2_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 I am… 说出自己的名字",
+      "能用 I am a boy / girl 说自己是男孩还是女孩",
+      "能听懂别人的自我介绍"
+    ],
+    "name": "自我介绍",
+    "page": null,
+    "subject": "english",
+    "term": "上",
+    "unit": "Module 1 Getting to know you - Unit 2 I am Danny",
+    "unit_no": 2
+  },
+  {
+    "description": "新同学相关的词，如 classmate、new、friend、class、welcome。",
+    "grade": 2,
+    "id": "hje_g2a_u3_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 classmate、new、friend、class",
+      "知道 classmate 是“同学”、new 是“新的”的意思",
+      "能用新同学的词说一说班里来了新同学"
+    ],
+    "name": "新同学词汇",
+    "page": null,
+    "subject": "english",
+    "term": "上",
+    "unit": "Module 1 Getting to know you - Unit 3 A new classmate",
+    "unit_no": 3
+  },
+  {
+    "description": "介绍新同学：This is…、Welcome to our class!，以及欢迎新同学。",
+    "grade": 2,
+    "id": "hje_g2a_u3_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 This is… 介绍新同学",
+      "能用 Welcome to our class! 欢迎新同学",
+      "能跟新同学打招呼、交朋友"
+    ],
+    "name": "介绍新同学",
+    "page": null,
+    "subject": "english",
+    "term": "上",
+    "unit": "Module 1 Getting to know you - Unit 3 A new classmate",
+    "unit_no": 3
+  },
+  {
+    "description": "会做的事相关的词，如 swim、can、jump、run。",
+    "grade": 2,
+    "id": "hje_g2a_u4_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 swim、can、jump、run",
+      "知道 swim 是“游泳”的意思",
+      "能用会做的事的词说一说自己会做什么"
+    ],
+    "name": "会做的事词汇",
+    "page": null,
+    "subject": "english",
+    "term": "上",
+    "unit": "Module 2 Me, my family and friends - Unit 1 I can swim",
+    "unit_no": 4
+  },
+  {
+    "description": "用 can 说能力：I can swim.、Can you swim?、Yes, I can!、No, I can't.",
+    "grade": 2,
+    "id": "hje_g2a_u4_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 I can… 说自己会做的事",
+      "能用 Can you…? 问别人会不会做某事",
+      "能用 Yes, I can! / No, I can't. 回答"
+    ],
+    "name": "说会做的事",
+    "page": null,
+    "subject": "english",
+    "term": "上",
+    "unit": "Module 2 Me, my family and friends - Unit 1 I can swim",
+    "unit_no": 4
+  },
+  {
+    "description": "家庭成员词：family、mum、dad、brother、sister。",
+    "grade": 2,
+    "id": "hje_g2a_u5_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 family、mum、dad、brother、sister",
+      "知道 family 是“家庭”的意思",
+      "能用家庭成员词说一说自己的家人"
+    ],
+    "name": "家庭成员词汇",
+    "page": null,
+    "subject": "english",
+    "term": "上",
+    "unit": "Module 2 Me, my family and friends - Unit 2 That's my family",
+    "unit_no": 5
+  },
+  {
+    "description": "介绍家人：That is my mum.、This is my family。",
+    "grade": 2,
+    "id": "hje_g2a_u5_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 That is my… 介绍家人",
+      "能用 This is my family. 介绍自己的家庭",
+      "能听懂别人介绍家人"
+    ],
+    "name": "介绍家人",
+    "page": null,
+    "subject": "english",
+    "term": "上",
+    "unit": "Module 2 Me, my family and friends - Unit 2 That's my family",
+    "unit_no": 5
+  },
+  {
+    "description": "头发与外貌词：hair、short、long、black。",
+    "grade": 2,
+    "id": "hje_g2a_u6_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 hair、short、long",
+      "知道 hair 是“头发”、short 是“短的”的意思",
+      "能用头发词汇说一说头发长短"
+    ],
+    "name": "头发与外貌词汇",
+    "page": null,
+    "subject": "english",
+    "term": "上",
+    "unit": "Module 2 Me, my family and friends - Unit 3 My hair is short",
+    "unit_no": 6
+  },
+  {
+    "description": "说头发长短：My hair is short.、Her hair is long.",
+    "grade": 2,
+    "id": "hje_g2a_u6_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 My hair is short. 说自己的头发短",
+      "能用 Her / His hair is long. 说别人的头发长",
+      "能听懂别人说头发长短"
+    ],
+    "name": "说头发长短",
+    "page": null,
+    "subject": "english",
+    "term": "上",
+    "unit": "Module 2 Me, my family and friends - Unit 3 My hair is short",
+    "unit_no": 6
+  },
+  {
+    "description": "操场相关的词，如 playground、swing、slide、ball。",
+    "grade": 2,
+    "id": "hje_g2a_u7_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 playground、swing、slide、ball",
+      "知道 playground 是“操场”的意思",
+      "能用操场词汇说一说操场上有什么"
+    ],
+    "name": "操场词汇",
+    "page": null,
+    "subject": "english",
+    "term": "上",
+    "unit": "Module 3 Places and activities - Unit 1 In the playground",
+    "unit_no": 7
+  },
+  {
+    "description": "说在操场上玩：In the playground, we play.、Let's play on the swing.",
+    "grade": 2,
+    "id": "hje_g2a_u7_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 In the playground… 说在操场上玩",
+      "能用 Let's play… 提议一起玩",
+      "能听懂别人说在操场上玩"
+    ],
+    "name": "说在操场上玩",
+    "page": null,
+    "subject": "english",
+    "term": "上",
+    "unit": "Module 3 Places and activities - Unit 1 In the playground",
+    "unit_no": 7
+  },
+  {
+    "description": "房间里的物品词：room、bed、desk、toy。",
+    "grade": 2,
+    "id": "hje_g2a_u8_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 room、bed、desk、toy",
+      "知道 room 是“房间”、bed 是“床”的意思",
+      "能用房间物品词说一说房间里有什么"
+    ],
+    "name": "房间物品词汇",
+    "page": null,
+    "subject": "english",
+    "term": "上",
+    "unit": "Module 3 Places and activities - Unit 2 In my room",
+    "unit_no": 8
+  },
+  {
+    "description": "说自己的房间：In my room, there is a bed.、What's in your room?",
+    "grade": 2,
+    "id": "hje_g2a_u8_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 In my room… 说自己的房间",
+      "能用 What's in your room? 问别人房间里有什么",
+      "能听懂别人介绍房间"
+    ],
+    "name": "说自己的房间",
+    "page": null,
+    "subject": "english",
+    "term": "上",
+    "unit": "Module 3 Places and activities - Unit 2 In my room",
+    "unit_no": 8
+  },
+  {
+    "description": "厨房相关的词：kitchen、cook、food、table。",
+    "grade": 2,
+    "id": "hje_g2a_u9_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 kitchen、cook、food、table",
+      "知道 kitchen 是“厨房”、cook 是“做饭”的意思",
+      "能用厨房词汇说一说厨房里做什么"
+    ],
+    "name": "厨房词汇",
+    "page": null,
+    "subject": "english",
+    "term": "上",
+    "unit": "Module 3 Places and activities - Unit 3 In the kitchen",
+    "unit_no": 9
+  },
+  {
+    "description": "说在厨房里：In the kitchen, Mum cooks.、What do you do in the kitchen?",
+    "grade": 2,
+    "id": "hje_g2a_u9_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 In the kitchen… 说在厨房里做的事",
+      "能用 Mum cooks. 说妈妈在做饭",
+      "能听懂别人说在厨房里"
+    ],
+    "name": "说在厨房里",
+    "page": null,
+    "subject": "english",
+    "term": "上",
+    "unit": "Module 3 Places and activities - Unit 3 In the kitchen",
+    "unit_no": 9
+  },
+  {
+    "description": "天空相关的词，如 sky、sun、cloud、bird。",
+    "grade": 2,
+    "id": "hje_g2a_u10_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 sky、sun、cloud、bird",
+      "知道 sky 是“天空”、sun 是“太阳”的意思",
+      "能用天空词汇说一说天上有什么"
+    ],
+    "name": "天空词汇",
+    "page": null,
+    "subject": "english",
+    "term": "上",
+    "unit": "Module 4 The natural world - Unit 1 In the sky",
+    "unit_no": 10
+  },
+  {
+    "description": "说天上有什么：In the sky, there is the sun.、Look at the sky!",
+    "grade": 2,
+    "id": "hje_g2a_u10_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 In the sky… 说天上有什么",
+      "能用 Look at the sky! 请别人看天空",
+      "能听懂别人说天上的东西"
+    ],
+    "name": "说天上有什么",
+    "page": null,
+    "subject": "english",
+    "term": "上",
+    "unit": "Module 4 The natural world - Unit 1 In the sky",
+    "unit_no": 10
+  },
+  {
+    "description": "森林相关的词：forest、tree、flower、animal。",
+    "grade": 2,
+    "id": "hje_g2a_u11_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 forest、tree、flower",
+      "知道 forest 是“森林”、tree 是“树”的意思",
+      "能用森林词汇说一说森林里有什么"
+    ],
+    "name": "森林词汇",
+    "page": null,
+    "subject": "english",
+    "term": "上",
+    "unit": "Module 4 The natural world - Unit 2 In the forest",
+    "unit_no": 11
+  },
+  {
+    "description": "说森林里有什么：In the forest, there are trees.、There is a flower.",
+    "grade": 2,
+    "id": "hje_g2a_u11_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 In the forest… 说森林里有什么",
+      "能区分 there is 和 there are 的用法",
+      "能听懂别人介绍森林"
+    ],
+    "name": "说森林里有什么",
+    "page": null,
+    "subject": "english",
+    "term": "上",
+    "unit": "Module 4 The natural world - Unit 2 In the forest",
+    "unit_no": 11
+  },
+  {
+    "description": "街道相关的词：street、shop、road、car。",
+    "grade": 2,
+    "id": "hje_g2a_u12_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 street、shop、road、car",
+      "知道 street 是“街道”、shop 是“商店”的意思",
+      "能用街道词汇说一说街道上有什么"
+    ],
+    "name": "街道词汇",
+    "page": null,
+    "subject": "english",
+    "term": "上",
+    "unit": "Module 4 The natural world - Unit 3 In the street",
+    "unit_no": 12
+  },
+  {
+    "description": "说街道上有什么：In the street, there are cars.、Look! There is a shop.",
+    "grade": 2,
+    "id": "hje_g2a_u12_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 In the street… 说街道上有什么",
+      "能用 Look! 引起别人注意",
+      "能听懂别人说街道上的东西"
+    ],
+    "name": "说街道上有什么",
+    "page": null,
+    "subject": "english",
+    "term": "上",
+    "unit": "Module 4 The natural world - Unit 3 In the street",
+    "unit_no": 12
   }
 ]
