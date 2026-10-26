@@ -25511,5 +25511,1853 @@
     "prompt": "同学说 I read a story.，意思是？",
     "topicId": "hje_g2b_u12_l2",
     "type": "choice"
+  },
+  {
+    "answer": "打开自己的英语书",
+    "difficulty": "medium",
+    "explanation": "Open your book. 是“打开书”，上课要跟着老师做。",
+    "id": "hje_g1a_u0_l1_q4",
+    "options": [
+      "打开自己的英语书",
+      "合上书",
+      "离开座位"
+    ],
+    "prompt": "英语课上，老师说“Open your book.”（打开书），小朋友应该怎么做？",
+    "topicId": "hje_g1a_u0_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "站起来",
+    "difficulty": "medium",
+    "explanation": "Stand up. 是“起立”，上课开始时常听到。",
+    "id": "hje_g1a_u0_l1_q5",
+    "options": [
+      "站起来",
+      "坐下",
+      "趴在桌上"
+    ],
+    "prompt": "老师说“Stand up.”（起立），小朋友应该怎么做？",
+    "topicId": "hje_g1a_u0_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "认真听，大胆说",
+    "difficulty": "medium",
+    "explanation": "英语课要认真听，也要大胆开口说。",
+    "id": "hje_g1a_u0_l1_q6",
+    "options": [
+      "认真听，大胆说",
+      "只听不说",
+      "怕说错就不开口"
+    ],
+    "prompt": "下面哪种做法最适合英语课？",
+    "topicId": "hje_g1a_u0_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "先认真听，再跟着读",
+    "difficulty": "hard",
+    "explanation": "Listen and repeat. 是先听再跟读，两个步骤都要做。",
+    "id": "hje_g1a_u0_l1_q7",
+    "options": [
+      "先认真听，再跟着读",
+      "只读不听",
+      "只听不读"
+    ],
+    "prompt": "老师说“Listen and repeat.”（听并跟读），小朋友应该怎么做？",
+    "topicId": "hje_g1a_u0_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Yes!",
+    "difficulty": "hard",
+    "explanation": "准备好了回答 Yes!，没准备好才说 No。",
+    "id": "hje_g1a_u0_l1_q8",
+    "options": [
+      "Yes!",
+      "No!",
+      "Goodbye!"
+    ],
+    "prompt": "课堂上，老师问大家“Are you ready?”（你们准备好了吗？），准备好的小朋友可以回答？",
+    "topicId": "hje_g1a_u0_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "我敢开口说英语，不怕说错",
+    "difficulty": "hard",
+    "explanation": "准备课的目标是敢开口，说错了再练就好。",
+    "id": "hje_g1a_u0_l1_q9",
+    "options": [
+      "我敢开口说英语，不怕说错",
+      "我说错了就再也不说了",
+      "我只看别人说"
+    ],
+    "prompt": "下面哪句话最适合在英语准备课上鼓励自己？",
+    "topicId": "hje_g1a_u0_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "afternoon",
+    "difficulty": "medium",
+    "explanation": "afternoon 是“下午”，morning 是早上，evening 是晚上。",
+    "id": "hje_g1a_u1_l1_q4",
+    "options": [
+      "afternoon",
+      "morning",
+      "evening"
+    ],
+    "prompt": "“下午”的英语单词是？",
+    "topicId": "hje_g1a_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Good evening!",
+    "difficulty": "medium",
+    "explanation": "晚上打招呼用 Good evening!。",
+    "id": "hje_g1a_u1_l1_q5",
+    "options": [
+      "Good evening!",
+      "Good morning!",
+      "Good afternoon!"
+    ],
+    "prompt": "晚上见到同学，应该说？",
+    "topicId": "hje_g1a_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "morning",
+    "difficulty": "medium",
+    "explanation": "morning 的拼写是 m-o-r-n-i-n-g。",
+    "id": "hje_g1a_u1_l1_q6",
+    "options": [
+      "morning",
+      "moring",
+      "morinng"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“早上”？",
+    "topicId": "hje_g1a_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Good afternoon, Miss Li!",
+    "difficulty": "hard",
+    "explanation": "下午打招呼用 Good afternoon!，后面可以加老师的称呼。",
+    "id": "hje_g1a_u1_l1_q7",
+    "options": [
+      "Good afternoon, Miss Li!",
+      "Good morning, Miss Li!",
+      "Good evening, Miss Li!"
+    ],
+    "prompt": "小明在下午见到老师，他应该说？",
+    "topicId": "hje_g1a_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "morning, afternoon, evening",
+    "difficulty": "hard",
+    "explanation": "一天的顺序是早上、下午、晚上，对应 morning、afternoon、evening。",
+    "id": "hje_g1a_u1_l1_q8",
+    "options": [
+      "morning, afternoon, evening",
+      "afternoon, morning, evening",
+      "evening, afternoon, morning"
+    ],
+    "prompt": "下面哪组问候词按早上、下午、晚上的顺序排列正确？",
+    "topicId": "hje_g1a_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Good evening!",
+    "difficulty": "hard",
+    "explanation": "别人晚上打招呼，同样用 Good evening! 回应。",
+    "id": "hje_g1a_u1_l1_q9",
+    "options": [
+      "Good evening!",
+      "Good morning!",
+      "Goodbye!"
+    ],
+    "prompt": "同学在晚上跟你说 Good evening!，你应该回应？",
+    "topicId": "hje_g1a_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Good morning!",
+    "difficulty": "medium",
+    "explanation": "早上见面打招呼用 Good morning!。",
+    "id": "hje_g1a_u1_l2_q4",
+    "options": [
+      "Good morning!",
+      "Goodbye!",
+      "Thank you!"
+    ],
+    "prompt": "早上见到同学，小明应该先说？",
+    "topicId": "hje_g1a_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Hello!",
+    "difficulty": "medium",
+    "explanation": "别人打招呼说 Hello!，同样回应 Hello!。",
+    "id": "hje_g1a_u1_l2_q5",
+    "options": [
+      "Hello!",
+      "Goodbye!",
+      "Sorry!"
+    ],
+    "prompt": "同学跟你说 Hello!，你应该回应？",
+    "topicId": "hje_g1a_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Good morning, Mr Wang!",
+    "difficulty": "medium",
+    "explanation": "早上问候用 Good morning!，后面可以加称呼。",
+    "id": "hje_g1a_u1_l2_q6",
+    "options": [
+      "Good morning, Mr Wang!",
+      "Goodbye, Mr Wang!",
+      "Good night, Mr Wang!"
+    ],
+    "prompt": "下面哪句是正确的早上问候？",
+    "topicId": "hje_g1a_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "See you tomorrow!",
+    "difficulty": "hard",
+    "explanation": "放学告别可以说 See you tomorrow!，意思是“明天见！”。",
+    "id": "hje_g1a_u1_l2_q7",
+    "options": [
+      "See you tomorrow!",
+      "Good morning!",
+      "Hello!"
+    ],
+    "prompt": "放学时，小红想跟同学告别，她可以说？",
+    "topicId": "hje_g1a_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Goodbye, Miss Li!",
+    "difficulty": "hard",
+    "explanation": "老师告别说 Goodbye，全班同样用 Goodbye 回应。",
+    "id": "hje_g1a_u1_l2_q8",
+    "options": [
+      "Goodbye, Miss Li!",
+      "Hello, Miss Li!",
+      "Good morning, Miss Li!"
+    ],
+    "prompt": "老师说 Goodbye, class!（同学们，再见！），全班应该回应？",
+    "topicId": "hje_g1a_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "放学回家时",
+    "difficulty": "hard",
+    "explanation": "Goodbye! 是告别时说的，放学回家时最适合。",
+    "id": "hje_g1a_u1_l2_q9",
+    "options": [
+      "放学回家时",
+      "早上到校时",
+      "上课回答问题时"
+    ],
+    "prompt": "下面哪种情况最适合说 Goodbye!？",
+    "topicId": "hje_g1a_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "hello",
+    "difficulty": "medium",
+    "explanation": "hello 是“你好”，hi 也是打招呼，比较随意。",
+    "id": "hje_g1a_u2_l1_q4",
+    "options": [
+      "hello",
+      "hi",
+      "friend"
+    ],
+    "prompt": "想用英语跟新朋友打招呼说“你好”，应该用哪个单词？",
+    "topicId": "hje_g1a_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Welcome to our class!",
+    "difficulty": "medium",
+    "explanation": "欢迎新同学来我们班用 Welcome to our class!。",
+    "id": "hje_g1a_u2_l1_q5",
+    "options": [
+      "Welcome to our class!",
+      "Goodbye to our class!",
+      "Thank you to our class!"
+    ],
+    "prompt": "新同学来了，大家想表示欢迎，可以一起说？",
+    "topicId": "hje_g1a_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "friend",
+    "difficulty": "medium",
+    "explanation": "friend 的拼写是 f-r-i-e-n-d。",
+    "id": "hje_g1a_u2_l1_q6",
+    "options": [
+      "friend",
+      "frend",
+      "freind"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“朋友”？",
+    "topicId": "hje_g1a_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "This is my friend.",
+    "difficulty": "hard",
+    "explanation": "介绍朋友用 This is my friend.，friend 是单数。",
+    "id": "hje_g1a_u2_l1_q7",
+    "options": [
+      "This is my friend.",
+      "This are my friend.",
+      "This is my friends."
+    ],
+    "prompt": "小明想介绍自己的朋友，他可以说？",
+    "topicId": "hje_g1a_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Hello!",
+    "difficulty": "hard",
+    "explanation": "交朋友先打招呼说 Hello!，再问名字。",
+    "id": "hje_g1a_u2_l1_q8",
+    "options": [
+      "Hello!",
+      "Goodbye!",
+      "Thank you!"
+    ],
+    "prompt": "同学问你叫什么名字之前，通常会先说什么？",
+    "topicId": "hje_g1a_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Welcome! Let's play together!",
+    "difficulty": "hard",
+    "explanation": "欢迎新朋友可以说 Welcome!，再提议一起玩。",
+    "id": "hje_g1a_u2_l1_q9",
+    "options": [
+      "Welcome! Let's play together!",
+      "Goodbye! Let's play together!",
+      "Sorry! Let's play together!"
+    ],
+    "prompt": "下面哪句话最适合欢迎新朋友？",
+    "topicId": "hje_g1a_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "What is your name?",
+    "difficulty": "medium",
+    "explanation": "问名字也可以说 What is your name?，和 What's your name? 意思一样。",
+    "id": "hje_g1a_u2_l2_q4",
+    "options": [
+      "What is your name?",
+      "How old are you?",
+      "Where are you?"
+    ],
+    "prompt": "小红想问同学叫什么名字，她还可以怎么问？",
+    "topicId": "hje_g1a_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I'm Xiaohong.",
+    "difficulty": "medium",
+    "explanation": "回答自己的名字用 I'm 加名字。",
+    "id": "hje_g1a_u2_l2_q5",
+    "options": [
+      "I'm Xiaohong.",
+      "You're Xiaohong.",
+      "He's Xiaohong."
+    ],
+    "prompt": "新朋友问你 What's your name?，你叫 Xiaohong，应该回答？",
+    "topicId": "hje_g1a_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Hello! I'm Lily.",
+    "difficulty": "medium",
+    "explanation": "自我介绍先打招呼，再说 I'm 加自己的名字。",
+    "id": "hje_g1a_u2_l2_q6",
+    "options": [
+      "Hello! I'm Lily.",
+      "Hello! You're Lily.",
+      "Hello! He's Lily."
+    ],
+    "prompt": "下面哪句自我介绍的顺序最对？",
+    "topicId": "hje_g1a_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I'm Xiaoming. What's your name?",
+    "difficulty": "hard",
+    "explanation": "先自我介绍，再问对方名字，顺序是 I'm…，What's your name?。",
+    "id": "hje_g1a_u2_l2_q7",
+    "options": [
+      "I'm Xiaoming. What's your name?",
+      "You're Xiaoming. What's your name?",
+      "I'm Xiaoming. How old are you?"
+    ],
+    "prompt": "小明想告诉新朋友自己叫 Xiaoming，还想问对方叫什么，他可以说？",
+    "topicId": "hje_g1a_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "我是 Danny。",
+    "difficulty": "hard",
+    "explanation": "I'm 是 I am 的缩写，意思是“我是”。",
+    "id": "hje_g1a_u2_l2_q8",
+    "options": [
+      "我是 Danny。",
+      "你是 Danny。",
+      "他是 Danny。"
+    ],
+    "prompt": "同学说 I'm Danny.，意思是？",
+    "topicId": "hje_g1a_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Hello! I'm Xiaoming. Nice to meet you!",
+    "difficulty": "hard",
+    "explanation": "完整的自我介绍包括打招呼、说名字，还可以说很高兴认识你。",
+    "id": "hje_g1a_u2_l2_q9",
+    "options": [
+      "Hello! I'm Xiaoming. Nice to meet you!",
+      "Hello! You're Xiaoming. Nice to meet you!",
+      "Goodbye! I'm Xiaoming. Nice to meet you!"
+    ],
+    "prompt": "下面哪种自我介绍最完整？",
+    "topicId": "hje_g1a_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "schoolbag",
+    "difficulty": "medium",
+    "explanation": "schoolbag 是“书包”，书包里装文具。",
+    "id": "hje_g1a_u3_l1_q4",
+    "options": [
+      "schoolbag",
+      "book",
+      "pencil"
+    ],
+    "prompt": "“书包”的英语单词是？",
+    "topicId": "hje_g1a_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "book",
+    "difficulty": "medium",
+    "explanation": "book 是“书”，ruler 是尺子，eraser 是橡皮。",
+    "id": "hje_g1a_u3_l1_q5",
+    "options": [
+      "book",
+      "ruler",
+      "eraser"
+    ],
+    "prompt": "“书”的英语单词是？",
+    "topicId": "hje_g1a_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "ruler",
+    "difficulty": "medium",
+    "explanation": "ruler 是“尺子”，画直线时用它。",
+    "id": "hje_g1a_u3_l1_q6",
+    "options": [
+      "ruler",
+      "pencil",
+      "book"
+    ],
+    "prompt": "下面哪个单词表示“尺子”？",
+    "topicId": "hje_g1a_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I have a pencil in my schoolbag.",
+    "difficulty": "hard",
+    "explanation": "书包里有一支铅笔用 I have a pencil in my schoolbag.。",
+    "id": "hje_g1a_u3_l1_q7",
+    "options": [
+      "I have a pencil in my schoolbag.",
+      "I have a book in my schoolbag.",
+      "I have a ruler in my schoolbag."
+    ],
+    "prompt": "小明想说“我的书包里有一支铅笔”，他应该说？",
+    "topicId": "hje_g1a_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "pencil case",
+    "difficulty": "hard",
+    "explanation": "铅笔盒是 pencil case，两个词分开写。",
+    "id": "hje_g1a_u3_l1_q8",
+    "options": [
+      "pencil case",
+      "pencilcase",
+      "pencils case"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“铅笔盒”？",
+    "topicId": "hje_g1a_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I want an eraser.",
+    "difficulty": "hard",
+    "explanation": "想要某物用 I want…，eraser 前面用 an。",
+    "id": "hje_g1a_u3_l1_q9",
+    "options": [
+      "I want an eraser.",
+      "I want a eraser.",
+      "I want eraser."
+    ],
+    "prompt": "文具店里，小红想买一块橡皮，她可以说？",
+    "topicId": "hje_g1a_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I have a book.",
+    "difficulty": "medium",
+    "explanation": "有一本书用 I have a book.，a 不能少。",
+    "id": "hje_g1a_u3_l2_q4",
+    "options": [
+      "I have a book.",
+      "I have book.",
+      "I have a pencil."
+    ],
+    "prompt": "小明想说“我有一本书”，应该说？",
+    "topicId": "hje_g1a_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "一把尺子",
+    "difficulty": "medium",
+    "explanation": "ruler 是尺子，I have a ruler. 就是“我有一把尺子”。",
+    "id": "hje_g1a_u3_l2_q5",
+    "options": [
+      "一把尺子",
+      "一支铅笔",
+      "一本书"
+    ],
+    "prompt": "同学说 I have a ruler.，意思是他有什么？",
+    "topicId": "hje_g1a_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "What do you have in your schoolbag?",
+    "difficulty": "medium",
+    "explanation": "问书包里有什么也可以说 What do you have in your schoolbag?。",
+    "id": "hje_g1a_u3_l2_q6",
+    "options": [
+      "What do you have in your schoolbag?",
+      "What's your name?",
+      "How are you?"
+    ],
+    "prompt": "小红想问同学“你书包里有什么”，她可以问？",
+    "topicId": "hje_g1a_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "A pencil and a book.",
+    "difficulty": "hard",
+    "explanation": "书包里有两样东西，回答时两样都要说，用 and 连接。",
+    "id": "hje_g1a_u3_l2_q7",
+    "options": [
+      "A pencil and a book.",
+      "A pencil.",
+      "A book."
+    ],
+    "prompt": "同学问 What's in your schoolbag?，你书包里有一支铅笔和一本书，应该答？",
+    "topicId": "hje_g1a_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "我有一块橡皮和一支铅笔",
+    "difficulty": "hard",
+    "explanation": "eraser 是橡皮，pencil 是铅笔，and 连接两样东西。",
+    "id": "hje_g1a_u3_l2_q8",
+    "options": [
+      "我有一块橡皮和一支铅笔",
+      "我有一本书和一支铅笔",
+      "我有一块橡皮和一把尺子"
+    ],
+    "prompt": "小明说 I have an eraser and a pencil.，意思是？",
+    "topicId": "hje_g1a_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "In my schoolbag, there is a book, a pencil and an eraser.",
+    "difficulty": "hard",
+    "explanation": "回答书包里有什么，可以把几样东西都列出来。",
+    "id": "hje_g1a_u3_l2_q9",
+    "options": [
+      "In my schoolbag, there is a book, a pencil and an eraser.",
+      "In my schoolbag, there is a book.",
+      "My schoolbag is big."
+    ],
+    "prompt": "下面哪句最适合回答 What's in your schoolbag?？",
+    "topicId": "hje_g1a_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "classroom",
+    "difficulty": "medium",
+    "explanation": "classroom 是“教室”，desk 是课桌。",
+    "id": "hje_g1a_u4_l1_q4",
+    "options": [
+      "classroom",
+      "desk",
+      "door"
+    ],
+    "prompt": "“教室”的英语单词是？",
+    "topicId": "hje_g1a_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "door",
+    "difficulty": "medium",
+    "explanation": "door 是“门”，chair 是椅子，floor 是地板。",
+    "id": "hje_g1a_u4_l1_q5",
+    "options": [
+      "door",
+      "chair",
+      "floor"
+    ],
+    "prompt": "“门”的英语单词是？",
+    "topicId": "hje_g1a_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "floor",
+    "difficulty": "medium",
+    "explanation": "floor 是“地板”，blackboard 是黑板。",
+    "id": "hje_g1a_u4_l1_q6",
+    "options": [
+      "floor",
+      "desk",
+      "blackboard"
+    ],
+    "prompt": "下面哪个单词表示“地板”？",
+    "topicId": "hje_g1a_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "blackboard",
+    "difficulty": "hard",
+    "explanation": "老师写字用的黑板是 blackboard。",
+    "id": "hje_g1a_u4_l1_q7",
+    "options": [
+      "blackboard",
+      "classroom",
+      "door"
+    ],
+    "prompt": "老师在黑板上写字，黑板用英语怎么说？",
+    "topicId": "hje_g1a_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "chair",
+    "difficulty": "hard",
+    "explanation": "chair 的拼写是 c-h-a-i-r。",
+    "id": "hje_g1a_u4_l1_q8",
+    "options": [
+      "chair",
+      "chiar",
+      "char"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“椅子”？",
+    "topicId": "hje_g1a_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "In the classroom, there is a desk.",
+    "difficulty": "hard",
+    "explanation": "教室里有一张课桌用 In the classroom, there is a desk.。",
+    "id": "hje_g1a_u4_l1_q9",
+    "options": [
+      "In the classroom, there is a desk.",
+      "In the classroom, there are a desk.",
+      "In the classroom, there is a chair."
+    ],
+    "prompt": "小明想说“教室里有一张课桌”，他应该说？",
+    "topicId": "hje_g1a_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "擦门",
+    "difficulty": "medium",
+    "explanation": "Clean the door. 是“擦门”，clean 是打扫、擦。",
+    "id": "hje_g1a_u4_l2_q4",
+    "options": [
+      "擦门",
+      "擦黑板",
+      "开门"
+    ],
+    "prompt": "老师说 Clean the door.，是让大家做什么？",
+    "topicId": "hje_g1a_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I'm on duty today.",
+    "difficulty": "medium",
+    "explanation": "今天值日用 I'm on duty today.。",
+    "id": "hje_g1a_u4_l2_q5",
+    "options": [
+      "I'm on duty today.",
+      "I'm on duty yesterday.",
+      "You're on duty today."
+    ],
+    "prompt": "今天轮到小明值日，他可以说？",
+    "topicId": "hje_g1a_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Who is on duty today?",
+    "difficulty": "medium",
+    "explanation": "问今天谁值日可以说 Who is on duty today?。",
+    "id": "hje_g1a_u4_l2_q6",
+    "options": [
+      "Who is on duty today?",
+      "Who's on duty?",
+      "Who on duty?"
+    ],
+    "prompt": "下面哪句是正确的问值日？",
+    "topicId": "hje_g1a_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "扫地、拖地，把地板弄干净",
+    "difficulty": "hard",
+    "explanation": "Clean the floor. 是“打扫地板”，要把地板弄干净。",
+    "id": "hje_g1a_u4_l2_q7",
+    "options": [
+      "扫地、拖地，把地板弄干净",
+      "擦黑板",
+      "开窗户"
+    ],
+    "prompt": "老师说 Clean the floor.，小朋友应该怎么做？",
+    "topicId": "hje_g1a_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I clean the blackboard.",
+    "difficulty": "hard",
+    "explanation": "擦黑板用 I clean the blackboard.。",
+    "id": "hje_g1a_u4_l2_q8",
+    "options": [
+      "I clean the blackboard.",
+      "I clean the door.",
+      "I open the blackboard."
+    ],
+    "prompt": "值日生擦黑板时，可以说？",
+    "topicId": "hje_g1a_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "认真打扫，不偷懒",
+    "difficulty": "hard",
+    "explanation": "值日要认真打扫，把教室弄干净。",
+    "id": "hje_g1a_u4_l2_q9",
+    "options": [
+      "认真打扫，不偷懒",
+      "只看别人打扫",
+      "打扫一半就去玩"
+    ],
+    "prompt": "下面哪种做法最适合值日？",
+    "topicId": "hje_g1a_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "face",
+    "difficulty": "medium",
+    "explanation": "face 是“脸”，eye 是眼睛，nose 是鼻子。",
+    "id": "hje_g1a_u5_l1_q4",
+    "options": [
+      "face",
+      "eye",
+      "nose"
+    ],
+    "prompt": "“脸”的英语单词是？",
+    "topicId": "hje_g1a_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "mouth",
+    "difficulty": "medium",
+    "explanation": "mouth 是“嘴”，ear 是耳朵。",
+    "id": "hje_g1a_u5_l1_q5",
+    "options": [
+      "mouth",
+      "ear",
+      "nose"
+    ],
+    "prompt": "“嘴”的英语单词是？",
+    "topicId": "hje_g1a_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "nose",
+    "difficulty": "medium",
+    "explanation": "nose 是“鼻子”，mouth 是“嘴”。",
+    "id": "hje_g1a_u5_l1_q6",
+    "options": [
+      "nose",
+      "mouth",
+      "face"
+    ],
+    "prompt": "下面哪个单词表示“鼻子”？",
+    "topicId": "hje_g1a_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "ear",
+    "difficulty": "hard",
+    "explanation": "耳朵是 ear，眼睛是 eye。",
+    "id": "hje_g1a_u5_l1_q7",
+    "options": [
+      "ear",
+      "eye",
+      "nose"
+    ],
+    "prompt": "小朋友指着自己的耳朵，应该说？",
+    "topicId": "hje_g1a_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "eye",
+    "difficulty": "hard",
+    "explanation": "eye 的拼写是 e-y-e。",
+    "id": "hje_g1a_u5_l1_q8",
+    "options": [
+      "eye",
+      "ey",
+      "eeye"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“眼睛”？",
+    "topicId": "hje_g1a_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "On my face, there are eyes, a nose and a mouth.",
+    "difficulty": "hard",
+    "explanation": "脸上有两只眼睛、一个鼻子、一张嘴，眼睛用复数。",
+    "id": "hje_g1a_u5_l1_q9",
+    "options": [
+      "On my face, there are eyes, a nose and a mouth.",
+      "On my face, there are eyes, a nose and a nose.",
+      "On my face, there is eyes, a nose and a mouth."
+    ],
+    "prompt": "小明想说“我的脸上有眼睛、鼻子和嘴”，他应该说？",
+    "topicId": "hje_g1a_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "This is my eye.",
+    "difficulty": "medium",
+    "explanation": "介绍一只眼睛用 This is my eye.。",
+    "id": "hje_g1a_u5_l2_q4",
+    "options": [
+      "This is my eye.",
+      "This is my nose.",
+      "This is my ear."
+    ],
+    "prompt": "想介绍“这是我的眼睛”，应该说？",
+    "topicId": "hje_g1a_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I have two ears.",
+    "difficulty": "medium",
+    "explanation": "两只耳朵用 two ears，ears 是复数。",
+    "id": "hje_g1a_u5_l2_q5",
+    "options": [
+      "I have two ears.",
+      "I have one ear.",
+      "I have two eyes."
+    ],
+    "prompt": "小明想说“我有两只耳朵”，应该说？",
+    "topicId": "hje_g1a_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "我有两只眼睛和一个鼻子",
+    "difficulty": "medium",
+    "explanation": "two eyes 是两只眼睛，one nose 是一个鼻子。",
+    "id": "hje_g1a_u5_l2_q6",
+    "options": [
+      "我有两只眼睛和一个鼻子",
+      "我有两只耳朵和一个鼻子",
+      "我有一只眼睛和两个鼻子"
+    ],
+    "prompt": "同学说 I have two eyes and one nose.，意思是？",
+    "topicId": "hje_g1a_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "This is my mouth. I speak with my mouth.",
+    "difficulty": "hard",
+    "explanation": "嘴是 mouth，说话用嘴。",
+    "id": "hje_g1a_u5_l2_q7",
+    "options": [
+      "This is my mouth. I speak with my mouth.",
+      "This is my nose. I speak with my mouth.",
+      "This is my mouth. I speak with my nose."
+    ],
+    "prompt": "小红想介绍“这是我的嘴，我用嘴说话”，她可以说？",
+    "topicId": "hje_g1a_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I have one face, two eyes and one mouth.",
+    "difficulty": "hard",
+    "explanation": "一张脸、两只眼睛、一张嘴，数量要对。",
+    "id": "hje_g1a_u5_l2_q8",
+    "options": [
+      "I have one face, two eyes and one mouth.",
+      "I have two faces, two eyes and one mouth.",
+      "I have one face, one eye and one mouth."
+    ],
+    "prompt": "下面哪句介绍五官是正确的？",
+    "topicId": "hje_g1a_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "他的脸",
+    "difficulty": "hard",
+    "explanation": "face 是脸，This is my face. 就是“这是我的脸”。",
+    "id": "hje_g1a_u5_l2_q9",
+    "options": [
+      "他的脸",
+      "他的鼻子",
+      "他的眼睛"
+    ],
+    "prompt": "同学指着脸说 This is my face.，他介绍的是？",
+    "topicId": "hje_g1a_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "dad",
+    "difficulty": "medium",
+    "explanation": "dad 是“爸爸”，mum 是“妈妈”。",
+    "id": "hje_g1a_u6_l1_q4",
+    "options": [
+      "dad",
+      "mum",
+      "me"
+    ],
+    "prompt": "想用英语介绍自己的爸爸，应该用哪个单词？",
+    "topicId": "hje_g1a_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "me",
+    "difficulty": "medium",
+    "explanation": "me 是“我”，介绍家人时常说到自己。",
+    "id": "hje_g1a_u6_l1_q5",
+    "options": [
+      "me",
+      "family",
+      "brother"
+    ],
+    "prompt": "“我”用哪个英语单词？",
+    "topicId": "hje_g1a_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "brother",
+    "difficulty": "medium",
+    "explanation": "brother 是兄弟，sister 是姐妹。",
+    "id": "hje_g1a_u6_l1_q6",
+    "options": [
+      "brother",
+      "sister",
+      "family"
+    ],
+    "prompt": "下面哪个单词表示“哥哥或弟弟”？",
+    "topicId": "hje_g1a_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "This is my family.",
+    "difficulty": "hard",
+    "explanation": "介绍近处的一家人用 This is my family.。",
+    "id": "hje_g1a_u6_l1_q7",
+    "options": [
+      "This is my family.",
+      "That is my family.",
+      "This are my family."
+    ],
+    "prompt": "小明想说“这是我的家庭”，他应该说？",
+    "topicId": "hje_g1a_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "mum",
+    "difficulty": "hard",
+    "explanation": "mum 的拼写是 m-u-m。",
+    "id": "hje_g1a_u6_l1_q8",
+    "options": [
+      "mum",
+      "mumm",
+      "mun"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“妈妈”？",
+    "topicId": "hje_g1a_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "My family has Dad, Mum, my brother and me.",
+    "difficulty": "hard",
+    "explanation": "介绍家庭成员时，把每个人都列出来。",
+    "id": "hje_g1a_u6_l1_q9",
+    "options": [
+      "My family has Dad, Mum, my brother and me.",
+      "My family has Dad, Mum, my sister and me.",
+      "My family have Dad, Mum, my brother and me."
+    ],
+    "prompt": "小红的家庭有爸爸、妈妈、哥哥和她，她介绍时可以说？",
+    "topicId": "hje_g1a_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "This is my dad.",
+    "difficulty": "medium",
+    "explanation": "介绍近处的人用 This is…，爸爸是 dad。",
+    "id": "hje_g1a_u6_l2_q4",
+    "options": [
+      "This is my dad.",
+      "This is my mum.",
+      "That is my dad."
+    ],
+    "prompt": "想介绍“这是我爸爸”，应该说？",
+    "topicId": "hje_g1a_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Who is she?",
+    "difficulty": "medium",
+    "explanation": "问女性是谁用 Who is she?，男性用 Who is he?。",
+    "id": "hje_g1a_u6_l2_q5",
+    "options": [
+      "Who is she?",
+      "Who is he?",
+      "What's your name?"
+    ],
+    "prompt": "看照片想问“她是谁”，应该问？",
+    "topicId": "hje_g1a_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "姐姐或妹妹",
+    "difficulty": "medium",
+    "explanation": "sister 是姐妹，可能是姐姐也可能是妹妹。",
+    "id": "hje_g1a_u6_l2_q6",
+    "options": [
+      "姐姐或妹妹",
+      "哥哥或弟弟",
+      "妈妈"
+    ],
+    "prompt": "同学指着照片说 This is my sister.，照片上是他的？",
+    "topicId": "hje_g1a_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "This is my brother. His name is Xiaoming.",
+    "difficulty": "hard",
+    "explanation": "哥哥是 brother，男性用 His name。",
+    "id": "hje_g1a_u6_l2_q7",
+    "options": [
+      "This is my brother. His name is Xiaoming.",
+      "This is my sister. His name is Xiaoming.",
+      "This is my brother. Her name is Xiaoming."
+    ],
+    "prompt": "小明想介绍“这是我哥哥，他叫 Xiaoming”，他可以说？",
+    "topicId": "hje_g1a_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "This is my mum. She is kind.",
+    "difficulty": "hard",
+    "explanation": "妈妈是女性，用 She，be 动词用 is。",
+    "id": "hje_g1a_u6_l2_q8",
+    "options": [
+      "This is my mum. She is kind.",
+      "This is my mum. He is kind.",
+      "That is my mum. She are kind."
+    ],
+    "prompt": "下面哪句介绍家人是正确的？",
+    "topicId": "hje_g1a_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "这是我的家庭，他们很高兴",
+    "difficulty": "hard",
+    "explanation": "family 是家庭，They 指家人们。",
+    "id": "hje_g1a_u6_l2_q9",
+    "options": [
+      "这是我的家庭，他们很高兴",
+      "这是我的朋友，他们很高兴",
+      "这是我的家庭，我很高兴"
+    ],
+    "prompt": "同学说 This is my family. They are happy.，意思是？",
+    "topicId": "hje_g1a_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "warm",
+    "difficulty": "medium",
+    "explanation": "warm 是“温暖的”，love 是“爱”，happy 是“高兴”。",
+    "id": "hje_g1a_u6_l3_q4",
+    "options": [
+      "warm",
+      "love",
+      "happy"
+    ],
+    "prompt": "“温暖的”用哪个英语单词？",
+    "topicId": "hje_g1a_u6_l3",
+    "type": "choice"
+  },
+  {
+    "answer": "I love my mum.",
+    "difficulty": "medium",
+    "explanation": "爱妈妈用 I love my mum.。",
+    "id": "hje_g1a_u6_l3_q5",
+    "options": [
+      "I love my mum.",
+      "I love my dad.",
+      "I love my family."
+    ],
+    "prompt": "小朋友想说“我爱我的妈妈”，应该说？",
+    "topicId": "hje_g1a_u6_l3",
+    "type": "choice"
+  },
+  {
+    "answer": "happy",
+    "difficulty": "medium",
+    "explanation": "happy 的拼写是 h-a-p-p-y。",
+    "id": "hje_g1a_u6_l3_q6",
+    "options": [
+      "happy",
+      "hapy",
+      "happpy"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“高兴”？",
+    "topicId": "hje_g1a_u6_l3",
+    "type": "choice"
+  },
+  {
+    "answer": "My family is warm.",
+    "difficulty": "hard",
+    "explanation": "家庭作主语时 be 动词用 is，warm 是温暖的。",
+    "id": "hje_g1a_u6_l3_q7",
+    "options": [
+      "My family is warm.",
+      "My family are warm.",
+      "My family is happy."
+    ],
+    "prompt": "小明想说“我的家庭很温暖”，他应该说？",
+    "topicId": "hje_g1a_u6_l3",
+    "type": "choice"
+  },
+  {
+    "answer": "我非常爱我的家人",
+    "difficulty": "hard",
+    "explanation": "very much 是“非常”，love my family 是爱家人。",
+    "id": "hje_g1a_u6_l3_q8",
+    "options": [
+      "我非常爱我的家人",
+      "我爱我的学校",
+      "我非常喜欢我的家人"
+    ],
+    "prompt": "同学说 I love my family very much.，意思是？",
+    "topicId": "hje_g1a_u6_l3",
+    "type": "choice"
+  },
+  {
+    "answer": "I love my family. They make me happy.",
+    "difficulty": "hard",
+    "explanation": "爱家人、家人让自己高兴，感情要一致。",
+    "id": "hje_g1a_u6_l3_q9",
+    "options": [
+      "I love my family. They make me happy.",
+      "I love my school. They make me happy.",
+      "I love my family. They make me sad."
+    ],
+    "prompt": "下面哪句最适合表达对家人的感情？",
+    "topicId": "hje_g1a_u6_l3",
+    "type": "choice"
+  },
+  {
+    "answer": "animal",
+    "difficulty": "medium",
+    "explanation": "animal 是“动物”，dog 是狗，cat 是猫。",
+    "id": "hje_g1a_u7_l1_q4",
+    "options": [
+      "animal",
+      "dog",
+      "cat"
+    ],
+    "prompt": "想用英语说“动物”这个大类词，应该用哪个单词？",
+    "topicId": "hje_g1a_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "horse",
+    "difficulty": "medium",
+    "explanation": "horse 是“马”，hen 是母鸡，bee 是蜜蜂。",
+    "id": "hje_g1a_u7_l1_q5",
+    "options": [
+      "horse",
+      "hen",
+      "bee"
+    ],
+    "prompt": "“马”用哪个英语单词？",
+    "topicId": "hje_g1a_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "cat",
+    "difficulty": "medium",
+    "explanation": "cat 是“猫”，dog 是“狗”。",
+    "id": "hje_g1a_u7_l1_q6",
+    "options": [
+      "cat",
+      "dog",
+      "hen"
+    ],
+    "prompt": "下面哪个单词表示“猫”？",
+    "topicId": "hje_g1a_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "hen",
+    "difficulty": "hard",
+    "explanation": "母鸡是 hen，小鸡长大后也可能是 hen 或 rooster。",
+    "id": "hje_g1a_u7_l1_q7",
+    "options": [
+      "hen",
+      "bee",
+      "horse"
+    ],
+    "prompt": "农场里，小鸡的妈妈是？",
+    "topicId": "hje_g1a_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "bee",
+    "difficulty": "hard",
+    "explanation": "bee 的拼写是 b-e-e。",
+    "id": "hje_g1a_u7_l1_q8",
+    "options": [
+      "bee",
+      "be",
+      "been"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“蜜蜂”？",
+    "topicId": "hje_g1a_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "In the zoo, there are horses, dogs and cats.",
+    "difficulty": "hard",
+    "explanation": "几种动物都是复数，用 there are，动物名加 s。",
+    "id": "hje_g1a_u7_l1_q9",
+    "options": [
+      "In the zoo, there are horses, dogs and cats.",
+      "In the zoo, there is horses, dogs and cats.",
+      "In the zoo, there are horse, dog and cat."
+    ],
+    "prompt": "小明想说“动物园里有马、狗和猫”，他应该说？",
+    "topicId": "hje_g1a_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "This is a dog.",
+    "difficulty": "medium",
+    "explanation": "介绍一只动物用 This is a…。",
+    "id": "hje_g1a_u7_l2_q4",
+    "options": [
+      "This is a dog.",
+      "This is dog.",
+      "This are a dog."
+    ],
+    "prompt": "想介绍“这是一只狗”，应该说？",
+    "topicId": "hje_g1a_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Cats help us.",
+    "difficulty": "medium",
+    "explanation": "猫泛指用 Cats，动词 help 不加 s。",
+    "id": "hje_g1a_u7_l2_q5",
+    "options": [
+      "Cats help us.",
+      "Cats helps us.",
+      "Cat help us."
+    ],
+    "prompt": "小明想说“猫对我们有帮助”，可以说？",
+    "topicId": "hje_g1a_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "一只母鸡",
+    "difficulty": "medium",
+    "explanation": "hen 是母鸡，a hen 是一只母鸡。",
+    "id": "hje_g1a_u7_l2_q6",
+    "options": [
+      "一只母鸡",
+      "一匹马",
+      "一只蜜蜂"
+    ],
+    "prompt": "同学说 This is a hen.，他介绍的是？",
+    "topicId": "hje_g1a_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Horses run fast.",
+    "difficulty": "hard",
+    "explanation": "马泛指用 Horses，run 不加 s。",
+    "id": "hje_g1a_u7_l2_q7",
+    "options": [
+      "Horses run fast.",
+      "Horses runs fast.",
+      "Horse run fast."
+    ],
+    "prompt": "小红想说“马跑得快”，她可以说？",
+    "topicId": "hje_g1a_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "This is a bee. It can fly.",
+    "difficulty": "hard",
+    "explanation": "蜜蜂会飞用 It can fly.，can 后面接动词原形。",
+    "id": "hje_g1a_u7_l2_q8",
+    "options": [
+      "This is a bee. It can fly.",
+      "This is a bee. It can flies.",
+      "This is bee. It can fly."
+    ],
+    "prompt": "下面哪句介绍动物是正确的？",
+    "topicId": "hje_g1a_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "狗是我们的朋友",
+    "difficulty": "hard",
+    "explanation": "Dogs 是狗的复数，friends 是朋友。",
+    "id": "hje_g1a_u7_l2_q9",
+    "options": [
+      "狗是我们的朋友",
+      "猫是我们的朋友",
+      "马是我们的朋友"
+    ],
+    "prompt": "同学说 Dogs are our friends.，意思是？",
+    "topicId": "hje_g1a_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "bird",
+    "difficulty": "medium",
+    "explanation": "bird 是“小鸟”，hill 是“小山”。",
+    "id": "hje_g1a_u8_l1_q4",
+    "options": [
+      "bird",
+      "hill",
+      "wings"
+    ],
+    "prompt": "“小鸟”的英语单词是？",
+    "topicId": "hje_g1a_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "hill",
+    "difficulty": "medium",
+    "explanation": "hill 是“小山”，bird 是小鸟。",
+    "id": "hje_g1a_u8_l1_q5",
+    "options": [
+      "hill",
+      "bird",
+      "wings"
+    ],
+    "prompt": "“小山”用哪个英语单词？",
+    "topicId": "hje_g1a_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "flap wings",
+    "difficulty": "medium",
+    "explanation": "flap wings 是“扇动翅膀”，fly away 是“飞走”。",
+    "id": "hje_g1a_u8_l1_q6",
+    "options": [
+      "flap wings",
+      "fly away",
+      "come back"
+    ],
+    "prompt": "下面哪个短语表示“扇动翅膀”？",
+    "topicId": "hje_g1a_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "The bird flies to the hill.",
+    "difficulty": "hard",
+    "explanation": "小鸟是单数，动词 fly 加 s，hill 是小山。",
+    "id": "hje_g1a_u8_l1_q7",
+    "options": [
+      "The bird flies to the hill.",
+      "The bird fly to the hill.",
+      "The bird flies to the birds."
+    ],
+    "prompt": "故事里小鸟飞到小山上，应该说？",
+    "topicId": "hje_g1a_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "fly away",
+    "difficulty": "hard",
+    "explanation": "fly away 的拼写是 f-l-y a-w-a-y。",
+    "id": "hje_g1a_u8_l1_q8",
+    "options": [
+      "fly away",
+      "fly awy",
+      "fiy away"
+    ],
+    "prompt": "下面哪个短语拼写正确，表示“飞走”？",
+    "topicId": "hje_g1a_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "The bird flies away and comes back.",
+    "difficulty": "hard",
+    "explanation": "飞走是 fly away，回来是 come back，单数动词加 s。",
+    "id": "hje_g1a_u8_l1_q9",
+    "options": [
+      "The bird flies away and comes back.",
+      "The bird fly away and come back.",
+      "The bird flies away and come bake."
+    ],
+    "prompt": "小鸟飞走了又回来了，完整的说法是？",
+    "topicId": "hje_g1a_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "大声、清楚",
+    "difficulty": "medium",
+    "explanation": "表演要大声、清楚，大家才能听懂。",
+    "id": "hje_g1a_u8_l2_q4",
+    "options": [
+      "大声、清楚",
+      "小声、含糊",
+      "一言不发"
+    ],
+    "prompt": "表演故事时，小朋友说话应该？",
+    "topicId": "hje_g1a_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "边唱边做动作",
+    "difficulty": "medium",
+    "explanation": "唱歌表演要边唱边做动作，更生动。",
+    "id": "hje_g1a_u8_l2_q5",
+    "options": [
+      "边唱边做动作",
+      "坐着不动",
+      "捂住耳朵"
+    ],
+    "prompt": "唱歌表演时，小朋友应该跟着音乐？",
+    "topicId": "hje_g1a_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "用不同的声音扮演不同角色",
+    "difficulty": "medium",
+    "explanation": "讲故事可以用不同声音扮演角色，更有趣。",
+    "id": "hje_g1a_u8_l2_q6",
+    "options": [
+      "用不同的声音扮演不同角色",
+      "一直用同一种声音",
+      "不说话只站着"
+    ],
+    "prompt": "下面哪种表演最适合讲故事？",
+    "topicId": "hje_g1a_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "两个人各演一只小黑鸟",
+    "difficulty": "hard",
+    "explanation": "Two 是“两”，两只小黑鸟需要两个人演。",
+    "id": "hje_g1a_u8_l2_q7",
+    "options": [
+      "两个人各演一只小黑鸟",
+      "一个人演两只小黑鸟",
+      "两个人都不演"
+    ],
+    "prompt": "表演 Two little blackbirds 时，两只小黑鸟应该怎么演？",
+    "topicId": "hje_g1a_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "向大家鞠躬、说谢谢",
+    "difficulty": "hard",
+    "explanation": "表演结束要鞠躬、说谢谢，有礼貌。",
+    "id": "hje_g1a_u8_l2_q8",
+    "options": [
+      "向大家鞠躬、说谢谢",
+      "直接跑下台",
+      "一言不发站着"
+    ],
+    "prompt": "表演结束时，小朋友应该？",
+    "topicId": "hje_g1a_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "提前练习，表演时自信大方",
+    "difficulty": "hard",
+    "explanation": "故事表演要提前练习，表演时自信大方。",
+    "id": "hje_g1a_u8_l2_q9",
+    "options": [
+      "提前练习，表演时自信大方",
+      "不练习，表演时紧张低头",
+      "练习一次就不练了"
+    ],
+    "prompt": "下面哪种做法最适合故事表演？",
+    "topicId": "hje_g1a_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "wash hands",
+    "difficulty": "medium",
+    "explanation": "wash hands 是“洗手”，wash 是“洗”。",
+    "id": "hje_g1a_u9_l1_q4",
+    "options": [
+      "wash hands",
+      "tie shoelaces",
+      "take a photo"
+    ],
+    "prompt": "“洗手”用英语怎么说？",
+    "topicId": "hje_g1a_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "tie",
+    "difficulty": "medium",
+    "explanation": "tie 是“系”，tie shoelaces 就是“系鞋带”。",
+    "id": "hje_g1a_u9_l1_q5",
+    "options": [
+      "tie",
+      "wash",
+      "take"
+    ],
+    "prompt": "“系鞋带”中的“系”用哪个单词？",
+    "topicId": "hje_g1a_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "take a photo",
+    "difficulty": "medium",
+    "explanation": "take a photo 的拼写要注意 photo，不是 poto。",
+    "id": "hje_g1a_u9_l1_q6",
+    "options": [
+      "take a photo",
+      "take a poto",
+      "tack a photo"
+    ],
+    "prompt": "小红想拍照留念，应该用哪个短语？",
+    "topicId": "hje_g1a_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I can wash my face.",
+    "difficulty": "hard",
+    "explanation": "洗脸用 wash my face，face 前加 my。",
+    "id": "hje_g1a_u9_l1_q7",
+    "options": [
+      "I can wash my face.",
+      "I can wash face.",
+      "I can wash my faces."
+    ],
+    "prompt": "小明想说“我会洗脸”，他应该说？",
+    "topicId": "hje_g1a_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Please take a photo for me.",
+    "difficulty": "hard",
+    "explanation": "请别人帮忙拍照用 Please take a photo for me.。",
+    "id": "hje_g1a_u9_l1_q8",
+    "options": [
+      "Please take a photo for me.",
+      "Please take photo for me.",
+      "Please take a photo for I."
+    ],
+    "prompt": "小红想说“请帮我拍照”，她可以说？",
+    "topicId": "hje_g1a_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I can wash hands, tie shoelaces and take photos.",
+    "difficulty": "hard",
+    "explanation": "列举几件会做的事时，每样都要用正确形式，照片用复数。",
+    "id": "hje_g1a_u9_l1_q9",
+    "options": [
+      "I can wash hands, tie shoelaces and take photos.",
+      "I can wash hands, tie shoelace and take photo.",
+      "I can wash hand, tie shoelaces and take photos."
+    ],
+    "prompt": "下面哪句最适合说自己会做的事？",
+    "topicId": "hje_g1a_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Yes, I can.",
+    "difficulty": "medium",
+    "explanation": "会就答 Yes, I can.，和问题中的 can 对应。",
+    "id": "hje_g1a_u9_l2_q4",
+    "options": [
+      "Yes, I can.",
+      "No, I can't.",
+      "I can wash."
+    ],
+    "prompt": "别人问 Can you wash?（你会洗吗？），小明会洗，应该答？",
+    "topicId": "hje_g1a_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Can you take a photo?",
+    "difficulty": "medium",
+    "explanation": "问别人会不会用 Can you 加动词。",
+    "id": "hje_g1a_u9_l2_q5",
+    "options": [
+      "Can you take a photo?",
+      "You can take a photo.",
+      "Can I take a photo?"
+    ],
+    "prompt": "小红想问同学“你会拍照吗”，她应该问？",
+    "topicId": "hje_g1a_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "我不会游泳",
+    "difficulty": "medium",
+    "explanation": "can't 是 cannot 的缩写，表示“不会”。",
+    "id": "hje_g1a_u9_l2_q6",
+    "options": [
+      "我不会游泳",
+      "我会游泳",
+      "我喜欢游泳"
+    ],
+    "prompt": "同学说 I can't swim.，意思是？",
+    "topicId": "hje_g1a_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I can tie shoelaces, but I can't take a photo.",
+    "difficulty": "hard",
+    "explanation": "会和不会要分开说，会用 can，不会用 can't，but 表示转折。",
+    "id": "hje_g1a_u9_l2_q7",
+    "options": [
+      "I can tie shoelaces, but I can't take a photo.",
+      "I can tie shoelaces, but I can take a photo.",
+      "I can't tie shoelaces, but I can't take a photo."
+    ],
+    "prompt": "小明会系鞋带，不会拍照，他应该说？",
+    "topicId": "hje_g1a_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Yes, I can. I can wash hands.",
+    "difficulty": "hard",
+    "explanation": "先回答 Yes, I can.，再具体说会做什么，更完整。",
+    "id": "hje_g1a_u9_l2_q8",
+    "options": [
+      "Yes, I can. I can wash hands.",
+      "Yes. I can wash hands.",
+      "Yes, I can wash."
+    ],
+    "prompt": "下面哪句回答最完整？",
+    "topicId": "hje_g1a_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "No, I can't. Sorry!",
+    "difficulty": "hard",
+    "explanation": "不会时答 No, I can't.，再加 Sorry! 更有礼貌。",
+    "id": "hje_g1a_u9_l2_q9",
+    "options": [
+      "No, I can't. Sorry!",
+      "No!",
+      "I can't sing, goodbye!"
+    ],
+    "prompt": "同学问 Can you sing?，你不会唱歌，应该怎么回答最有礼貌？",
+    "topicId": "hje_g1a_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "one",
+    "difficulty": "medium",
+    "explanation": "one 是“1”，two 是“2”。",
+    "id": "hje_g1a_u10_l1_q4",
+    "options": [
+      "one",
+      "two",
+      "three"
+    ],
+    "prompt": "数字“1”的英语单词是？",
+    "topicId": "hje_g1a_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "five",
+    "difficulty": "medium",
+    "explanation": "five 是“5”，four 是“4”，six 是“6”。",
+    "id": "hje_g1a_u10_l1_q5",
+    "options": [
+      "five",
+      "four",
+      "six"
+    ],
+    "prompt": "数字“5”的英语单词是？",
+    "topicId": "hje_g1a_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "five",
+    "difficulty": "medium",
+    "explanation": "按顺序数，four 后面是 five。",
+    "id": "hje_g1a_u10_l1_q6",
+    "options": [
+      "five",
+      "six",
+      "four"
+    ],
+    "prompt": "数数：two, three, four, 接下来是？",
+    "topicId": "hje_g1a_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "two",
+    "difficulty": "hard",
+    "explanation": "two 的拼写是 t-w-o。",
+    "id": "hje_g1a_u10_l1_q7",
+    "options": [
+      "two",
+      "tow",
+      "tuo"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“2”？",
+    "topicId": "hje_g1a_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "one, two, three, four, five, six",
+    "difficulty": "hard",
+    "explanation": "数数要按 1 到 6 的顺序，不能跳号。",
+    "id": "hje_g1a_u10_l1_q8",
+    "options": [
+      "one, two, three, four, five, six",
+      "one, three, two, four, five, six",
+      "one, two, four, three, five, six"
+    ],
+    "prompt": "小明从 1 数到 6，正确的顺序是？",
+    "topicId": "hje_g1a_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "two, four, six",
+    "difficulty": "hard",
+    "explanation": "偶数是能被 2 整除的数，2、4、6 都是偶数。",
+    "id": "hje_g1a_u10_l1_q9",
+    "options": [
+      "two, four, six",
+      "one, three, five",
+      "two, three, six"
+    ],
+    "prompt": "下面哪组数字都是偶数？",
+    "topicId": "hje_g1a_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "How many oranges?",
+    "difficulty": "medium",
+    "explanation": "问数量用 How many 加复数名词，橘子用 oranges。",
+    "id": "hje_g1a_u10_l2_q4",
+    "options": [
+      "How many oranges?",
+      "How many orange?",
+      "What's your name?"
+    ],
+    "prompt": "想问“有几个橘子”，应该问？",
+    "topicId": "hje_g1a_u10_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "three cats",
+    "difficulty": "medium",
+    "explanation": "三只猫用 three cats，cat 加 s。",
+    "id": "hje_g1a_u10_l2_q5",
+    "options": [
+      "three cats",
+      "three cat",
+      "four cats"
+    ],
+    "prompt": "图上有 3 只猫，小明应该说？",
+    "topicId": "hje_g1a_u10_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Six books.",
+    "difficulty": "medium",
+    "explanation": "数出 6 本回答 Six books.，books 是复数。",
+    "id": "hje_g1a_u10_l2_q6",
+    "options": [
+      "Six books.",
+      "Five books.",
+      "Six book."
+    ],
+    "prompt": "同学问 How many books?，你数出 6 本，应该答？",
+    "topicId": "hje_g1a_u10_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "five",
+    "difficulty": "hard",
+    "explanation": "2 加 3 等于 5，用英语说 five。",
+    "id": "hje_g1a_u10_l2_q7",
+    "options": [
+      "five",
+      "four",
+      "six"
+    ],
+    "prompt": "操场上有 2 个球和 3 个跳绳，一共有几件运动用品？",
+    "topicId": "hje_g1a_u10_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "five apples",
+    "difficulty": "hard",
+    "explanation": "数到 five 说明有 5 个苹果。",
+    "id": "hje_g1a_u10_l2_q8",
+    "options": [
+      "five apples",
+      "four apples",
+      "six apples"
+    ],
+    "prompt": "小红数苹果：one, two, three, four, five，她数了几个苹果？",
+    "topicId": "hje_g1a_u10_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "How many pencils? Five pencils.",
+    "difficulty": "hard",
+    "explanation": "问数量用 How many pencils?，回答用数字加复数名词。",
+    "id": "hje_g1a_u10_l2_q9",
+    "options": [
+      "How many pencils? Five pencils.",
+      "How many pencils? Five pencil.",
+      "How many pencil? Five pencils."
+    ],
+    "prompt": "下面哪句最适合问数量并回答？",
+    "topicId": "hje_g1a_u10_l2",
+    "type": "choice"
   }
 ]
