@@ -31391,5 +31391,1853 @@
     "prompt": "下面哪种做法最适合听故事？",
     "topicId": "hje_g2b_u12_l2",
     "type": "choice"
+  },
+  {
+    "answer": "A",
+    "difficulty": "medium",
+    "explanation": "字母表从 A 开始，第 1 个是 A。",
+    "id": "hje_g3a_u0_l1_q4",
+    "options": [
+      "A",
+      "B",
+      "C"
+    ],
+    "prompt": "字母表从 A 开始数，第 1 个字母是？",
+    "topicId": "hje_g3a_u0_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "eight",
+    "difficulty": "medium",
+    "explanation": "8 是 eight，7 是 seven，9 是 nine。",
+    "id": "hje_g3a_u0_l1_q5",
+    "options": [
+      "eight",
+      "seven",
+      "nine"
+    ],
+    "prompt": "数字 8 的英语单词是？",
+    "topicId": "hje_g3a_u0_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Y",
+    "difficulty": "medium",
+    "explanation": "字母表最后是 Z，往前数第 2 个是 Y。",
+    "id": "hje_g3a_u0_l1_q6",
+    "options": [
+      "Y",
+      "X",
+      "Z"
+    ],
+    "prompt": "字母表从 Z 往前数，第 2 个字母是？",
+    "topicId": "hje_g3a_u0_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "E",
+    "difficulty": "hard",
+    "explanation": "C 后面是 D，再后面是 E。",
+    "id": "hje_g3a_u0_l1_q7",
+    "options": [
+      "E",
+      "D",
+      "F"
+    ],
+    "prompt": "字母表里，C 后面第 2 个字母是？",
+    "topicId": "hje_g3a_u0_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "M N O",
+    "difficulty": "hard",
+    "explanation": "字母表里 M、N、O 是连续的。",
+    "id": "hje_g3a_u0_l1_q8",
+    "options": [
+      "M N O",
+      "N M O",
+      "M O N"
+    ],
+    "prompt": "下面哪组字母按顺序排列正确？",
+    "topicId": "hje_g3a_u0_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "eight",
+    "difficulty": "hard",
+    "explanation": "按顺序数，seven 后面是 eight。",
+    "id": "hje_g3a_u0_l1_q9",
+    "options": [
+      "eight",
+      "nine",
+      "six"
+    ],
+    "prompt": "小明数数字：five, six, seven, 接下来是？",
+    "topicId": "hje_g3a_u0_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "summer",
+    "difficulty": "medium",
+    "explanation": "summer 是夏天，spring 是春天。",
+    "id": "hje_g3a_u0_l2_q4",
+    "options": [
+      "summer",
+      "spring",
+      "winter"
+    ],
+    "prompt": "“夏天”的英语单词是？",
+    "topicId": "hje_g3a_u0_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "autumn",
+    "difficulty": "medium",
+    "explanation": "秋天是 autumn，凉爽适合郊游。",
+    "id": "hje_g3a_u0_l2_q5",
+    "options": [
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "prompt": "秋天很凉爽，小朋友去郊游是在哪个季节？",
+    "topicId": "hje_g3a_u0_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "America",
+    "difficulty": "medium",
+    "explanation": "America 的拼写要注意，America 是美国。",
+    "id": "hje_g3a_u0_l2_q6",
+    "options": [
+      "America",
+      "Amercia",
+      "Amerca"
+    ],
+    "prompt": "下面哪个国家名称拼写最规范？",
+    "topicId": "hje_g3a_u0_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "spring, summer, autumn, winter",
+    "difficulty": "hard",
+    "explanation": "四季的顺序是春、夏、秋、冬。",
+    "id": "hje_g3a_u0_l2_q7",
+    "options": [
+      "spring, summer, autumn, winter",
+      "summer, spring, autumn, winter",
+      "spring, autumn, summer, winter"
+    ],
+    "prompt": "四季按春夏秋冬的顺序排列，正确的是？",
+    "topicId": "hje_g3a_u0_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "winter",
+    "difficulty": "hard",
+    "explanation": "堆雪人是冬天的活动，winter 是冬天。",
+    "id": "hje_g3a_u0_l2_q8",
+    "options": [
+      "winter",
+      "spring",
+      "autumn"
+    ],
+    "prompt": "冬天最冷，小朋友堆雪人、打雪仗是在哪个季节？",
+    "topicId": "hje_g3a_u0_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I am Chinese.",
+    "difficulty": "hard",
+    "explanation": "中国人用 Chinese，China 是中国。",
+    "id": "hje_g3a_u0_l2_q9",
+    "options": [
+      "I am Chinese.",
+      "I am China.",
+      "I am American."
+    ],
+    "prompt": "小红想说“我是中国人”，她应该说？",
+    "topicId": "hje_g3a_u0_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "new classmate",
+    "difficulty": "medium",
+    "explanation": "新同学是 new classmate，新的用 new。",
+    "id": "hje_g3a_u1_l1_q4",
+    "options": [
+      "new classmate",
+      "new class",
+      "new friend"
+    ],
+    "prompt": "“新同学”用英语怎么说？",
+    "topicId": "hje_g3a_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "new",
+    "difficulty": "medium",
+    "explanation": "new 的拼写是 n-e-w。",
+    "id": "hje_g3a_u1_l1_q5",
+    "options": [
+      "new",
+      "nwe",
+      "neww"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“新的”？",
+    "topicId": "hje_g3a_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "班级",
+    "difficulty": "medium",
+    "explanation": "class 是“班级”，classmate 是“同学”。",
+    "id": "hje_g3a_u1_l1_q6",
+    "options": [
+      "班级",
+      "同学",
+      "学校"
+    ],
+    "prompt": "“class”是什么意思？",
+    "topicId": "hje_g3a_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I am a Grade 3 student.",
+    "difficulty": "hard",
+    "explanation": "三年级学生用 a Grade 3 student.。",
+    "id": "hje_g3a_u1_l1_q7",
+    "options": [
+      "I am a Grade 3 student.",
+      "I am a Grade 2 student.",
+      "I am Grade 3 student."
+    ],
+    "prompt": "新学期到了，小明想说“我是三年级学生”，他应该说？",
+    "topicId": "hje_g3a_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "This is our new classroom.",
+    "difficulty": "hard",
+    "explanation": "介绍新教室用 This is our new classroom.。",
+    "id": "hje_g3a_u1_l1_q8",
+    "options": [
+      "This is our new classroom.",
+      "This are our new classroom.",
+      "This is our new classmate."
+    ],
+    "prompt": "下面哪句是正确的？",
+    "topicId": "hje_g3a_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "In the new term, I make many new friends.",
+    "difficulty": "hard",
+    "explanation": "新学期用 In the new term，新朋友用 new friends。",
+    "id": "hje_g3a_u1_l1_q9",
+    "options": [
+      "In the new term, I make many new friends.",
+      "In the new term, I makes many new friends.",
+      "In the new term, I make many new friend."
+    ],
+    "prompt": "小红想说“新学期，我交了很多新朋友”，她可以说？",
+    "topicId": "hje_g3a_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Hi!",
+    "difficulty": "medium",
+    "explanation": "见到新同学先打招呼，Hi! 很随意。",
+    "id": "hje_g3a_u1_l2_q4",
+    "options": [
+      "Hi!",
+      "Goodbye!",
+      "Thank you!"
+    ],
+    "prompt": "开学第一天，见到新同学，你还可以先说什么？",
+    "topicId": "hje_g3a_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I'm Li Ming.",
+    "difficulty": "medium",
+    "explanation": "回答自己的名字用 I'm 加名字。",
+    "id": "hje_g3a_u1_l2_q5",
+    "options": [
+      "I'm Li Ming.",
+      "You're Li Ming.",
+      "He's Li Ming."
+    ],
+    "prompt": "新同学问你 What's your name?，你叫 Li Ming，应该回答？",
+    "topicId": "hje_g3a_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Hello! I'm Li Ming. Nice to meet you!",
+    "difficulty": "medium",
+    "explanation": "完整的自我介绍包括打招呼、说名字、说很高兴认识你。",
+    "id": "hje_g3a_u1_l2_q6",
+    "options": [
+      "Hello! I'm Li Ming. Nice to meet you!",
+      "Goodbye! I'm Li Ming. Nice to meet you!",
+      "Hello! You're Li Ming. Nice to meet you!"
+    ],
+    "prompt": "下面哪句自我介绍最适合开学第一天？",
+    "topicId": "hje_g3a_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Hello! I'm Xiaoming. What's your name?",
+    "difficulty": "hard",
+    "explanation": "先自我介绍，再问对方名字。",
+    "id": "hje_g3a_u1_l2_q7",
+    "options": [
+      "Hello! I'm Xiaoming. What's your name?",
+      "Goodbye! I'm Xiaoming. What's your name?",
+      "Hello! You're Xiaoming. What's your name?"
+    ],
+    "prompt": "小明想向新同学介绍自己并问对方名字，他可以说？",
+    "topicId": "hje_g3a_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "我是李明。",
+    "difficulty": "hard",
+    "explanation": "I'm 是 I am 的缩写，意思是“我是”。",
+    "id": "hje_g3a_u1_l2_q8",
+    "options": [
+      "我是李明。",
+      "你是李明。",
+      "他是李明。"
+    ],
+    "prompt": "同学说 I'm Li Ming.，意思是？",
+    "topicId": "hje_g3a_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "主动打招呼，介绍自己",
+    "difficulty": "hard",
+    "explanation": "开学第一天要主动打招呼，介绍自己，认识新同学。",
+    "id": "hje_g3a_u1_l2_q9",
+    "options": [
+      "主动打招呼，介绍自己",
+      "不理新同学",
+      "只跟老同学玩"
+    ],
+    "prompt": "下面哪种做法最适合开学第一天认识新同学？",
+    "topicId": "hje_g3a_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "great",
+    "difficulty": "medium",
+    "explanation": "great 是“很棒的”，proud 是“自豪的”。",
+    "id": "hje_g3a_u2_l1_q4",
+    "options": [
+      "great",
+      "proud",
+      "wonderful"
+    ],
+    "prompt": "“很棒的”用哪个英语单词？",
+    "topicId": "hje_g3a_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "proud",
+    "difficulty": "medium",
+    "explanation": "proud 的拼写是 p-r-o-u-d。",
+    "id": "hje_g3a_u2_l1_q5",
+    "options": [
+      "proud",
+      "prou",
+      "proudde"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“自豪的”？",
+    "topicId": "hje_g3a_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "极好的",
+    "difficulty": "medium",
+    "explanation": "wonderful 是“极好的”，great 是“很棒的”。",
+    "id": "hje_g3a_u2_l1_q6",
+    "options": [
+      "极好的",
+      "自豪的",
+      "很棒的"
+    ],
+    "prompt": "“wonderful”是什么意思？",
+    "topicId": "hje_g3a_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "You are great!",
+    "difficulty": "hard",
+    "explanation": "夸别人真棒用 You are great!。",
+    "id": "hje_g3a_u2_l1_q7",
+    "options": [
+      "You are great!",
+      "You are proud!",
+      "I am great!"
+    ],
+    "prompt": "同学画画得了一等奖，你想夸他“你真棒”，你可以说？",
+    "topicId": "hje_g3a_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Wonderful! You did a great job!",
+    "difficulty": "hard",
+    "explanation": "表扬时用 Wonderful!，再说做得好。",
+    "id": "hje_g3a_u2_l1_q8",
+    "options": [
+      "Wonderful! You did a great job!",
+      "Sad! You did a great job!",
+      "Wonderful! You did a bad job!"
+    ],
+    "prompt": "下面哪句表扬最适合？",
+    "topicId": "hje_g3a_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I'm proud of myself!",
+    "difficulty": "hard",
+    "explanation": "为自己自豪用 I'm proud of myself!。",
+    "id": "hje_g3a_u2_l1_q9",
+    "options": [
+      "I'm proud of myself!",
+      "I'm proud of you!",
+      "You're proud of me!"
+    ],
+    "prompt": "小红为自己得了第一名感到自豪，她可以说？",
+    "topicId": "hje_g3a_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Thank you very much!",
+    "difficulty": "medium",
+    "explanation": "别人赞美时说谢谢，用 Thank you very much! 更有礼貌。",
+    "id": "hje_g3a_u2_l2_q4",
+    "options": [
+      "Thank you very much!",
+      "You did a great job!",
+      "Proud of you!"
+    ],
+    "prompt": "别人赞美你，你想说“谢谢”，应该说？",
+    "topicId": "hje_g3a_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Great singing!",
+    "difficulty": "medium",
+    "explanation": "赞美唱歌好用 Great singing!。",
+    "id": "hje_g3a_u2_l2_q5",
+    "options": [
+      "Great singing!",
+      "Sad singing!",
+      "Bad singing!"
+    ],
+    "prompt": "小明唱歌唱得很好，你想赞美他，应该说？",
+    "topicId": "hje_g3a_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "—Great job! —Thank you!",
+    "difficulty": "medium",
+    "explanation": "赞美别人做得好，对方回应谢谢。",
+    "id": "hje_g3a_u2_l2_q6",
+    "options": [
+      "—Great job! —Thank you!",
+      "—Great job! —Goodbye!",
+      "—Bad job! —Thank you!"
+    ],
+    "prompt": "下面哪组赞美别人的话和回应搭配得最好？",
+    "topicId": "hje_g3a_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Thank you for your help!",
+    "difficulty": "hard",
+    "explanation": "感谢别人帮忙用 Thank you for your help!。",
+    "id": "hje_g3a_u2_l2_q7",
+    "options": [
+      "Thank you for your help!",
+      "Proud of you!",
+      "You did a great job!"
+    ],
+    "prompt": "同学帮了你，你想感谢他，可以说？",
+    "topicId": "hje_g3a_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "You did a wonderful job!",
+    "difficulty": "hard",
+    "explanation": "赞美别人做得极好用 You did a wonderful job!。",
+    "id": "hje_g3a_u2_l2_q8",
+    "options": [
+      "You did a wonderful job!",
+      "You did a sad job!",
+      "You did a wonderful jobs!"
+    ],
+    "prompt": "下面哪句赞美最适合？",
+    "topicId": "hje_g3a_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Thank you! I'm very happy!",
+    "difficulty": "hard",
+    "explanation": "被赞美时先说谢谢，再说自己很高兴。",
+    "id": "hje_g3a_u2_l2_q9",
+    "options": [
+      "Thank you! I'm very happy!",
+      "Goodbye! I'm very happy!",
+      "Thank you! I'm very sad!"
+    ],
+    "prompt": "小红画画得了一等奖，同学赞美她，她应该怎么回应最得体？",
+    "topicId": "hje_g3a_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "leaf",
+    "difficulty": "medium",
+    "explanation": "leaf 是“叶子”，grass 是“草”。",
+    "id": "hje_g3a_u3_l1_q4",
+    "options": [
+      "leaf",
+      "grass",
+      "tree"
+    ],
+    "prompt": "花园里的“叶子”叫？",
+    "topicId": "hje_g3a_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "flower",
+    "difficulty": "medium",
+    "explanation": "flower 的拼写是 f-l-o-w-e-r。",
+    "id": "hje_g3a_u3_l1_q5",
+    "options": [
+      "flower",
+      "flowr",
+      "flowerr"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“花”？",
+    "topicId": "hje_g3a_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "树",
+    "difficulty": "medium",
+    "explanation": "tree 是“树”，flower 是“花”。",
+    "id": "hje_g3a_u3_l1_q6",
+    "options": [
+      "树",
+      "花",
+      "草"
+    ],
+    "prompt": "“tree”是什么意思？",
+    "topicId": "hje_g3a_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "In the garden, there are flowers, trees and grass.",
+    "difficulty": "hard",
+    "explanation": "花园里有几种植物，花和树用复数，草用 grass。",
+    "id": "hje_g3a_u3_l1_q7",
+    "options": [
+      "In the garden, there are flowers, trees and grass.",
+      "In the garden, there is flowers, trees and grass.",
+      "In the garden, there are flower, tree and grass."
+    ],
+    "prompt": "小明想说“花园里有花、树和草”，他应该说？",
+    "topicId": "hje_g3a_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "plant",
+    "difficulty": "hard",
+    "explanation": "plant 既是植物，也可以表示“种植”。",
+    "id": "hje_g3a_u3_l1_q8",
+    "options": [
+      "plant",
+      "flower",
+      "leaf"
+    ],
+    "prompt": "下面哪个单词表示“种花”？",
+    "topicId": "hje_g3a_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "The flowers in the garden are beautiful.",
+    "difficulty": "hard",
+    "explanation": "花园里的花用复数 flowers，be 动词用 are。",
+    "id": "hje_g3a_u3_l1_q9",
+    "options": [
+      "The flowers in the garden are beautiful.",
+      "The flowers in the garden is beautiful.",
+      "The flower in the garden are beautiful."
+    ],
+    "prompt": "小红想说“花园里的花很美”，她应该说？",
+    "topicId": "hje_g3a_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "What's in the garden?",
+    "difficulty": "medium",
+    "explanation": "问花园里有什么用 What's in the garden?。",
+    "id": "hje_g3a_u3_l2_q4",
+    "options": [
+      "What's in the garden?",
+      "What's in our garden?",
+      "Where is the garden?"
+    ],
+    "prompt": "想问“花园里有什么树”，你可以说？",
+    "topicId": "hje_g3a_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "There is a big tree in the garden.",
+    "difficulty": "medium",
+    "explanation": "花园里有一棵大树用 There is a big tree in the garden.。",
+    "id": "hje_g3a_u3_l2_q5",
+    "options": [
+      "There is a big tree in the garden.",
+      "There are a big tree in the garden.",
+      "There is a small tree in the garden."
+    ],
+    "prompt": "花园里有一棵大树，你可以这样描述：",
+    "topicId": "hje_g3a_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "There are many beautiful flowers in the garden.",
+    "difficulty": "medium",
+    "explanation": "花园里有许多美丽的花，花用复数，be 动词用 are。",
+    "id": "hje_g3a_u3_l2_q6",
+    "options": [
+      "There are many beautiful flowers in the garden.",
+      "There is many beautiful flowers in the garden.",
+      "There are many beautiful flower in the garden."
+    ],
+    "prompt": "下面哪句话正确描述了花园里的花？",
+    "topicId": "hje_g3a_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "There is a red flower in the garden.",
+    "difficulty": "hard",
+    "explanation": "花园里有一朵红花用 There is a red flower in the garden.。",
+    "id": "hje_g3a_u3_l2_q7",
+    "options": [
+      "There is a red flower in the garden.",
+      "There are a red flower in the garden.",
+      "There is a blue flower in the garden."
+    ],
+    "prompt": "小明想说“花园里有一朵红色的花”，他可以说？",
+    "topicId": "hje_g3a_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "我们的花园里有树和花",
+    "difficulty": "hard",
+    "explanation": "trees 是树，flowers 是花，our garden 是我们的花园。",
+    "id": "hje_g3a_u3_l2_q8",
+    "options": [
+      "我们的花园里有树和花",
+      "我们的花园里只有树",
+      "我们的花园里只有花"
+    ],
+    "prompt": "同学说 There are trees and flowers in our garden.，意思是？",
+    "topicId": "hje_g3a_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "不摘花，不踩草",
+    "difficulty": "hard",
+    "explanation": "爱护花园要不摘花，不踩草。",
+    "id": "hje_g3a_u3_l2_q9",
+    "options": [
+      "不摘花，不踩草",
+      "随便摘花",
+      "在草地上乱跑"
+    ],
+    "prompt": "下面哪种做法最适合爱护花园？",
+    "topicId": "hje_g3a_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "drink",
+    "difficulty": "medium",
+    "explanation": "drink 是“喝”，water 是“水”。",
+    "id": "hje_g3a_u4_l1_q4",
+    "options": [
+      "drink",
+      "water",
+      "wash"
+    ],
+    "prompt": "“喝”用哪个英语单词？",
+    "topicId": "hje_g3a_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "tap",
+    "difficulty": "medium",
+    "explanation": "tap 的拼写是 t-a-p。",
+    "id": "hje_g3a_u4_l1_q5",
+    "options": [
+      "tap",
+      "tapp",
+      "taps"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“水龙头”？",
+    "topicId": "hje_g3a_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "洗",
+    "difficulty": "medium",
+    "explanation": "wash 是“洗”，drink 是“喝”。",
+    "id": "hje_g3a_u4_l1_q6",
+    "options": [
+      "洗",
+      "喝",
+      "水"
+    ],
+    "prompt": "“wash”是什么意思？",
+    "topicId": "hje_g3a_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I wash my hands with water.",
+    "difficulty": "hard",
+    "explanation": "用水洗手用 wash my hands with water.。",
+    "id": "hje_g3a_u4_l1_q7",
+    "options": [
+      "I wash my hands with water.",
+      "I wash my hands with tap.",
+      "I washes my hands with water."
+    ],
+    "prompt": "小明想说“我用水平洗手”，他应该说？",
+    "topicId": "hje_g3a_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "thirsty",
+    "difficulty": "hard",
+    "explanation": "thirsty 是“口渴”，hungry 是“饿”。",
+    "id": "hje_g3a_u4_l1_q8",
+    "options": [
+      "thirsty",
+      "hungry",
+      "tired"
+    ],
+    "prompt": "下面哪个单词表示“口渴”？",
+    "topicId": "hje_g3a_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Water is important for us.",
+    "difficulty": "hard",
+    "explanation": "水很重要用 Water is important for us.。",
+    "id": "hje_g3a_u4_l1_q9",
+    "options": [
+      "Water is important for us.",
+      "Water are important for us.",
+      "Water is important for me."
+    ],
+    "prompt": "小红想说“水对我们很重要”，她应该说？",
+    "topicId": "hje_g3a_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "关上",
+    "difficulty": "medium",
+    "explanation": "洗完手要关上水龙头，节约用水。",
+    "id": "hje_g3a_u4_l2_q4",
+    "options": [
+      "关上",
+      "打开",
+      "不理它"
+    ],
+    "prompt": "洗完手之后，水龙头应该怎么处理？",
+    "topicId": "hje_g3a_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Please turn off the tap.",
+    "difficulty": "medium",
+    "explanation": "请别人关水龙头用 Please turn off the tap.。",
+    "id": "hje_g3a_u4_l2_q5",
+    "options": [
+      "Please turn off the tap.",
+      "Please turn on the tap.",
+      "Please waste water."
+    ],
+    "prompt": "发现水龙头在滴水，你可以提醒同学说什么？",
+    "topicId": "hje_g3a_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Save water!",
+    "difficulty": "medium",
+    "explanation": "节约用水用 Save water!。",
+    "id": "hje_g3a_u4_l2_q6",
+    "options": [
+      "Save water!",
+      "Waste water!",
+      "Use more water!"
+    ],
+    "prompt": "下面哪句提醒大家节约用水最合适？",
+    "topicId": "hje_g3a_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Don't waste water.",
+    "difficulty": "hard",
+    "explanation": "不要浪费水用 Don't waste water.。",
+    "id": "hje_g3a_u4_l2_q7",
+    "options": [
+      "Don't waste water.",
+      "Don't save water.",
+      "Do waste water."
+    ],
+    "prompt": "小明想说“不要浪费水”，他应该说？",
+    "topicId": "hje_g3a_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "洗手时把水开小一点",
+    "difficulty": "hard",
+    "explanation": "节约用水要洗手时把水开小一点，洗完关上。",
+    "id": "hje_g3a_u4_l2_q8",
+    "options": [
+      "洗手时把水开小一点",
+      "洗手时把水开到最大",
+      "洗完手不关水龙头"
+    ],
+    "prompt": "下面哪种做法最节约用水？",
+    "topicId": "hje_g3a_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Let's save water together!",
+    "difficulty": "hard",
+    "explanation": "提议大家一起节约用水用 Let's save water together!。",
+    "id": "hje_g3a_u4_l2_q9",
+    "options": [
+      "Let's save water together!",
+      "Let's waste water together!",
+      "Let's use water together!"
+    ],
+    "prompt": "小红想提醒大家节约用水，她可以说？",
+    "topicId": "hje_g3a_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "clean",
+    "difficulty": "medium",
+    "explanation": "clean 是“打扫”，help 是“帮助”。",
+    "id": "hje_g3a_u5_l1_q4",
+    "options": [
+      "clean",
+      "help",
+      "carry"
+    ],
+    "prompt": "“打扫”用哪个英语单词？",
+    "topicId": "hje_g3a_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "help",
+    "difficulty": "medium",
+    "explanation": "help 的拼写是 h-e-l-p。",
+    "id": "hje_g3a_u5_l1_q5",
+    "options": [
+      "help",
+      "helpp",
+      "helppe"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“帮助”？",
+    "topicId": "hje_g3a_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "提、拿",
+    "difficulty": "medium",
+    "explanation": "carry 是“提、拿”，help 是“帮助”。",
+    "id": "hje_g3a_u5_l1_q6",
+    "options": [
+      "提、拿",
+      "帮助",
+      "打扫"
+    ],
+    "prompt": "“carry”是什么意思？",
+    "topicId": "hje_g3a_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I help Mum clean the room.",
+    "difficulty": "hard",
+    "explanation": "帮妈妈打扫用 help Mum clean the room.，clean 不加 s。",
+    "id": "hje_g3a_u5_l1_q7",
+    "options": [
+      "I help Mum clean the room.",
+      "I help Mum cleans the room.",
+      "I helps Mum clean the room."
+    ],
+    "prompt": "小明想说“我帮妈妈打扫房间”，他应该说？",
+    "topicId": "hje_g3a_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "pick up",
+    "difficulty": "hard",
+    "explanation": "pick up 是“捡起”。",
+    "id": "hje_g3a_u5_l1_q8",
+    "options": [
+      "pick up",
+      "carry",
+      "clean"
+    ],
+    "prompt": "下面哪个单词表示“捡起”？",
+    "topicId": "hje_g3a_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Thank you for your help!",
+    "difficulty": "hard",
+    "explanation": "感谢别人帮忙用 Thank you for your help!。",
+    "id": "hje_g3a_u5_l1_q9",
+    "options": [
+      "Thank you for your help!",
+      "Thank you for your carry!",
+      "Proud of you!"
+    ],
+    "prompt": "小红想说“谢谢你的帮助”，她应该说？",
+    "topicId": "hje_g3a_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Do you need help?",
+    "difficulty": "medium",
+    "explanation": "问别人需不需要帮忙也可以说 Do you need help?。",
+    "id": "hje_g3a_u5_l2_q4",
+    "options": [
+      "Do you need help?",
+      "Can I help you?",
+      "Let me help you."
+    ],
+    "prompt": "想问别人需不需要帮忙，还可以怎么说？",
+    "topicId": "hje_g3a_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Let me pick it up for you.",
+    "difficulty": "medium",
+    "explanation": "帮忙捡起来也可以说 Let me pick it up for you.。",
+    "id": "hje_g3a_u5_l2_q5",
+    "options": [
+      "Let me pick it up for you.",
+      "Let me help you pick it up.",
+      "Can I help you?"
+    ],
+    "prompt": "同学的书掉在地上了，你想帮忙捡起来，还可以怎么说？",
+    "topicId": "hje_g3a_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Can I help you? I'm happy to help.",
+    "difficulty": "medium",
+    "explanation": "主动帮忙时说很乐意帮忙，更得体。",
+    "id": "hje_g3a_u5_l2_q6",
+    "options": [
+      "Can I help you? I'm happy to help.",
+      "Can I help you? I'm sad to help.",
+      "Can you help me? I'm happy to help."
+    ],
+    "prompt": "下面哪句主动帮忙的说法最得体？",
+    "topicId": "hje_g3a_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Let me help you carry the books.",
+    "difficulty": "hard",
+    "explanation": "帮老师搬书用 Let me help you carry the books.。",
+    "id": "hje_g3a_u5_l2_q7",
+    "options": [
+      "Let me help you carry the books.",
+      "Let me help you carries the books.",
+      "Let me helps you carry the books."
+    ],
+    "prompt": "小明想帮老师搬书，他可以说？",
+    "topicId": "hje_g3a_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "不，谢谢。",
+    "difficulty": "hard",
+    "explanation": "别人主动帮忙时，不需要可以说 No, thank you.。",
+    "id": "hje_g3a_u5_l2_q8",
+    "options": [
+      "不，谢谢。",
+      "是的，谢谢。",
+      "好的，谢谢。"
+    ],
+    "prompt": "同学说 No, thank you.，意思是？",
+    "topicId": "hje_g3a_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "看到别人需要帮忙，主动问一句",
+    "difficulty": "hard",
+    "explanation": "主动帮忙要看到别人需要帮忙时，主动问一句。",
+    "id": "hje_g3a_u5_l2_q9",
+    "options": [
+      "看到别人需要帮忙，主动问一句",
+      "看到别人需要帮忙，假装没看见",
+      "抢着帮倒忙"
+    ],
+    "prompt": "下面哪种做法最适合主动帮忙？",
+    "topicId": "hje_g3a_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "sad",
+    "difficulty": "medium",
+    "explanation": "sad 是“难过的”，happy 是“高兴的”。",
+    "id": "hje_g3a_u6_l1_q4",
+    "options": [
+      "sad",
+      "happy",
+      "tired"
+    ],
+    "prompt": "“难过的”用哪个英语单词？",
+    "topicId": "hje_g3a_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "ill",
+    "difficulty": "medium",
+    "explanation": "ill 是“生病的”，hungry 是“饿的”。",
+    "id": "hje_g3a_u6_l1_q5",
+    "options": [
+      "ill",
+      "hungry",
+      "tired"
+    ],
+    "prompt": "“生病的”用哪个英语单词？",
+    "topicId": "hje_g3a_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "tired",
+    "difficulty": "medium",
+    "explanation": "tired 的拼写是 t-i-r-e-d。",
+    "id": "hje_g3a_u6_l1_q6",
+    "options": [
+      "tired",
+      "tierd",
+      "tiredd"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“累的”？",
+    "topicId": "hje_g3a_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "hungry",
+    "difficulty": "hard",
+    "explanation": "饿了用 hungry，累了用 tired。",
+    "id": "hje_g3a_u6_l1_q7",
+    "options": [
+      "hungry",
+      "tired",
+      "ill"
+    ],
+    "prompt": "小明饿了，他感觉怎么样？",
+    "topicId": "hje_g3a_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "excited",
+    "difficulty": "hard",
+    "explanation": "excited 是“兴奋的”。",
+    "id": "hje_g3a_u6_l1_q8",
+    "options": [
+      "excited",
+      "sad",
+      "tired"
+    ],
+    "prompt": "下面哪个单词表示“兴奋的”？",
+    "topicId": "hje_g3a_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I feel ill. I need to rest.",
+    "difficulty": "hard",
+    "explanation": "感觉不舒服用 I feel ill.，需要休息用 I need to rest.。",
+    "id": "hje_g3a_u6_l1_q9",
+    "options": [
+      "I feel ill. I need to rest.",
+      "I feel happy. I need to rest.",
+      "I feel ill. I need to play."
+    ],
+    "prompt": "小红感冒了，感觉不舒服，她可以怎么说？",
+    "topicId": "hje_g3a_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "How are you feeling?",
+    "difficulty": "medium",
+    "explanation": "问别人感觉怎么样也可以说 How are you feeling?。",
+    "id": "hje_g3a_u6_l2_q4",
+    "options": [
+      "How are you feeling?",
+      "How do you feel?",
+      "How old are you?"
+    ],
+    "prompt": "想问别人感觉怎么样，还可以怎么说？",
+    "topicId": "hje_g3a_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I feel tired.",
+    "difficulty": "medium",
+    "explanation": "累了用 I feel tired.。",
+    "id": "hje_g3a_u6_l2_q5",
+    "options": [
+      "I feel tired.",
+      "I feel happy.",
+      "I feel hungry."
+    ],
+    "prompt": "小红累了，她可以说？",
+    "topicId": "hje_g3a_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "—How do you feel? —I feel happy.",
+    "difficulty": "medium",
+    "explanation": "问感觉，答感觉，happy 是高兴的。",
+    "id": "hje_g3a_u6_l2_q6",
+    "options": [
+      "—How do you feel? —I feel happy.",
+      "—How do you feel? —I feel hungry.",
+      "—How do you feel? —Thank you!"
+    ],
+    "prompt": "下面哪组问感觉和回答感觉搭配正确？",
+    "topicId": "hje_g3a_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I feel hungry. I want some food.",
+    "difficulty": "hard",
+    "explanation": "饿了用 I feel hungry.，想要食物用 I want some food.。",
+    "id": "hje_g3a_u6_l2_q7",
+    "options": [
+      "I feel hungry. I want some food.",
+      "I feel tired. I want some food.",
+      "I feel hungry. I want some water."
+    ],
+    "prompt": "小明饿了，他可以说？",
+    "topicId": "hje_g3a_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "我感觉难过",
+    "difficulty": "hard",
+    "explanation": "sad 是难过的，feel 是感觉。",
+    "id": "hje_g3a_u6_l2_q8",
+    "options": [
+      "我感觉难过",
+      "我感觉高兴",
+      "我感觉累"
+    ],
+    "prompt": "同学说 I feel sad.，意思是？",
+    "topicId": "hje_g3a_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "问别人感觉怎么样，认真听回答",
+    "difficulty": "hard",
+    "explanation": "关心别人要问感觉怎么样，认真听回答。",
+    "id": "hje_g3a_u6_l2_q9",
+    "options": [
+      "问别人感觉怎么样，认真听回答",
+      "不问别人感觉",
+      "别人难过时还笑话他"
+    ],
+    "prompt": "下面哪种做法最适合关心别人？",
+    "topicId": "hje_g3a_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "farmer",
+    "difficulty": "medium",
+    "explanation": "farmer 是“农民”，driver 是“司机”。",
+    "id": "hje_g3a_u7_l1_q4",
+    "options": [
+      "farmer",
+      "driver",
+      "cook"
+    ],
+    "prompt": "“农民”用哪个英语单词？",
+    "topicId": "hje_g3a_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "cook",
+    "difficulty": "medium",
+    "explanation": "cook 是“厨师”，teacher 是“老师”。",
+    "id": "hje_g3a_u7_l1_q5",
+    "options": [
+      "cook",
+      "teacher",
+      "doctor"
+    ],
+    "prompt": "“厨师”用哪个英语单词？",
+    "topicId": "hje_g3a_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "teacher",
+    "difficulty": "medium",
+    "explanation": "teacher 的拼写是 t-e-a-c-h-e-r。",
+    "id": "hje_g3a_u7_l1_q6",
+    "options": [
+      "teacher",
+      "techer",
+      "teacherr"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“老师”？",
+    "topicId": "hje_g3a_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "My father is a driver.",
+    "difficulty": "hard",
+    "explanation": "爸爸是司机用 My father is a driver.。",
+    "id": "hje_g3a_u7_l1_q7",
+    "options": [
+      "My father is a driver.",
+      "My father is a doctor.",
+      "My father are a driver."
+    ],
+    "prompt": "小明想说“我的爸爸是司机”，他应该说？",
+    "topicId": "hje_g3a_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "worker",
+    "difficulty": "hard",
+    "explanation": "worker 是“工人”。",
+    "id": "hje_g3a_u7_l1_q8",
+    "options": [
+      "worker",
+      "farmer",
+      "driver"
+    ],
+    "prompt": "下面哪个单词表示“工人”？",
+    "topicId": "hje_g3a_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I want to be a doctor when I grow up.",
+    "difficulty": "hard",
+    "explanation": "长大后想当医生用 I want to be a doctor when I grow up.。",
+    "id": "hje_g3a_u7_l1_q9",
+    "options": [
+      "I want to be a doctor when I grow up.",
+      "I want to be a teacher when I grow up.",
+      "I want to be doctor when I grow up."
+    ],
+    "prompt": "小红想说“长大后我想当医生”，她应该说？",
+    "topicId": "hje_g3a_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "What does your mother do?",
+    "difficulty": "medium",
+    "explanation": "问妈妈的工作用 What does your mother do?。",
+    "id": "hje_g3a_u7_l2_q4",
+    "options": [
+      "What does your mother do?",
+      "What does your father do?",
+      "What do you do?"
+    ],
+    "prompt": "想问别人的妈妈是做什么工作的，你可以说？",
+    "topicId": "hje_g3a_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I want to be a farmer.",
+    "difficulty": "medium",
+    "explanation": "想当农民用 I want to be a farmer.。",
+    "id": "hje_g3a_u7_l2_q5",
+    "options": [
+      "I want to be a farmer.",
+      "I want to be a driver.",
+      "I want to be farmer."
+    ],
+    "prompt": "长大后你想当农民，你可以说？",
+    "topicId": "hje_g3a_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "She is a teacher.",
+    "difficulty": "medium",
+    "explanation": "她是老师用 She is a teacher.。",
+    "id": "hje_g3a_u7_l2_q6",
+    "options": [
+      "She is a teacher.",
+      "She are a teacher.",
+      "She is teacher."
+    ],
+    "prompt": "下面哪句说她是老师最正确？",
+    "topicId": "hje_g3a_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "His father is a doctor. His mother is a teacher.",
+    "difficulty": "hard",
+    "explanation": "爸爸和妈妈的工作都要说，be 动词用 is。",
+    "id": "hje_g3a_u7_l2_q7",
+    "options": [
+      "His father is a doctor. His mother is a teacher.",
+      "His father is a doctor. His mother are a teacher.",
+      "His father are a doctor. His mother is a teacher."
+    ],
+    "prompt": "小明想说“他的爸爸是医生，妈妈是老师”，他可以说？",
+    "topicId": "hje_g3a_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "我的妈妈是厨师",
+    "difficulty": "hard",
+    "explanation": "mother 是妈妈，cook 是厨师。",
+    "id": "hje_g3a_u7_l2_q8",
+    "options": [
+      "我的妈妈是厨师",
+      "我的妈妈是老师",
+      "我的爸爸是厨师"
+    ],
+    "prompt": "同学说 My mother is a cook.，意思是？",
+    "topicId": "hje_g3a_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "尊重每一种职业",
+    "difficulty": "hard",
+    "explanation": "谈论职业要尊重每一种职业。",
+    "id": "hje_g3a_u7_l2_q9",
+    "options": [
+      "尊重每一种职业",
+      "只喜欢某些职业",
+      "嘲笑别人的职业"
+    ],
+    "prompt": "下面哪种做法最适合谈论职业？",
+    "topicId": "hje_g3a_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "turn right",
+    "difficulty": "medium",
+    "explanation": "turn right 是“向右转”，turn left 是“向左转”。",
+    "id": "hje_g3a_u8_l1_q4",
+    "options": [
+      "turn right",
+      "turn left",
+      "go straight"
+    ],
+    "prompt": "“向右转”用哪个短语？",
+    "topicId": "hje_g3a_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "library",
+    "difficulty": "medium",
+    "explanation": "library 的拼写是 l-i-b-r-a-r-y。",
+    "id": "hje_g3a_u8_l1_q5",
+    "options": [
+      "library",
+      "libray",
+      "libraryy"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“图书馆”？",
+    "topicId": "hje_g3a_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "公园",
+    "difficulty": "medium",
+    "explanation": "park 是“公园”。",
+    "id": "hje_g3a_u8_l1_q6",
+    "options": [
+      "公园",
+      "图书馆",
+      "学校"
+    ],
+    "prompt": "“park”是什么意思？",
+    "topicId": "hje_g3a_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "The library is on the left of the park.",
+    "difficulty": "hard",
+    "explanation": "在左边用 on the left of…。",
+    "id": "hje_g3a_u8_l1_q7",
+    "options": [
+      "The library is on the left of the park.",
+      "The library is on the right of the park.",
+      "The library are on the left of the park."
+    ],
+    "prompt": "小明想说“图书馆在公园左边”，他应该说？",
+    "topicId": "hje_g3a_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "go straight",
+    "difficulty": "hard",
+    "explanation": "go straight 是“直走”。",
+    "id": "hje_g3a_u8_l1_q8",
+    "options": [
+      "go straight",
+      "turn left",
+      "turn right"
+    ],
+    "prompt": "下面哪个单词表示“直走”？",
+    "topicId": "hje_g3a_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "The park is on the right of the library.",
+    "difficulty": "hard",
+    "explanation": "在右边用 on the right of…。",
+    "id": "hje_g3a_u8_l1_q9",
+    "options": [
+      "The park is on the right of the library.",
+      "The park is on the left of the library.",
+      "The park are on the right of the library."
+    ],
+    "prompt": "小红想说“公园在图书馆右边”，她应该说？",
+    "topicId": "hje_g3a_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Where is the park?",
+    "difficulty": "medium",
+    "explanation": "问公园在哪里用 Where is the park?。",
+    "id": "hje_g3a_u8_l2_q4",
+    "options": [
+      "Where is the park?",
+      "Where is the library?",
+      "Where are you?"
+    ],
+    "prompt": "想问公园在哪里，你可以说？",
+    "topicId": "hje_g3a_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Turn left.",
+    "difficulty": "medium",
+    "explanation": "向左转用 Turn left.。",
+    "id": "hje_g3a_u8_l2_q5",
+    "options": [
+      "Turn left.",
+      "Turn right.",
+      "Go straight."
+    ],
+    "prompt": "别人问你学校怎么走，你知道要向左转，可以说？",
+    "topicId": "hje_g3a_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Go straight and turn left.",
+    "difficulty": "medium",
+    "explanation": "先直走再左转用 Go straight and turn left.。",
+    "id": "hje_g3a_u8_l2_q6",
+    "options": [
+      "Go straight and turn left.",
+      "Go straight and turn right.",
+      "Go straights and turn left."
+    ],
+    "prompt": "下面哪句先直走再左转的指路最正确？",
+    "topicId": "hje_g3a_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Turn right at the park. You can see the library.",
+    "difficulty": "hard",
+    "explanation": "在公园向右转用 Turn right at the park.。",
+    "id": "hje_g3a_u8_l2_q7",
+    "options": [
+      "Turn right at the park. You can see the library.",
+      "Turn left at the park. You can see the library.",
+      "Turn right at the park. You can see the park."
+    ],
+    "prompt": "小明想说“在公园向右转，就能看到图书馆”，他可以说？",
+    "topicId": "hje_g3a_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "The library is next to the park.",
+    "difficulty": "hard",
+    "explanation": "在旁边用 next to…。",
+    "id": "hje_g3a_u8_l2_q8",
+    "options": [
+      "The library is next to the park.",
+      "The library is next to the school.",
+      "The library are next to the park."
+    ],
+    "prompt": "同学说 Where is the library?，你知道图书馆在公园旁边，应该答？",
+    "topicId": "hje_g3a_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "先说请，再清楚说要去哪里",
+    "difficulty": "hard",
+    "explanation": "问路要先说请，清楚说要去哪里，问完说谢谢。",
+    "id": "hje_g3a_u8_l2_q9",
+    "options": [
+      "先说请，再清楚说要去哪里",
+      "不说请，直接问",
+      "问完就走，不说谢谢"
+    ],
+    "prompt": "下面哪种做法最适合问路？",
+    "topicId": "hje_g3a_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Dragon Boat Festival",
+    "difficulty": "medium",
+    "explanation": "端午节是 Dragon Boat Festival，春节是 Spring Festival。",
+    "id": "hje_g3a_u9_l1_q4",
+    "options": [
+      "Dragon Boat Festival",
+      "Spring Festival",
+      "Mid-Autumn Festival"
+    ],
+    "prompt": "“端午节”的英语说法是？",
+    "topicId": "hje_g3a_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "dumplings",
+    "difficulty": "medium",
+    "explanation": "春节吃饺子用 dumplings，中秋吃月饼。",
+    "id": "hje_g3a_u9_l1_q5",
+    "options": [
+      "dumplings",
+      "moon cakes",
+      "rice"
+    ],
+    "prompt": "春节人们会吃什么？",
+    "topicId": "hje_g3a_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Spring Festival",
+    "difficulty": "medium",
+    "explanation": "Spring Festival 的拼写要注意，Festival 是节日。",
+    "id": "hje_g3a_u9_l1_q6",
+    "options": [
+      "Spring Festival",
+      "Spring Festivai",
+      "Spring Festivals"
+    ],
+    "prompt": "下面哪个春节名称拼写最规范？",
+    "topicId": "hje_g3a_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "enjoy the moon",
+    "difficulty": "hard",
+    "explanation": "赏月用 enjoy the moon，吃月饼用 eat moon cakes。",
+    "id": "hje_g3a_u9_l1_q7",
+    "options": [
+      "enjoy the moon",
+      "eat moon cakes",
+      "watch dragon boats"
+    ],
+    "prompt": "中秋节人们会赏月，赏月用英语怎么说？",
+    "topicId": "hje_g3a_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Spring Festival",
+    "difficulty": "hard",
+    "explanation": "春节在春天，Spring 是春天。",
+    "id": "hje_g3a_u9_l1_q8",
+    "options": [
+      "Spring Festival",
+      "Dragon Boat Festival",
+      "Mid-Autumn Festival"
+    ],
+    "prompt": "下面哪个节日是在春天？",
+    "topicId": "hje_g3a_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Spring Festival is the most important festival in China.",
+    "difficulty": "hard",
+    "explanation": "春节是中国最重要的节日，用 Spring Festival is…。",
+    "id": "hje_g3a_u9_l1_q9",
+    "options": [
+      "Spring Festival is the most important festival in China.",
+      "Spring Festival are the most important festival in China.",
+      "Dragon Boat Festival is the most important festival in China."
+    ],
+    "prompt": "小红想说“春节是中国最重要的节日”，她应该说？",
+    "topicId": "hje_g3a_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Happy Mid-Autumn Festival!",
+    "difficulty": "medium",
+    "explanation": "中秋节祝福用 Happy Mid-Autumn Festival!。",
+    "id": "hje_g3a_u9_l2_q4",
+    "options": [
+      "Happy Mid-Autumn Festival!",
+      "Happy Spring Festival!",
+      "Happy Dragon Boat Festival!"
+    ],
+    "prompt": "中秋节到了，给别人祝福可以说？",
+    "topicId": "hje_g3a_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "zongzi",
+    "difficulty": "medium",
+    "explanation": "端午节吃粽子用 zongzi。",
+    "id": "hje_g3a_u9_l2_q5",
+    "options": [
+      "zongzi",
+      "moon cakes",
+      "dumplings"
+    ],
+    "prompt": "端午节人们会吃什么？",
+    "topicId": "hje_g3a_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Happy Dragon Boat Festival!",
+    "difficulty": "medium",
+    "explanation": "端午节祝福用 Happy Dragon Boat Festival!。",
+    "id": "hje_g3a_u9_l2_q6",
+    "options": [
+      "Happy Dragon Boat Festival!",
+      "Happy Spring Festival!",
+      "Happy Mid-Autumn Festival!"
+    ],
+    "prompt": "下面哪句端午节祝福最正确？",
+    "topicId": "hje_g3a_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "At Spring Festival, my family eats dumplings.",
+    "difficulty": "hard",
+    "explanation": "春节全家吃饺子，family 作主语时 eat 加 s。",
+    "id": "hje_g3a_u9_l2_q7",
+    "options": [
+      "At Spring Festival, my family eats dumplings.",
+      "At Spring Festival, my family eat dumplings.",
+      "At Mid-Autumn Festival, my family eats dumplings."
+    ],
+    "prompt": "小明想说“春节，我们全家吃饺子”，他可以说？",
+    "topicId": "hje_g3a_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "中秋节，我们吃月饼",
+    "difficulty": "hard",
+    "explanation": "Mid-Autumn Festival 是中秋节，moon cakes 是月饼。",
+    "id": "hje_g3a_u9_l2_q8",
+    "options": [
+      "中秋节，我们吃月饼",
+      "春节，我们吃月饼",
+      "端午节，我们吃月饼"
+    ],
+    "prompt": "同学说 At Mid-Autumn Festival, we eat moon cakes.，意思是？",
+    "topicId": "hje_g3a_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "和家人团聚，了解节日习俗",
+    "difficulty": "hard",
+    "explanation": "过传统节日要和家人团聚，了解节日习俗。",
+    "id": "hje_g3a_u9_l2_q9",
+    "options": [
+      "和家人团聚，了解节日习俗",
+      "只顾自己玩",
+      "不了解节日习俗"
+    ],
+    "prompt": "下面哪种做法最适合过传统节日？",
+    "topicId": "hje_g3a_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "dumplings",
+    "difficulty": "medium",
+    "explanation": "dumplings 是“饺子”，noodles 是“面条”。",
+    "id": "hje_g3a_u10_l1_q4",
+    "options": [
+      "dumplings",
+      "noodles",
+      "pizza"
+    ],
+    "prompt": "“饺子”用哪个英语单词？",
+    "topicId": "hje_g3a_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "sushi",
+    "difficulty": "medium",
+    "explanation": "sushi 是“寿司”，pizza 是“披萨”。",
+    "id": "hje_g3a_u10_l1_q5",
+    "options": [
+      "sushi",
+      "pizza",
+      "noodles"
+    ],
+    "prompt": "日本的代表性食物寿司是哪个词？",
+    "topicId": "hje_g3a_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "pizza",
+    "difficulty": "medium",
+    "explanation": "pizza 的拼写是 p-i-z-z-a。",
+    "id": "hje_g3a_u10_l1_q6",
+    "options": [
+      "pizza",
+      "piza",
+      "pizzza"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“披萨”？",
+    "topicId": "hje_g3a_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I want dumplings and noodles.",
+    "difficulty": "hard",
+    "explanation": "想吃两种食物，名词都用复数。",
+    "id": "hje_g3a_u10_l1_q7",
+    "options": [
+      "I want dumplings and noodles.",
+      "I want dumpling and noodle.",
+      "I want dumplings and noodle."
+    ],
+    "prompt": "小明想说“我想吃饺子和面条”，他应该说？",
+    "topicId": "hje_g3a_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "rice",
+    "difficulty": "hard",
+    "explanation": "rice 是“米饭”。",
+    "id": "hje_g3a_u10_l1_q8",
+    "options": [
+      "rice",
+      "noodles",
+      "dumplings"
+    ],
+    "prompt": "下面哪个单词表示“米饭”？",
+    "topicId": "hje_g3a_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Food from all over the world is delicious.",
+    "difficulty": "hard",
+    "explanation": "世界各地的美食很好吃，food 不可数，用 is。",
+    "id": "hje_g3a_u10_l1_q9",
+    "options": [
+      "Food from all over the world is delicious.",
+      "Food from all over the world are delicious.",
+      "Food from all over the world is deliciouss."
+    ],
+    "prompt": "小红想说“世界各地的美食都很好吃”，她应该说？",
+    "topicId": "hje_g3a_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I like dumplings.",
+    "difficulty": "medium",
+    "explanation": "喜欢饺子用 I like dumplings.。",
+    "id": "hje_g3a_u10_l2_q4",
+    "options": [
+      "I like dumplings.",
+      "I like noodles.",
+      "I like dumpling."
+    ],
+    "prompt": "想说你喜欢饺子，你可以说？",
+    "topicId": "hje_g3a_u10_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Do you like sushi?",
+    "difficulty": "medium",
+    "explanation": "问别人喜不喜欢寿司用 Do you like sushi?。",
+    "id": "hje_g3a_u10_l2_q5",
+    "options": [
+      "Do you like sushi?",
+      "Do you like pizza?",
+      "Do you like noodles?"
+    ],
+    "prompt": "想问别人喜不喜欢寿司，你可以说？",
+    "topicId": "hje_g3a_u10_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "My favourite food is pizza.",
+    "difficulty": "medium",
+    "explanation": "最喜欢的食物是披萨用 My favourite food is pizza.。",
+    "id": "hje_g3a_u10_l2_q6",
+    "options": [
+      "My favourite food is pizza.",
+      "My favourite food is dumplings.",
+      "My favourite food are pizza."
+    ],
+    "prompt": "下面哪句说最喜欢吃披萨最正确？",
+    "topicId": "hje_g3a_u10_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I like noodles, but I don't like pizza.",
+    "difficulty": "hard",
+    "explanation": "喜欢和不喜欢要分开说，不喜欢用 don't like。",
+    "id": "hje_g3a_u10_l2_q7",
+    "options": [
+      "I like noodles, but I don't like pizza.",
+      "I like noodles, but I like pizza.",
+      "I don't like noodles, but I don't like pizza."
+    ],
+    "prompt": "小明喜欢面条，不喜欢披萨，他应该说？",
+    "topicId": "hje_g3a_u10_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Yes, I do.",
+    "difficulty": "hard",
+    "explanation": "问喜不喜欢用 Do you like…?，肯定回答用 Yes, I do.。",
+    "id": "hje_g3a_u10_l2_q8",
+    "options": [
+      "Yes, I do.",
+      "No, I don't.",
+      "Yes, I like."
+    ],
+    "prompt": "同学问 Do you like dumplings?，你喜欢饺子，应该答？",
+    "topicId": "hje_g3a_u10_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "说出自己喜欢的食物，也尊重别人的口味",
+    "difficulty": "hard",
+    "explanation": "谈论食物要说出自己喜欢的，也尊重别人的口味。",
+    "id": "hje_g3a_u10_l2_q9",
+    "options": [
+      "说出自己喜欢的食物，也尊重别人的口味",
+      "只说自己喜欢的，嘲笑别人的口味",
+      "不说自己喜欢什么"
+    ],
+    "prompt": "下面哪种做法最适合谈论食物？",
+    "topicId": "hje_g3a_u10_l2",
+    "type": "choice"
   }
 ]
