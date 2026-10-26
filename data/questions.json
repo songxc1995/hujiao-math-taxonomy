@@ -33239,5 +33239,1685 @@
     "prompt": "下面哪种做法最适合谈论食物？",
     "topicId": "hje_g3a_u10_l2",
     "type": "choice"
+  },
+  {
+    "answer": "read books",
+    "difficulty": "medium",
+    "explanation": "读故事书用 read books，踢足球用 play football。",
+    "id": "hje_g3b_u1_l1_q4",
+    "options": [
+      "read books",
+      "play football",
+      "draw pictures"
+    ],
+    "prompt": "“读故事书”用英语怎么说？",
+    "topicId": "hje_g3b_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "listen to music",
+    "difficulty": "medium",
+    "explanation": "听音乐用 listen to music，music 不可数。",
+    "id": "hje_g3b_u1_l1_q5",
+    "options": [
+      "listen to music",
+      "listen music",
+      "listen to musics"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“听音乐”？",
+    "topicId": "hje_g3b_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "画画",
+    "difficulty": "medium",
+    "explanation": "draw pictures 是“画画”。",
+    "id": "hje_g3b_u1_l1_q6",
+    "options": [
+      "画画",
+      "踢足球",
+      "读书"
+    ],
+    "prompt": "“draw pictures”是什么意思？",
+    "topicId": "hje_g3b_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "In my free time, I like listening to music and drawing pictures.",
+    "difficulty": "hard",
+    "explanation": "空闲时间做某事用 like 加动词 ing。",
+    "id": "hje_g3b_u1_l1_q7",
+    "options": [
+      "In my free time, I like listening to music and drawing pictures.",
+      "In my free time, I like listen to music and draw pictures.",
+      "In my free time, I like listening to music and draw pictures."
+    ],
+    "prompt": "小明想说“空闲时间，我喜欢听音乐和画画”，他应该说？",
+    "topicId": "hje_g3b_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "swim",
+    "difficulty": "hard",
+    "explanation": "swim 是“游泳”，空闲时间可以游泳。",
+    "id": "hje_g3b_u1_l1_q8",
+    "options": [
+      "swim",
+      "read",
+      "draw"
+    ],
+    "prompt": "下面哪个单词表示“游泳”？",
+    "topicId": "hje_g3b_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "My free time is rich.",
+    "difficulty": "hard",
+    "explanation": "空闲时间丰富用 My free time is rich.。",
+    "id": "hje_g3b_u1_l1_q9",
+    "options": [
+      "My free time is rich.",
+      "My free time are rich.",
+      "My free time is poor."
+    ],
+    "prompt": "小红想说“我的空闲时间很丰富”，她应该说？",
+    "topicId": "hje_g3b_u1_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I draw pictures in my free time.",
+    "difficulty": "medium",
+    "explanation": "空闲时间画画用 I draw pictures in my free time.。",
+    "id": "hje_g3b_u1_l2_q4",
+    "options": [
+      "I draw pictures in my free time.",
+      "I play football in my free time.",
+      "I draw picture in my free time."
+    ],
+    "prompt": "别人问 What do you do in your free time? 你空闲时间画画，应该回答？",
+    "topicId": "hje_g3b_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Do you like to play football in your free time?",
+    "difficulty": "medium",
+    "explanation": "问别人空闲时间喜不喜欢踢足球用 Do you like to play football in your free time?。",
+    "id": "hje_g3b_u1_l2_q5",
+    "options": [
+      "Do you like to play football in your free time?",
+      "Do you like to read books in your free time?",
+      "What do you do in your free time?"
+    ],
+    "prompt": "想问别人空闲时间喜不喜欢踢足球，应该说？",
+    "topicId": "hje_g3b_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I like to listen to music in my free time.",
+    "difficulty": "medium",
+    "explanation": "空闲时间喜欢听音乐用 I like to listen to music in my free time.。",
+    "id": "hje_g3b_u1_l2_q6",
+    "options": [
+      "I like to listen to music in my free time.",
+      "I like to listen music in my free time.",
+      "I likes to listen to music in my free time."
+    ],
+    "prompt": "下面哪句说空闲时间听音乐最正确？",
+    "topicId": "hje_g3b_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "In my free time, I like to read books, but I don't like to play football.",
+    "difficulty": "hard",
+    "explanation": "喜欢和不喜欢要分开说，不喜欢用 don't like。",
+    "id": "hje_g3b_u1_l2_q7",
+    "options": [
+      "In my free time, I like to read books, but I don't like to play football.",
+      "In my free time, I like to read books, but I like to play football.",
+      "In my free time, I don't like to read books, but I don't like to play football."
+    ],
+    "prompt": "小明空闲时间喜欢读书，不喜欢踢足球，他应该说？",
+    "topicId": "hje_g3b_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "我空闲时间踢足球",
+    "difficulty": "hard",
+    "explanation": "play football 是踢足球，free time 是空闲时间。",
+    "id": "hje_g3b_u1_l2_q8",
+    "options": [
+      "我空闲时间踢足球",
+      "我空闲时间读书",
+      "我空闲时间画画"
+    ],
+    "prompt": "同学说 I play football in my free time.，意思是？",
+    "topicId": "hje_g3b_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "说出自己真正喜欢做的事",
+    "difficulty": "hard",
+    "explanation": "谈论空闲时间要说出自己真正喜欢做的事。",
+    "id": "hje_g3b_u1_l2_q9",
+    "options": [
+      "说出自己真正喜欢做的事",
+      "随便编一个",
+      "不说自己的事"
+    ],
+    "prompt": "下面哪种做法最适合谈论空闲时间？",
+    "topicId": "hje_g3b_u1_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "kind",
+    "difficulty": "medium",
+    "explanation": "kind 是“善良的”，helpful 是“乐于助人的”。",
+    "id": "hje_g3b_u2_l1_q4",
+    "options": [
+      "kind",
+      "helpful",
+      "share"
+    ],
+    "prompt": "“善良的”用哪个英语单词？",
+    "topicId": "hje_g3b_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "together",
+    "difficulty": "medium",
+    "explanation": "together 的拼写是 t-o-g-e-t-h-e-r。",
+    "id": "hje_g3b_u2_l1_q5",
+    "options": [
+      "together",
+      "togeter",
+      "togetherer"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“一起”？",
+    "topicId": "hje_g3b_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "乐于助人的",
+    "difficulty": "medium",
+    "explanation": "helpful 是“乐于助人的”，kind 是“善良的”。",
+    "id": "hje_g3b_u2_l1_q6",
+    "options": [
+      "乐于助人的",
+      "善良的",
+      "分享的"
+    ],
+    "prompt": "“helpful”是什么意思？",
+    "topicId": "hje_g3b_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "My friend is kind.",
+    "difficulty": "hard",
+    "explanation": "朋友很善良用 My friend is kind.。",
+    "id": "hje_g3b_u2_l1_q7",
+    "options": [
+      "My friend is kind.",
+      "My friend are kind.",
+      "My friend is helpful."
+    ],
+    "prompt": "小明想说“我的朋友很善良”，他应该说？",
+    "topicId": "hje_g3b_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "share toys",
+    "difficulty": "hard",
+    "explanation": "分享玩具用 share toys，share 是分享。",
+    "id": "hje_g3b_u2_l1_q8",
+    "options": [
+      "share toys",
+      "play together",
+      "be friends"
+    ],
+    "prompt": "下面哪个单词表示“分享玩具”？",
+    "topicId": "hje_g3b_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Good friends help each other.",
+    "difficulty": "hard",
+    "explanation": "好朋友互相帮助用 Good friends help each other.。",
+    "id": "hje_g3b_u2_l1_q9",
+    "options": [
+      "Good friends help each other.",
+      "Good friends helps each other.",
+      "Good friend help each other."
+    ],
+    "prompt": "小红想说“好朋友要互相帮助”，她应该说？",
+    "topicId": "hje_g3b_u2_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Can we be friends?",
+    "difficulty": "medium",
+    "explanation": "想和新同学交朋友也可以问 Can we be friends?。",
+    "id": "hje_g3b_u2_l2_q4",
+    "options": [
+      "Can we be friends?",
+      "Let's be friends!",
+      "Can I play with you?"
+    ],
+    "prompt": "想和新同学交朋友，还可以怎么说？",
+    "topicId": "hje_g3b_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "No, sorry.",
+    "difficulty": "medium",
+    "explanation": "不同意时可以说 No, sorry.，要有礼貌。",
+    "id": "hje_g3b_u2_l2_q5",
+    "options": [
+      "No, sorry.",
+      "Yes, please.",
+      "Hello! I'm Xiaoming."
+    ],
+    "prompt": "新朋友问 Can I play with you? 你不同意，应该回答？",
+    "topicId": "hje_g3b_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Hello! I'm Xiaoming. Let's be friends!",
+    "difficulty": "medium",
+    "explanation": "先打招呼、自我介绍，再提议交朋友。",
+    "id": "hje_g3b_u2_l2_q6",
+    "options": [
+      "Hello! I'm Xiaoming. Let's be friends!",
+      "Goodbye! I'm Xiaoming. Let's be friends!",
+      "Hello! You're Xiaoming. Let's be friends!"
+    ],
+    "prompt": "下面哪句打招呼并提议交朋友最正确？",
+    "topicId": "hje_g3b_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "Hello! I'm Xiaoming. What's your name?",
+    "difficulty": "hard",
+    "explanation": "先自我介绍，再问对方名字。",
+    "id": "hje_g3b_u2_l2_q7",
+    "options": [
+      "Hello! I'm Xiaoming. What's your name?",
+      "Goodbye! I'm Xiaoming. What's your name?",
+      "Hello! You're Xiaoming. What's your name?"
+    ],
+    "prompt": "小明想向新朋友介绍自己并问对方叫什么，他可以说？",
+    "topicId": "hje_g3b_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "我们一起玩吧！",
+    "difficulty": "hard",
+    "explanation": "Let's play together! 是“我们一起玩吧”。",
+    "id": "hje_g3b_u2_l2_q8",
+    "options": [
+      "我们一起玩吧！",
+      "我们一起回家吧！",
+      "我们一起学习吧！"
+    ],
+    "prompt": "同学说 Let's play together!，意思是？",
+    "topicId": "hje_g3b_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "主动打招呼，友好分享",
+    "difficulty": "hard",
+    "explanation": "交朋友要主动打招呼，友好分享。",
+    "id": "hje_g3b_u2_l2_q9",
+    "options": [
+      "主动打招呼，友好分享",
+      "不理新同学",
+      "只跟自己玩"
+    ],
+    "prompt": "下面哪种做法最适合交朋友？",
+    "topicId": "hje_g3b_u2_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "pants",
+    "difficulty": "medium",
+    "explanation": "pants 是“裤子”，shirt 是“衬衫”。",
+    "id": "hje_g3b_u3_l1_q4",
+    "options": [
+      "pants",
+      "shirt",
+      "dress"
+    ],
+    "prompt": "“裤子”用哪个英语单词？",
+    "topicId": "hje_g3b_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "hat",
+    "difficulty": "medium",
+    "explanation": "hat 是“帽子”，coat 是“外套”。",
+    "id": "hje_g3b_u3_l1_q5",
+    "options": [
+      "hat",
+      "coat",
+      "shoes"
+    ],
+    "prompt": "“帽子”用哪个英语单词？",
+    "topicId": "hje_g3b_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "shoes",
+    "difficulty": "medium",
+    "explanation": "shoes 的拼写是 s-h-o-e-s，一双鞋用复数。",
+    "id": "hje_g3b_u3_l1_q6",
+    "options": [
+      "shoes",
+      "shoe",
+      "shoess"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“鞋子”？",
+    "topicId": "hje_g3b_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I wear a shirt, pants and shoes.",
+    "difficulty": "hard",
+    "explanation": "穿几件衣服，列举时用逗号和 and。",
+    "id": "hje_g3b_u3_l1_q7",
+    "options": [
+      "I wear a shirt, pants and shoes.",
+      "I wear a shirt, pants and shoe.",
+      "I wears a shirt, pants and shoes."
+    ],
+    "prompt": "小红想说“我穿一件衬衫、一条裤子和一双鞋”，她应该说？",
+    "topicId": "hje_g3b_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "wear",
+    "difficulty": "hard",
+    "explanation": "wear 是“穿戴”，shirt 是衬衫。",
+    "id": "hje_g3b_u3_l1_q8",
+    "options": [
+      "wear",
+      "shirt",
+      "dress"
+    ],
+    "prompt": "下面哪个单词表示“穿戴”？",
+    "topicId": "hje_g3b_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "My hat is red.",
+    "difficulty": "hard",
+    "explanation": "帽子是红色的用 My hat is red.。",
+    "id": "hje_g3b_u3_l1_q9",
+    "options": [
+      "My hat is red.",
+      "My hat are red.",
+      "My hat is blue."
+    ],
+    "prompt": "小明想说“我的帽子是红色的”，他应该说？",
+    "topicId": "hje_g3b_u3_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I'm wearing a dress.",
+    "difficulty": "medium",
+    "explanation": "穿裙子用 I'm wearing a dress.。",
+    "id": "hje_g3b_u3_l2_q4",
+    "options": [
+      "I'm wearing a dress.",
+      "I'm wearing a shirt.",
+      "I'm wearing dress."
+    ],
+    "prompt": "别人问 What are you wearing? 你穿了一条裙子，应该回答？",
+    "topicId": "hje_g3b_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "What is he wearing?",
+    "difficulty": "medium",
+    "explanation": "问男性穿什么用 What is he wearing?。",
+    "id": "hje_g3b_u3_l2_q5",
+    "options": [
+      "What is he wearing?",
+      "What are you wearing?",
+      "What is she wearing?"
+    ],
+    "prompt": "想问照片上的男性穿什么，应该问？",
+    "topicId": "hje_g3b_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I wear a coat in winter.",
+    "difficulty": "medium",
+    "explanation": "冬天穿外套用 I wear a coat in winter.。",
+    "id": "hje_g3b_u3_l2_q6",
+    "options": [
+      "I wear a coat in winter.",
+      "I wear a coat in summer.",
+      "I wears a coat in winter."
+    ],
+    "prompt": "下面哪句说冬天穿外套最正确？",
+    "topicId": "hje_g3b_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "a coat and a hat",
+    "difficulty": "hard",
+    "explanation": "天气冷出门要穿外套和帽子，保暖。",
+    "id": "hje_g3b_u3_l2_q7",
+    "options": [
+      "a coat and a hat",
+      "a shirt and shoes",
+      "a dress and shoes"
+    ],
+    "prompt": "天气很冷，小明出门应该穿什么？",
+    "topicId": "hje_g3b_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "我穿了一双鞋",
+    "difficulty": "hard",
+    "explanation": "shoes 是鞋子，wearing 是穿着。",
+    "id": "hje_g3b_u3_l2_q8",
+    "options": [
+      "我穿了一双鞋",
+      "我穿了一件衬衫",
+      "我穿了一条裙子"
+    ],
+    "prompt": "同学说 I'm wearing shoes.，意思是？",
+    "topicId": "hje_g3b_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "根据天气选择合适的衣服",
+    "difficulty": "hard",
+    "explanation": "谈论穿着要根据天气选择合适的衣服。",
+    "id": "hje_g3b_u3_l2_q9",
+    "options": [
+      "根据天气选择合适的衣服",
+      "天气冷还穿短袖",
+      "天气热还穿外套"
+    ],
+    "prompt": "下面哪种做法最适合谈论穿着？",
+    "topicId": "hje_g3b_u3_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "quiet",
+    "difficulty": "medium",
+    "explanation": "quiet 是“安静的”，loud 是“大声的”。",
+    "id": "hje_g3b_u4_l1_q4",
+    "options": [
+      "quiet",
+      "loud",
+      "sound"
+    ],
+    "prompt": "教室里要保持安静，“安静的”用哪个英语单词？",
+    "topicId": "hje_g3b_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "sound",
+    "difficulty": "medium",
+    "explanation": "sound 的拼写是 s-o-u-n-d。",
+    "id": "hje_g3b_u4_l1_q5",
+    "options": [
+      "sound",
+      "soud",
+      "sounds"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“声音”？",
+    "topicId": "hje_g3b_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "铃声",
+    "difficulty": "medium",
+    "explanation": "bell 是“铃声”，bird 是“鸟”。",
+    "id": "hje_g3b_u4_l1_q6",
+    "options": [
+      "铃声",
+      "鸟叫",
+      "音乐"
+    ],
+    "prompt": "“bell”是什么意思？",
+    "topicId": "hje_g3b_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I can hear a bell.",
+    "difficulty": "hard",
+    "explanation": "听见铃声用 I can hear a bell.。",
+    "id": "hje_g3b_u4_l1_q7",
+    "options": [
+      "I can hear a bell.",
+      "I can hear a bird.",
+      "I can hear bell."
+    ],
+    "prompt": "小明想说“我能听见铃声”，他应该说？",
+    "topicId": "hje_g3b_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "hear",
+    "difficulty": "hard",
+    "explanation": "hear 是“听”，sound 是“声音”。",
+    "id": "hje_g3b_u4_l1_q8",
+    "options": [
+      "hear",
+      "sound",
+      "loud"
+    ],
+    "prompt": "下面哪个单词表示“听”？",
+    "topicId": "hje_g3b_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "It is quiet in the classroom.",
+    "difficulty": "hard",
+    "explanation": "教室里很安静用 It is quiet in the classroom.。",
+    "id": "hje_g3b_u4_l1_q9",
+    "options": [
+      "It is quiet in the classroom.",
+      "It is loud in the classroom.",
+      "It are quiet in the classroom."
+    ],
+    "prompt": "小红想说“教室里很安静”，她应该说？",
+    "topicId": "hje_g3b_u4_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I can hear a bird.",
+    "difficulty": "medium",
+    "explanation": "听到了鸟叫用 I can hear a bird.。",
+    "id": "hje_g3b_u4_l2_q4",
+    "options": [
+      "I can hear a bird.",
+      "I can hear music.",
+      "I can hear birds."
+    ],
+    "prompt": "别人问 What sounds can you hear? 你听到了鸟叫，应该回答？",
+    "topicId": "hje_g3b_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "It is loud.",
+    "difficulty": "medium",
+    "explanation": "声音很大用 It is loud.，安静用 quiet。",
+    "id": "hje_g3b_u4_l2_q5",
+    "options": [
+      "It is loud.",
+      "It is quiet.",
+      "It is small."
+    ],
+    "prompt": "教室里声音很大，小红应该说什么？",
+    "topicId": "hje_g3b_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I can hear music and birds.",
+    "difficulty": "medium",
+    "explanation": "听见音乐和鸟叫，鸟用复数 birds。",
+    "id": "hje_g3b_u4_l2_q6",
+    "options": [
+      "I can hear music and birds.",
+      "I can hear music and bird.",
+      "I can hears music and birds."
+    ],
+    "prompt": "下面哪句说听见音乐和鸟叫最正确？",
+    "topicId": "hje_g3b_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I can hear wind and rain.",
+    "difficulty": "hard",
+    "explanation": "风声和雨声用 wind and rain，wind 和 rain 不可数。",
+    "id": "hje_g3b_u4_l2_q7",
+    "options": [
+      "I can hear wind and rain.",
+      "I can hear winds and rains.",
+      "I can hears wind and rain."
+    ],
+    "prompt": "小明想说“我能听见风声和雨声”，他可以说？",
+    "topicId": "hje_g3b_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "现在很安静",
+    "difficulty": "hard",
+    "explanation": "quiet 是安静的，now 是现在。",
+    "id": "hje_g3b_u4_l2_q8",
+    "options": [
+      "现在很安静",
+      "现在很吵",
+      "现在很热闹"
+    ],
+    "prompt": "同学说 It is quiet now.，意思是？",
+    "topicId": "hje_g3b_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "说话声音小一点，保持安静",
+    "difficulty": "hard",
+    "explanation": "在教室里要说话声音小一点，保持安静。",
+    "id": "hje_g3b_u4_l2_q9",
+    "options": [
+      "说话声音小一点，保持安静",
+      "大声说话",
+      "随便制造噪音"
+    ],
+    "prompt": "下面哪种做法最适合在教室里？",
+    "topicId": "hje_g3b_u4_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "green",
+    "difficulty": "medium",
+    "explanation": "green 是“绿色的”，blue 是“蓝色的”。",
+    "id": "hje_g3b_u5_l1_q4",
+    "options": [
+      "green",
+      "blue",
+      "pink"
+    ],
+    "prompt": "“绿色的”用哪个英语单词？",
+    "topicId": "hje_g3b_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "purple",
+    "difficulty": "medium",
+    "explanation": "purple 是“紫色的”，pink 是“粉色的”。",
+    "id": "hje_g3b_u5_l1_q5",
+    "options": [
+      "purple",
+      "pink",
+      "yellow"
+    ],
+    "prompt": "“紫色的”用哪个英语单词？",
+    "topicId": "hje_g3b_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "blue",
+    "difficulty": "medium",
+    "explanation": "blue 的拼写是 b-l-u-e。",
+    "id": "hje_g3b_u5_l1_q6",
+    "options": [
+      "blue",
+      "blu",
+      "bluee"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“蓝色”？",
+    "topicId": "hje_g3b_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I like red and blue.",
+    "difficulty": "hard",
+    "explanation": "喜欢两种颜色，用 and 连接，颜色不加 s。",
+    "id": "hje_g3b_u5_l1_q7",
+    "options": [
+      "I like red and blue.",
+      "I like red and blues.",
+      "I likes red and blue."
+    ],
+    "prompt": "小明想说“我喜欢红色和蓝色”，他应该说？",
+    "topicId": "hje_g3b_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "rainbow",
+    "difficulty": "hard",
+    "explanation": "rainbow 是“彩虹”，彩虹有多种颜色。",
+    "id": "hje_g3b_u5_l1_q8",
+    "options": [
+      "rainbow",
+      "red",
+      "blue"
+    ],
+    "prompt": "下面哪个单词表示“彩虹”？",
+    "topicId": "hje_g3b_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "My schoolbag is pink.",
+    "difficulty": "hard",
+    "explanation": "书包是粉色的用 My schoolbag is pink.。",
+    "id": "hje_g3b_u5_l1_q9",
+    "options": [
+      "My schoolbag is pink.",
+      "My schoolbag are pink.",
+      "My schoolbag is purple."
+    ],
+    "prompt": "小红想说“我的书包是粉色的”，她应该说？",
+    "topicId": "hje_g3b_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "It is red.",
+    "difficulty": "medium",
+    "explanation": "苹果是红色的用 It is red.。",
+    "id": "hje_g3b_u5_l2_q4",
+    "options": [
+      "It is red.",
+      "It is yellow.",
+      "It are red."
+    ],
+    "prompt": "别人问 What colour is the apple? 苹果是红色的，应该回答？",
+    "topicId": "hje_g3b_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I can see green trees.",
+    "difficulty": "medium",
+    "explanation": "看到绿色的树用 I can see green trees.，树用复数。",
+    "id": "hje_g3b_u5_l2_q5",
+    "options": [
+      "I can see green trees.",
+      "I can see blue sky.",
+      "I can see green tree."
+    ],
+    "prompt": "小红抬头看到了绿色的树，应该说什么？",
+    "topicId": "hje_g3b_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "What colour is the sky? It is blue.",
+    "difficulty": "medium",
+    "explanation": "问天空是什么颜色，回答蓝色。",
+    "id": "hje_g3b_u5_l2_q6",
+    "options": [
+      "What colour is the sky? It is blue.",
+      "What colour is the sky? It is red.",
+      "What colour are the sky? It is blue."
+    ],
+    "prompt": "下面哪句问天空颜色并回答最正确？",
+    "topicId": "hje_g3b_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I can see yellow flowers and green leaves.",
+    "difficulty": "hard",
+    "explanation": "看到黄花和绿叶，花和叶都用复数。",
+    "id": "hje_g3b_u5_l2_q7",
+    "options": [
+      "I can see yellow flowers and green leaves.",
+      "I can see yellow flower and green leaf.",
+      "I can see yellow flowers and green leaf."
+    ],
+    "prompt": "小明想说“我能看见黄色的花和绿色的叶子”，他可以说？",
+    "topicId": "hje_g3b_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "它是紫色的",
+    "difficulty": "hard",
+    "explanation": "purple 是紫色的。",
+    "id": "hje_g3b_u5_l2_q8",
+    "options": [
+      "它是紫色的",
+      "它是粉色的",
+      "它是蓝色的"
+    ],
+    "prompt": "同学说 It is purple.，意思是？",
+    "topicId": "hje_g3b_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "先看清楚颜色，再准确说出来",
+    "difficulty": "hard",
+    "explanation": "谈论颜色要先看清楚，再准确说出来。",
+    "id": "hje_g3b_u5_l2_q9",
+    "options": [
+      "先看清楚颜色，再准确说出来",
+      "没看清楚就乱说",
+      "只说自己喜欢的颜色"
+    ],
+    "prompt": "下面哪种做法最适合谈论颜色？",
+    "topicId": "hje_g3b_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "house",
+    "difficulty": "medium",
+    "explanation": "house 是“房子”，home 是“家”。",
+    "id": "hje_g3b_u6_l1_q4",
+    "options": [
+      "house",
+      "home",
+      "room"
+    ],
+    "prompt": "“房子”用哪个英语单词？",
+    "topicId": "hje_g3b_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "bedroom",
+    "difficulty": "medium",
+    "explanation": "bedroom 是“卧室”，kitchen 是“厨房”。",
+    "id": "hje_g3b_u6_l1_q5",
+    "options": [
+      "bedroom",
+      "kitchen",
+      "living room"
+    ],
+    "prompt": "“卧室”用哪个英语单词？",
+    "topicId": "hje_g3b_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "living room",
+    "difficulty": "medium",
+    "explanation": "客厅是 living room，两个词分开写。",
+    "id": "hje_g3b_u6_l1_q6",
+    "options": [
+      "living room",
+      "livingroom",
+      "living rooms"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“客厅”？",
+    "topicId": "hje_g3b_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "My home has a kitchen, a bedroom and a living room.",
+    "difficulty": "hard",
+    "explanation": "家有几个房间，列举时用逗号和 and。",
+    "id": "hje_g3b_u6_l1_q7",
+    "options": [
+      "My home has a kitchen, a bedroom and a living room.",
+      "My home have a kitchen, a bedroom and a living room.",
+      "My home has a kitchen, a bedroom and a kitchen."
+    ],
+    "prompt": "小明想说“我的家有一个厨房、一个卧室和一个客厅”，他应该说？",
+    "topicId": "hje_g3b_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "bathroom",
+    "difficulty": "hard",
+    "explanation": "bathroom 是“浴室”。",
+    "id": "hje_g3b_u6_l1_q8",
+    "options": [
+      "bathroom",
+      "bedroom",
+      "kitchen"
+    ],
+    "prompt": "下面哪个单词表示“浴室”？",
+    "topicId": "hje_g3b_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "My home is warm.",
+    "difficulty": "hard",
+    "explanation": "家很温馨用 My home is warm.，warm 是温暖的。",
+    "id": "hje_g3b_u6_l1_q9",
+    "options": [
+      "My home is warm.",
+      "My home are warm.",
+      "My home is big."
+    ],
+    "prompt": "小红想说“我的家很温馨”，她应该说？",
+    "topicId": "hje_g3b_u6_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "My home is beautiful.",
+    "difficulty": "medium",
+    "explanation": "家很漂亮用 My home is beautiful.。",
+    "id": "hje_g3b_u6_l2_q4",
+    "options": [
+      "My home is beautiful.",
+      "My home is big.",
+      "My home are beautiful."
+    ],
+    "prompt": "别人问 What is your home like? 你的家很漂亮，应该回答？",
+    "topicId": "hje_g3b_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "There is a living room.",
+    "difficulty": "medium",
+    "explanation": "家里有一个客厅用 There is a living room.。",
+    "id": "hje_g3b_u6_l2_q5",
+    "options": [
+      "There is a living room.",
+      "There is a kitchen.",
+      "There are a living room."
+    ],
+    "prompt": "小红想说家里有一个客厅，应该说什么？",
+    "topicId": "hje_g3b_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "My home is big. There is a kitchen and a bedroom.",
+    "difficulty": "medium",
+    "explanation": "家很大，家里有厨房和卧室，用 There is 列出来。",
+    "id": "hje_g3b_u6_l2_q6",
+    "options": [
+      "My home is big. There is a kitchen and a bedroom.",
+      "My home are big. There is a kitchen and a bedroom.",
+      "My home is big. There are a kitchen and a bedroom."
+    ],
+    "prompt": "下面哪句说家很大并有厨房卧室最正确？",
+    "topicId": "hje_g3b_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "My home is next to the park.",
+    "difficulty": "hard",
+    "explanation": "在旁边用 next to…。",
+    "id": "hje_g3b_u6_l2_q7",
+    "options": [
+      "My home is next to the park.",
+      "My home is next to the school.",
+      "My home are next to the park."
+    ],
+    "prompt": "小明想说“我的家在公园旁边”，他可以说？",
+    "topicId": "hje_g3b_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "我的家里有一个卧室",
+    "difficulty": "hard",
+    "explanation": "bedroom 是卧室，my home 是我的家。",
+    "id": "hje_g3b_u6_l2_q8",
+    "options": [
+      "我的家里有一个卧室",
+      "我的家里有一个厨房",
+      "我的家里有一个客厅"
+    ],
+    "prompt": "同学说 There is a bedroom in my home.，意思是？",
+    "topicId": "hje_g3b_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "先说家怎么样，再说家里有什么房间",
+    "difficulty": "hard",
+    "explanation": "介绍自己的家要先说家怎么样，再说家里有什么房间。",
+    "id": "hje_g3b_u6_l2_q9",
+    "options": [
+      "先说家怎么样，再说家里有什么房间",
+      "只说家很大，不说房间",
+      "不说自己的家"
+    ],
+    "prompt": "下面哪种做法最适合介绍自己的家？",
+    "topicId": "hje_g3b_u6_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "lesson",
+    "difficulty": "medium",
+    "explanation": "lesson 是“课程”，class 是“班级”。",
+    "id": "hje_g3b_u7_l1_q4",
+    "options": [
+      "lesson",
+      "class",
+      "school"
+    ],
+    "prompt": "“课程”用哪个英语单词？",
+    "topicId": "hje_g3b_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "school",
+    "difficulty": "medium",
+    "explanation": "school 的拼写是 s-c-h-o-o-l。",
+    "id": "hje_g3b_u7_l1_q5",
+    "options": [
+      "school",
+      "shool",
+      "schooll"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“学校”？",
+    "topicId": "hje_g3b_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "老师",
+    "difficulty": "medium",
+    "explanation": "teacher 是“老师”。",
+    "id": "hje_g3b_u7_l1_q6",
+    "options": [
+      "老师",
+      "学生",
+      "校长"
+    ],
+    "prompt": "“teacher”是什么意思？",
+    "topicId": "hje_g3b_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I read books, play and have lessons at school.",
+    "difficulty": "hard",
+    "explanation": "在学校做几件事，动词形式要正确。",
+    "id": "hje_g3b_u7_l1_q7",
+    "options": [
+      "I read books, play and have lessons at school.",
+      "I read books, play and have lesson at school.",
+      "I reads books, play and have lessons at school."
+    ],
+    "prompt": "小明想说“我在学校读书、玩耍和上课”，他应该说？",
+    "topicId": "hje_g3b_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "student",
+    "difficulty": "hard",
+    "explanation": "student 是“学生”。",
+    "id": "hje_g3b_u7_l1_q8",
+    "options": [
+      "student",
+      "teacher",
+      "school"
+    ],
+    "prompt": "下面哪个单词表示“学生”？",
+    "topicId": "hje_g3b_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "My school is big.",
+    "difficulty": "hard",
+    "explanation": "学校很大用 My school is big.。",
+    "id": "hje_g3b_u7_l1_q9",
+    "options": [
+      "My school is big.",
+      "My school are big.",
+      "My school is small."
+    ],
+    "prompt": "小红想说“我的学校很大”，她应该说？",
+    "topicId": "hje_g3b_u7_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I have lessons at school.",
+    "difficulty": "medium",
+    "explanation": "在学校上课用 I have lessons at school.。",
+    "id": "hje_g3b_u7_l2_q4",
+    "options": [
+      "I have lessons at school.",
+      "I play at school.",
+      "I have lesson at school."
+    ],
+    "prompt": "别人问 What do you do at school? 你在学校上课，应该回答？",
+    "topicId": "hje_g3b_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I read books at school.",
+    "difficulty": "medium",
+    "explanation": "在学校读书用 I read books at school.。",
+    "id": "hje_g3b_u7_l2_q5",
+    "options": [
+      "I read books at school.",
+      "I play at school.",
+      "I reads books at school."
+    ],
+    "prompt": "小红想说自己在学校读书，应该说什么？",
+    "topicId": "hje_g3b_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "What do you do at school? I have lessons and play.",
+    "difficulty": "medium",
+    "explanation": "在学校上课和玩耍，用 have lessons and play.。",
+    "id": "hje_g3b_u7_l2_q6",
+    "options": [
+      "What do you do at school? I have lessons and play.",
+      "What do you do at school? I have lesson and play.",
+      "What do you do at school? I have lessons and plays."
+    ],
+    "prompt": "下面哪句说在学校上课和玩耍最正确？",
+    "topicId": "hje_g3b_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "At school, the teacher teaches us to read.",
+    "difficulty": "hard",
+    "explanation": "老师是单数，teach 加 es。",
+    "id": "hje_g3b_u7_l2_q7",
+    "options": [
+      "At school, the teacher teaches us to read.",
+      "At school, the teacher teach us to read.",
+      "At school, the teacher teaches us to reads."
+    ],
+    "prompt": "小明想说“在学校，老师教我们读书”，他可以说？",
+    "topicId": "hje_g3b_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "我在学校和朋友玩耍",
+    "difficulty": "hard",
+    "explanation": "play at school 是在学校玩，with my friends 是和朋友。",
+    "id": "hje_g3b_u7_l2_q8",
+    "options": [
+      "我在学校和朋友玩耍",
+      "我在学校和朋友读书",
+      "我在家里和朋友玩耍"
+    ],
+    "prompt": "同学说 I play at school with my friends.，意思是？",
+    "topicId": "hje_g3b_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "认真上课，友好玩耍",
+    "difficulty": "hard",
+    "explanation": "在学校要认真上课，友好玩耍。",
+    "id": "hje_g3b_u7_l2_q9",
+    "options": [
+      "认真上课，友好玩耍",
+      "上课不认真",
+      "只玩不学习"
+    ],
+    "prompt": "下面哪种做法最适合在学校？",
+    "topicId": "hje_g3b_u7_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "game",
+    "difficulty": "medium",
+    "explanation": "game 是“游戏”，sing 是“唱歌”。",
+    "id": "hje_g3b_u8_l1_q4",
+    "options": [
+      "game",
+      "sing",
+      "dance"
+    ],
+    "prompt": "“游戏”用哪个英语单词？",
+    "topicId": "hje_g3b_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "gift",
+    "difficulty": "medium",
+    "explanation": "gift 的拼写是 g-i-f-t。",
+    "id": "hje_g3b_u8_l1_q5",
+    "options": [
+      "gift",
+      "giftt",
+      "gifts"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“礼物”？",
+    "topicId": "hje_g3b_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "高兴的",
+    "difficulty": "medium",
+    "explanation": "happy 是“高兴的”。",
+    "id": "hje_g3b_u8_l1_q6",
+    "options": [
+      "高兴的",
+      "难过的",
+      "累的"
+    ],
+    "prompt": "“happy”是什么意思？",
+    "topicId": "hje_g3b_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "On Children's Day, I play games, sing and dance with my friends.",
+    "difficulty": "hard",
+    "explanation": "儿童节做几件事，动词都用原形，游戏用复数。",
+    "id": "hje_g3b_u8_l1_q7",
+    "options": [
+      "On Children's Day, I play games, sing and dance with my friends.",
+      "On Children's Day, I play game, sing and dance with my friends.",
+      "On Children's Day, I plays games, sing and dance with my friends."
+    ],
+    "prompt": "小明想说“儿童节，我和朋友玩游戏、唱歌和跳舞”，他应该说？",
+    "topicId": "hje_g3b_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "celebrate",
+    "difficulty": "hard",
+    "explanation": "celebrate 是“庆祝”。",
+    "id": "hje_g3b_u8_l1_q8",
+    "options": [
+      "celebrate",
+      "game",
+      "gift"
+    ],
+    "prompt": "下面哪个单词表示“庆祝”？",
+    "topicId": "hje_g3b_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Happy Children's Day!",
+    "difficulty": "hard",
+    "explanation": "儿童节快乐用 Happy Children's Day!。",
+    "id": "hje_g3b_u8_l1_q9",
+    "options": [
+      "Happy Children's Day!",
+      "Happy Children's Days!",
+      "Happy Childrens Day!"
+    ],
+    "prompt": "小红想说“儿童节快乐”，她应该说？",
+    "topicId": "hje_g3b_u8_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "I play games on Children's Day.",
+    "difficulty": "medium",
+    "explanation": "儿童节玩游戏用 I play games on Children's Day.。",
+    "id": "hje_g3b_u8_l2_q4",
+    "options": [
+      "I play games on Children's Day.",
+      "I sing on Children's Day.",
+      "I play game on Children's Day."
+    ],
+    "prompt": "别人问 What do you do on Children's Day? 你在儿童节玩游戏，应该回答？",
+    "topicId": "hje_g3b_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I get gifts on Children's Day.",
+    "difficulty": "medium",
+    "explanation": "儿童节收到礼物用 I get gifts on Children's Day.。",
+    "id": "hje_g3b_u8_l2_q5",
+    "options": [
+      "I get gifts on Children's Day.",
+      "I get gift on Children's Day.",
+      "I gets gifts on Children's Day."
+    ],
+    "prompt": "小红想说自己在儿童节收到礼物，应该说什么？",
+    "topicId": "hje_g3b_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "On Children's Day, we sing and dance.",
+    "difficulty": "medium",
+    "explanation": "儿童节唱歌跳舞用 we sing and dance.。",
+    "id": "hje_g3b_u8_l2_q6",
+    "options": [
+      "On Children's Day, we sing and dance.",
+      "On Children's Day, we sings and dances.",
+      "On Children's Day, we sing and dances."
+    ],
+    "prompt": "下面哪句说儿童节唱歌跳舞最正确？",
+    "topicId": "hje_g3b_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "On Children's Day, the teacher gives us gifts.",
+    "difficulty": "hard",
+    "explanation": "老师是单数，give 加 s，礼物用复数。",
+    "id": "hje_g3b_u8_l2_q7",
+    "options": [
+      "On Children's Day, the teacher gives us gifts.",
+      "On Children's Day, the teacher give us gifts.",
+      "On Children's Day, the teacher gives us gift."
+    ],
+    "prompt": "小明想说“儿童节，老师给我们礼物”，他可以说？",
+    "topicId": "hje_g3b_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "我在儿童节跳舞",
+    "difficulty": "hard",
+    "explanation": "dance on Children's Day 是在儿童节跳舞。",
+    "id": "hje_g3b_u8_l2_q8",
+    "options": [
+      "我在儿童节跳舞",
+      "我在儿童节唱歌",
+      "我在儿童节玩游戏"
+    ],
+    "prompt": "同学说 I dance on Children's Day.，意思是？",
+    "topicId": "hje_g3b_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "和朋友一起玩游戏、唱歌、跳舞",
+    "difficulty": "hard",
+    "explanation": "过儿童节要和朋友一起玩游戏、唱歌、跳舞。",
+    "id": "hje_g3b_u8_l2_q9",
+    "options": [
+      "和朋友一起玩游戏、唱歌、跳舞",
+      "一个人待着",
+      "只顾自己玩"
+    ],
+    "prompt": "下面哪种做法最适合过儿童节？",
+    "topicId": "hje_g3b_u8_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "picture",
+    "difficulty": "medium",
+    "explanation": "picture 是“图片”，album 是“相册”。",
+    "id": "hje_g3b_u9_l1_q4",
+    "options": [
+      "picture",
+      "album",
+      "name"
+    ],
+    "prompt": "“图片”用哪个英语单词？",
+    "topicId": "hje_g3b_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "age",
+    "difficulty": "medium",
+    "explanation": "age 的拼写是 a-g-e。",
+    "id": "hje_g3b_u9_l1_q5",
+    "options": [
+      "age",
+      "ag",
+      "ages"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“年龄”？",
+    "topicId": "hje_g3b_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "能力",
+    "difficulty": "medium",
+    "explanation": "ability 是“能力”，hobby 是“爱好”。",
+    "id": "hje_g3b_u9_l1_q6",
+    "options": [
+      "能力",
+      "爱好",
+      "年龄"
+    ],
+    "prompt": "“ability”是什么意思？",
+    "topicId": "hje_g3b_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "In the friend album, there are pictures, names and ages.",
+    "difficulty": "hard",
+    "explanation": "相册里有几种信息，都用复数，用 there are。",
+    "id": "hje_g3b_u9_l1_q7",
+    "options": [
+      "In the friend album, there are pictures, names and ages.",
+      "In the friend album, there is pictures, names and ages.",
+      "In the friend album, there are picture, name and age."
+    ],
+    "prompt": "小明想说“朋友相册里有朋友的图片、名字和年龄”，他应该说？",
+    "topicId": "hje_g3b_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "best friend",
+    "difficulty": "hard",
+    "explanation": "best friend 是“最好的朋友”。",
+    "id": "hje_g3b_u9_l1_q8",
+    "options": [
+      "best friend",
+      "good friend",
+      "new friend"
+    ],
+    "prompt": "下面哪个单词表示“最好的朋友”？",
+    "topicId": "hje_g3b_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "My friend album is beautiful.",
+    "difficulty": "hard",
+    "explanation": "朋友相册很漂亮用 My friend album is beautiful.。",
+    "id": "hje_g3b_u9_l1_q9",
+    "options": [
+      "My friend album is beautiful.",
+      "My friend album are beautiful.",
+      "My friend albums is beautiful."
+    ],
+    "prompt": "小红想说“我的朋友相册很漂亮”，她应该说？",
+    "topicId": "hje_g3b_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "My best friend is Xiaohong.",
+    "difficulty": "medium",
+    "explanation": "介绍好朋友用 My best friend is 加名字。",
+    "id": "hje_g3b_u9_l2_q4",
+    "options": [
+      "My best friend is Xiaohong.",
+      "My best friend are Xiaohong.",
+      "My best friend is Xiaoming."
+    ],
+    "prompt": "小明想介绍自己的好朋友是 Xiaohong，他应该说？",
+    "topicId": "hje_g3b_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "He is ten years old.",
+    "difficulty": "medium",
+    "explanation": "男孩用 He，十岁用 ten years old.。",
+    "id": "hje_g3b_u9_l2_q5",
+    "options": [
+      "He is ten years old.",
+      "She is ten years old.",
+      "He are ten years old."
+    ],
+    "prompt": "小红的好朋友是男孩，今年十岁，她介绍时应该说？",
+    "topicId": "hje_g3b_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "My best friend likes reading. She can sing.",
+    "difficulty": "medium",
+    "explanation": "好朋友喜欢读书用 likes reading.，会唱歌用 can sing.。",
+    "id": "hje_g3b_u9_l2_q6",
+    "options": [
+      "My best friend likes reading. She can sing.",
+      "My best friend like reading. She can sing.",
+      "My best friend likes reading. She can sings."
+    ],
+    "prompt": "下面哪句介绍好朋友的爱好和能力最正确？",
+    "topicId": "hje_g3b_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "He likes drawing. He can swim.",
+    "difficulty": "hard",
+    "explanation": "喜欢画画用 likes drawing.，会游泳用 can swim.。",
+    "id": "hje_g3b_u9_l2_q7",
+    "options": [
+      "He likes drawing. He can swim.",
+      "He like drawing. He can swim.",
+      "He likes drawing. He can swims."
+    ],
+    "prompt": "小明的好朋友喜欢画画，会游泳，他介绍时应该说？",
+    "topicId": "hje_g3b_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "她九岁，喜欢跳舞",
+    "difficulty": "hard",
+    "explanation": "She 是她，nine years old 是九岁，dancing 是跳舞。",
+    "id": "hje_g3b_u9_l2_q8",
+    "options": [
+      "她九岁，喜欢跳舞",
+      "他九岁，喜欢跳舞",
+      "她九岁，喜欢唱歌"
+    ],
+    "prompt": "同学说 She is nine years old. She likes dancing.，意思是？",
+    "topicId": "hje_g3b_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "先说朋友是谁，再说年龄、爱好和能力",
+    "difficulty": "hard",
+    "explanation": "介绍朋友相册要先说朋友是谁，再说年龄、爱好和能力。",
+    "id": "hje_g3b_u9_l2_q9",
+    "options": [
+      "先说朋友是谁，再说年龄、爱好和能力",
+      "只说朋友的名字",
+      "不说朋友的爱好"
+    ],
+    "prompt": "下面哪种做法最适合介绍朋友相册？",
+    "topicId": "hje_g3b_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "window",
+    "difficulty": "medium",
+    "explanation": "window 是“窗户”，outside 是“外面”。",
+    "id": "hje_g3b_u10_l1_q4",
+    "options": [
+      "window",
+      "outside",
+      "bell"
+    ],
+    "prompt": "风铃挂在“窗户”旁，窗户用哪个英语单词？",
+    "topicId": "hje_g3b_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "draw",
+    "difficulty": "medium",
+    "explanation": "draw 的拼写是 d-r-a-w。",
+    "id": "hje_g3b_u10_l1_q5",
+    "options": [
+      "draw",
+      "drow",
+      "draws"
+    ],
+    "prompt": "下面哪个单词拼写正确，表示“画画”？",
+    "topicId": "hje_g3b_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "剪",
+    "difficulty": "medium",
+    "explanation": "cut 是“剪”，tie 是“系”，hang 是“挂”。",
+    "id": "hje_g3b_u10_l1_q6",
+    "options": [
+      "剪",
+      "系",
+      "挂"
+    ],
+    "prompt": "“cut”是什么意思？",
+    "topicId": "hje_g3b_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "To make a wind-bell, first draw, then cut, then tie and hang it.",
+    "difficulty": "hard",
+    "explanation": "制作风铃的步骤按顺序说，动词都用原形。",
+    "id": "hje_g3b_u10_l1_q7",
+    "options": [
+      "To make a wind-bell, first draw, then cut, then tie and hang it.",
+      "To make a wind-bell, first draw, then cut, then tie and hangs it.",
+      "To make a wind-bell, first draws, then cut, then tie and hang it."
+    ],
+    "prompt": "小明想说“制作风铃时，先画画，再剪下来，然后系起来挂好”，他应该说？",
+    "topicId": "hje_g3b_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "outside",
+    "difficulty": "hard",
+    "explanation": "outside 是“外面”，风铃挂在外面会响。",
+    "id": "hje_g3b_u10_l1_q8",
+    "options": [
+      "outside",
+      "window",
+      "bell"
+    ],
+    "prompt": "下面哪个单词表示“外面”？",
+    "topicId": "hje_g3b_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "The wind-bell hangs by the window.",
+    "difficulty": "hard",
+    "explanation": "风铃是单数，hang 加 s，在窗户旁用 by the window.。",
+    "id": "hje_g3b_u10_l1_q9",
+    "options": [
+      "The wind-bell hangs by the window.",
+      "The wind-bell hang by the window.",
+      "The wind-bell hangs by the door."
+    ],
+    "prompt": "小红想说“风铃挂在窗户旁”，她应该说？",
+    "topicId": "hje_g3b_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "What do you think of it?",
+    "difficulty": "medium",
+    "explanation": "问觉得风铃怎么样用 What do you think of it?。",
+    "id": "hje_g3b_u10_l2_q4",
+    "options": [
+      "What do you think of it?",
+      "Where is it?",
+      "What sounds does it make?"
+    ],
+    "prompt": "想问“你觉得风铃怎么样”，应该问？",
+    "topicId": "hje_g3b_u10_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "The wind-bell sounds nice.",
+    "difficulty": "medium",
+    "explanation": "风铃声音好听用 The wind-bell sounds nice.。",
+    "id": "hje_g3b_u10_l2_q5",
+    "options": [
+      "The wind-bell sounds nice.",
+      "The wind-bell sound nice.",
+      "The wind-bell sounds noisy."
+    ],
+    "prompt": "小明听到了风铃的声音，他想说“风铃的声音很好听”，他应该说？",
+    "topicId": "hje_g3b_u10_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I can hear the wind-bell by the window.",
+    "difficulty": "medium",
+    "explanation": "听见窗户旁的风铃用 I can hear the wind-bell by the window.。",
+    "id": "hje_g3b_u10_l2_q6",
+    "options": [
+      "I can hear the wind-bell by the window.",
+      "I can hear the wind-bell by the door.",
+      "I can hears the wind-bell by the window."
+    ],
+    "prompt": "下面哪句说听见窗户旁的风铃最正确？",
+    "topicId": "hje_g3b_u10_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "The wind-bell hangs outside. When the wind blows, it rings.",
+    "difficulty": "hard",
+    "explanation": "风铃挂在外面，风吹就响，动词形式要正确。",
+    "id": "hje_g3b_u10_l2_q7",
+    "options": [
+      "The wind-bell hangs outside. When the wind blows, it rings.",
+      "The wind-bell hang outside. When the wind blows, it rings.",
+      "The wind-bell hangs outside. When the wind blow, it rings."
+    ],
+    "prompt": "小红想说“风铃挂在窗外，风一吹就响”，她可以说？",
+    "topicId": "hje_g3b_u10_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "它会发出什么声音？它发出好听的声音",
+    "difficulty": "hard",
+    "explanation": "问风铃发出什么声音，回答好听的声音。",
+    "id": "hje_g3b_u10_l2_q8",
+    "options": [
+      "它会发出什么声音？它发出好听的声音",
+      "它在哪里？它发出好听的声音",
+      "它会发出什么声音？它发出吵闹的声音"
+    ],
+    "prompt": "同学说 What sounds does it make? It makes a nice sound.，意思是？",
+    "topicId": "hje_g3b_u10_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "先说风铃在哪里，再说它发出的声音和自己的感受",
+    "difficulty": "hard",
+    "explanation": "谈论风铃要先说在哪里，再说声音和感受。",
+    "id": "hje_g3b_u10_l2_q9",
+    "options": [
+      "先说风铃在哪里，再说它发出的声音和自己的感受",
+      "只说风铃在哪里",
+      "不说自己的感受"
+    ],
+    "prompt": "下面哪种做法最适合谈论风铃？",
+    "topicId": "hje_g3b_u10_l2",
+    "type": "choice"
   }
 ]
