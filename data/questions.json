@@ -23327,5 +23327,173 @@
     "prompt": "小红想说自己在儿童节跳舞，应该说什么？",
     "topicId": "hje_g3b_u8_l2",
     "type": "choice"
+  },
+  {
+    "answer": "album",
+    "difficulty": "basic",
+    "explanation": "album 是“相册”，朋友相册就是 friend album。",
+    "id": "hje_g3b_u9_l1_q1",
+    "options": [
+      "album",
+      "picture",
+      "friend"
+    ],
+    "prompt": "“相册”的英语单词是？",
+    "topicId": "hje_g3b_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "age",
+    "difficulty": "medium",
+    "explanation": "问年龄用 age，介绍朋友时可以说他几岁。",
+    "id": "hje_g3b_u9_l1_q2",
+    "options": [
+      "age",
+      "name",
+      "hobby"
+    ],
+    "prompt": "介绍朋友相册时，想说朋友的年龄，应该用哪个词？",
+    "topicId": "hje_g3b_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "hobby",
+    "difficulty": "hard",
+    "explanation": "hobby 是“爱好”，说朋友喜欢做的事时可以用这个词。",
+    "id": "hje_g3b_u9_l1_q3",
+    "options": [
+      "hobby",
+      "picture",
+      "album"
+    ],
+    "prompt": "下面哪个单词表示“爱好”？",
+    "topicId": "hje_g3b_u9_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "My best friend is Xiaoming.",
+    "difficulty": "basic",
+    "explanation": "介绍好朋友用 My best friend is…，后面接朋友的名字。",
+    "id": "hje_g3b_u9_l2_q1",
+    "options": [
+      "My best friend is Xiaoming.",
+      "My best friend are Xiaoming.",
+      "My best friend am Xiaoming."
+    ],
+    "prompt": "小明想介绍自己的好朋友是 Xiaoming，他应该说？",
+    "topicId": "hje_g3b_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "She is nine years old.",
+    "difficulty": "medium",
+    "explanation": "说年龄用 be 动词加数字加 years old，女孩用 She。",
+    "id": "hje_g3b_u9_l2_q2",
+    "options": [
+      "She is nine years old.",
+      "She are nine years old.",
+      "She is nine year old."
+    ],
+    "prompt": "小红的好朋友是女孩，今年九岁，她介绍时应该说？",
+    "topicId": "hje_g3b_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "He likes playing football.",
+    "difficulty": "hard",
+    "explanation": "说喜欢做的事用 like 加动词 -ing，主语是 He 时 like 加 s。",
+    "id": "hje_g3b_u9_l2_q3",
+    "options": [
+      "He likes playing football.",
+      "He like playing football.",
+      "He likes play football."
+    ],
+    "prompt": "小明的好朋友喜欢踢足球，他介绍时应该说？",
+    "topicId": "hje_g3b_u9_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "wind-bell",
+    "difficulty": "basic",
+    "explanation": "wind-bell 是“风铃”，wind 是“风”，bell 是“铃”。",
+    "id": "hje_g3b_u10_l1_q1",
+    "options": [
+      "wind-bell",
+      "window",
+      "sound"
+    ],
+    "prompt": "“风铃”的英语单词是？",
+    "topicId": "hje_g3b_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "sound",
+    "difficulty": "medium",
+    "explanation": "sound 是“声音”，风铃被风吹动会发出声音。",
+    "id": "hje_g3b_u10_l1_q2",
+    "options": [
+      "sound",
+      "outside",
+      "bell"
+    ],
+    "prompt": "风铃发出的“声音”，用哪个英语单词？",
+    "topicId": "hje_g3b_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "hang",
+    "difficulty": "hard",
+    "explanation": "hang 是“挂”，做好的风铃可以挂在窗外。",
+    "id": "hje_g3b_u10_l1_q3",
+    "options": [
+      "hang",
+      "draw",
+      "cut"
+    ],
+    "prompt": "把风铃“挂”起来，应该用哪个动词？",
+    "topicId": "hje_g3b_u10_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "Where is it?",
+    "difficulty": "basic",
+    "explanation": "问东西在哪里用 Where is it?，回答可以说它在窗户上。",
+    "id": "hje_g3b_u10_l2_q1",
+    "options": [
+      "Where is it?",
+      "What is it?",
+      "Who is it?"
+    ],
+    "prompt": "想问风铃在哪里，应该问？",
+    "topicId": "hje_g3b_u10_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "What sounds does it make?",
+    "difficulty": "medium",
+    "explanation": "问风铃发出什么声音用 What sounds does it make?，it 指风铃。",
+    "id": "hje_g3b_u10_l2_q2",
+    "options": [
+      "What sounds does it make?",
+      "What colour is it?",
+      "What time is it?"
+    ],
+    "prompt": "想问风铃会发出什么声音，应该问？",
+    "topicId": "hje_g3b_u10_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I can hear the wind-bell.",
+    "difficulty": "hard",
+    "explanation": "说自己听到了什么用 I can hear…，后面接听到的东西。",
+    "id": "hje_g3b_u10_l2_q3",
+    "options": [
+      "I can hear the wind-bell.",
+      "I can see the wind-bell.",
+      "I can hear the window."
+    ],
+    "prompt": "小明听到了风铃的声音，他应该说？",
+    "topicId": "hje_g3b_u10_l2",
+    "type": "choice"
   }
 ]

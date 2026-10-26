@@ -1142,5 +1142,13 @@
   {
     "from": "hje_g3b_u8_l1",
     "to": "hje_g3b_u8_l2"
+  },
+  {
+    "from": "hje_g3b_u9_l1",
+    "to": "hje_g3b_u9_l2"
+  },
+  {
+    "from": "hje_g3b_u10_l1",
+    "to": "hje_g3b_u10_l2"
   }
 ]

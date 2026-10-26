@@ -4362,5 +4362,73 @@
     "term": "下",
     "unit": "Unit 8 What do you do on Children's Day?",
     "unit_no": 8
+  },
+  {
+    "description": "朋友相册相关的词，如 friend、album、picture、name、age、hobby、ability。",
+    "grade": 3,
+    "id": "hje_g3b_u9_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 friend、album、picture、name、age、hobby",
+      "知道 album 是“相册”、picture 是“照片”的意思",
+      "能用朋友相册词汇说一说相册里有什么"
+    ],
+    "name": "朋友相册词汇",
+    "page": 81,
+    "subject": "english",
+    "term": "下",
+    "unit": "Project 1 A friend album",
+    "unit_no": 9
+  },
+  {
+    "description": "介绍朋友相册：My best friend is…、He / She is… years old、He / She can…、He / She likes…。",
+    "grade": 3,
+    "id": "hje_g3b_u9_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 My best friend is… 介绍自己的好朋友",
+      "能用 He / She is… years old 说朋友的年龄",
+      "能用 He / She can…、He / She likes… 说朋友会做的事和喜欢的事"
+    ],
+    "name": "介绍朋友相册",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Project 1 A friend album",
+    "unit_no": 9
+  },
+  {
+    "description": "风铃相关的词，如 wind-bell、bell、sound、window、outside，以及制作风铃的动作词 draw、cut、tie、hang。",
+    "grade": 3,
+    "id": "hje_g3b_u10_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 wind-bell、bell、sound、window、outside",
+      "知道 wind-bell 是“风铃”、sound 是“声音”的意思",
+      "能用风铃词汇说一说风铃在哪里、会发出什么声音"
+    ],
+    "name": "风铃词汇",
+    "page": 83,
+    "subject": "english",
+    "term": "下",
+    "unit": "Project 2 A wind-bell",
+    "unit_no": 10
+  },
+  {
+    "description": "谈论风铃：Where is it?、What sounds does it make?、What do you think of it?、I can hear…。",
+    "grade": 3,
+    "id": "hje_g3b_u10_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 Where is it? 问风铃在哪里",
+      "能用 What sounds does it make? 问风铃发出什么声音",
+      "能用 I can hear… 回答自己听到的声音，并说一说自己喜不喜欢它"
+    ],
+    "name": "谈论风铃",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Project 2 A wind-bell",
+    "unit_no": 10
   }
 ]
