@@ -22991,5 +22991,89 @@
     "prompt": "教室里声音很小，小红应该说什么？",
     "topicId": "hje_g3b_u4_l2",
     "type": "choice"
+  },
+  {
+    "answer": "red",
+    "difficulty": "basic",
+    "explanation": "red 是“红色”，blue 是“蓝色”，green 是“绿色”。",
+    "id": "hje_g3b_u5_l1_q1",
+    "options": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "prompt": "“红色”的英语单词是？",
+    "topicId": "hje_g3b_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "yellow",
+    "difficulty": "medium",
+    "explanation": "yellow 是“黄色”，pink 是“粉色”，purple 是“紫色”。",
+    "id": "hje_g3b_u5_l1_q2",
+    "options": [
+      "yellow",
+      "pink",
+      "purple"
+    ],
+    "prompt": "下面哪个单词表示“黄色”？",
+    "topicId": "hje_g3b_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "绿色的叶子",
+    "difficulty": "hard",
+    "explanation": "green 是“绿色”，leaf 是“叶子”，所以 green leaves 是“绿色的叶子”。",
+    "id": "hje_g3b_u5_l1_q3",
+    "options": [
+      "绿色的叶子",
+      "红色的花",
+      "蓝色的天空"
+    ],
+    "prompt": "小明说 I can see green leaves. 他看到了什么？",
+    "topicId": "hje_g3b_u5_l1",
+    "type": "choice"
+  },
+  {
+    "answer": "What colour is it?",
+    "difficulty": "basic",
+    "explanation": "问东西是什么颜色，要说 What colour is it?，问穿什么和问听到了什么都不对题。",
+    "id": "hje_g3b_u5_l2_q1",
+    "options": [
+      "What colour is it?",
+      "What are you wearing?",
+      "What sounds can you hear?"
+    ],
+    "prompt": "想问一朵花是什么颜色，应该说？",
+    "topicId": "hje_g3b_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "It is pink.",
+    "difficulty": "medium",
+    "explanation": "别人问 What colour is it?，回答东西的颜色，要说 It is pink.，问候语和问名字都不对题。",
+    "id": "hje_g3b_u5_l2_q2",
+    "options": [
+      "It is pink.",
+      "Good morning!",
+      "What's your name?"
+    ],
+    "prompt": "别人问 What colour is the flower? 这朵花是粉色的，应该回答？",
+    "topicId": "hje_g3b_u5_l2",
+    "type": "choice"
+  },
+  {
+    "answer": "I can see blue sky.",
+    "difficulty": "hard",
+    "explanation": "天空是蓝色的，要说 I can see blue sky.，说红色的花和绿色的叶子都不对题。",
+    "id": "hje_g3b_u5_l2_q3",
+    "options": [
+      "I can see blue sky.",
+      "I can see red flowers.",
+      "I can see green leaves."
+    ],
+    "prompt": "小红抬头看到了蓝天，应该说什么？",
+    "topicId": "hje_g3b_u5_l2",
+    "type": "choice"
   }
 ]

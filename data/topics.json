@@ -4226,5 +4226,39 @@
     "term": "下",
     "unit": "Unit 4 What sounds can we hear?",
     "unit_no": 4
+  },
+  {
+    "description": "颜色相关的词，如 red、blue、green、yellow、pink、purple。",
+    "grade": 3,
+    "id": "hje_g3b_u5_l1",
+    "kind": "概念",
+    "mastery": [
+      "能认读 red、blue、green、yellow、pink、purple",
+      "知道 red 是“红色”、blue 是“蓝色”的意思",
+      "能用颜色词汇说一说看到的东西是什么颜色"
+    ],
+    "name": "颜色词汇",
+    "page": 41,
+    "subject": "english",
+    "term": "下",
+    "unit": "Unit 5 Where can we see colours?",
+    "unit_no": 5
+  },
+  {
+    "description": "谈论看到的颜色：What colour is it?、It is…、I can see…。",
+    "grade": 3,
+    "id": "hje_g3b_u5_l2",
+    "kind": "技能",
+    "mastery": [
+      "能用 What colour is it? 问东西是什么颜色",
+      "能用 It is… 回答东西的颜色",
+      "能用 I can see… 说一说看到的颜色"
+    ],
+    "name": "谈论看到的颜色",
+    "page": null,
+    "subject": "english",
+    "term": "下",
+    "unit": "Unit 5 Where can we see colours?",
+    "unit_no": 5
   }
 ]
