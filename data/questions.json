@@ -22750,7 +22750,7 @@
       "teacher",
       "student"
     ],
-    "prompt": "“朋友”的英语单词是？",
+    "prompt": "想和新同学交朋友，“朋友”这个词的英语说法是？",
     "topicId": "hje_g3b_u2_l1",
     "type": "choice"
   },
