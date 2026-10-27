@@ -333,167 +333,208 @@
   },
   {
     "from": "hjm_g1a_u3_l3",
-    "to": "hjm_g1a_u4_l1"
+    "to": "hjm_g1a_u4_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g1a_u3_l6",
-    "to": "hjm_g1a_u4_l3"
+    "to": "hjm_g1a_u4_l3",
+    "strength": "hard"
   },
   {
     "from": "hjm_g1a_u3_l5",
-    "to": "hjm_g1a_u5_l1"
+    "to": "hjm_g1a_u5_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g1a_u5_l1",
-    "to": "hjm_g1a_u6_l1"
+    "to": "hjm_g1a_u6_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g1a_u4_l8",
-    "to": "hjm_g1a_u6_l1"
+    "to": "hjm_g1a_u6_l1",
+    "strength": "soft"
   },
   {
     "from": "hjm_g1a_u6_l2",
-    "to": "hjm_g1b_u1_l1"
+    "to": "hjm_g1b_u1_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g1a_u5_l1",
-    "to": "hjm_g1b_u2_l1"
+    "to": "hjm_g1b_u2_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g1a_u5_l1",
-    "to": "hjm_g1b_u3_l1"
+    "to": "hjm_g1b_u3_l1",
+    "strength": "soft"
   },
   {
     "from": "hjm_g1b_u2_l3",
-    "to": "hjm_g1b_u4_l1"
+    "to": "hjm_g1b_u4_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g1a_u6_l2",
-    "to": "hjm_g1b_u4_l2"
+    "to": "hjm_g1b_u4_l2",
+    "strength": "hard"
   },
   {
     "from": "hjm_g1a_u3_l7",
-    "to": "hjm_g1b_u5_l1"
+    "to": "hjm_g1b_u5_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g1b_u5_l2",
-    "to": "hjm_g1b_u6_l1"
+    "to": "hjm_g1b_u6_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g1a_u5_l3",
-    "to": "hjm_g1b_u7_l1"
+    "to": "hjm_g1b_u7_l1",
+    "strength": "soft"
   },
   {
     "from": "hjm_g1a_u4_l1",
-    "to": "hjm_g1b_u7_l2"
+    "to": "hjm_g1b_u7_l2",
+    "strength": "soft"
   },
   {
     "from": "hjm_g1a_u6_l1",
-    "to": "hjm_g2a_u1_l1"
+    "to": "hjm_g2a_u1_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g1b_u1_l1",
-    "to": "hjm_g2a_u1_l2"
+    "to": "hjm_g2a_u1_l2",
+    "strength": "hard"
   },
   {
     "from": "hjm_g1b_u2_l5",
-    "to": "hjm_g2a_u2_l1"
+    "to": "hjm_g2a_u2_l1",
+    "strength": "soft"
   },
   {
     "from": "hjm_g2a_u1_l3",
-    "to": "hjm_g2a_u2_l2"
+    "to": "hjm_g2a_u2_l2",
+    "strength": "soft"
   },
   {
     "from": "hjm_g1a_u4_l7",
-    "to": "hjm_g2a_u3_l1"
+    "to": "hjm_g2a_u3_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g1b_u7_l1",
-    "to": "hjm_g2a_u6_l1"
+    "to": "hjm_g2a_u6_l1",
+    "strength": "soft"
   },
   {
     "from": "hjm_g2a_u1_l3",
-    "to": "hjm_g2a_u6_l2"
+    "to": "hjm_g2a_u6_l2",
+    "strength": "soft"
   },
   {
     "from": "hjm_g2a_u3_l7",
-    "to": "hjm_g2b_u1_l2"
+    "to": "hjm_g2b_u1_l2",
+    "strength": "hard"
   },
   {
     "from": "hjm_g1b_u2_l5",
-    "to": "hjm_g2b_u2_l1"
+    "to": "hjm_g2b_u2_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g1b_u2_l4",
-    "to": "hjm_g2b_u2_l2"
+    "to": "hjm_g2b_u2_l2",
+    "strength": "soft"
   },
   {
     "from": "hjm_g1b_u3_l1",
-    "to": "hjm_g2b_u3_l1"
+    "to": "hjm_g2b_u3_l1",
+    "strength": "soft"
   },
   {
     "from": "hjm_g1b_u3_l2",
-    "to": "hjm_g2b_u3_l2"
+    "to": "hjm_g2b_u3_l2",
+    "strength": "hard"
   },
   {
     "from": "hjm_g2a_u1_l3",
-    "to": "hjm_g2b_u4_l1"
+    "to": "hjm_g2b_u4_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g2b_u2_l4",
-    "to": "hjm_g2b_u4_l2"
+    "to": "hjm_g2b_u4_l2",
+    "strength": "hard"
   },
   {
     "from": "hjm_g2b_u1_l6",
-    "to": "hjm_g2b_u5_l1"
+    "to": "hjm_g2b_u5_l1",
+    "strength": "soft"
   },
   {
     "from": "hjm_g2b_u1_l6",
-    "to": "hjm_g3a_u1_l1"
+    "to": "hjm_g3a_u1_l1",
+    "strength": "soft"
   },
   {
     "from": "hjm_g2a_u3_l7",
-    "to": "hjm_g3a_u2_l1"
+    "to": "hjm_g3a_u2_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g1a_u2_l2",
-    "to": "hjm_g3a_u3_l1"
+    "to": "hjm_g3a_u3_l1",
+    "strength": "soft"
   },
   {
     "from": "hjm_g2b_u1_l2",
-    "to": "hjm_g3a_u4_l1"
+    "to": "hjm_g3a_u4_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g2a_u3_l1",
-    "to": "hjm_g3a_u4_l3"
+    "to": "hjm_g3a_u4_l3",
+    "strength": "hard"
   },
   {
     "from": "hjm_g3a_u2_l2",
-    "to": "hjm_g3a_u4_l6"
+    "to": "hjm_g3a_u4_l6",
+    "strength": "soft"
   },
   {
     "from": "hjm_g2b_u3_l2",
-    "to": "hjm_g3a_u5_l1"
+    "to": "hjm_g3a_u5_l1",
+    "strength": "soft"
   },
   {
     "from": "hjm_g1b_u5_l2",
-    "to": "hjm_g3a_u6_l1"
+    "to": "hjm_g3a_u6_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g3a_u3_l2",
-    "to": "hjm_g3a_u6_l2"
+    "to": "hjm_g3a_u6_l2",
+    "strength": "hard"
   },
   {
     "from": "hjm_g3a_u6_l1",
-    "to": "hjm_g3a_u7_l1"
+    "to": "hjm_g3a_u7_l1",
+    "strength": "soft"
   },
   {
     "from": "hjm_g3a_u3_l2",
-    "to": "hjm_g3a_u8_l1"
+    "to": "hjm_g3a_u8_l1",
+    "strength": "soft"
   },
   {
     "from": "hjm_g3a_u6_l2",
-    "to": "hjm_g3a_u8_l2"
+    "to": "hjm_g3a_u8_l2",
+    "strength": "soft"
   },
   {
     "from": "hjm_g4a_u1_l1",
@@ -645,123 +686,153 @@
   },
   {
     "from": "hjm_g2b_u2_l4",
-    "to": "hjm_g4a_u2_l1"
+    "to": "hjm_g4a_u2_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g2b_u2_l4",
-    "to": "hjm_g4a_u2_l2"
+    "to": "hjm_g4a_u2_l2",
+    "strength": "hard"
   },
   {
     "from": "hjm_g3a_u2_l4",
-    "to": "hjm_g4a_u2_l2"
+    "to": "hjm_g4a_u2_l2",
+    "strength": "soft"
   },
   {
     "from": "hjm_g3a_u7_l1",
-    "to": "hjm_g4a_u2_l3"
+    "to": "hjm_g4a_u2_l3",
+    "strength": "soft"
   },
   {
     "from": "hjm_g3a_u6_l1",
-    "to": "hjm_g4a_u2_l4"
+    "to": "hjm_g4a_u2_l4",
+    "strength": "soft"
   },
   {
     "from": "hjm_g4a_u1_l5",
-    "to": "hjm_g4a_u3_l1"
+    "to": "hjm_g4a_u3_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g3a_u1_l1",
-    "to": "hjm_g4a_u4_l2"
+    "to": "hjm_g4a_u4_l2",
+    "strength": "hard"
   },
   {
     "from": "hjm_g3a_u1_l1",
-    "to": "hjm_g4a_u4_l3"
+    "to": "hjm_g4a_u4_l3",
+    "strength": "hard"
   },
   {
     "from": "hjm_g3a_u1_l2",
-    "to": "hjm_g4a_u4_l1"
+    "to": "hjm_g4a_u4_l1",
+    "strength": "soft"
   },
   {
     "from": "hjm_g3a_u4_l5",
-    "to": "hjm_g4a_u4_l1"
+    "to": "hjm_g4a_u4_l1",
+    "strength": "soft"
   },
   {
     "from": "hjm_g3a_u1_l2",
-    "to": "hjm_g4a_u4_l6"
+    "to": "hjm_g4a_u4_l6",
+    "strength": "hard"
   },
   {
     "from": "hjm_g3a_u1_l2",
-    "to": "hjm_g4a_u4_l8"
+    "to": "hjm_g4a_u4_l8",
+    "strength": "soft"
   },
   {
     "from": "hjm_g1b_u5_l3",
-    "to": "hjm_g4a_u5_l2"
+    "to": "hjm_g4a_u5_l2",
+    "strength": "hard"
   },
   {
     "from": "hjm_g3a_u3_l1",
-    "to": "hjm_g4a_u5_l3"
+    "to": "hjm_g4a_u5_l3",
+    "strength": "hard"
   },
   {
     "from": "hjm_g4a_u2_l1",
-    "to": "hjm_g4a_u6_l1"
+    "to": "hjm_g4a_u6_l1",
+    "strength": "soft"
   },
   {
     "from": "hjm_g4a_u2_l2",
-    "to": "hjm_g4a_u6_l1"
+    "to": "hjm_g4a_u6_l1",
+    "strength": "soft"
   },
   {
     "from": "hjm_g4a_u3_l2",
-    "to": "hjm_g4a_u6_l2"
+    "to": "hjm_g4a_u6_l2",
+    "strength": "soft"
   },
   {
     "from": "hjm_g4a_u4_l3",
-    "to": "hjm_g4b_u1_l1"
+    "to": "hjm_g4b_u1_l1",
+    "strength": "soft"
   },
   {
     "from": "hjm_g4a_u4_l7",
-    "to": "hjm_g4b_u1_l2"
+    "to": "hjm_g4b_u1_l2",
+    "strength": "hard"
   },
   {
     "from": "hjm_g4a_u4_l7",
-    "to": "hjm_g4b_u1_l3"
+    "to": "hjm_g4b_u1_l3",
+    "strength": "soft"
   },
   {
     "from": "hjm_g4a_u1_l5",
-    "to": "hjm_g4b_u2_l2"
+    "to": "hjm_g4b_u2_l2",
+    "strength": "hard"
   },
   {
     "from": "hjm_g4a_u5_l2",
-    "to": "hjm_g4b_u4_l1"
+    "to": "hjm_g4b_u4_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g4a_u5_l2",
-    "to": "hjm_g4b_u4_l2"
+    "to": "hjm_g4b_u4_l2",
+    "strength": "hard"
   },
   {
     "from": "hjm_g4b_u2_l6",
-    "to": "hjm_g4b_u5_l1"
+    "to": "hjm_g4b_u5_l1",
+    "strength": "soft"
   },
   {
     "from": "hjm_g4a_u4_l8",
-    "to": "hjm_g4b_u5_l1"
+    "to": "hjm_g4b_u5_l1",
+    "strength": "soft"
   },
   {
     "from": "hjm_g4b_u2_l6",
-    "to": "hjm_g4b_u5_l2"
+    "to": "hjm_g4b_u5_l2",
+    "strength": "hard"
   },
   {
     "from": "hjm_g3a_u6_l1",
-    "to": "hjm_g4b_u5_l3"
+    "to": "hjm_g4b_u5_l3",
+    "strength": "soft"
   },
   {
     "from": "hjm_g4a_u2_l2",
-    "to": "hjm_g4b_u5_l4"
+    "to": "hjm_g4b_u5_l4",
+    "strength": "hard"
   },
   {
     "from": "hjm_g4b_u4_l1",
-    "to": "hjm_g4b_u5_l5"
+    "to": "hjm_g4b_u5_l5",
+    "strength": "soft"
   },
   {
     "from": "hjm_g4b_u4_l2",
-    "to": "hjm_g4b_u5_l5"
+    "to": "hjm_g4b_u5_l5",
+    "strength": "soft"
   },
   {
     "from": "hjm_g5a_u1_l1",
@@ -849,23 +920,28 @@
   },
   {
     "from": "hjm_g5a_u1_l1",
-    "to": "hjm_g5a_u4_l1"
+    "to": "hjm_g5a_u4_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g5a_u1_l2",
-    "to": "hjm_g5a_u2_l1"
+    "to": "hjm_g5a_u2_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g5a_u2_l2",
-    "to": "hjm_g5a_u6_l2"
+    "to": "hjm_g5a_u6_l2",
+    "strength": "soft"
   },
   {
     "from": "hjm_g5a_u2_l9",
-    "to": "hjm_g5a_u6_l1"
+    "to": "hjm_g5a_u6_l1",
+    "strength": "soft"
   },
   {
     "from": "hjm_g5a_u4_l4",
-    "to": "hjm_g5a_u6_l3"
+    "to": "hjm_g5a_u6_l3",
+    "strength": "soft"
   },
   {
     "from": "hjm_g5a_u5_l2",
@@ -873,31 +949,38 @@
   },
   {
     "from": "hjm_g3a_u1_l1",
-    "to": "hjm_g5a_u6_l1"
+    "to": "hjm_g5a_u6_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g3a_u4_l4",
-    "to": "hjm_g5a_u2_l5"
+    "to": "hjm_g5a_u2_l5",
+    "strength": "hard"
   },
   {
     "from": "hjm_g4a_u4_l7",
-    "to": "hjm_g5a_u2_l4"
+    "to": "hjm_g5a_u2_l4",
+    "strength": "hard"
   },
   {
     "from": "hjm_g4a_u4_l3",
-    "to": "hjm_g5a_u6_l1"
+    "to": "hjm_g5a_u6_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g4b_u2_l6",
-    "to": "hjm_g5a_u1_l2"
+    "to": "hjm_g5a_u1_l2",
+    "strength": "soft"
   },
   {
     "from": "hjm_g4b_u4_l2",
-    "to": "hjm_g5a_u5_l1"
+    "to": "hjm_g5a_u5_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g4b_u5_l4",
-    "to": "hjm_g5a_u2_l9"
+    "to": "hjm_g5a_u2_l9",
+    "strength": "hard"
   },
   {
     "from": "hjm_g5b_u1_l1",
@@ -957,35 +1040,43 @@
   },
   {
     "from": "hjm_g5a_u4_l3",
-    "to": "hjm_g5b_u1_l2"
+    "to": "hjm_g5b_u1_l2",
+    "strength": "soft"
   },
   {
     "from": "hjm_g5a_u4_l4",
-    "to": "hjm_g5b_u3_l1"
+    "to": "hjm_g5b_u3_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g5b_u1_l2",
-    "to": "hjm_g5b_u3_l1"
+    "to": "hjm_g5b_u3_l1",
+    "strength": "hard"
   },
   {
     "from": "hjm_g5b_u1_l4",
-    "to": "hjm_g5b_u2_l1"
+    "to": "hjm_g5b_u2_l1",
+    "strength": "soft"
   },
   {
     "from": "hjm_g5b_u1_l1",
-    "to": "hjm_g5b_u5_l1"
+    "to": "hjm_g5b_u5_l1",
+    "strength": "soft"
   },
   {
     "from": "hjm_g5b_u1_l3",
-    "to": "hjm_g5b_u4_l5"
+    "to": "hjm_g5b_u4_l5",
+    "strength": "soft"
   },
   {
     "from": "hjm_g5b_u4_l3",
-    "to": "hjm_g5b_u5_l3"
+    "to": "hjm_g5b_u5_l3",
+    "strength": "hard"
   },
   {
     "from": "hjm_g5b_u4_l5",
-    "to": "hjm_g5b_u5_l2"
+    "to": "hjm_g5b_u5_l2",
+    "strength": "hard"
   },
   {
     "from": "hje_g1a_u1_l1",
@@ -1033,15 +1124,18 @@
   },
   {
     "from": "hje_g1a_u0_l1",
-    "to": "hje_g1a_u1_l1"
+    "to": "hje_g1a_u1_l1",
+    "strength": "soft"
   },
   {
     "from": "hje_g1a_u1_l2",
-    "to": "hje_g1a_u2_l2"
+    "to": "hje_g1a_u2_l2",
+    "strength": "soft"
   },
   {
     "from": "hje_g1a_u2_l2",
-    "to": "hje_g1a_u6_l2"
+    "to": "hje_g1a_u6_l2",
+    "strength": "soft"
   },
   {
     "from": "hje_g3a_u1_l1",
@@ -1085,31 +1179,38 @@
   },
   {
     "from": "hje_g3a_u0_l1",
-    "to": "hje_g3a_u1_l1"
+    "to": "hje_g3a_u1_l1",
+    "strength": "soft"
   },
   {
     "from": "hje_g3a_u0_l2",
-    "to": "hje_g3a_u1_l1"
+    "to": "hje_g3a_u1_l1",
+    "strength": "soft"
   },
   {
     "from": "hje_g3a_u1_l2",
-    "to": "hje_g3a_u2_l2"
+    "to": "hje_g3a_u2_l2",
+    "strength": "soft"
   },
   {
     "from": "hje_g1a_u1_l2",
-    "to": "hje_g3a_u1_l2"
+    "to": "hje_g3a_u1_l2",
+    "strength": "soft"
   },
   {
     "from": "hje_g1a_u2_l2",
-    "to": "hje_g3a_u1_l2"
+    "to": "hje_g3a_u1_l2",
+    "strength": "soft"
   },
   {
     "from": "hje_g1a_u10_l1",
-    "to": "hje_g3a_u0_l1"
+    "to": "hje_g3a_u0_l1",
+    "strength": "soft"
   },
   {
     "from": "hje_g1a_u9_l2",
-    "to": "hje_g3a_u5_l2"
+    "to": "hje_g3a_u5_l2",
+    "strength": "soft"
   },
   {
     "from": "hje_g3b_u1_l1",
@@ -1249,22 +1350,27 @@
   },
   {
     "from": "hje_g3b_u2_l1",
-    "to": "hje_g3b_u9_l1"
+    "to": "hje_g3b_u9_l1",
+    "strength": "soft"
   },
   {
     "from": "hje_g3b_u2_l2",
-    "to": "hje_g3b_u9_l2"
+    "to": "hje_g3b_u9_l2",
+    "strength": "soft"
   },
   {
     "from": "hje_g3b_u4_l1",
-    "to": "hje_g3b_u10_l1"
+    "to": "hje_g3b_u10_l1",
+    "strength": "soft"
   },
   {
     "from": "hje_g3b_u4_l2",
-    "to": "hje_g3b_u10_l2"
+    "to": "hje_g3b_u10_l2",
+    "strength": "soft"
   },
   {
     "from": "hje_g3b_u1_l2",
-    "to": "hje_g3b_u8_l2"
+    "to": "hje_g3b_u8_l2",
+    "strength": "soft"
   }
 ]
